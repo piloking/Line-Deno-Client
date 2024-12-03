@@ -1,0 +1,19986 @@
+/* sources/ar0/g.java */
+enum AR0_g {
+    ILLEGAL_ARGUMENT = 16641;
+    MAJOR_VERSION_NOT_SUPPORTED = 16642;
+    AUTHENTICATION_FAILED = 16897;
+    INTERNAL_SERVER_ERROR = 20737;
+    SERVICE_UNAVAILABLE = 20739;
+}
+
+/* sources/ar0/q.java */
+enum AR0_q {
+    NOT_PURCHASED = 0;
+    SUBSCRIPTION = 1;
+}
+
+/* sources/Pb1/C7.java */
+enum AccountMigrationPincodeType {
+    NOT_APPLICABLE = 0;
+    NOT_SET = 1;
+    SET = 2;
+    NEED_ENFORCED_INPUT = 3;
+}
+
+/* sources/Pb1/EnumC13036j.java */
+enum AccountMigrationPincodeType {
+    NOT_APPLICABLE = 0;
+    NOT_SET = 1;
+    SET = 2;
+    NEED_ENFORCED_INPUT = 3;
+}
+
+/* sources/Pb1/C.java */
+enum ApplicationType {
+    IOS = 16;
+    IOS_RC = 17;
+    IOS_BETA = 18;
+    IOS_ALPHA = 19;
+    ANDROID = 32;
+    ANDROID_RC = 33;
+    ANDROID_BETA = 34;
+    ANDROID_ALPHA = 35;
+    WAP = 48;
+    WAP_RC = 49;
+    WAP_BETA = 50;
+    WAP_ALPHA = 51;
+    BOT = 64;
+    BOT_RC = 65;
+    BOT_BETA = 66;
+    BOT_ALPHA = 67;
+    WEB = 80;
+    WEB_RC = 81;
+    WEB_BETA = 82;
+    WEB_ALPHA = 83;
+    DESKTOPWIN = 96;
+    DESKTOPWIN_RC = 97;
+    DESKTOPWIN_BETA = 98;
+    DESKTOPWIN_ALPHA = 99;
+    DESKTOPMAC = 112;
+    DESKTOPMAC_RC = 113;
+    DESKTOPMAC_BETA = 114;
+    DESKTOPMAC_ALPHA = 115;
+    CHANNELGW = 128;
+    CHANNELGW_RC = 129;
+    CHANNELGW_BETA = 130;
+    CHANNELGW_ALPHA = 131;
+    CHANNELCP = 144;
+    CHANNELCP_RC = 145;
+    CHANNELCP_BETA = 146;
+    CHANNELCP_ALPHA = 147;
+    WINPHONE = 160;
+    WINPHONE_RC = 161;
+    WINPHONE_BETA = 162;
+    WINPHONE_ALPHA = 163;
+    BLACKBERRY = 176;
+    BLACKBERRY_RC = 177;
+    BLACKBERRY_BETA = 178;
+    BLACKBERRY_ALPHA = 179;
+    WINMETRO = 192;
+    WINMETRO_RC = 193;
+    WINMETRO_BETA = 194;
+    WINMETRO_ALPHA = 195;
+    S40 = 200;
+    S40_RC = 209;
+    S40_BETA = 210;
+    S40_ALPHA = 211;
+    CHRONO = 224;
+    CHRONO_RC = 225;
+    CHRONO_BETA = 226;
+    CHRONO_ALPHA = 227;
+    TIZEN = 256;
+    TIZEN_RC = 257;
+    TIZEN_BETA = 258;
+    TIZEN_ALPHA = 259;
+    VIRTUAL = 272;
+    FIREFOXOS = 288;
+    FIREFOXOS_RC = 289;
+    FIREFOXOS_BETA = 290;
+    FIREFOXOS_ALPHA = 291;
+    IOSIPAD = 304;
+    IOSIPAD_RC = 305;
+    IOSIPAD_BETA = 306;
+    IOSIPAD_ALPHA = 307;
+    BIZIOS = 320;
+    BIZIOS_RC = 321;
+    BIZIOS_BETA = 322;
+    BIZIOS_ALPHA = 323;
+    BIZANDROID = 336;
+    BIZANDROID_RC = 337;
+    BIZANDROID_BETA = 338;
+    BIZANDROID_ALPHA = 339;
+    BIZBOT = 352;
+    BIZBOT_RC = 353;
+    BIZBOT_BETA = 354;
+    BIZBOT_ALPHA = 355;
+    CHROMEOS = 368;
+    CHROMEOS_RC = 369;
+    CHROMEOS_BETA = 370;
+    CHROMEOS_ALPHA = 371;
+    ANDROIDLITE = 384;
+    ANDROIDLITE_RC = 385;
+    ANDROIDLITE_BETA = 386;
+    ANDROIDLITE_ALPHA = 387;
+    WIN10 = 400;
+    WIN10_RC = 401;
+    WIN10_BETA = 402;
+    WIN10_ALPHA = 403;
+    BIZWEB = 416;
+    BIZWEB_RC = 417;
+    BIZWEB_BETA = 418;
+    BIZWEB_ALPHA = 419;
+    DUMMYPRIMARY = 432;
+    DUMMYPRIMARY_RC = 433;
+    DUMMYPRIMARY_BETA = 434;
+    DUMMYPRIMARY_ALPHA = 435;
+    SQUARE = 448;
+    SQUARE_RC = 449;
+    SQUARE_BETA = 450;
+    SQUARE_ALPHA = 451;
+    INTERNAL = 464;
+    INTERNAL_RC = 465;
+    INTERNAL_BETA = 466;
+    INTERNAL_ALPHA = 467;
+    CLOVAFRIENDS = 480;
+    CLOVAFRIENDS_RC = 481;
+    CLOVAFRIENDS_BETA = 482;
+    CLOVAFRIENDS_ALPHA = 483;
+    WATCHOS = 496;
+    WATCHOS_RC = 497;
+    WATCHOS_BETA = 498;
+    WATCHOS_ALPHA = 499;
+    OPENCHAT_PLUG = 512;
+    OPENCHAT_PLUG_RC = 513;
+    OPENCHAT_PLUG_BETA = 514;
+    OPENCHAT_PLUG_ALPHA = 515;
+    ANDROIDSECONDARY = 528;
+    ANDROIDSECONDARY_RC = 529;
+    ANDROIDSECONDARY_BETA = 530;
+    ANDROIDSECONDARY_ALPHA = 531;
+    WEAROS = 544;
+    WEAROS_RC = 545;
+    WEAROS_BETA = 546;
+    WEAROS_ALPHA = 547;
+}
+
+/* sources/QM/EnumC34108a.java */
+enum ApplicationType {
+    IOS = 16;
+    IOS_RC = 17;
+    IOS_BETA = 18;
+    IOS_ALPHA = 19;
+    ANDROID = 32;
+    ANDROID_RC = 33;
+    ANDROID_BETA = 34;
+    ANDROID_ALPHA = 35;
+    WAP = 48;
+    WAP_RC = 49;
+    WAP_BETA = 50;
+    WAP_ALPHA = 51;
+    BOT = 64;
+    BOT_RC = 65;
+    BOT_BETA = 66;
+    BOT_ALPHA = 67;
+    WEB = 80;
+    WEB_RC = 81;
+    WEB_BETA = 82;
+    WEB_ALPHA = 83;
+    DESKTOPWIN = 96;
+    DESKTOPWIN_RC = 97;
+    DESKTOPWIN_BETA = 98;
+    DESKTOPWIN_ALPHA = 99;
+    DESKTOPMAC = 112;
+    DESKTOPMAC_RC = 113;
+    DESKTOPMAC_BETA = 114;
+    DESKTOPMAC_ALPHA = 115;
+    CHANNELGW = 128;
+    CHANNELGW_RC = 129;
+    CHANNELGW_BETA = 130;
+    CHANNELGW_ALPHA = 131;
+    CHANNELCP = 144;
+    CHANNELCP_RC = 145;
+    CHANNELCP_BETA = 146;
+    CHANNELCP_ALPHA = 147;
+    WINPHONE = 160;
+    WINPHONE_RC = 161;
+    WINPHONE_BETA = 162;
+    WINPHONE_ALPHA = 163;
+    BLACKBERRY = 176;
+    BLACKBERRY_RC = 177;
+    BLACKBERRY_BETA = 178;
+    BLACKBERRY_ALPHA = 179;
+    WINMETRO = 192;
+    WINMETRO_RC = 193;
+    WINMETRO_BETA = 194;
+    WINMETRO_ALPHA = 195;
+    S40 = 200;
+    S40_RC = 209;
+    S40_BETA = 210;
+    S40_ALPHA = 211;
+    CHRONO = 224;
+    CHRONO_RC = 225;
+    CHRONO_BETA = 226;
+    CHRONO_ALPHA = 227;
+    TIZEN = 256;
+    TIZEN_RC = 257;
+    TIZEN_BETA = 258;
+    TIZEN_ALPHA = 259;
+    VIRTUAL = 272;
+    FIREFOXOS = 288;
+    FIREFOXOS_RC = 289;
+    FIREFOXOS_BETA = 290;
+    FIREFOXOS_ALPHA = 291;
+    IOSIPAD = 304;
+    IOSIPAD_RC = 305;
+    IOSIPAD_BETA = 306;
+    IOSIPAD_ALPHA = 307;
+    BIZIOS = 320;
+    BIZIOS_RC = 321;
+    BIZIOS_BETA = 322;
+    BIZIOS_ALPHA = 323;
+    BIZANDROID = 336;
+    BIZANDROID_RC = 337;
+    BIZANDROID_BETA = 338;
+    BIZANDROID_ALPHA = 339;
+    BIZBOT = 352;
+    BIZBOT_RC = 353;
+    BIZBOT_BETA = 354;
+    BIZBOT_ALPHA = 355;
+    CHROMEOS = 368;
+    CHROMEOS_RC = 369;
+    CHROMEOS_BETA = 370;
+    CHROMEOS_ALPHA = 371;
+    ANDROIDLITE = 384;
+    ANDROIDLITE_RC = 385;
+    ANDROIDLITE_BETA = 386;
+    ANDROIDLITE_ALPHA = 387;
+    WIN10 = 400;
+    WIN10_RC = 401;
+    WIN10_BETA = 402;
+    WIN10_ALPHA = 403;
+    BIZWEB = 416;
+    BIZWEB_RC = 417;
+    BIZWEB_BETA = 418;
+    BIZWEB_ALPHA = 419;
+    DUMMYPRIMARY = 432;
+    DUMMYPRIMARY_RC = 433;
+    DUMMYPRIMARY_BETA = 434;
+    DUMMYPRIMARY_ALPHA = 435;
+    SQUARE = 448;
+    SQUARE_RC = 449;
+    SQUARE_BETA = 450;
+    SQUARE_ALPHA = 451;
+    INTERNAL = 464;
+    INTERNAL_RC = 465;
+    INTERNAL_BETA = 466;
+    INTERNAL_ALPHA = 467;
+    CLOVAFRIENDS = 480;
+    CLOVAFRIENDS_RC = 481;
+    CLOVAFRIENDS_BETA = 482;
+    CLOVAFRIENDS_ALPHA = 483;
+    WATCHOS = 496;
+    WATCHOS_RC = 497;
+    WATCHOS_BETA = 498;
+    WATCHOS_ALPHA = 499;
+    OPENCHAT_PLUG = 512;
+    OPENCHAT_PLUG_RC = 513;
+    OPENCHAT_PLUG_BETA = 514;
+    OPENCHAT_PLUG_ALPHA = 515;
+    ANDROIDSECONDARY = 528;
+    ANDROIDSECONDARY_RC = 529;
+    ANDROIDSECONDARY_BETA = 530;
+    ANDROIDSECONDARY_ALPHA = 531;
+    WEAROS = 544;
+    WEAROS_RC = 545;
+    WEAROS_BETA = 546;
+    WEAROS_ALPHA = 547;
+}
+
+/* sources/Pb1/EnumC13107o0.java */
+enum BotType {
+    RESERVED = 0;
+    OFFICIAL = 1;
+    LINE_AT_0 = 2;
+    LINE_AT = 3;
+}
+
+/* sources/Pb1/W1.java */
+enum CarrierCode {
+    NOT_SPECIFIED = 0;
+    JP_DOCOMO = 1;
+    JP_AU = 2;
+    JP_SOFTBANK = 3;
+    KR_SKT = 17;
+    KR_KT = 18;
+    KR_LGT = 19;
+    JP_DOCOMO_LINE = 4;
+    JP_SOFTBANK_LINE = 5;
+    JP_AU_LINE = 6;
+    JP_RAKUTEN = 7;
+    JP_MVNO = 8;
+    JP_USER_SELECTED_LINE = 9;
+}
+
+/* sources/Pb1/EnumC12913a2.java */
+enum ChannelErrorCode {
+    ILLEGAL_ARGUMENT = 0;
+    INTERNAL_ERROR = 1;
+    CONNECTION_ERROR = 2;
+    AUTHENTICATIONI_FAILED = 3;
+    NEED_PERMISSION_APPROVAL = 4;
+    COIN_NOT_USABLE = 5;
+    WEBVIEW_NOT_ALLOWED = 6;
+    NOT_AVAILABLE_API = 7;
+}
+
+/* sources/Pb1/EnumC13054k3.java */
+enum ContactAttribute {
+    CONTACT_ATTRIBUTE_CAPABLE_VOICE_CALL = 1;
+    CONTACT_ATTRIBUTE_CAPABLE_VIDEO_CALL = 2;
+    CONTACT_ATTRIBUTE_CAPABLE_MY_HOME = 16;
+    CONTACT_ATTRIBUTE_CAPABLE_BUDDY = 32;
+}
+
+/* sources/Pb1/EnumC13165s3.java */
+enum ContactSetting {
+    CONTACT_SETTING_NOTIFICATION_DISABLE = 1;
+    CONTACT_SETTING_DISPLAY_NAME_OVERRIDE = 2;
+    CONTACT_SETTING_CONTACT_HIDE = 4;
+    CONTACT_SETTING_FAVORITE = 8;
+    CONTACT_SETTING_DELETE = 16;
+    CONTACT_SETTING_FRIEND_RINGTONE = 32;
+    CONTACT_SETTING_FRIEND_RINGBACK_TONE = 64;
+}
+
+/* sources/Ob1/EnumC12679z.java */
+enum ContactStatus {
+    UNSPECIFIED = 0;
+    FRIEND = 1;
+    FRIEND_BLOCKED = 2;
+    RECOMMEND = 3;
+    RECOMMEND_BLOCKED = 4;
+    DELETED = 5;
+    DELETED_BLOCKED = 6;
+}
+
+/* sources/Pb1/EnumC13179t3.java */
+enum ContactStatus {
+    UNSPECIFIED = 0;
+    FRIEND = 1;
+    FRIEND_BLOCKED = 2;
+    RECOMMEND = 3;
+    RECOMMEND_BLOCKED = 4;
+    DELETED = 5;
+    DELETED_BLOCKED = 6;
+}
+
+/* sources/Pb1/EnumC13193u3.java */
+enum ContactType {
+    MID = 0;
+    PHONE = 1;
+    EMAIL = 2;
+    USERID = 3;
+    PROXIMITY = 4;
+    GROUP = 5;
+    USER = 6;
+    QRCODE = 7;
+    PROMOTION_BOT = 8;
+    CONTACT_MESSAGE = 9;
+    FRIEND_REQUEST = 10;
+    REPAIR = 128;
+    FACEBOOK = 2305;
+    SINA = 2306;
+    RENREN = 2307;
+    FEIXIN = 2308;
+    BBM = 2309;
+    BEACON = 11;
+}
+
+/* sources/Pb1/EnumC13207v3.java */
+enum ContentType {
+    NONE = 0;
+    IMAGE = 1;
+    VIDEO = 2;
+    AUDIO = 3;
+    HTML = 4;
+    PDF = 5;
+    CALL = 6;
+    STICKER = 7;
+    PRESENCE = 8;
+    GIFT = 9;
+    GROUPBOARD = 10;
+    APPLINK = 11;
+    LINK = 12;
+    CONTACT = 13;
+    FILE = 14;
+    LOCATION = 15;
+    POSTNOTIFICATION = 16;
+    RICH = 17;
+    CHATEVENT = 18;
+    MUSIC = 19;
+    PAYMENT = 20;
+    EXTIMAGE = 21;
+    FLEX = 22;
+}
+
+/* sources/Eg/EnumC8927a.java */
+enum Eg_EnumC8927a {
+    NEW = 1;
+    UPDATE = 2;
+    EVENT = 3;
+}
+
+/* sources/Pb1/EnumC13111o4.java */
+enum EmailConfirmationStatus {
+    NOT_SPECIFIED = 0;
+    NOT_YET = 1;
+    DONE = 3;
+    NEED_ENFORCED_INPUT = 4;
+}
+
+/* sources/Pb1/EnumC13125p4.java */
+enum ErrorCode {
+    ILLEGAL_ARGUMENT = 0;
+    AUTHENTICATION_FAILED = 1;
+    DB_FAILED = 2;
+    INVALID_STATE = 3;
+    EXCESSIVE_ACCESS = 4;
+    NOT_FOUND = 5;
+    INVALID_MID = 9;
+    NOT_A_MEMBER = 10;
+    INVALID_LENGTH = 6;
+    NOT_AVAILABLE_USER = 7;
+    NOT_AUTHORIZED_DEVICE = 8;
+    NOT_AUTHORIZED_SESSION = 14;
+    INCOMPATIBLE_APP_VERSION = 11;
+    NOT_READY = 12;
+    NOT_AVAILABLE_SESSION = 13;
+    SYSTEM_ERROR = 15;
+    NO_AVAILABLE_VERIFICATION_METHOD = 16;
+    NOT_AUTHENTICATED = 17;
+    INVALID_IDENTITY_CREDENTIAL = 18;
+    NOT_AVAILABLE_IDENTITY_IDENTIFIER = 19;
+    INTERNAL_ERROR = 20;
+    NO_SUCH_IDENTITY_IDENFIER = 21;
+    DEACTIVATED_ACCOUNT_BOUND_TO_THIS_IDENTITY = 22;
+    ILLEGAL_IDENTITY_CREDENTIAL = 23;
+    UNKNOWN_CHANNEL = 24;
+    NO_SUCH_MESSAGE_BOX = 25;
+    NOT_AVAILABLE_MESSAGE_BOX = 26;
+    CHANNEL_DOES_NOT_MATCH = 27;
+    NOT_YOUR_MESSAGE = 28;
+    MESSAGE_DEFINED_ERROR = 29;
+    USER_CANNOT_ACCEPT_PRESENTS = 30;
+    USER_NOT_STICKER_OWNER = 32;
+    MAINTENANCE_ERROR = 33;
+    ACCOUNT_NOT_MATCHED = 34;
+    ABUSE_BLOCK = 35;
+    NOT_FRIEND = 36;
+    NOT_ALLOWED_CALL = 37;
+    BLOCK_FRIEND = 38;
+    INCOMPATIBLE_VOIP_VERSION = 39;
+    INVALID_SNS_ACCESS_TOKEN = 40;
+    EXTERNAL_SERVICE_NOT_AVAILABLE = 41;
+    NOT_ALLOWED_ADD_CONTACT = 42;
+    NOT_CERTIFICATED = 43;
+    NOT_ALLOWED_SECONDARY_DEVICE = 44;
+    INVALID_PIN_CODE = 45;
+    EXCEED_FILE_MAX_SIZE = 47;
+    EXCEED_DAILY_QUOTA = 48;
+    NOT_SUPPORT_SEND_FILE = 49;
+    MUST_UPGRADE = 50;
+    NOT_AVAILABLE_PIN_CODE_SESSION = 51;
+    EXPIRED_REVISION = 52;
+    NOT_YET_PHONE_NUMBER = 54;
+    BAD_CALL_NUMBER = 55;
+    UNAVAILABLE_CALL_NUMBER = 56;
+    NOT_SUPPORT_CALL_SERVICE = 57;
+    CONGESTION_CONTROL = 58;
+    NO_BALANCE = 59;
+    NOT_PERMITTED_CALLER_ID = 60;
+    NO_CALLER_ID_LIMIT_EXCEEDED = 61;
+    CALLER_ID_VERIFICATION_REQUIRED = 62;
+    NO_CALLER_ID_LIMIT_EXCEEDED_AND_VERIFICATION_REQUIRED = 63;
+    MESSAGE_NOT_FOUND = 64;
+    INVALID_ACCOUNT_MIGRATION_PINCODE_FORMAT = 65;
+    ACCOUNT_MIGRATION_PINCODE_NOT_MATCHED = 66;
+    ACCOUNT_MIGRATION_PINCODE_BLOCKED = 67;
+    INVALID_PASSWORD_FORMAT = 69;
+    FEATURE_RESTRICTED = 70;
+    MESSAGE_NOT_DESTRUCTIBLE = 71;
+    PAID_CALL_REDEEM_FAILED = 72;
+    PREVENTED_JOIN_BY_TICKET = 73;
+    SEND_MESSAGE_NOT_PERMITTED_FROM_LINE_AT = 75;
+    SEND_MESSAGE_NOT_PERMITTED_WHILE_AUTO_REPLY = 76;
+    SECURITY_CENTER_NOT_VERIFIED = 77;
+    SECURITY_CENTER_BLOCKED_BY_SETTING = 78;
+    SECURITY_CENTER_BLOCKED = 79;
+    TALK_PROXY_EXCEPTION = 80;
+    E2EE_INVALID_PROTOCOL = 81;
+    E2EE_RETRY_ENCRYPT = 82;
+    E2EE_UPDATE_SENDER_KEY = 83;
+    E2EE_UPDATE_RECEIVER_KEY = 84;
+    E2EE_INVALID_ARGUMENT = 85;
+    E2EE_INVALID_VERSION = 86;
+    E2EE_SENDER_DISABLED = 87;
+    E2EE_RECEIVER_DISABLED = 88;
+    E2EE_SENDER_NOT_ALLOWED = 89;
+    E2EE_RECEIVER_NOT_ALLOWED = 90;
+    E2EE_RESEND_FAIL = 91;
+    E2EE_RESEND_OK = 92;
+    HITOKOTO_BACKUP_NO_AVAILABLE_DATA = 93;
+    E2EE_UPDATE_PRIMARY_DEVICE = 94;
+    SUCCESS = 95;
+    CANCEL = 96;
+    E2EE_PRIMARY_NOT_SUPPORT = 97;
+    E2EE_RETRY_PLAIN = 98;
+    E2EE_RECREATE_GROUP_KEY = 99;
+    E2EE_GROUP_TOO_MANY_MEMBERS = 100;
+    SERVER_BUSY = 101;
+    NOT_ALLOWED_ADD_FOLLOW = 102;
+    INCOMING_FRIEND_REQUEST_LIMIT = 103;
+    OUTGOING_FRIEND_REQUEST_LIMIT = 104;
+    OUTGOING_FRIEND_REQUEST_QUOTA = 105;
+    DUPLICATED = 106;
+    BANNED = 107;
+    NOT_AN_INVITEE = 108;
+    NOT_AN_OUTSIDER = 109;
+    EMPTY_GROUP = 111;
+    EXCEED_FOLLOW_LIMIT = 112;
+    UNSUPPORTED_ACCOUNT_TYPE = 113;
+    AGREEMENT_REQUIRED = 114;
+    SHOULD_RETRY = 115;
+    OVER_MAX_CHATS_PER_USER = 116;
+    NOT_AVAILABLE_API = 117;
+    INVALID_OTP = 118;
+    MUST_REFRESH_V3_TOKEN = 119;
+    ALREADY_EXPIRED = 120;
+    USER_NOT_STICON_OWNER = 121;
+    REFRESH_MEDIA_FLOW = 122;
+    EXCEED_FOLLOWER_LIMIT = 123;
+    INCOMPATIBLE_APP_TYPE = 124;
+    NOT_PREMIUM = 125;
+}
+
+/* sources/Fg/a.java */
+enum Fg_a {
+    INTERNAL_ERROR = 0;
+    ILLEGAL_ARGUMENT = 1;
+    VERIFICATION_FAILED = 2;
+    NOT_FOUND = 3;
+    RETRY_LATER = 4;
+    HUMAN_VERIFICATION_REQUIRED = 5;
+    NOT_ENABLED = 6;
+    INVALID_CONTEXT = 100;
+    APP_UPGRADE_REQUIRED = 101;
+    NO_CONTENT = 102;
+}
+
+/* sources/Pb1/H4.java */
+enum FriendRequestStatus {
+    NONE = 0;
+    AVAILABLE = 1;
+    ALREADY_REQUESTED = 2;
+    UNAVAILABLE = 3;
+}
+
+/* sources/Pb1/G5.java */
+enum IdentityProvider {
+    UNKNOWN = 0;
+    LINE = 1;
+    NAVER_KR = 2;
+    LINE_PHONE = 3;
+}
+
+/* sources/LN0/F0.java */
+enum LN0_F0 {
+    UNKNOWN = 0;
+    INVALID_TARGET_USER = 1;
+    AGE_VALIDATION = 2;
+    TOO_MANY_FRIENDS = 3;
+    TOO_MANY_REQUESTS = 4;
+    MALFORMED_REQUEST = 5;
+    TRACKING_META_QRCODE_FAVORED = 6;
+}
+
+/* sources/LN0/X0.java */
+enum LN0_X0 {
+    USER = 1;
+    BOT = 2;
+}
+
+/* sources/Pb1/EnumC12931b6.java */
+enum MIDType {
+    USER = 0;
+    ROOM = 1;
+    GROUP = 2;
+    SQUARE = 3;
+    SQUARE_CHAT = 4;
+    SQUARE_MEMBER = 5;
+    BOT = 6;
+    SQUARE_THREAD = 7;
+}
+
+/* sources/NZ0/B0.java */
+enum NZ0_B0 {
+    PAY = 0;
+    POI = 1;
+    FX = 2;
+    SEC = 3;
+    BIT = 4;
+    LIN = 5;
+    SCO = 6;
+    POC = 7;
+}
+
+/* sources/NZ0/C0.java */
+enum NZ0_C0 {
+    OK = 0;
+    MAINTENANCE = 1;
+    TPS_EXCEEDED = 2;
+    NOT_FOUND = 3;
+    BLOCKED = 4;
+    INTERNAL_ERROR = 5;
+    WALLET_CMS_MAINTENANCE = 6;
+}
+
+/* sources/NZ0/EnumC12154b1.java */
+enum NZ0_EnumC12154b1 {
+    NORMAL = 0;
+    CAMERA = 1;
+}
+
+/* sources/NZ0/EnumC12169g1.java */
+enum NZ0_EnumC12169g1 {
+    WALLET = 101;
+    ASSET = 201;
+    SHOPPING = 301;
+}
+
+/* sources/NZ0/EnumC12170h.java */
+enum NZ0_EnumC12170h {
+    HIDE_BADGE = 0;
+    SHOW_BADGE = 1;
+}
+
+/* sources/NZ0/EnumC12188n.java */
+enum NZ0_EnumC12188n {
+    OK = 0;
+    UNAVAILABLE = 1;
+    DUPLICATAE_REGISTRATION = 2;
+    INTERNAL_ERROR = 3;
+}
+
+/* sources/NZ0/EnumC12192o0.java */
+enum NZ0_EnumC12192o0 {
+    LV1 = 0;
+    LV2 = 1;
+    LV3 = 2;
+    LV9 = 3;
+}
+
+/* sources/NZ0/EnumC12193o1.java */
+enum NZ0_EnumC12193o1 {
+    AUTHENTICATION_FAILED = 401;
+    INTERNAL_SERVER_ERROR = 500;
+    SERVICE_IN_MAINTENANCE_MODE = 503;
+    INVALID_PARAMETER = 400;
+}
+
+/* sources/NZ0/EnumC12195p0.java */
+enum NZ0_EnumC12195p0 {
+    ALIVE = 1;
+    SUSPENDED = 2;
+    UNREGISTERED = 3;
+}
+
+/* sources/NZ0/EnumC12197q.java */
+enum NZ0_EnumC12197q {
+    PREFIX = 0;
+    SUFFIX = 1;
+}
+
+/* sources/NZ0/EnumC12218x0.java */
+enum NZ0_EnumC12218x0 {
+    NO_CONTENT = 0;
+    OK = 1;
+    ERROR = 2;
+}
+
+/* sources/NZ0/I0.java */
+enum NZ0_I0 {
+    A = 0;
+    B = 1;
+    C = 2;
+    D = 3;
+    UNKNOWN = 4;
+}
+
+/* sources/NZ0/K0.java */
+enum NZ0_K0 {
+    POCKET_MONEY = 0;
+    REFINANCE = 1;
+}
+
+/* sources/NZ0/N0.java */
+enum NZ0_N0 {
+    COMPACT = 0;
+    EXPANDED = 1;
+}
+
+/* sources/NZ0/S0.java */
+enum NZ0_S0 {
+    CARD = 0;
+    ACTION = 1;
+}
+
+/* sources/NZ0/W0.java */
+enum NZ0_W0 {
+    OK = 0;
+    INTERNAL_ERROR = 1;
+}
+
+/* sources/Pb1/EnumC13085m6.java */
+enum NotificationStatus {
+    NOTIFICATION_ITEM_EXIST = 1;
+    TIMELINE_ITEM_EXIST = 2;
+    NOTE_GROUP_NEW_ITEM_EXIST = 4;
+    TIMELINE_BUDDYGROUP_CHANGED = 8;
+    NOTE_ONE_TO_ONE_NEW_ITEM_EXIST = 16;
+    ALBUM_ITEM_EXIST = 32;
+    TIMELINE_ITEM_DELETED = 64;
+    OTOGROUP_ITEM_EXIST = 128;
+    GROUPHOME_NEW_ITEM_EXIST = 256;
+    GROUPHOME_HIDDEN_ITEM_CHANGED = 512;
+    NOTIFICATION_ITEM_CHANGED = 1024;
+    BEAD_ITEM_HIDE = 2048;
+    BEAD_ITEM_SHOW = 4096;
+    LINE_TICKET_UPDATED = 8192;
+    TIMELINE_STORY_UPDATED = 16384;
+    SMARTCH_UPDATED = 32768;
+    AVATAR_UPDATED = 65536;
+    HOME_NOTIFICATION_ITEM_EXIST = 131072;
+    TIMELINE_REBOOT_COMPLETED = 262144;
+    TIMELINE_GUIDE_STORY_UPDATED = 524288;
+    TIMELINE_F2F_COMPLETED = 1048576;
+    VOOM_LIVE_STATE_CHANGED = 2097152;
+    VOOM_ACTIVITY_REWARD_ITEM_EXIST = 4194304;
+}
+
+/* sources/Pb1/EnumC13099n6.java */
+enum NotificationType {
+    APPLE_APNS = 1;
+    GOOGLE_C2DM = 2;
+    NHN_NNI = 3;
+    SKT_AOM = 4;
+    MS_MPNS = 5;
+    RIM_BIS = 6;
+    GOOGLE_GCM = 7;
+    NOKIA_NNAPI = 8;
+    TIZEN = 9;
+    MOZILLA_SIMPLE = 10;
+    LINE_BOT = 17;
+    LINE_WAP = 18;
+    APPLE_APNS_VOIP = 19;
+    MS_WNS = 20;
+    GOOGLE_FCM = 21;
+    CLOVA = 22;
+    CLOVA_VOIP = 23;
+    HUAWEI_HCM = 24;
+}
+
+/* sources/Ob1/B0.java */
+enum Ob1_B0 {
+    FOREGROUND = 0;
+    BACKGROUND = 1;
+}
+
+/* sources/Ob1/C1.java */
+enum Ob1_C1 {
+    NORMAL = 0;
+    BIG = 1;
+}
+
+/* sources/Ob1/D0.java */
+enum Ob1_D0 {
+    PURCHASE_ONLY = 0;
+    PURCHASE_OR_SUBSCRIPTION = 1;
+    SUBSCRIPTION_ONLY = 2;
+}
+
+/* sources/Ob1/EnumC12607a1.java */
+enum Ob1_EnumC12607a1 {
+    DEFAULT = 1;
+    VIEW_VIDEO = 2;
+}
+
+/* sources/Ob1/EnumC12610b1.java */
+enum Ob1_EnumC12610b1 {
+    NONE = 0;
+    BUDDY = 2;
+    INSTALL = 3;
+    MISSION = 4;
+    MUSTBUY = 5;
+}
+
+/* sources/Ob1/EnumC12631i1.java */
+enum Ob1_EnumC12631i1 {
+    UNKNOWN = 0;
+    PRODUCT = 1;
+    USER = 2;
+    PREMIUM_USER = 3;
+}
+
+/* sources/Ob1/EnumC12638l.java */
+enum Ob1_EnumC12638l {
+    VALID = 0;
+    INVALID = 1;
+}
+
+/* sources/Ob1/EnumC12641m.java */
+enum Ob1_EnumC12641m {
+    PREMIUM = 1;
+    VERIFIED = 2;
+    UNVERIFIED = 3;
+}
+
+/* sources/Ob1/EnumC12652p1.java */
+enum Ob1_EnumC12652p1 {
+    UNKNOWN = 0;
+    NONE = 1;
+    ILLEGAL_ARGUMENT = 16641;
+    NOT_FOUND = 16642;
+    NOT_AVAILABLE = 16643;
+    NOT_PAID_PRODUCT = 16644;
+    NOT_FREE_PRODUCT = 16645;
+    ALREADY_OWNED = 16646;
+    ERROR_WITH_CUSTOM_MESSAGE = 16647;
+    NOT_AVAILABLE_TO_RECIPIENT = 16648;
+    NOT_AVAILABLE_FOR_CHANNEL_ID = 16649;
+    NOT_SALE_FOR_COUNTRY = 16650;
+    NOT_SALES_PERIOD = 16651;
+    NOT_SALE_FOR_DEVICE = 16652;
+    NOT_SALE_FOR_VERSION = 16653;
+    ALREADY_EXPIRED = 16654;
+    LIMIT_EXCEEDED = 16655;
+    MISSING_CAPABILITY = 16656;
+    AUTHENTICATION_FAILED = 16897;
+    BALANCE_SHORTAGE = 17153;
+    INTERNAL_SERVER_ERROR = 20737;
+    SERVICE_IN_MAINTENANCE_MODE = 20738;
+    SERVICE_UNAVAILABLE = 20739;
+}
+
+/* sources/Ob1/EnumC12656r0.java */
+enum Ob1_EnumC12656r0 {
+    OK = 0;
+    PRODUCT_UNSUPPORTED = 1;
+    TEXT_NOT_SPECIFIED = 2;
+    TEXT_STYLE_UNAVAILABLE = 3;
+    CHARACTER_COUNT_LIMIT_EXCEEDED = 4;
+    CONTAINS_INVALID_WORD = 5;
+}
+
+/* sources/Ob1/EnumC12664u.java */
+enum Ob1_EnumC12664u {
+    UNKNOWN = 0;
+    NONE = 1;
+    ILLEGAL_ARGUMENT = 16641;
+    NOT_FOUND = 16642;
+    NOT_AVAILABLE = 16643;
+    MAX_AMOUNT_OF_PRODUCTS_REACHED = 16644;
+    PRODUCT_IS_NOT_PREMIUM = 16645;
+    PRODUCT_IS_NOT_AVAILABLE_FOR_USER = 16646;
+    AUTHENTICATION_FAILED = 16897;
+    INTERNAL_SERVER_ERROR = 20737;
+    SERVICE_UNAVAILABLE = 20739;
+}
+
+/* sources/Ob1/EnumC12666u1.java */
+enum Ob1_EnumC12666u1 {
+    POPULAR = 0;
+    NEW_RELEASE = 1;
+    EVENT = 2;
+    RECOMMENDED = 3;
+    POPULAR_WEEKLY = 4;
+    POPULAR_MONTHLY = 5;
+    POPULAR_RECENTLY_PUBLISHED = 6;
+    BUDDY = 7;
+    EXTRA_EVENT = 8;
+    BROWSING_HISTORY = 9;
+    POPULAR_TOTAL_SALES = 10;
+    NEW_SUBSCRIPTION = 11;
+    POPULAR_SUBSCRIPTION_30D = 12;
+    CPD_STICKER = 13;
+    POPULAR_WITH_FREE = 14;
+}
+
+/* sources/Ob1/F1.java */
+enum Ob1_F1 {
+    STATIC = 1;
+    ANIMATION = 2;
+}
+
+/* sources/Ob1/I.java */
+enum Ob1_I {
+    STATIC = 0;
+    POPULAR = 1;
+    NEW_RELEASE = 2;
+}
+
+/* sources/Ob1/J0.java */
+enum Ob1_J0 {
+    ON_SALE = 0;
+    OUTDATED_VERSION = 1;
+    NOT_ON_SALE = 2;
+}
+
+/* sources/Ob1/J1.java */
+enum Ob1_J1 {
+    OK = 0;
+    INVALID_PARAMETER = 1;
+    NOT_FOUND = 2;
+    NOT_SUPPORTED = 3;
+    CONFLICT = 4;
+    NOT_ELIGIBLE = 5;
+}
+
+/* sources/Ob1/K1.java */
+enum Ob1_K1 {
+    GOOGLE = 0;
+    APPLE = 1;
+    WEBSTORE = 2;
+    LINEMO = 3;
+    LINE_MUSIC = 4;
+    LYP = 5;
+    TW_CHT = 6;
+    FREEMIUM = 7;
+}
+
+/* sources/Ob1/M1.java */
+enum Ob1_M1 {
+    OK = 0;
+    UNKNOWN = 1;
+    NOT_SUPPORTED = 2;
+    NO_SUBSCRIPTION = 3;
+    SUBSCRIPTION_EXISTS = 4;
+    NOT_AVAILABLE = 5;
+    CONFLICT = 6;
+    OUTDATED_VERSION = 7;
+    NO_STUDENT_INFORMATION = 8;
+    ACCOUNT_HOLD = 9;
+    RETRY_STATE = 10;
+}
+
+/* sources/Ob1/O0.java */
+enum Ob1_O0 {
+    STICKER = 1;
+    THEME = 2;
+    STICON = 3;
+}
+
+/* sources/Ob1/O1.java */
+enum Ob1_O1 {
+    AVAILABLE = 0;
+    DIFFERENT_STORE = 1;
+    NOT_STUDENT = 2;
+    ALREADY_PURCHASED = 3;
+}
+
+/* sources/Ob1/P1.java */
+enum Ob1_P1 {
+    GENERAL = 1;
+    STUDENT = 2;
+}
+
+/* sources/Ob1/Q1.java */
+enum Ob1_Q1 {
+    BASIC = 1;
+    DELUXE = 2;
+}
+
+/* sources/Ob1/R1.java */
+enum Ob1_R1 {
+    MONTHLY = 1;
+    YEARLY = 2;
+}
+
+/* sources/Ob1/U1.java */
+enum Ob1_U1 {
+    OK = 0;
+    UNKNOWN = 1;
+    NO_SUBSCRIPTION = 2;
+    EXISTS = 3;
+    NOT_FOUND = 4;
+    EXCEEDS_LIMIT = 5;
+    NOT_AVAILABLE = 6;
+}
+
+/* sources/Ob1/V1.java */
+enum Ob1_V1 {
+    DATE_ASC = 1;
+    DATE_DESC = 2;
+}
+
+/* sources/Ob1/X1.java */
+enum Ob1_X1 {
+    GENERAL = 0;
+    CREATORS = 1;
+    STICON = 2;
+}
+
+/* sources/Ob1/a2.java */
+enum Ob1_a2 {
+    NOT_PURCHASED = 0;
+    SUBSCRIPTION = 1;
+    NOT_SUBSCRIBED = 2;
+    NOT_ACCEPTED = 3;
+    NOT_PURCHASED_U2I = 4;
+    BUDDY = 5;
+}
+
+/* sources/Ob1/c2.java */
+enum Ob1_c2 {
+    STATIC = 1;
+    ANIMATION = 2;
+}
+
+/* sources/Pb1/EnumC13141q6.java */
+enum OpType {
+    END_OF_OPERATION = 0;
+    UPDATE_PROFILE = 1;
+    UPDATE_SETTINGS = 36;
+    NOTIFIED_UPDATE_PROFILE = 2;
+    REGISTER_USERID = 3;
+    ADD_CONTACT = 4;
+    NOTIFIED_ADD_CONTACT = 5;
+    BLOCK_CONTACT = 6;
+    UNBLOCK_CONTACT = 7;
+    NOTIFIED_RECOMMEND_CONTACT = 8;
+    CREATE_GROUP = 9;
+    UPDATE_GROUP = 10;
+    NOTIFIED_UPDATE_GROUP = 11;
+    INVITE_INTO_GROUP = 12;
+    NOTIFIED_INVITE_INTO_GROUP = 13;
+    CANCEL_INVITATION_GROUP = 31;
+    NOTIFIED_CANCEL_INVITATION_GROUP = 32;
+    LEAVE_GROUP = 14;
+    NOTIFIED_LEAVE_GROUP = 15;
+    ACCEPT_GROUP_INVITATION = 16;
+    NOTIFIED_ACCEPT_GROUP_INVITATION = 17;
+    REJECT_GROUP_INVITATION = 34;
+    NOTIFIED_REJECT_GROUP_INVITATION = 35;
+    KICKOUT_FROM_GROUP = 18;
+    NOTIFIED_KICKOUT_FROM_GROUP = 19;
+    CREATE_ROOM = 20;
+    INVITE_INTO_ROOM = 21;
+    NOTIFIED_INVITE_INTO_ROOM = 22;
+    LEAVE_ROOM = 23;
+    NOTIFIED_LEAVE_ROOM = 24;
+    SEND_MESSAGE = 25;
+    RECEIVE_MESSAGE = 26;
+    SEND_MESSAGE_RECEIPT = 27;
+    RECEIVE_MESSAGE_RECEIPT = 28;
+    SEND_CONTENT_RECEIPT = 29;
+    SEND_CHAT_CHECKED = 40;
+    SEND_CHAT_REMOVED = 41;
+    RECEIVE_ANNOUNCEMENT = 30;
+    INVITE_VIA_EMAIL = 38;
+    NOTIFIED_REGISTER_USER = 37;
+    NOTIFIED_UNREGISTER_USER = 33;
+    NOTIFIED_REQUEST_RECOVERY = 39;
+    NOTIFIED_FORCE_SYNC = 42;
+    SEND_CONTENT = 43;
+    SEND_MESSAGE_MYHOME = 44;
+    NOTIFIED_UPDATE_CONTENT_PREVIEW = 45;
+    REMOVE_ALL_MESSAGES = 46;
+    NOTIFIED_UPDATE_PURCHASES = 47;
+    DUMMY = 48;
+    UPDATE_CONTACT = 49;
+    NOTIFIED_RECEIVED_CALL = 50;
+    CANCEL_CALL = 51;
+    NOTIFIED_REDIRECT = 52;
+    NOTIFIED_CHANNEL_SYNC = 53;
+    FAILED_SEND_MESSAGE = 54;
+    NOTIFIED_READ_MESSAGE = 55;
+    FAILED_EMAIL_CONFIRMATION = 56;
+    NOTIFIED_PUSH_NOTICENTER_ITEM = 59;
+    NOTIFIED_CHAT_CONTENT = 58;
+    NOTIFIED_JOIN_CHAT = 60;
+    NOTIFIED_LEAVE_CHAT = 61;
+    NOTIFIED_TYPING = 62;
+    FRIEND_REQUEST_ACCEPTED = 63;
+    DESTROY_MESSAGE = 64;
+    NOTIFIED_DESTROY_MESSAGE = 65;
+    UPDATE_PUBLICKEYCHAIN = 66;
+    NOTIFIED_UPDATE_PUBLICKEYCHAIN = 67;
+    NOTIFIED_BLOCK_CONTACT = 68;
+    NOTIFIED_UNBLOCK_CONTACT = 69;
+    UPDATE_GROUPPREFERENCE = 70;
+    NOTIFIED_PAYMENT_EVENT = 71;
+    REGISTER_E2EE_PUBLICKEY = 72;
+    NOTIFIED_E2EE_KEY_EXCHANGE_REQ = 73;
+    NOTIFIED_E2EE_KEY_EXCHANGE_RESP = 74;
+    NOTIFIED_E2EE_MESSAGE_RESEND_REQ = 75;
+    NOTIFIED_E2EE_MESSAGE_RESEND_RESP = 76;
+    NOTIFIED_E2EE_KEY_UPDATE = 77;
+    NOTIFIED_BUDDY_UPDATE_PROFILE = 78;
+    NOTIFIED_UPDATE_LINEAT_TABS = 79;
+    UPDATE_ROOM = 80;
+    NOTIFIED_BEACON_DETECTED = 81;
+    UPDATE_EXTENDED_PROFILE = 82;
+    ADD_FOLLOW = 83;
+    NOTIFIED_ADD_FOLLOW = 84;
+    DELETE_FOLLOW = 85;
+    NOTIFIED_DELETE_FOLLOW = 86;
+    UPDATE_TIMELINE_SETTINGS = 87;
+    NOTIFIED_FRIEND_REQUEST = 88;
+    UPDATE_RINGBACK_TONE = 89;
+    NOTIFIED_POSTBACK = 90;
+    RECEIVE_READ_WATERMARK = 91;
+    NOTIFIED_MESSAGE_DELIVERED = 92;
+    NOTIFIED_UPDATE_CHAT_BAR = 93;
+    NOTIFIED_CHATAPP_INSTALLED = 94;
+    NOTIFIED_CHATAPP_UPDATED = 95;
+    NOTIFIED_CHATAPP_NEW_MARK = 96;
+    NOTIFIED_CHATAPP_DELETED = 97;
+    NOTIFIED_CHATAPP_SYNC = 98;
+    NOTIFIED_UPDATE_MESSAGE = 99;
+    UPDATE_CHATROOMBGM = 100;
+    NOTIFIED_UPDATE_CHATROOMBGM = 101;
+    UPDATE_RINGTONE = 102;
+    UPDATE_USER_SETTINGS = 118;
+    NOTIFIED_UPDATE_STATUS_BAR = 119;
+    CREATE_CHAT = 120;
+    UPDATE_CHAT = 121;
+    NOTIFIED_UPDATE_CHAT = 122;
+    INVITE_INTO_CHAT = 123;
+    NOTIFIED_INVITE_INTO_CHAT = 124;
+    CANCEL_CHAT_INVITATION = 125;
+    NOTIFIED_CANCEL_CHAT_INVITATION = 126;
+    DELETE_SELF_FROM_CHAT = 127;
+    NOTIFIED_DELETE_SELF_FROM_CHAT = 128;
+    ACCEPT_CHAT_INVITATION = 129;
+    NOTIFIED_ACCEPT_CHAT_INVITATION = 130;
+    REJECT_CHAT_INVITATION = 131;
+    DELETE_OTHER_FROM_CHAT = 132;
+    NOTIFIED_DELETE_OTHER_FROM_CHAT = 133;
+    NOTIFIED_CONTACT_CALENDAR_EVENT = 134;
+    NOTIFIED_CONTACT_CALENDAR_EVENT_ALL = 135;
+    UPDATE_THINGS_OPERATIONS = 136;
+    SEND_CHAT_HIDDEN = 137;
+    CHAT_META_SYNC_ALL = 138;
+    SEND_REACTION = 139;
+    NOTIFIED_SEND_REACTION = 140;
+    NOTIFIED_UPDATE_PROFILE_CONTENT = 141;
+    FAILED_DELIVERY_MESSAGE = 142;
+    SEND_ENCRYPTED_E2EE_KEY_REQUESTED = 143;
+    CHANNEL_PAAK_AUTHENTICATION_REQUESTED = 144;
+    UPDATE_PIN_STATE = 145;
+    NOTIFIED_PREMIUMBACKUP_STATE_CHANGED = 146;
+    CREATE_MULTI_PROFILE = 147;
+    MULTI_PROFILE_STATUS_CHANGED = 148;
+    DELETE_MULTI_PROFILE = 149;
+    UPDATE_PROFILE_MAPPING = 150;
+    DELETE_PROFILE_MAPPING = 151;
+    NOTIFIED_DESTROY_NOTICENTER_PUSH = 152;
+}
+
+/* sources/P70/g.java */
+enum P70_g {
+    INVALID_REQUEST = 1000;
+    RETRY_REQUIRED = 1001;
+}
+
+/* sources/Pb1/EnumC13224w6.java */
+enum PaidCallType {
+    OUT = 0;
+    IN = 1;
+    TOLLFREE = 2;
+    RECORD = 3;
+    AD = 4;
+    CS = 5;
+    OA = 6;
+    OAM = 7;
+}
+
+/* sources/jo0/EnumC27558y.java */
+enum PayloadType {
+    PAYLOAD_BUY = 101;
+    PAYLOAD_CS = 111;
+    PAYLOAD_BONUS = 121;
+    PAYLOAD_EVENT = 131;
+    PAYLOAD_POINT_AUTO_EXCHANGED = 141;
+    PAYLOAD_POINT_MANUAL_EXCHANGED = 151;
+}
+
+/* sources/Pb1/A0.java */
+enum Pb1_A0 {
+    NORMAL = 0;
+    VIDEOCAM = 1;
+    VOIP = 2;
+    RECORD = 3;
+}
+
+/* sources/Pb1/A3.java */
+enum Pb1_A3 {
+    UNKNOWN = 0;
+    BACKGROUND_NEW_KEY_CREATED = 1;
+    BACKGROUND_PERIODICAL_VERIFICATION = 2;
+    FOREGROUND_NEW_PIN_REGISTERED = 3;
+    FOREGROUND_VERIFICATION = 4;
+}
+
+/* sources/Pb1/B.java */
+enum Pb1_B {
+    SIRI = 1;
+    GOOGLE_ASSISTANT = 2;
+    OS_SHARE = 3;
+}
+
+/* sources/Pb1/D0.java */
+enum Pb1_D0 {
+    RICH_MENU_ID = 0;
+    STATUS_BAR = 1;
+    BUDDY_CAUTION_NOTICE = 2;
+}
+
+/* sources/Pb1/D4.java */
+enum Pb1_D4 {
+    AUDIO = 1;
+    VIDEO = 2;
+    FACEPLAY = 3;
+}
+
+/* sources/Pb1/D6.java */
+enum Pb1_D6 {
+    GOOGLE = 0;
+    BAIDU = 1;
+    FOURSQUARE = 2;
+    YAHOOJAPAN = 3;
+    KINGWAY = 4;
+}
+
+/* sources/Pb1/E7.java */
+enum Pb1_E7 {
+    UNKNOWN = 0;
+    TALK = 1;
+    SQUARE = 2;
+}
+
+/* sources/Pb1/EnumC12917a6.java */
+enum Pb1_EnumC12917a6 {
+    UNKNOWN = 0;
+    APP_FOREGROUND = 1;
+    PERIODIC = 2;
+    MANUAL = 3;
+}
+
+/* sources/Pb1/EnumC12926b1.java */
+enum Pb1_EnumC12926b1 {
+    NOT_A_FRIEND = 0;
+    ALWAYS = 1;
+}
+
+/* sources/Pb1/EnumC12941c2.java */
+enum Pb1_EnumC12941c2 {
+    BLE_LCS_API_USABLE = 26;
+    PROHIBIT_MINIMIZE_CHANNEL_BROWSER = 27;
+    ALLOW_IOS_WEBKIT = 28;
+    PURCHASE_LCS_API_USABLE = 38;
+    ALLOW_ANDROID_ENABLE_ZOOM = 48;
+}
+
+/* sources/Pb1/EnumC12945c6.java */
+enum Pb1_EnumC12945c6 {
+    V1 = 1;
+    V2 = 2;
+}
+
+/* sources/Pb1/EnumC12970e3.java */
+enum Pb1_EnumC12970e3 {
+    USER_AGE_CHECKED = 1;
+    USER_APPROVAL_REQUIRED = 2;
+}
+
+/* sources/Pb1/EnumC12997g2.java */
+enum Pb1_EnumC12997g2 {
+    PROFILE = 0;
+    FRIENDS = 1;
+    GROUP = 2;
+}
+
+/* sources/Pb1/EnumC12998g3.java */
+enum Pb1_EnumC12998g3 {
+    UNKNOWN = 0;
+    WIFI = 1;
+    CELLULAR_NETWORK = 2;
+}
+
+/* sources/Pb1/EnumC13009h0.java */
+enum Pb1_EnumC13009h0 {
+    NORMAL = 1;
+    LOW_BATTERY = 2;
+}
+
+/* sources/Pb1/EnumC13010h1.java */
+enum Pb1_EnumC13010h1 {
+    NEW = 1;
+    PLANET = 2;
+}
+
+/* sources/Pb1/EnumC13015h6.java */
+enum Pb1_EnumC13015h6 {
+    FORWARD = 0;
+    AUTO_REPLY = 1;
+    SUBORDINATE = 2;
+    REPLY = 3;
+}
+
+/* sources/Pb1/EnumC13022i.java */
+enum Pb1_EnumC13022i {
+    SKIP = 0;
+    PINCODE = 1;
+    SECURITY_CENTER = 2;
+}
+
+/* sources/Pb1/EnumC13029i6.java */
+enum Pb1_EnumC13029i6 {
+    ADD = 0;
+    REMOVE = 1;
+    MODIFY = 2;
+}
+
+/* sources/Pb1/EnumC13037j0.java */
+enum Pb1_EnumC13037j0 {
+    UNSPECIFIED = 0;
+    INACTIVE = 1;
+    ACTIVE = 2;
+    DELETED = 3;
+}
+
+/* sources/Pb1/EnumC13050k.java */
+enum Pb1_EnumC13050k {
+    UNKNOWN = 0;
+    IOS_REDUCED_ACCURACY = 1;
+    IOS_FULL_ACCURACY = 2;
+    AOS_PRECISE_LOCATION = 3;
+    AOS_APPROXIMATE_LOCATION = 4;
+}
+
+/* sources/Pb1/EnumC13082m3.java */
+enum Pb1_EnumC13082m3 {
+    SHOW = 0;
+    HIDE = 1;
+}
+
+/* sources/Pb1/EnumC13093n0.java */
+enum Pb1_EnumC13093n0 {
+    NONE = 0;
+    TOP = 1;
+}
+
+/* sources/Pb1/EnumC13127p6.java */
+enum Pb1_EnumC13127p6 {
+    NORMAL = 0;
+    ALERT_DISABLED = 1;
+    ALWAYS = 2;
+}
+
+/* sources/Pb1/EnumC13128p7.java */
+enum Pb1_EnumC13128p7 {
+    UNKNOWN = 0;
+    DIRECT_INVITATION = 1;
+    DIRECT_CHAT = 2;
+    GROUP_INVITATION = 3;
+    GROUP_CHAT = 4;
+    ROOM_INVITATION = 5;
+    ROOM_CHAT = 6;
+    FRIEND_PROFILE = 7;
+    DIRECT_CHAT_SELECTED = 8;
+    GROUP_CHAT_SELECTED = 9;
+    ROOM_CHAT_SELECTED = 10;
+    DEPRECATED = 11;
+}
+
+/* sources/Pb1/EnumC13148r0.java */
+enum Pb1_EnumC13148r0 {
+    ALWAYS_HIDDEN = 1;
+    ALWAYS_SHOWN = 2;
+    SHOWN_BY_CONDITION = 3;
+}
+
+/* sources/Pb1/EnumC13151r3.java */
+enum Pb1_EnumC13151r3 {
+    ONEWAY = 0;
+    BOTH = 1;
+    NOT_REGISTERED = 2;
+}
+
+/* sources/Pb1/EnumC13162s0.java */
+enum Pb1_EnumC13162s0 {
+    NOT_SUSPICIOUS = 1;
+    SUSPICIOUS_00 = 2;
+    SUSPICIOUS_01 = 3;
+}
+
+/* sources/Pb1/EnumC13196u6.java */
+enum Pb1_EnumC13196u6 {
+    COIN = 0;
+    CREDIT = 1;
+    MONTHLY = 2;
+    OAM = 3;
+}
+
+/* sources/Pb1/EnumC13209v5.java */
+enum Pb1_EnumC13209v5 {
+    DUMMY = 0;
+    NOTICE = 1;
+    MORETAB = 2;
+    STICKERSHOP = 3;
+    CHANNEL = 4;
+    DENY_KEYWORD = 5;
+    CONNECTIONINFO = 6;
+    BUDDY = 7;
+    TIMELINEINFO = 8;
+    THEMESHOP = 9;
+    CALLRATE = 10;
+    CONFIGURATION = 11;
+    STICONSHOP = 12;
+    SUGGESTDICTIONARY = 13;
+    SUGGESTSETTINGS = 14;
+    USERSETTINGS = 15;
+    ANALYTICSINFO = 16;
+    SEARCHPOPULARKEYWORD = 17;
+    SEARCHNOTICE = 18;
+    TIMELINE = 19;
+    SEARCHPOPULARCATEGORY = 20;
+    EXTENDEDPROFILE = 21;
+    SEASONALMARKETING = 22;
+    NEWSTAB = 23;
+    SUGGESTDICTIONARYV2 = 24;
+    CHATAPPSYNC = 25;
+    AGREEMENTS = 26;
+    INSTANTNEWS = 27;
+    EMOJI_MAPPING = 28;
+    SEARCHBARKEYWORDS = 29;
+    SHOPPING = 30;
+    CHAT_EFFECT_BACKGROUND = 31;
+    CHAT_EFFECT_KEYWORD = 32;
+    SEARCHINDEX = 33;
+    HUBTAB = 34;
+    PAY_RULE_UPDATED = 35;
+    SMARTCH = 36;
+    HOME_SERVICE_LIST = 37;
+    TIMELINESTORY = 38;
+    WALLET_TAB = 39;
+    POD_TAB = 40;
+    HOME_SAFETY_CHECK = 41;
+    HOME_SEASONAL_EFFECT = 42;
+    OPENCHAT_MAIN = 43;
+    CHAT_EFFECT_CONTENT_METADATA_TAG = 44;
+    VOOM_LIVE_STATE_CHANGED = 45;
+    PROFILE_STUDIO_N_BADGE = 46;
+    LYP_FONT = 47;
+    TIMELINESTORY_OA = 48;
+    TRAVEL = 49;
+}
+
+/* sources/Pb1/EnumC13221w3.java */
+enum Pb1_EnumC13221w3 {
+    UNKNOWN = 0;
+    EUROPEAN_ECONOMIC_AREA = 1;
+}
+
+/* sources/Pb1/EnumC13222w4.java */
+enum Pb1_EnumC13222w4 {
+    OBS_VIDEO = 1;
+    OBS_GENERAL = 2;
+    OBS_RINGBACK_TONE = 3;
+}
+
+/* sources/Pb1/EnumC13237x5.java */
+enum Pb1_EnumC13237x5 {
+    AUDIO = 1;
+    VIDEO = 2;
+    LIVE = 3;
+    PHOTOBOOTH = 4;
+}
+
+/* sources/Pb1/EnumC13238x6.java */
+enum Pb1_EnumC13238x6 {
+    NOT_SPECIFIED = 0;
+    VALID = 1;
+    VERIFICATION_REQUIRED = 2;
+    NOT_PERMITTED = 3;
+    LIMIT_EXCEEDED = 4;
+    LIMIT_EXCEEDED_AND_VERIFICATION_REQUIRED = 5;
+}
+
+/* sources/Pb1/EnumC13251y5.java */
+enum Pb1_EnumC13251y5 {
+    STANDARD = 1;
+    CONSTELLA = 2;
+}
+
+/* sources/Pb1/EnumC13252y6.java */
+enum Pb1_EnumC13252y6 {
+    ALL = 0;
+    PROFILE = 1;
+    SETTINGS = 2;
+    CONFIGURATIONS = 3;
+    CONTACT = 4;
+    GROUP = 5;
+    E2EE = 6;
+    MESSAGE = 7;
+}
+
+/* sources/Pb1/EnumC13260z0.java */
+enum Pb1_EnumC13260z0 {
+    ON_AIR = 0;
+    LIVE = 1;
+    GLP = 2;
+}
+
+/* sources/Pb1/EnumC13267z7.java */
+enum Pb1_EnumC13267z7 {
+    ALL = 255;
+    NOTIFICATION_SETTING = 1;
+}
+
+/* sources/Pb1/F0.java */
+enum Pb1_F0 {
+    NA = 0;
+    FRIEND_VIEW = 1;
+    OFFICIAL_ACCOUNT_VIEW = 2;
+}
+
+/* sources/Pb1/F4.java */
+enum Pb1_F4 {
+    INCOMING = 1;
+    OUTGOING = 2;
+}
+
+/* sources/Pb1/F5.java */
+enum Pb1_F5 {
+    UNKNOWN = 0;
+    SUCCESS = 1;
+    REQUIRE_SERVER_SIDE_EMAIL = 2;
+    REQUIRE_CLIENT_SIDE_EMAIL = 3;
+}
+
+/* sources/Pb1/F6.java */
+enum Pb1_F6 {
+    JBU = 0;
+    LIP = 1;
+}
+
+/* sources/Pb1/G3.java */
+enum Pb1_G3 {
+    PROMOTION_FRIENDS_INVITE = 1;
+    CAPABILITY_SERVER_SIDE_SMS = 2;
+    LINE_CLIENT_ANALYTICS_CONFIGURATION = 3;
+}
+
+/* sources/Pb1/G4.java */
+enum Pb1_G4 {
+    TIMELINE = 1;
+    NEARBY = 2;
+    SQUARE = 3;
+}
+
+/* sources/Pb1/G6.java */
+enum Pb1_G6 {
+    NICE = 2;
+    LOVE = 3;
+    FUN = 4;
+    AMAZING = 5;
+    SAD = 6;
+    OMG = 7;
+}
+
+/* sources/Pb1/H6.java */
+enum Pb1_H6 {
+    PUBLIC = 0;
+    PRIVATE = 1;
+}
+
+/* sources/Pb1/I6.java */
+enum Pb1_I6 {
+    NEVER_SHOW = 0;
+    ONE_WAY = 1;
+    MUTUAL = 2;
+}
+
+/* sources/Pb1/J4.java */
+enum Pb1_J4 {
+    OTHER = 0;
+    INITIALIZATION = 1;
+    PERIODIC_SYNC = 2;
+    MANUAL_SYNC = 3;
+    LOCAL_DB_CORRUPTED = 4;
+}
+
+/* sources/Pb1/K2.java */
+enum Pb1_K2 {
+    ALL = 255;
+    CHANNEL_INFO = 1;
+    CHANNEL_TOKEN = 2;
+    COMMON_DOMAIN = 4;
+}
+
+/* sources/Pb1/K6.java */
+enum Pb1_K6 {
+    ALL = 2147483647;
+    EMAIL = 1;
+    DISPLAY_NAME = 2;
+    PHONETIC_NAME = 4;
+    PICTURE = 8;
+    STATUS_MESSAGE = 16;
+    ALLOW_SEARCH_BY_USERID = 32;
+    ALLOW_SEARCH_BY_EMAIL = 64;
+    BUDDY_STATUS = 128;
+    MUSIC_PROFILE = 256;
+    AVATAR_PROFILE = 512;
+}
+
+/* sources/Pb1/L2.java */
+enum Pb1_L2 {
+    SYNC = 0;
+    REMOVE = 1;
+    REMOVE_ALL = 2;
+}
+
+/* sources/Pb1/L4.java */
+enum Pb1_L4 {
+    UNKNOWN = 0;
+    REVISION_GAP_TOO_LARGE_CLIENT = 1;
+    REVISION_GAP_TOO_LARGE_SERVER = 2;
+    OPERATION_EXPIRED = 3;
+    REVISION_HOLE = 4;
+    FORCE_TRIGGERED = 5;
+}
+
+/* sources/Pb1/M6.java */
+enum Pb1_M6 {
+    OWNER = 0;
+    FRIEND = 1;
+}
+
+/* sources/Pb1/N6.java */
+enum Pb1_N6 {
+    NFT = 1;
+    AVATAR = 2;
+    SNOW = 3;
+    ARCZ = 4;
+    FRENZ = 5;
+}
+
+/* sources/Pb1/O2.java */
+enum Pb1_O2 {
+    NAME = 1;
+    PICTURE_STATUS = 2;
+    PREVENTED_JOIN_BY_TICKET = 4;
+    NOTIFICATION_SETTING = 8;
+    INVITATION_TICKET = 16;
+    FAVORITE_TIMESTAMP = 32;
+    CHAT_TYPE = 64;
+}
+
+/* sources/Pb1/O6.java */
+enum Pb1_O6 {
+    DEFAULT = 1;
+    MULTI_PROFILE = 2;
+}
+
+/* sources/Pb1/P6.java */
+enum Pb1_P6 {
+    HIDDEN = 0;
+    PUBLIC = 1000;
+}
+
+/* sources/Pb1/Q2.java */
+enum Pb1_Q2 {
+    BACKGROUND = 0;
+    KEYWORD = 1;
+    CONTENT_METADATA_TAG_BASED = 2;
+}
+
+/* sources/Pb1/R3.java */
+enum Pb1_R3 {
+    BEACON_AGREEMENT = 1;
+    BLUETOOTH = 2;
+    SHAKE_AGREEMENT = 3;
+    AUTO_SUGGEST = 4;
+    CHATROOM_CAPTURE = 5;
+    CHATROOM_MINIMIZEBROWSER = 6;
+    CHATROOM_MOBILESAFARI = 7;
+    VIDEO_HIGHTLIGHT_WIZARD = 8;
+    CHAT_FOLDER = 9;
+    BLUETOOTH_SCAN = 10;
+    AUTO_SUGGEST_FOLLOW_UP = 11;
+}
+
+/* sources/Pb1/S7.java */
+enum Pb1_S7 {
+    NONE = 1;
+    ALL = 2;
+}
+
+/* sources/Pb1/T3.java */
+enum Pb1_T3 {
+    LOCATION_OS = 1;
+    LOCATION_APP = 2;
+    VIDEO_AUTO_PLAY = 3;
+    HNI = 4;
+    AUTO_SUGGEST_LANG = 5;
+    CHAT_EFFECT_CACHED_CONTENT_LIST = 6;
+    IFA = 7;
+    ACCURACY_MODE = 8;
+}
+
+/* sources/Pb1/T7.java */
+enum Pb1_T7 {
+    SYNC = 0;
+    REPORT = 1;
+}
+
+/* sources/Pb1/V7.java */
+enum Pb1_V7 {
+    UNSPECIFIED = 0;
+    UNKNOWN = 1;
+    INITIALIZATION = 2;
+    OPERATION = 3;
+    FULL_SYNC = 4;
+    AUTO_REPAIR = 5;
+    MANUAL_REPAIR = 6;
+    INTERNAL = 7;
+    USER_INITIATED = 8;
+}
+
+/* sources/Pb1/W2.java */
+enum Pb1_W2 {
+    ANYONE_IN_CHAT = 0;
+    CREATOR_ONLY = 1;
+    NO_ONE = 2;
+}
+
+/* sources/Pb1/W3.java */
+enum Pb1_W3 {
+    ILLEGAL_ARGUMENT = 0;
+    AUTHENTICATION_FAILED = 1;
+    INTERNAL_ERROR = 2;
+    RESTORE_KEY_FIRST = 3;
+    NO_BACKUP = 4;
+    INVALID_PIN = 6;
+    PERMANENTLY_LOCKED = 7;
+    INVALID_PASSWORD = 8;
+    MASTER_KEY_CONFLICT = 9;
+}
+
+/* sources/Pb1/X1.java */
+enum Pb1_X1 {
+    MESSAGE = 0;
+    MESSAGE_NOTIFICATION = 1;
+    NOTIFICATION_CENTER = 2;
+}
+
+/* sources/Pb1/X2.java */
+enum Pb1_X2 {
+    MESSAGE = 0;
+    NOTE = 1;
+    CHANNEL = 2;
+}
+
+/* sources/Pb1/Z2.java */
+enum Pb1_Z2 {
+    GROUP = 0;
+    ROOM = 1;
+    PEER = 2;
+}
+
+/* sources/Pb1/gd.java */
+enum Pb1_gd {
+    OVER = 1;
+    UNDER = 2;
+    UNDEFINED = 3;
+}
+
+/* sources/Pb1/od.java */
+enum Pb1_od {
+    UNKNOWN = 0;
+    LOCATION = 1;
+}
+
+/* sources/ZQ0/d.java */
+enum PointErrorCode {
+    REQUEST_DUPLICATION = 3001;
+    INVALID_PARAMETER = 3002;
+    NOT_ENOUGH_BALANCE = 3003;
+    AUTHENTICATION_FAIL = 3004;
+    API_ACCESS_FORBIDDEN = 3005;
+    MEMBER_ACCOUNT_NOT_FOUND = 3006;
+    SERVICE_ACCOUNT_NOT_FOUND = 3007;
+    TRANSACTION_NOT_FOUND = 3008;
+    ALREADY_REVERSED_TRANSACTION = 3009;
+    MESSAGE_NOT_READABLE = 3010;
+    HTTP_REQUEST_METHOD_NOT_SUPPORTED = 3011;
+    HTTP_MEDIA_TYPE_NOT_SUPPORTED = 3012;
+    NOT_ALLOWED_TO_DEPOSIT = 3013;
+    NOT_ALLOWED_TO_PAY = 3014;
+    TRANSACTION_ACCESS_FORBIDDEN = 3015;
+    INVALID_SERVICE_CONFIGURATION = 4001;
+    DCS_COMMUNICATION_FAIL = 5004;
+    UPDATE_BALANCE_FAIL = 5007;
+    SYSTEM_ERROR = 5999;
+    SYSTEM_MAINTENANCE = 5888;
+}
+
+/* sources/q70/q.java */
+enum Q70_q {
+    UNKNOWN = 0;
+    FACEBOOK = 1;
+    APPLE = 2;
+    GOOGLE = 3;
+}
+
+/* sources/q70/r.java */
+enum Q70_r {
+    INTERNAL_ERROR = 0;
+    ILLEGAL_ARGUMENT = 1;
+    VERIFICATION_FAILED = 2;
+    RETRY_LATER = 4;
+    HUMAN_VERIFICATION_REQUIRED = 5;
+    APP_UPGRADE_REQUIRED = 101;
+}
+
+/* sources/Qj/EnumC13584a.java */
+enum Qj_EnumC13584a {
+    NOT_DETERMINED = 0;
+    RESTRICTED = 1;
+    DENIED = 2;
+    AUTHORIZED = 3;
+}
+
+/* sources/Qj/EnumC13585b.java */
+enum Qj_EnumC13585b {
+    WHITE = 1;
+    BLACK = 2;
+}
+
+/* sources/Qj/EnumC13588e.java */
+enum Qj_EnumC13588e {
+    LIGHT = 1;
+    DARK = 2;
+}
+
+/* sources/Qj/EnumC13592i.java */
+enum Qj_EnumC13592i {
+    ILLEGAL_ARGUMENT = 0;
+    INTERNAL_ERROR = 1;
+    CONNECTION_ERROR = 2;
+    AUTHENTICATION_FAILED = 3;
+    NEED_PERMISSION_APPROVAL = 4;
+    COIN_NOT_USABLE = 5;
+    WEBVIEW_NOT_ALLOWED = 6;
+}
+
+/* sources/Qj/EnumC13597n.java */
+enum Qj_EnumC13597n {
+    INVALID_REQUEST = 1;
+    UNAUTHORIZED = 2;
+    CONSENT_REQUIRED = 3;
+    VERSION_UPDATE_REQUIRED = 4;
+    COMPREHENSIVE_AGREEMENT_REQUIRED = 5;
+    SPLASH_SCREEN_REQUIRED = 6;
+    PERMANENT_LINK_INVALID_REQUEST = 7;
+    NO_DESTINATION_URL = 8;
+    SERVICE_ALREADY_TERMINATED = 9;
+    SERVER_ERROR = 100;
+}
+
+/* sources/Qj/EnumC13604v.java */
+enum Qj_EnumC13604v {
+    GEOLOCATION = 1;
+    ADVERTISING_ID = 2;
+    BLUETOOTH_LE = 3;
+    QR_CODE = 4;
+    ADVERTISING_SDK = 5;
+    ADD_TO_HOME = 6;
+    SHARE_TARGET_MESSAGE = 7;
+    VIDEO_AUTO_PLAY = 8;
+    PROFILE_PLUS = 9;
+    SUBWINDOW_OPEN = 10;
+    SUBWINDOW_COMMON_MODULE = 11;
+    NO_LIFF_REFERRER = 12;
+    SKIP_CHANNEL_VERIFICATION_SCREEN = 13;
+    PROVIDER_PAGE = 14;
+    BASIC_AUTH = 15;
+    SIRI_DONATION = 16;
+}
+
+/* sources/Qj/EnumC13605w.java */
+enum Qj_EnumC13605w {
+    ALLOW_DIRECT_LINK = 1;
+    ALLOW_DIRECT_LINK_V2 = 2;
+}
+
+/* sources/Qj/EnumC13606x.java */
+enum Qj_EnumC13606x {
+    LIGHT = 1;
+    LIGHT_TRANSLUCENT = 2;
+    DARK_TRANSLUCENT = 3;
+    LIGHT_ICON = 4;
+    DARK_ICON = 5;
+}
+
+/* sources/Qj/a0.java */
+enum Qj_a0 {
+    CONCAT = 1;
+    REPLACE = 2;
+}
+
+/* sources/Qj/e0.java */
+enum Qj_e0 {
+    SUCCESS = 0;
+    FAILURE = 1;
+    CANCEL = 2;
+}
+
+/* sources/Qj/h0.java */
+enum Qj_h0 {
+    RIGHT = 1;
+    LEFT = 2;
+}
+
+/* sources/Qj/i0.java */
+enum Qj_i0 {
+    FULL = 1;
+    TALL = 2;
+    COMPACT = 3;
+}
+
+/* sources/R70/e.java */
+enum R70_e {
+    INTERNAL_ERROR = 0;
+    ILLEGAL_ARGUMENT = 1;
+    VERIFICATION_FAILED = 2;
+    EXTERNAL_SERVICE_UNAVAILABLE = 3;
+    RETRY_LATER = 4;
+    INVALID_CONTEXT = 100;
+    NOT_SUPPORTED = 101;
+    FORBIDDEN = 102;
+    FIDO_RETRY_WITH_ANOTHER_AUTHENTICATOR = 201;
+}
+
+/* sources/Pb1/Y6.java */
+enum RegistrationType {
+    PHONE = 0;
+    EMAIL_WAP = 1;
+    FACEBOOK = 2305;
+    SINA = 2306;
+    RENREN = 2307;
+    FEIXIN = 2308;
+    APPLE = 2309;
+    YAHOOJAPAN = 2310;
+    GOOGLE = 2311;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/ReportType.java */
+enum ReportType {
+    ADVERTISING = 1;
+    GENDER_HARASSMENT = 2;
+    HARASSMENT = 3;
+    OTHER = 4;
+    IRRELEVANT_CONTENT = 5;
+    IMPERSONATION = 6;
+    SCAM = 7;
+}
+
+/* sources/S70/a.java */
+enum S70_a {
+    INTERNAL_ERROR = 0;
+    ILLEGAL_ARGUMENT = 1;
+    VERIFICATION_FAILED = 2;
+    RETRY_LATER = 3;
+    INVALID_CONTEXT = 100;
+    APP_UPGRADE_REQUIRED = 101;
+}
+
+/* sources/Pb1/H7.java */
+enum SettingsAttributeEx {
+    NOTIFICATION_ENABLE = 0;
+    NOTIFICATION_MUTE_EXPIRATION = 1;
+    NOTIFICATION_NEW_MESSAGE = 2;
+    NOTIFICATION_GROUP_INVITATION = 3;
+    NOTIFICATION_SHOW_MESSAGE = 4;
+    NOTIFICATION_INCOMING_CALL = 5;
+    NOTIFICATION_SOUND_MESSAGE = 8;
+    NOTIFICATION_SOUND_GROUP = 9;
+    NOTIFICATION_DISABLED_WITH_SUB = 16;
+    NOTIFICATION_PAYMENT = 17;
+    NOTIFICATION_MENTION = 40;
+    NOTIFICATION_THUMBNAIL = 45;
+    NOTIFICATION_BADGE_TALK_ONLY = 65;
+    NOTIFICATION_REACTION = 67;
+    NOTIFICATION_SHOW_PROFILE_IMAGE = 75;
+    PRIVACY_SYNC_CONTACTS = 6;
+    PRIVACY_SEARCH_BY_PHONE_NUMBER = 7;
+    PRIVACY_SEARCH_BY_USERID = 13;
+    PRIVACY_SEARCH_BY_EMAIL = 14;
+    PRIVACY_SHARE_PERSONAL_INFO_TO_FRIENDS = 51;
+    PRIVACY_ALLOW_SECONDARY_DEVICE_LOGIN = 21;
+    PRIVACY_PROFILE_IMAGE_POST_TO_MYHOME = 23;
+    PRIVACY_PROFILE_MUSIC_POST_TO_MYHOME = 35;
+    PRIVACY_PROFILE_HISTORY = 57;
+    PRIVACY_STATUS_MESSAGE_HISTORY = 54;
+    PRIVACY_ALLOW_FRIEND_REQUEST = 30;
+    PRIVACY_RECV_MESSAGES_FROM_NOT_FRIEND = 25;
+    PRIVACY_AGREE_USE_LINECOIN_TO_PAIDCALL = 26;
+    PRIVACY_AGREE_USE_PAIDCALL = 27;
+    PRIVACY_AGE_RESULT = 60;
+    PRIVACY_AGE_RESULT_RECEIVED = 61;
+    PRIVACY_ALLOW_FOLLOW = 63;
+    PRIVACY_SHOW_FOLLOW_LIST = 64;
+    CONTACT_MY_TICKET = 10;
+    IDENTITY_PROVIDER = 11;
+    IDENTITY_IDENTIFIER = 12;
+    SNS_ACCOUNT = 19;
+    PHONE_REGISTRATION = 20;
+    PWLESS_PRIMARY_CREDENTIAL_REGISTRATION = 31;
+    ALLOWED_TO_CONNECT_EAP_ACCOUNT = 32;
+    EAP_ONLY_ACCOUNT_TARGET_COUNTRY = 80;
+    ALLOWED_TO_SHOW_ZHD_PAGE = 78;
+    PREFERENCE_LOCALE = 15;
+    CUSTOM_MODE = 22;
+    EMAIL_CONFIRMATION_STATUS = 24;
+    ACCOUNT_MIGRATION_PINCODE = 28;
+    ENFORCED_INPUT_ACCOUNT_MIGRATION_PINCODE = 29;
+    SECURITY_CENTER_SETTINGS = 18;
+    E2EE_ENABLE = 33;
+    HITOKOTO_BACKUP_REQUESTED = 34;
+    CONTACT_ALLOW_FOLLOWING = 36;
+    PRIVACY_ALLOW_NEARBY = 37;
+    AGREEMENT_NEARBY = 38;
+    AGREEMENT_SQUARE = 39;
+    ALLOW_UNREGISTRATION_SECONDARY_DEVICE = 41;
+    AGREEMENT_BOT_USE = 42;
+    AGREEMENT_SHAKE_FUNCTION = 43;
+    AGREEMENT_MOBILE_CONTACT_NAME = 44;
+    AGREEMENT_SOUND_TO_TEXT = 46;
+    AGREEMENT_PRIVACY_POLICY_VERSION = 47;
+    AGREEMENT_AD_BY_WEB_ACCESS = 48;
+    AGREEMENT_PHONE_NUMBER_MATCHING = 49;
+    AGREEMENT_COMMUNICATION_INFO = 50;
+    AGREEMENT_THINGS_WIRELESS_COMMUNICATION = 52;
+    AGREEMENT_GDPR = 53;
+    AGREEMENT_PROVIDE_LOCATION = 55;
+    AGREEMENT_BEACON = 56;
+    AGREEMENT_CONTENTS_SUGGEST = 58;
+    AGREEMENT_CONTENTS_SUGGEST_DATA_COLLECTION = 59;
+    AGREEMENT_OCR_IMAGE_COLLECTION = 62;
+    AGREEMENT_ICNA = 66;
+    AGREEMENT_MID = 68;
+    AGREEMENT_PDPA = 76;
+    AGREEMENT_LINE_OUT_USE = 73;
+    AGREEMENT_LINE_OUT_PROVIDE_INFO = 74;
+    AGREEMENT_LOCATION_VERSION = 77;
+    AGREEMENT_SNOW_AI_AVATAR = 79;
+    AGREEMENT_LYP_PREMIUM_ALBUM = 81;
+    AGREEMENT_LYP_PREMIUM_ALBUM_VERSION = 82;
+    AGREEMENT_ALBUM_USAGE_DATA = 83;
+    AGREEMENT_ALBUM_USAGE_DATA_VERSION = 84;
+    AGREEMENT_LYP_PREMIUM_BACKUP = 85;
+    AGREEMENT_LYP_PREMIUM_BACKUP_VERSION = 86;
+    AGREEMENT_OA_AI_ASSISTANT = 87;
+    AGREEMENT_OA_AI_ASSISTANT_VERSION = 88;
+    AGREEMENT_LYP_PREMIUM_MULTI_PROFILE = 89;
+    AGREEMENT_LYP_PREMIUM_MULTI_PROFILE_VERSION = 90;
+    HOME_NOTIFICATION_NEW_FRIEND = 69;
+    HOME_NOTIFICATION_FAVORITE_FRIEND_UPDATE = 70;
+    HOME_NOTIFICATION_GROUP_MEMBER_UPDATE = 71;
+    HOME_NOTIFICATION_BIRTHDAY = 72;
+}
+
+/* sources/Pb1/L7.java */
+enum SnsIdType {
+    FACEBOOK = 1;
+    SINA = 2;
+    RENREN = 3;
+    FEIXIN = 4;
+    BBM = 5;
+    APPLE = 6;
+    YAHOOJAPAN = 7;
+    GOOGLE = 8;
+}
+
+/* sources/Pb1/M7.java */
+enum SpammerReason {
+    OTHER = 0;
+    ADVERTISING = 1;
+    GENDER_HARASSMENT = 2;
+    HARASSMENT = 3;
+    IMPERSONATION = 4;
+    SCAM = 5;
+}
+
+/* sources/Pb1/N7.java */
+enum SpammerReason {
+    OTHER = 0;
+    ADVERTISING = 1;
+    GENDER_HARASSMENT = 2;
+    HARASSMENT = 3;
+    IMPERSONATION = 4;
+    SCAM = 5;
+}
+
+/* sources/Pb1/O7.java */
+enum SpotCategory {
+    UNKNOWN = 0;
+    GOURMET = 1;
+    BEAUTY = 2;
+    TRAVEL = 3;
+    SHOPPING = 4;
+    ENTERTAINMENT = 5;
+    SPORTS = 6;
+    TRANSPORT = 7;
+    LIFE = 8;
+    HOSPITAL = 9;
+    FINANCE = 10;
+    EDUCATION = 11;
+    OTHER = 12;
+    ALL = 10000;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareAttribute.java */
+enum SquareAttribute {
+    NAME = 1;
+    WELCOME_MESSAGE = 2;
+    PROFILE_IMAGE = 3;
+    DESCRIPTION = 4;
+    SEARCHABLE = 6;
+    CATEGORY = 7;
+    INVITATION_URL = 8;
+    ABLE_TO_USE_INVITATION_URL = 9;
+    STATE = 10;
+    EMBLEMS = 11;
+    JOIN_METHOD = 12;
+    CHANNEL_ID = 13;
+    SVC_TAGS = 14;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareAuthorityAttribute.java */
+enum SquareAuthorityAttribute {
+    UPDATE_SQUARE_PROFILE = 1;
+    INVITE_NEW_MEMBER = 2;
+    APPROVE_JOIN_REQUEST = 3;
+    CREATE_POST = 4;
+    CREATE_OPEN_SQUARE_CHAT = 5;
+    DELETE_SQUARE_CHAT_OR_POST = 6;
+    REMOVE_SQUARE_MEMBER = 7;
+    GRANT_ROLE = 8;
+    ENABLE_INVITATION_TICKET = 9;
+    CREATE_CHAT_ANNOUNCEMENT = 10;
+    UPDATE_MAX_CHAT_MEMBER_COUNT = 11;
+    USE_READONLY_DEFAULT_CHAT = 12;
+    SEND_ALL_MENTION = 13;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareChatType.java */
+enum SquareChatType {
+    OPEN = 1;
+    SECRET = 2;
+    ONE_ON_ONE = 3;
+    SQUARE_DEFAULT = 4;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareMemberAttribute.java */
+enum SquareMemberAttribute {
+    DISPLAY_NAME = 1;
+    PROFILE_IMAGE = 2;
+    ABLE_TO_RECEIVE_MESSAGE = 3;
+    MEMBERSHIP_STATE = 5;
+    ROLE = 6;
+    PREFERENCE = 7;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareMembershipState.java */
+enum SquareMembershipState {
+    JOIN_REQUESTED = 1;
+    JOINED = 2;
+    REJECTED = 3;
+    LEFT = 4;
+    KICK_OUT = 5;
+    BANNED = 6;
+    DELETED = 7;
+    JOIN_REQUEST_WITHDREW = 8;
+}
+
+/* sources/Zr0/g.java */
+enum StickerResourceType {
+    STATIC = 1;
+    ANIMATION = 2;
+    SOUND = 3;
+    ANIMATION_SOUND = 4;
+    POPUP = 5;
+    POPUP_SOUND = 6;
+}
+
+/* sources/Ob1/B1.java */
+enum StickerResourceType {
+    STATIC = 1;
+    ANIMATION = 2;
+    SOUND = 3;
+    ANIMATION_SOUND = 4;
+    POPUP = 5;
+    POPUP_SOUND = 6;
+    NAME_TEXT = 7;
+    PER_STICKER_TEXT = 8;
+}
+
+/* sources/Pb1/U7.java */
+enum SyncCategory {
+    PROFILE = 0;
+    SETTINGS = 1;
+    OPS = 2;
+    CONTACT = 3;
+    RECOMMEND = 4;
+    BLOCK = 5;
+    GROUP = 6;
+    ROOM = 7;
+    NOTIFICATION = 8;
+    ADDRESS_BOOK = 9;
+}
+
+/* sources/T70/C.java */
+enum T70_C {
+    INITIAL_BACKUP_STATE_UNSPECIFIED = 0;
+    INITIAL_BACKUP_STATE_READY = 1;
+    INITIAL_BACKUP_STATE_MESSAGE_ONGOING = 2;
+    INITIAL_BACKUP_STATE_MEDIA_ONGOING = 5;
+    INITIAL_BACKUP_STATE_FINISHED = 3;
+    INITIAL_BACKUP_STATE_ABORTED = 4;
+}
+
+/* sources/T70/EnumC14390b.java */
+enum T70_EnumC14390b {
+    UNKNOWN = 0;
+    PHONE_NUMBER = 1;
+    EMAIL = 2;
+}
+
+/* sources/T70/EnumC14392c.java */
+enum T70_EnumC14392c {
+    UNKNOWN = 0;
+    SKIP = 1;
+    PASSWORD = 2;
+    WEB_BASED = 3;
+    EMAIL_BASED = 4;
+    NONE = 11;
+}
+
+/* sources/T70/EnumC14406j.java */
+enum T70_EnumC14406j {
+    INTERNAL_ERROR = 0;
+    ILLEGAL_ARGUMENT = 1;
+    VERIFICATION_FAILED = 2;
+    NOT_FOUND = 3;
+    RETRY_LATER = 4;
+    HUMAN_VERIFICATION_REQUIRED = 5;
+    INVALID_CONTEXT = 100;
+    APP_UPGRADE_REQUIRED = 101;
+}
+
+/* sources/T70/K.java */
+enum T70_K {
+    UNKNOWN = 0;
+    SMS = 1;
+    IVR = 2;
+    SMSPULL = 3;
+}
+
+/* sources/T70/L.java */
+enum T70_L {
+    PREMIUM_TYPE_UNSPECIFIED = 0;
+    PREMIUM_TYPE_LYP = 1;
+    PREMIUM_TYPE_LINE = 2;
+}
+
+/* sources/T70/Z0.java */
+enum T70_Z0 {
+    PHONE_VERIF = 1;
+    EAP_VERIF = 2;
+}
+
+/* sources/T70/e1.java */
+enum T70_e1 {
+    UNKNOWN = 0;
+    SKIP = 1;
+    WEB_BASED = 2;
+}
+
+/* sources/T70/j1.java */
+enum T70_j1 {
+    UNKNOWN = 0;
+    FACEBOOK = 1;
+    APPLE = 2;
+    GOOGLE = 3;
+}
+
+/* sources/U70/c.java */
+enum U70_c {
+    INTERNAL_ERROR = 0;
+    FORBIDDEN = 1;
+    INVALID_CONTEXT = 100;
+}
+
+/* sources/uf/EnumC14873o.java */
+enum Uf_EnumC14873o {
+    ANDROID = 1;
+    IOS = 2;
+}
+
+/* sources/VR0/l.java */
+enum VR0_l {
+    DEFAULT = 1;
+    UEN = 2;
+}
+
+/* sources/Pb1/pd.java */
+enum VerificationMethod {
+    NO_AVAILABLE = 0;
+    PIN_VIA_SMS = 1;
+    CALLERID_INDIGO = 2;
+    PIN_VIA_TTS = 4;
+    SKIP = 10;
+}
+
+/* sources/Pb1/qd.java */
+enum VerificationResult {
+    FAILED = 0;
+    OK_NOT_REGISTERED_YET = 1;
+    OK_REGISTERED_WITH_SAME_DEVICE = 2;
+    OK_REGISTERED_WITH_ANOTHER_DEVICE = 3;
+}
+
+/* sources/WR0/a.java */
+enum WR0_a {
+    FREE = 1;
+    PREMIUM = 2;
+}
+
+/* sources/a80/EnumC16644b.java */
+enum a80_EnumC16644b {
+    UNKNOWN = 0;
+    FACEBOOK = 1;
+    APPLE = 2;
+    GOOGLE = 3;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/FetchDirection.java */
+enum FetchDirection {
+    FORWARD = 1;
+    BACKWARD = 2;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/LiveTalkEventType.java */
+enum LiveTalkEventType {
+    NOTIFIED_UPDATE_LIVE_TALK_TITLE = 1;
+    NOTIFIED_UPDATE_LIVE_TALK_ANNOUNCEMENT = 2;
+    NOTIFIED_UPDATE_SQUARE_MEMBER_ROLE = 3;
+    NOTIFIED_UPDATE_LIVE_TALK_ALLOW_REQUEST_TO_SPEAK = 4;
+    NOTIFIED_UPDATE_SQUARE_MEMBER = 5;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/LiveTalkReportType.java */
+enum LiveTalkReportType {
+    ADVERTISING = 1;
+    GENDER_HARASSMENT = 2;
+    HARASSMENT = 3;
+    IRRELEVANT_CONTENT = 4;
+    OTHER = 5;
+    IMPERSONATION = 6;
+    SCAM = 7;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/MessageSummaryReportType.java */
+enum MessageSummaryReportType {
+    LEGAL_VIOLATION = 1;
+    HARASSMENT = 2;
+    PERSONAL_IDENTIFIER = 3;
+    FALSE_INFORMATION = 4;
+    GENDER_HARASSMENT = 5;
+    OTHER = 6;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/NotificationPostType.java */
+enum NotificationPostType {
+    POST_MENTION = 2;
+    POST_LIKE = 3;
+    POST_COMMENT = 4;
+    POST_COMMENT_MENTION = 5;
+    POST_COMMENT_LIKE = 6;
+    POST_RELAY_JOIN = 7;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/SquareEventStatus.java */
+enum SquareEventStatus {
+    NORMAL = 1;
+    ALERT_DISABLED = 2;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/SquareEventType.java */
+enum SquareEventType {
+    RECEIVE_MESSAGE = 0;
+    SEND_MESSAGE = 1;
+    MUTATE_MESSAGE = 41;
+    NOTIFIED_JOIN_SQUARE_CHAT = 2;
+    NOTIFIED_INVITE_INTO_SQUARE_CHAT = 3;
+    NOTIFIED_LEAVE_SQUARE_CHAT = 4;
+    NOTIFIED_DESTROY_MESSAGE = 5;
+    NOTIFIED_MARK_AS_READ = 6;
+    NOTIFIED_UPDATE_SQUARE_MEMBER_PROFILE = 7;
+    NOTIFIED_KICKOUT_FROM_SQUARE = 19;
+    NOTIFIED_SHUTDOWN_SQUARE = 18;
+    NOTIFIED_DELETE_SQUARE_CHAT = 20;
+    NOTIFIED_UPDATE_SQUARE_CHAT_PROFILE_NAME = 30;
+    NOTIFIED_UPDATE_SQUARE_CHAT_PROFILE_IMAGE = 31;
+    NOTIFIED_UPDATE_SQUARE_CHAT_MAX_MEMBER_COUNT = 38;
+    NOTIFIED_UPDATE_SQUARE_CHAT_ANNOUNCEMENT = 37;
+    NOTIFIED_ADD_BOT = 33;
+    NOTIFIED_REMOVE_BOT = 34;
+    NOTIFIED_UPDATE_READONLY_CHAT = 43;
+    NOTIFIED_UPDATE_MESSAGE_STATUS = 46;
+    NOTIFIED_CHAT_POPUP = 48;
+    NOTIFIED_SYSTEM_MESSAGE = 49;
+    NOTIFIED_UPDATE_LIVE_TALK_INFO = 53;
+    NOTIFIED_UPDATE_THREAD_ROOT_MESSAGE = 59;
+    NOTIFIED_UPDATE_THREAD_ROOT_MESSAGE_STATUS = 60;
+    NOTIFIED_UPDATE_SQUARE = 8;
+    NOTIFIED_UPDATE_SQUARE_STATUS = 9;
+    NOTIFIED_UPDATE_SQUARE_AUTHORITY = 10;
+    NOTIFIED_UPDATE_SQUARE_MEMBER = 11;
+    NOTIFIED_UPDATE_SQUARE_CHAT = 12;
+    NOTIFIED_UPDATE_SQUARE_CHAT_STATUS = 13;
+    NOTIFIED_UPDATE_SQUARE_CHAT_MEMBER = 14;
+    NOTIFIED_CREATE_SQUARE_MEMBER = 15;
+    NOTIFIED_CREATE_SQUARE_CHAT_MEMBER = 16;
+    NOTIFIED_UPDATE_SQUARE_MEMBER_RELATION = 17;
+    NOTIFIED_UPDATE_SQUARE_FEATURE_SET = 32;
+    NOTIFIED_UPDATE_SQUARE_CHAT_FEATURE_SET = 50;
+    NOTIFIED_UPDATE_SQUARE_NOTE_STATUS = 36;
+    NOTIFIED_UPDATE_LIVE_TALK = 51;
+    NOTIFIED_UPDATE_THREAD = 56;
+    NOTIFIED_UPDATE_THREAD_STATUS = 57;
+    NOTIFIED_UPDATE_THREAD_MEMBER = 58;
+    NOTIFICATION_JOIN_REQUEST = 21;
+    NOTIFICATION_JOINED = 22;
+    NOTIFICATION_PROMOTED_COADMIN = 23;
+    NOTIFICATION_PROMOTED_ADMIN = 24;
+    NOTIFICATION_DEMOTED_MEMBER = 25;
+    NOTIFICATION_KICKED_OUT = 26;
+    NOTIFICATION_SQUARE_DELETE = 27;
+    NOTIFICATION_SQUARE_CHAT_DELETE = 28;
+    NOTIFICATION_MESSAGE = 29;
+    NOTIFICATION_POST_ANNOUNCEMENT = 39;
+    NOTIFICATION_POST = 40;
+    NOTIFICATION_NEW_CHAT_MEMBER = 42;
+    NOTIFICATION_MESSAGE_REACTION = 47;
+    NOTIFICATION_LIVE_TALK = 52;
+    NOTIFICATION_THREAD_MESSAGE = 54;
+    NOTIFICATION_THREAD_MESSAGE_REACTION = 55;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/AdScreen.java */
+enum AdScreen {
+    CHATROOM = 1;
+    THREAD_SPACE = 2;
+    YOUR_THREADS = 3;
+    NOTE_LIST = 4;
+    NOTE_END = 5;
+    WEB_MAIN = 6;
+    WEB_SEARCH_RESULT = 7;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/BooleanState.java */
+enum BooleanState {
+    NONE = 0;
+    OFF = 1;
+    ON = 2;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/ChatroomPopupType.java */
+enum ChatroomPopupType {
+    IMG_TEXT = 1;
+    TEXT_ONLY = 2;
+    IMG_ONLY = 3;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/ContentsAttribute.java */
+enum ContentsAttribute {
+    NONE = 1;
+    CONTENTS_HIDDEN = 2;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/FetchType.java */
+enum FetchType {
+    DEFAULT = 1;
+    PREFETCH_BY_SERVER = 2;
+    PREFETCH_BY_CLIENT = 3;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/LiveTalkAttribute.java */
+enum LiveTalkAttribute {
+    TITLE = 1;
+    ALLOW_REQUEST_TO_SPEAK = 2;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/LiveTalkRole.java */
+enum LiveTalkRole {
+    HOST = 1;
+    CO_HOST = 2;
+    GUEST = 3;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/LiveTalkSpeakerSetting.java */
+enum LiveTalkSpeakerSetting {
+    APPROVAL = 1;
+    ALL = 2;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/LiveTalkType.java */
+enum LiveTalkType {
+    PUBLIC = 1;
+    PRIVATE = 2;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/MessageReactionType.java */
+enum MessageReactionType {
+    ALL = 0;
+    UNDO = 1;
+    NICE = 2;
+    LOVE = 3;
+    FUN = 4;
+    AMAZING = 5;
+    SAD = 6;
+    OMG = 7;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/NotifiedMessageType.java */
+enum NotifiedMessageType {
+    MENTION = 1;
+    REPLY = 2;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/PopupAttribute.java */
+enum PopupAttribute {
+    NAME = 1;
+    ACTIVATED = 2;
+    STARTS_AT = 3;
+    ENDS_AT = 4;
+    CONTENT = 5;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/PopupType.java */
+enum PopupType {
+    MAIN = 1;
+    CHATROOM = 2;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareChatAttribute.java */
+enum SquareChatAttribute {
+    NAME = 2;
+    SQUARE_CHAT_IMAGE = 3;
+    STATE = 4;
+    TYPE = 5;
+    MAX_MEMBER_COUNT = 6;
+    MESSAGE_VISIBILITY = 7;
+    ABLE_TO_SEARCH_MESSAGE = 8;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareChatFeatureControlState.java */
+enum SquareChatFeatureControlState {
+    DISABLED = 1;
+    ENABLED = 2;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareChatMemberAttribute.java */
+enum SquareChatMemberAttribute {
+    MEMBERSHIP_STATE = 4;
+    NOTIFICATION_MESSAGE = 6;
+    NOTIFICATION_NEW_MEMBER = 7;
+    LEFT_BY_KICK_MESSAGE_LOCAL_ID = 8;
+    MESSAGE_LOCAL_ID_WHEN_BLOCK = 9;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareChatMembershipState.java */
+enum SquareChatMembershipState {
+    JOINED = 1;
+    LEFT = 2;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareChatState.java */
+enum SquareChatState {
+    ALIVE = 0;
+    DELETED = 1;
+    SUSPENDED = 2;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareEmblem.java */
+enum SquareEmblem {
+    SUPER = 1;
+    OFFICIAL = 2;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareErrorCode.java */
+enum SquareErrorCode {
+    UNKNOWN = 0;
+    INTERNAL_ERROR = 500;
+    NOT_IMPLEMENTED = 501;
+    TRY_AGAIN_LATER = 503;
+    MAINTENANCE = 505;
+    NO_PRESENCE_EXISTS = 506;
+    ILLEGAL_ARGUMENT = 400;
+    AUTHENTICATION_FAILURE = 401;
+    FORBIDDEN = 403;
+    NOT_FOUND = 404;
+    REVISION_MISMATCH = 409;
+    PRECONDITION_FAILED = 410;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareFeatureControlState.java */
+enum SquareFeatureControlState {
+    DISABLED = 1;
+    ENABLED = 2;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareFeatureSetAttribute.java */
+enum SquareFeatureSetAttribute {
+    CREATING_SECRET_SQUARE_CHAT = 1;
+    INVITING_INTO_OPEN_SQUARE_CHAT = 2;
+    CREATING_SQUARE_CHAT = 3;
+    READONLY_DEFAULT_CHAT = 4;
+    SHOWING_ADVERTISEMENT = 5;
+    DELEGATE_JOIN_TO_PLUG = 6;
+    DELEGATE_KICK_OUT_TO_PLUG = 7;
+    DISABLE_UPDATE_JOIN_METHOD = 8;
+    DISABLE_TRANSFER_ADMIN = 9;
+    CREATING_LIVE_TALK = 10;
+    DISABLE_UPDATE_SEARCHABLE = 11;
+    SUMMARIZING_MESSAGES = 12;
+    CREATING_SQUARE_THREAD = 13;
+    ENABLE_SQUARE_THREAD = 14;
+    DISABLE_CHANGE_ROLE_CO_ADMIN = 15;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareJoinMethodType.java */
+enum SquareJoinMethodType {
+    NONE = 0;
+    APPROVAL = 1;
+    CODE = 2;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareMemberRelationState.java */
+enum SquareMemberRelationState {
+    NONE = 1;
+    BLOCKED = 2;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareMemberRole.java */
+enum SquareMemberRole {
+    ADMIN = 1;
+    CO_ADMIN = 2;
+    MEMBER = 10;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareMessageState.java */
+enum SquareMessageState {
+    SENT = 1;
+    DELETED = 2;
+    FORBIDDEN = 3;
+    UNSENT = 4;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareMetadataAttribute.java */
+enum SquareMetadataAttribute {
+    EXCLUDED = 1;
+    NO_AD = 2;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquarePreferenceAttribute.java */
+enum SquarePreferenceAttribute {
+    FAVORITE = 1;
+    NOTI_FOR_NEW_JOIN_REQUEST = 2;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareProviderType.java */
+enum SquareProviderType {
+    UNKNOWN = 1;
+    YOUTUBE = 2;
+    OA_FANSPACE = 3;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareState.java */
+enum SquareState {
+    ALIVE = 0;
+    DELETED = 1;
+    SUSPENDED = 2;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareThreadAttribute.java */
+enum SquareThreadAttribute {
+    STATE = 1;
+    EXPIRES_AT = 2;
+    READ_ONLY_AT = 3;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareThreadMembershipState.java */
+enum SquareThreadMembershipState {
+    JOINED = 1;
+    LEFT = 2;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareThreadState.java */
+enum SquareThreadState {
+    ALIVE = 1;
+    DELETED = 2;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/SquareType.java */
+enum SquareType {
+    CLOSED = 0;
+    OPEN = 1;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/TargetChatType.java */
+enum TargetChatType {
+    ALL = 0;
+    MIDS = 1;
+    CATEGORIES = 2;
+    CHANNEL_ID = 3;
+}
+
+/* sources/com/linecorp/square/protocol/thrift/common/TargetUserType.java */
+enum TargetUserType {
+    ALL = 0;
+    MIDS = 1;
+}
+
+/* sources/Do0/EnumC23139B.java */
+enum do0_EnumC23139B {
+    CLOUD = 1;
+    BLE = 2;
+    BEACON = 3;
+}
+
+/* sources/Do0/EnumC23147e.java */
+enum do0_EnumC23147e {
+    SUCCESS = 0;
+    UNKNOWN_ERROR = 1;
+    BLUETOOTH_NOT_AVAILABLE = 2;
+    CONNECTION_TIMEOUT = 3;
+    CONNECTION_ERROR = 4;
+    CONNECTION_IN_PROGRESS = 5;
+}
+
+/* sources/Do0/EnumC23148f.java */
+enum do0_EnumC23148f {
+    ONETIME = 0;
+    AUTOMATIC = 1;
+    BEACON = 2;
+}
+
+/* sources/Do0/G.java */
+enum do0_G {
+    SUCCESS = 0;
+    UNKNOWN_ERROR = 1;
+    GATT_ERROR = 2;
+    GATT_OPERATION_NOT_SUPPORTED = 3;
+    GATT_SERVICE_NOT_FOUND = 4;
+    GATT_CHARACTERISTIC_NOT_FOUND = 5;
+    GATT_CONNECTION_CLOSED = 6;
+    CONNECTION_INVALID = 7;
+}
+
+/* sources/Do0/M.java */
+enum do0_M {
+    INTERNAL_SERVER_ERROR = 0;
+    UNAUTHORIZED = 1;
+    INVALID_REQUEST = 2;
+    INVALID_STATE = 3;
+    DEVICE_LIMIT_EXCEEDED = 4096;
+    UNSUPPORTED_REGION = 4097;
+}
+
+/* sources/fn0/EnumC24466B.java */
+enum fN0_EnumC24466B {
+    LINE_PREMIUM = 0;
+    LYP_PREMIUM = 1;
+}
+
+/* sources/fn0/EnumC24467C.java */
+enum fN0_EnumC24467C {
+    LINE = 1;
+    YAHOO_JAPAN = 2;
+}
+
+/* sources/fn0/EnumC24469a.java */
+enum fN0_EnumC24469a {
+    OK = 1;
+    NOT_SUPPORTED = 2;
+    UNDEFINED = 3;
+    NOT_ENOUGH_TICKETS = 4;
+    NOT_FRIENDS = 5;
+    NO_AGREEMENT = 6;
+}
+
+/* sources/fn0/F.java */
+enum fN0_F {
+    OK = 1;
+    NOT_SUPPORTED = 2;
+    UNDEFINED = 3;
+    CONFLICT = 4;
+    NOT_AVAILABLE = 5;
+    INVALID_INVITATION = 6;
+    IN_PAYMENT_FAILURE_STATE = 7;
+}
+
+/* sources/fn0/G.java */
+enum fN0_G {
+    APPLE = 1;
+    GOOGLE = 2;
+}
+
+/* sources/fn0/H.java */
+enum fN0_H {
+    INACTIVE = 1;
+    ACTIVE_FINITE = 2;
+    ACTIVE_INFINITE = 3;
+}
+
+/* sources/fn0/o.java */
+enum fN0_o {
+    AVAILABLE = 1;
+    ALREADY_SUBSCRIBED = 2;
+}
+
+/* sources/fn0/p.java */
+enum fN0_p {
+    UNKNOWN = 0;
+    SOFTBANK_BUNDLE = 1;
+    YBB_BUNDLE = 2;
+    YAHOO_MOBILE_BUNDLE = 3;
+    PPCG_BUNDLE = 4;
+    ENJOY_BUNDLE = 5;
+    YAHOO_TRIAL_BUNDLE = 6;
+    YAHOO_APPLE = 7;
+    YAHOO_GOOGLE = 8;
+    LINE_APPLE = 9;
+    LINE_GOOGLE = 10;
+    YAHOO_WALLET = 11;
+}
+
+/* sources/fn0/q.java */
+enum fN0_q {
+    UNKNOWN = 0;
+    NONE = 1;
+    ILLEGAL_ARGUMENT = 16641;
+    NOT_FOUND = 16642;
+    NOT_AVAILABLE = 16643;
+    INTERNAL_SERVER_ERROR = 16644;
+    AUTHENTICATION_FAILED = 16645;
+}
+
+/* sources/g80/EnumC24993a.java */
+enum g80_EnumC24993a {
+    INTERNAL_ERROR = 0;
+    ILLEGAL_ARGUMENT = 1;
+    INVALID_CONTEXT = 2;
+    TOO_MANY_REQUESTS = 3;
+}
+
+/* sources/H80/EnumC25645e.java */
+enum h80_EnumC25645e {
+    INTERNAL_ERROR = 0;
+    ILLEGAL_ARGUMENT = 1;
+    NOT_FOUND = 2;
+    RETRY_LATER = 3;
+    INVALID_CONTEXT = 100;
+    NOT_SUPPORTED = 101;
+}
+
+/* sources/I80/EnumC26392b.java */
+enum I80_EnumC26392b {
+    UNKNOWN = 0;
+    SKIP = 1;
+    PASSWORD = 2;
+    EMAIL_BASED = 4;
+    NONE = 11;
+}
+
+/* sources/I80/EnumC26394c.java */
+enum I80_EnumC26394c {
+    PHONE_NUMBER = 0;
+    APPLE = 1;
+    GOOGLE = 2;
+}
+
+/* sources/I80/EnumC26408j.java */
+enum I80_EnumC26408j {
+    INTERNAL_ERROR = 0;
+    ILLEGAL_ARGUMENT = 1;
+    VERIFICATION_FAILED = 2;
+    NOT_FOUND = 3;
+    RETRY_LATER = 4;
+    HUMAN_VERIFICATION_REQUIRED = 5;
+    INVALID_CONTEXT = 100;
+    APP_UPGRADE_REQUIRED = 101;
+}
+
+/* sources/I80/EnumC26425y.java */
+enum I80_EnumC26425y {
+    UNKNOWN = 0;
+    SMS = 1;
+    IVR = 2;
+}
+
+/* sources/j80/EnumC27228a.java */
+enum j80_EnumC27228a {
+    AUTHENTICATION_FAILED = 1;
+    INVALID_STATE = 2;
+    NOT_AUTHORIZED_DEVICE = 3;
+    MUST_REFRESH_V3_TOKEN = 4;
+}
+
+/* sources/jo0/EnumC27533B.java */
+enum jO0_EnumC27533B {
+    PAYMENT_APPLE = 1;
+    PAYMENT_GOOGLE = 2;
+}
+
+/* sources/jo0/EnumC27535b.java */
+enum jO0_EnumC27535b {
+    ILLEGAL_ARGUMENT = 0;
+    AUTHENTICATION_FAILED = 1;
+    INTERNAL_ERROR = 20;
+    MESSAGE_DEFINED_ERROR = 29;
+    MAINTENANCE_ERROR = 33;
+}
+
+/* sources/jo0/EnumC27559z.java */
+enum jO0_EnumC27559z {
+    PAYMENT_PG_NONE = 0;
+    PAYMENT_PG_AU = 1;
+    PAYMENT_PG_AL = 2;
+}
+
+/* sources/jf/EnumC27712a.java */
+enum jf_EnumC27712a {
+    NONE = 1;
+    DOES_NOT_RESPOND = 2;
+    RESPOND_MANUALLY = 3;
+    RESPOND_AUTOMATICALLY = 4;
+}
+
+/* sources/jf/EnumC27717f.java */
+enum jf_EnumC27717f {
+    UNKNOWN = 0;
+    BAD_REQUEST = 1;
+    NOT_FOUND = 2;
+    FORBIDDEN = 3;
+    INTERNAL_SERVER_ERROR = 4;
+}
+
+/* sources/KF/EnumC28766a.java */
+enum kf_EnumC28766a {
+    ILLEGAL_ARGUMENT = 0;
+    INTERNAL_ERROR = 1;
+    UNAUTHORIZED = 2;
+}
+
+/* sources/KF/o.java */
+enum kf_o {
+    ANDROID = 0;
+    IOS = 1;
+}
+
+/* sources/KF/p.java */
+enum kf_p {
+    RICHMENU = 0;
+    TALK_ROOM = 1;
+}
+
+/* sources/KF/r.java */
+enum kf_r {
+    WEB = 0;
+    POSTBACK = 1;
+    SEND_MESSAGE = 2;
+}
+
+/* sources/KF/u.java */
+enum kf_u {
+    CLICK = 0;
+    IMPRESSION = 1;
+}
+
+/* sources/KF/x.java */
+enum kf_x {
+    UNKNOWN = 0;
+    PROFILE = 1;
+    TALK_LIST = 2;
+    OA_CALL = 3;
+}
+
+/* sources/n80/o.java */
+enum n80_o {
+    INTERNAL_ERROR = 0;
+    INVALID_CONTEXT = 100;
+    FIDO_UNKNOWN_CREDENTIAL_ID = 200;
+    FIDO_RETRY_WITH_ANOTHER_AUTHENTICATOR = 201;
+    FIDO_UNACCEPTABLE_CONTENT = 202;
+    FIDO_INVALID_REQUEST = 203;
+}
+
+/* sources/o80/e.java */
+enum o80_e {
+    INTERNAL_ERROR = 0;
+    VERIFICATION_FAILED = 1;
+    LOGIN_NOT_ALLOWED = 2;
+    EXTERNAL_SERVICE_UNAVAILABLE = 3;
+    RETRY_LATER = 4;
+    NOT_SUPPORTED = 100;
+    ILLEGAL_ARGUMENT = 101;
+    INVALID_CONTEXT = 102;
+    FORBIDDEN = 103;
+    FIDO_UNKNOWN_CREDENTIAL_ID = 200;
+    FIDO_RETRY_WITH_ANOTHER_AUTHENTICATOR = 201;
+    FIDO_UNACCEPTABLE_CONTENT = 202;
+    FIDO_INVALID_REQUEST = 203;
+}
+
+/* sources/og/E.java */
+enum og_E {
+    RUNNING = 1;
+    CLOSING = 2;
+    CLOSED = 3;
+    SUSPEND = 4;
+}
+
+/* sources/og/EnumC32661b.java */
+enum og_EnumC32661b {
+    INACTIVE = 0;
+    ACTIVE = 1;
+}
+
+/* sources/og/EnumC32663d.java */
+enum og_EnumC32663d {
+    PREMIUM = 0;
+    VERIFIED = 1;
+    UNVERIFIED = 2;
+}
+
+/* sources/og/EnumC32671l.java */
+enum og_EnumC32671l {
+    ILLEGAL_ARGUMENT = 0;
+    AUTHENTICATION_FAILED = 1;
+    INVALID_STATE = 3;
+    NOT_FOUND = 5;
+    INTERNAL_ERROR = 20;
+    MAINTENANCE_ERROR = 33;
+}
+
+/* sources/og/G.java */
+enum og_G {
+    FREE = 0;
+    MONTHLY = 1;
+    PER_PAYMENT = 2;
+}
+
+/* sources/og/I.java */
+enum og_I {
+    OK = 0;
+    REACHED_TIER_LIMIT = 1;
+    REACHED_MEMBER_LIMIT = 2;
+    ALREADY_JOINED = 3;
+    NOT_SUPPORTED_LINE_VERSION = 4;
+    BOT_USER_REGION_IS_NOT_MATCH = 5;
+}
+
+/* sources/q80/EnumC33651c.java */
+enum q80_EnumC33651c {
+    INTERNAL_ERROR = 0;
+    ILLEGAL_ARGUMENT = 1;
+    VERIFICATION_FAILED = 2;
+    NOT_ALLOWED_QR_CODE_LOGIN = 3;
+    VERIFICATION_NOTICE_FAILED = 4;
+    RETRY_LATER = 5;
+    INVALID_CONTEXT = 100;
+    APP_UPGRADE_REQUIRED = 101;
+}
+
+/* sources/QM/EnumC34112e.java */
+enum qm_EnumC34112e {
+    BUTTON = 1;
+    ENTRY_SELECTED = 2;
+    BROADCAST_ENTER = 3;
+    BROADCAST_STAY = 5;
+    BROADCAST_LEAVE = 4;
+}
+
+/* sources/QM/s.java */
+enum qm_s {
+    ILLEGAL_ARGUMENT = 0;
+    NOT_FOUND = 5;
+    INTERNAL_ERROR = 20;
+}
+
+/* sources/r80/EnumC34361a.java */
+enum r80_EnumC34361a {
+    PERSONAL_ACCOUNT = 1;
+    CURRENT_ACCOUNT = 2;
+}
+
+/* sources/r80/EnumC34362b.java */
+enum r80_EnumC34362b {
+    BANK_ALL = 1;
+    BANK_DEPOSIT = 2;
+    BANK_WITHDRAWAL = 3;
+}
+
+/* sources/r80/EnumC34365e.java */
+enum r80_EnumC34365e {
+    BANK = 1;
+    ATM = 2;
+    CONVENIENCE_STORE = 3;
+    DEBIT_CARD = 4;
+    E_CHANNEL = 5;
+    VIRTUAL_BANK_ACCOUNT = 6;
+    AUTO = 7;
+    CVS_LAWSON = 8;
+    SEVEN_BANK_DEPOSIT = 9;
+    CODE_DEPOSIT = 10;
+}
+
+/* sources/r80/EnumC34367g.java */
+enum r80_EnumC34367g {
+    AVAILABLE = 0;
+    DIFFERENT_REGION = 1;
+    UNSUPPORTED_DEVICE = 2;
+    PHONE_NUMBER_UNREGISTERED = 3;
+    UNAVAILABLE_FROM_LINE_PAY = 4;
+    INVALID_USER = 5;
+}
+
+/* sources/r80/EnumC34368h.java */
+enum r80_EnumC34368h {
+    CHARGE = 1;
+    WITHDRAW = 2;
+}
+
+/* sources/r80/EnumC34370j.java */
+enum r80_EnumC34370j {
+    UNKNOWN = 0;
+    VISA = 1;
+    MASTER = 2;
+    AMEX = 3;
+    DINERS = 4;
+    JCB = 5;
+}
+
+/* sources/r80/EnumC34371k.java */
+enum r80_EnumC34371k {
+    NULL = 0;
+    ATM = 1;
+    CONVENIENCE_STORE = 2;
+}
+
+/* sources/r80/EnumC34372l.java */
+enum r80_EnumC34372l {
+    SCALE2 = 1;
+    SCALE3 = 2;
+    HDPI = 3;
+    XHDPI = 4;
+}
+
+/* sources/r80/EnumC34374n.java */
+enum r80_EnumC34374n {
+    SUCCESS = 0;
+    GENERAL_USER_ERROR = 1000;
+    ACCOUNT_NOT_EXISTS = 1101;
+    ACCOUNT_INVALID_STATUS = 1102;
+    ACCOUNT_ALREADY_EXISTS = 1103;
+    MERCHANT_NOT_EXISTS = 1104;
+    MERCHANT_INVALID_STATUS = 1105;
+    AGREEMENT_REQUIRED = 1107;
+    BLACKLISTED = 1108;
+    WRONG_PASSWORD = 1109;
+    INVALID_CREDIT_CARD = 1110;
+    LIMIT_EXCEEDED = 1111;
+    CANNOT_PROCEED = 1115;
+    TOO_WEAK_PASSWORD = 1120;
+    CANNOT_CREATE_ACCOUNT = 1125;
+    TEMPORARY_PASSWORD_ERROR = 1130;
+    MISSING_PARAMETERS = 1140;
+    NO_VALID_MYCODE_ACCOUNT = 1141;
+    INSUFFICIENT_BALANCE = 1142;
+    TRANSACTION_NOT_FOUND = 1150;
+    TRANSACTION_FINISHED = 1152;
+    PAYMENT_AMOUNT_WRONG = 1153;
+    BALANCE_ACCOUNT_NOT_EXISTS = 1157;
+    DUPLICATED_CITIZEN_ID = 1158;
+    PAYMENT_REQUEST_NOT_FOUND = 1159;
+    AUTH_FAILED = 1169;
+    PASSWORD_SETTING_REQUIRED = 1171;
+    TRANSACTION_ALREADY_PROCESSED = 1172;
+    CURRENCY_NOT_SUPPORTED = 1178;
+    PAYMENT_NOT_AVAILABLE = 1180;
+    TRANSFER_REQUEST_NOT_FOUND = 1181;
+    INVALID_PAYMENT_AMOUNT = 1183;
+    INSUFFICIENT_PAYMENT_AMOUNT = 1184;
+    EXTERNAL_SYSTEM_MAINTENANCE = 1185;
+    EXTERNAL_SYSTEM_INOPERATIONAL = 1186;
+    SESSION_EXPIRED = 1192;
+    UPGRADE_REQUIRED = 1195;
+    REQUEST_TOKEN_EXPIRED = 1196;
+    OPERATION_FINISHED = 1198;
+    EXTERNAL_SYSTEM_ERROR = 1199;
+    PARTIAL_AMOUNT_APPROVED = 1299;
+    PINCODE_AUTH_REQUIRED = 1600;
+    ADDITIONAL_AUTH_REQUIRED = 1601;
+    NOT_BOUND = 1603;
+    OTP_USER_REGISTRATION_ERROR = 1610;
+    OTP_CARD_REGISTRATION_ERROR = 1611;
+    NO_AUTH_METHOD = 1612;
+    GENERAL_USER_ERROR_RESTART = 1696;
+    GENERAL_USER_ERROR_REFRESH = 1697;
+    GENERAL_USER_ERROR_CLOSE = 1698;
+    INTERNAL_SERVER_ERROR = 9000;
+    INTERNAL_SYSTEM_MAINTENANCE = 9999;
+    UNKNOWN_ERROR = 10000;
+}
+
+/* sources/r80/EnumC34376p.java */
+enum r80_EnumC34376p {
+    TRANSFER = 1;
+    TRANSFER_REQUEST = 2;
+    DUTCH = 3;
+    INVITATION = 4;
+}
+
+/* sources/r80/EnumC34377q.java */
+enum r80_EnumC34377q {
+    NULL = 0;
+    UNIDEN = 1;
+    WAIT = 2;
+    IDENTIFIED = 3;
+    CHECKING = 4;
+}
+
+/* sources/r80/EnumC34378s.java */
+enum r80_EnumC34378s {
+    UNKNOWN = 0;
+    MORE_TAB = 1;
+    CHAT_ROOM_PLUS_MENU = 2;
+    TRANSFER = 3;
+    PAYMENT = 4;
+    LINECARD = 5;
+    INVITATION = 6;
+}
+
+/* sources/r80/e0.java */
+enum r80_e0 {
+    NONE = 0;
+    ONE_TIME_PAYMENT_AGREEMENT = 1;
+    SIMPLE_JOINING_AGREEMENT = 2;
+    LINE_CARD_CASH_AGREEMENT = 3;
+    LINE_CARD_MONEY_AGREEMENT = 4;
+    JOINING_WITH_LINE_CARD_AGREEMENT = 5;
+    LINE_CARD_AGREEMENT = 6;
+}
+
+/* sources/r80/g0.java */
+enum r80_g0 {
+    NULL = 0;
+    ATM = 1;
+    CONVENIENCE_STORE = 2;
+    ALL = 3;
+}
+
+/* sources/r80/h0.java */
+enum r80_h0 {
+    ALL = 7;
+    READY = 1;
+    COMPLETE = 2;
+    WAIT = 3;
+    CANCEL = 4;
+    FAIL = 5;
+    EXPIRE = 6;
+}
+
+/* sources/r80/i0.java */
+enum r80_i0 {
+    TRANSFER_ACCEPTABLE = 1;
+    REMOVE_INVOICE = 2;
+    INVOICE_CODE = 3;
+    SHOW_ALWAYS_INVOICE = 4;
+}
+
+/* sources/r80/m0.java */
+enum r80_m0 {
+    OK = 1;
+    NOT_ALIVE_USER = 2;
+    NEED_BALANCE_DISCLAIMER = 3;
+    ECONTEXT_CHARGING_IN_PROGRESS = 4;
+    TRANSFER_IN_PROGRESS = 6;
+    OK_REMAINING_BALANCE = 7;
+    ADVERSE_BALANCE = 8;
+    CONFIRM_REQUIRED = 9;
+}
+
+/* sources/r80/n0.java */
+enum r80_n0 {
+    LINE = 1;
+    LINEPAY = 2;
+}
+
+/* sources/r80/r.java */
+enum r80_r {
+    CITIZEN_ID = 1;
+    PASSPORT = 2;
+    WORK_PERMIT = 3;
+    ALIEN_CARD = 4;
+}
+
+/* sources/t80/h.java */
+enum t80_h {
+    CLIENT = 1;
+    SERVER = 2;
+}
+
+/* sources/t80/i.java */
+enum t80_i {
+    APP_INSTANCE_LOCAL = 1;
+    APP_TYPE_LOCAL = 2;
+    GLOBAL = 3;
+}
+
+/* sources/t80/n.java */
+enum t80_n {
+    UNKNOWN = 0;
+    NONE = 1;
+    ILLEGAL_ARGUMENT = 16641;
+    NOT_FOUND = 16642;
+    NOT_AVAILABLE = 16643;
+    TOO_LARGE_VALUE = 16644;
+    CLOCK_DRIFT_DETECTED = 16645;
+    UNSUPPORTED_APPLICATION_TYPE = 16646;
+    DUPLICATED_ENTRY = 16647;
+    AUTHENTICATION_FAILED = 16897;
+    INTERNAL_SERVER_ERROR = 20737;
+    SERVICE_IN_MAINTENANCE_MODE = 20738;
+    SERVICE_UNAVAILABLE = 20739;
+}
+
+/* sources/t80/r.java */
+enum t80_r {
+    USER_ACTION = 1;
+    DATA_OUTDATED = 2;
+    APP_MIGRATION = 3;
+    OTHER = 100;
+}
+
+/* sources/Vh/EnumC37632c.java */
+enum vh_EnumC37632c {
+    ACTIVE = 1;
+    INACTIVE = 2;
+}
+
+/* sources/Vh/m.java */
+enum vh_m {
+    SAFE = 1;
+    NOT_SAFE = 2;
+}
+
+/* sources/wm/EnumC38497a.java */
+enum wm_EnumC38497a {
+    UNKNOWN = 0;
+    INTERNAL_ERROR = 500;
+    ILLEGAL_ARGUMENT = 400;
+    AUTHENTICATION_FAILED = 401;
+    BOT_NOT_FOUND = 1;
+    BOT_NOT_AVAILABLE = 2;
+    NOT_A_MEMBER = 3;
+    SQUARECHAT_NOT_FOUND = 4;
+    FORBIDDEN = 5;
+}
+
+/* sources/Zr0/EnumC40578c.java */
+enum zR0_EnumC40578c {
+    FOREGROUND = 0;
+    BACKGROUND = 1;
+}
+
+/* sources/Zr0/EnumC40579d.java */
+enum zR0_EnumC40579d {
+    STICKER = 1;
+    THEME = 2;
+    STICON = 3;
+}
+
+/* sources/Zr0/h.java */
+enum zR0_h {
+    NORMAL = 0;
+    BIG = 1;
+}
+
+/* sources/Zr0/j.java */
+enum zR0_j {
+    UNKNOWN = 0;
+    NONE = 1;
+    ILLEGAL_ARGUMENT = 16641;
+    NOT_FOUND = 16642;
+    NOT_AVAILABLE = 16643;
+    AUTHENTICATION_FAILED = 16897;
+    INTERNAL_SERVER_ERROR = 20737;
+    SERVICE_UNAVAILABLE = 20739;
+}
+
+/* sources/zf/EnumC40713a.java */
+enum zf_EnumC40713a {
+    PERSONAL = 1;
+    ROOM = 2;
+    GROUP = 3;
+    SQUARE_CHAT = 4;
+}
+
+/* sources/zf/EnumC40715c.java */
+enum zf_EnumC40715c {
+    PRIORITY = 2;
+    REGULAR = 1;
+    MORE = 3;
+}
+
+/* sources/zf/EnumC40716d.java */
+enum zf_EnumC40716d {
+    INVALID_REQUEST = 1;
+    UNAUTHORIZED = 2;
+    SERVER_ERROR = 100;
+}
+
+/* a @sources/P70/a.java */
+exception AccessTokenRefreshException {
+    1: P70_g errorCode;
+    2: i64 reasonCode;
+}
+
+/* j @sources/q70/j.java */
+exception AccountEapConnectException {
+    1: Q70_r code;
+    2: string alertMessage;
+    11: WebAuthDetails webAuthDetails;
+}
+
+/* C26390a @sources/I80/C26390a.java */
+exception I80_C26390a {
+    1: I80_EnumC26408j code;
+    2: string alertMessage;
+    11: I80_K0 webAuthDetails;
+}
+
+/* C14394d @sources/T70/C14394d.java */
+exception AuthException {
+    1: T70_EnumC14406j code;
+    2: string alertMessage;
+    11: WebAuthDetails webAuthDetails;
+}
+
+/* C38498b @sources/wm/C38498b.java */
+exception BotException {
+    1: wm_EnumC38497a errorCode;
+    2: string reason;
+    3: map<string, string> parameterMap;
+}
+
+/* C28767b @sources/KF/C28767b.java */
+exception BotExternalException {
+    1: kf_EnumC28766a errorCode;
+    2: string reason;
+}
+
+/* C12927b2 @sources/Pb1/C12927b2.java */
+exception ChannelException {
+    1: ChannelErrorCode code;
+    2: string reason;
+    3: map<string, string> parameterMap;
+}
+
+/* e @sources/n80/e.java */
+exception ChannelPaakAuthnException {
+    1: n80_o code;
+    2: string errorMessage;
+}
+
+/* e @sources/zf/e.java */
+exception ChatappException {
+    1: zf_EnumC40716d code;
+    2: string reason;
+}
+
+/* C27536c @sources/jo0/C27536c.java */
+exception CoinException {
+    1: jO0_EnumC27535b code;
+    2: string reason;
+    3: map<string, string> parameterMap;
+}
+
+/* C12667v @sources/Ob1/C12667v.java */
+exception CollectionException {
+    1: Ob1_EnumC12664u code;
+    2: string reason;
+    3: map<string, string> parameterMap;
+}
+
+/* X3 @sources/Pb1/X3.java */
+exception E2EEKeyBackupException {
+    1: Pb1_W3 code;
+    2: string reason;
+    3: map<string, string> parameterMap;
+}
+
+/* Y @sources/LN0/Y.java */
+exception ExcessiveRequestItemException {
+    1: i32 max_size;
+    2: string hint;
+}
+
+/* b @sources/Fg/b.java */
+exception HomeException {
+    1: Fg_a exceptionCode;
+    2: string message;
+    3: i64 retryTimeMillis;
+}
+
+/* h @sources/ar0/h.java */
+exception LFLPremiumException {
+    1: AR0_g code;
+}
+
+/* C13593j @sources/Qj/C13593j.java */
+exception LiffChannelException {
+    1: Qj_EnumC13592i code;
+    2: string reason;
+    3: map<string, string> parameterMap;
+}
+
+/* r @sources/Qj/r.java */
+exception LiffException {
+    1: Qj_EnumC13597n code;
+    2: string message;
+    3: Qj_C13599p payload;
+}
+
+/* m @sources/og/m.java */
+exception MembershipException {
+    1: og_EnumC32671l code;
+    2: string reason;
+    3: map<string, string> parameterMap;
+}
+
+/* C27718g @sources/jf/C27718g.java */
+exception OaChatException {
+    1: jf_EnumC27717f code;
+    2: string reason;
+    3: map<string, string> parameterMap;
+}
+
+/* f @sources/U70/f.java */
+exception PasswordUpdateException {
+    1: U70_c errorCode;
+    2: string errorMessage;
+}
+
+/* C34375o @sources/r80/C34375o.java */
+exception PaymentException {
+    1: r80_EnumC34374n errorCode;
+    2: string debugReason;
+    3: string serverDefinedMessage;
+    4: map<string, string> errorDetailMap;
+}
+
+/* e @sources/ZQ0/e.java */
+exception PointException {
+    1: PointErrorCode code;
+    2: string reason;
+    3: map<string, string> extra;
+}
+
+/* r @sources/fn0/r.java */
+exception PremiumException {
+    1: fN0_q code;
+    2: string reason;
+}
+
+/* C25648h @sources/H80/C25648h.java */
+exception PrimaryQrCodeMigrationException {
+    1: h80_EnumC25645e code;
+    2: string errorMessage;
+}
+
+/* h @sources/R70/h.java */
+exception PwlessCredentialException {
+    1: R70_e code;
+    2: string alertMessage;
+}
+
+/* E0 @sources/LN0/E0.java */
+exception RejectedException {
+    1: LN0_F0 rejectionReason;
+    2: string hint;
+}
+
+/* C24996d @sources/g80/C24996d.java */
+exception SeamlessLoginException {
+    1: g80_EnumC24993a code;
+    2: string errorMessage;
+    3: string errorTitle;
+}
+
+/* d @sources/S70/d.java */
+exception SecondAuthFactorPinCodeException {
+    1: S70_a code;
+    2: string alertMessage;
+}
+
+/* n @sources/o80/n.java */
+exception SecondaryPwlessLoginException {
+    1: o80_e code;
+    2: string alertMessage;
+}
+
+/* f @sources/q80/f.java */
+exception SecondaryQrCodeException {
+    1: q80_EnumC33651c code;
+    2: string alertMessage;
+}
+
+/* T0 @sources/LN0/T0.java */
+exception ServerFailureException {
+    1: string hint;
+}
+
+/* o @sources/t80/o.java */
+exception SettingsException {
+    1: t80_n code;
+    2: string reason;
+    3: map<string, string> parameters;
+}
+
+/* C12655q1 @sources/Ob1/C12655q1.java */
+exception ShopException {
+    1: Ob1_EnumC12652p1 code;
+    2: string reason;
+    3: map<string, string> parameterMap;
+}
+
+/* SquareException @sources/com/linecorp/square/protocol/thrift/common/SquareException.java */
+exception SquareException {
+    1: SquareErrorCode errorCode;
+    2: ErrorExtraInfo errorExtraInfo;
+    3: string reason;
+}
+
+/* k @sources/Zr0/k.java */
+exception SuggestTrialException {
+    1: zR0_j code;
+    2: string reason;
+    3: map<string, string> parameterMap;
+}
+
+/* C12947c8 @sources/Pb1/C12947c8.java */
+exception TalkException {
+    1: ErrorCode code;
+    2: string reason;
+    3: map<string, string> parameterMap;
+}
+
+/* u @sources/QM/u.java */
+exception TalkException {
+    1: qm_s code;
+    2: string reason;
+    3: map<string, string> parameterMap;
+}
+
+/* N @sources/Do0/N.java */
+exception ThingsException {
+    1: do0_M code;
+    2: string reason;
+}
+
+/* C27229b @sources/j80/C27229b.java */
+exception TokenAuthException {
+    1: j80_EnumC27228a code;
+    2: string reason;
+}
+
+/* C12196p1 @sources/NZ0/C12196p1.java */
+exception WalletException {
+    1: NZ0_EnumC12193o1 code;
+    2: string reason;
+    3: map<string, string> attributes;
+}
+
+/* C30146a @sources/m80/C30146a.java */
+exception m80_C30146a {
+    
+}
+
+/* b @sources/m80/b.java */
+exception m80_b {
+    
+}
+
+/* C14859a @sources/uf/C14859a.java */
+struct AD {
+    1: string body;
+    2: Priority priority;
+    3: string lossUrl;
+}
+
+/* o @sources/ar0/o.java */
+struct AR0_o {
+    1: Sticker sticker;
+}
+
+/* C12910a @sources/Pb1/C12910a.java */
+struct AbuseMessage {
+    1: i64 messageId;
+    2: string message;
+    3: string senderMid;
+    4: ContentType contentType;
+    5: i64 createdTime;
+    6: map<string, string> metadata;
+}
+
+/* C12924b @sources/Pb1/C12924b.java */
+struct AbuseReport {
+    1: Pb1_EnumC13128p7 reportSource;
+    2: ApplicationType applicationType;
+    3: list<i32> spammerReasons;
+    4: list<AbuseMessage> abuseMessages;
+    5: map<string, string> metadata;
+}
+
+/* C12952d @sources/Pb1/C12952d.java */
+struct AbuseReportLineMeeting {
+    1: string reporteeMid;
+    2: list<i32> spammerReasons;
+    3: list<EvidenceId> evidenceIds;
+    4: string chatMid;
+}
+
+/* C12966e @sources/Pb1/C12966e.java */
+struct AcceptChatInvitationByTicketRequest {
+    1: i32 reqSeq;
+    2: string chatMid;
+    3: string ticketId;
+}
+
+/* C12994g @sources/Pb1/C12994g.java */
+struct AcceptChatInvitationRequest {
+    1: i32 reqSeq;
+    2: string chatMid;
+}
+
+/* AcceptSpeakersRequest @sources/com/linecorp/square/protocol/thrift/AcceptSpeakersRequest.java */
+struct AcceptSpeakersRequest {
+    1: string squareChatMid;
+    2: string sessionId;
+    3: set<string> targetMids;
+}
+
+/* AcceptToChangeRoleRequest @sources/com/linecorp/square/protocol/thrift/AcceptToChangeRoleRequest.java */
+struct AcceptToChangeRoleRequest {
+    1: string squareChatMid;
+    2: string sessionId;
+    3: string inviteRequestId;
+}
+
+/* AcceptToListenRequest @sources/com/linecorp/square/protocol/thrift/AcceptToListenRequest.java */
+struct AcceptToListenRequest {
+    1: string squareChatMid;
+    2: string sessionId;
+    3: string inviteRequestId;
+}
+
+/* AcceptToSpeakRequest @sources/com/linecorp/square/protocol/thrift/AcceptToSpeakRequest.java */
+struct AcceptToSpeakRequest {
+    1: string squareChatMid;
+    2: string sessionId;
+    3: string inviteRequestId;
+}
+
+/* C14388a @sources/T70/C14388a.java */
+struct AccountIdentifier {
+    1: T70_EnumC14390b type;
+    2: string identifier;
+    11: string countryCode;
+}
+
+/* AcquireLiveTalkRequest @sources/com/linecorp/square/protocol/thrift/AcquireLiveTalkRequest.java */
+struct AcquireLiveTalkRequest {
+    1: string squareChatMid;
+    2: string title;
+    3: LiveTalkType type;
+    4: LiveTalkSpeakerSetting speakerSetting;
+}
+
+/* AcquireLiveTalkResponse @sources/com/linecorp/square/protocol/thrift/AcquireLiveTalkResponse.java */
+struct AcquireLiveTalkResponse {
+    1: LiveTalk liveTalk;
+}
+
+/* C13064l @sources/Pb1/C13064l.java */
+struct AcquireOACallRouteRequest {
+    1: string searchId;
+    2: map<string, string> fromEnvInfo;
+    3: string otp;
+}
+
+/* C13078m @sources/Pb1/C13078m.java */
+struct AcquireOACallRouteResponse {
+    1: Pb1_C13113o6 oaCallRoute;
+}
+
+/* C14860b @sources/uf/C14860b.java */
+struct ActionButton {
+    1: string label;
+}
+
+/* C32660a @sources/og/C32660a.java */
+struct ActivateSubscriptionRequest {
+    1: string uniqueKey;
+    2: og_EnumC32661b activeStatus;
+}
+
+/* C14861c @sources/uf/C14861c.java */
+struct AdRequest {
+    1: map<string, string> headers;
+    2: map<string, string> queryParams;
+}
+
+/* C12149a @sources/NZ0/C12149a.java */
+struct AdTypeOptOutClickEventRequest {
+    1: string moduleAdId;
+    2: string targetId;
+}
+
+/* C11268a @sources/LN0/C11268a.java */
+struct AddFriendByMidRequest {
+    1: i32 reqSeq;
+    2: string userMid;
+    3: AddFriendTracking tracking;
+}
+
+/* C11272c @sources/LN0/C11272c.java */
+struct AddFriendTracking {
+    1: string reference;
+    2: LN0_C11274d trackingMeta;
+}
+
+/* C12605a @sources/Ob1/C12605a.java */
+struct AddItemToCollectionRequest {
+    1: string collectionId;
+    2: Ob1_O0 productType;
+    3: string productId;
+    4: string itemId;
+}
+
+/* C11284i @sources/LN0/C11284i.java */
+struct AddMetaByPhone {
+    1: string phone;
+}
+
+/* C11286j @sources/LN0/C11286j.java */
+struct AddMetaBySearchId {
+    1: string searchId;
+}
+
+/* C11288k @sources/LN0/C11288k.java */
+struct AddMetaByUserTicket {
+    1: string ticket;
+}
+
+/* C11296o @sources/LN0/C11296o.java */
+struct AddMetaChatNote {
+    1: string chatMid;
+}
+
+/* C11298p @sources/LN0/C11298p.java */
+struct AddMetaChatNoteMenu {
+    1: string chatMid;
+}
+
+/* C11303s @sources/LN0/C11303s.java */
+struct AddMetaGroupMemberList {
+    1: string chatMid;
+}
+
+/* C11305t @sources/LN0/C11305t.java */
+struct AddMetaGroupVideoCall {
+    1: string chatMid;
+}
+
+/* C11311w @sources/LN0/C11311w.java */
+struct AddMetaInvalid {
+    1: string hint;
+}
+
+/* C @sources/LN0/C.java */
+struct AddMetaMentionInChat {
+    1: string chatMid;
+    2: string messageId;
+}
+
+/* I @sources/LN0/I.java */
+struct AddMetaProfileUndefined {
+    1: string hint;
+}
+
+/* J @sources/LN0/J.java */
+struct AddMetaSearchIdInUnifiedSearch {
+    1: string searchId;
+}
+
+/* K @sources/LN0/K.java */
+struct AddMetaShareContact {
+    1: string messageId;
+    2: string chatMid;
+    3: string senderMid;
+}
+
+/* M @sources/LN0/M.java */
+struct AddMetaStrangerCall {
+    1: string messageId;
+}
+
+/* N @sources/LN0/N.java */
+struct AddMetaStrangerMessage {
+    1: string messageId;
+    2: string chatMid;
+}
+
+/* C12158d @sources/NZ0/C12158d.java */
+struct AddOaFriendResponse {
+    1: string status;
+}
+
+/* C12611c @sources/Ob1/C12611c.java */
+struct AddProductToSubscriptionSlotRequest {
+    1: Ob1_O0 productType;
+    2: string productId;
+    3: string oldProductId;
+    4: Ob1_S1 subscriptionService;
+}
+
+/* C12614d @sources/Ob1/C12614d.java */
+struct AddProductToSubscriptionSlotResponse {
+    1: Ob1_U1 result;
+}
+
+/* C12617e @sources/Ob1/C12617e.java */
+struct AddThemeToSubscriptionSlotRequest {
+    1: string productId;
+    2: string currentlyAppliedProductId;
+    3: Ob1_S1 subscriptionService;
+}
+
+/* C12620f @sources/Ob1/C12620f.java */
+struct AddThemeToSubscriptionSlotResponse {
+    1: Ob1_U1 result;
+}
+
+/* C13092n @sources/Pb1/C13092n.java */
+struct AddToFollowBlacklistRequest {
+    1: Pb1_A4 followMid;
+}
+
+/* C13106o @sources/Pb1/C13106o.java */
+struct AgeCheckRequestResult {
+    1: string authUrl;
+    2: string sessionId;
+}
+
+/* AgreeToTermsRequest @sources/com/linecorp/square/protocol/thrift/AgreeToTermsRequest.java */
+struct AgreeToTermsRequest {
+    1: TermsType termsType;
+    2: TermsAgreement termsAgreement;
+}
+
+/* AiQnABotTermsAgreement @sources/com/linecorp/square/protocol/thrift/common/AiQnABotTermsAgreement.java */
+struct AiQnABotTermsAgreement {
+    1: i32 termsVersion;
+}
+
+/* A @sources/Pb1/A.java */
+struct AnalyticsInfo {
+    1: double gaSamplingRate;
+    2: string tmid;
+}
+
+/* C12161e @sources/NZ0/C12161e.java */
+struct AnimationEffectContent {
+    1: string animationImageUrl;
+}
+
+/* C14862d @sources/uf/C14862d.java */
+struct AnimationLayer {
+    1: RichImage initialImage;
+    2: RichImage frontImage;
+    3: RichImage backgroundImage;
+}
+
+/* C12623g @sources/Ob1/C12623g.java */
+struct ApplicationVersionRange {
+    1: string lowerBound;
+    2: bool lowerBoundInclusive;
+    3: string upperBound;
+    4: bool upperBoundInclusive;
+}
+
+/* ApprovalValue @sources/com/linecorp/square/protocol/thrift/common/ApprovalValue.java */
+struct ApprovalValue {
+    1: string message;
+}
+
+/* ApproveSquareMembersRequest @sources/com/linecorp/square/protocol/thrift/ApproveSquareMembersRequest.java */
+struct ApproveSquareMembersRequest {
+    2: string squareMid;
+    3: list<string> requestedMemberMids;
+}
+
+/* ApproveSquareMembersResponse @sources/com/linecorp/square/protocol/thrift/ApproveSquareMembersResponse.java */
+struct ApproveSquareMembersResponse {
+    1: list<SquareMember> approvedMembers;
+    2: SquareStatus status;
+}
+
+/* D @sources/Pb1/D.java */
+struct ApprovedChannelInfo {
+    1: ChannelInfo channelInfo;
+    2: i64 approvedAt;
+}
+
+/* E @sources/Pb1/E.java */
+struct ApprovedChannelInfos {
+    1: list<ApprovedChannelInfo> approvedChannelInfos;
+    2: i64 revision;
+}
+
+/* C12164f @sources/NZ0/C12164f.java */
+struct AssetServiceInfo {
+    1: NZ0_C0 status;
+    2: NZ0_B0 myAssetServiceCode;
+    3: string name;
+    4: string signupText;
+    5: string iconUrl;
+    6: string landingUrl;
+    7: CurrencyProperty currencyProperty;
+    8: string balance;
+    9: string profit;
+    10: string maintenanceText;
+    11: string availableBalanceString;
+    12: string availableBalance;
+}
+
+/* C17504a @sources/B80/C17504a.java */
+struct AuthPublicKeyCredential {
+    1: string id;
+    2: string type;
+    3: AuthenticatorAssertionResponse response;
+    4: AuthenticationExtensionsClientOutputs extensionResults;
+}
+
+/* C32964a @sources/p80/C32964a.java */
+struct AuthPublicKeyCredential {
+    1: string id;
+    2: string type;
+    3: AuthenticatorAssertionResponse response;
+    4: AuthenticationExtensionsClientOutputs extensionResults;
+}
+
+/* C12981f0 @sources/Pb1/C12981f0.java */
+struct AuthSessionRequest {
+    1: map<string, string> metaData;
+}
+
+/* C31221a @sources/n80/C31221a.java */
+struct AuthenticateWithPaakRequest {
+    1: string authSessionId;
+    2: AuthPublicKeyCredential credential;
+}
+
+/* C32272a @sources/o80/C32272a.java */
+struct AuthenticateWithPaakRequest {
+    1: string sessionId;
+    2: AuthPublicKeyCredential credential;
+}
+
+/* C17505b @sources/B80/C17505b.java */
+struct AuthenticationExtensionsClientInputs {
+    91: set<string> lineAuthenSel;
+}
+
+/* C32965b @sources/p80/C32965b.java */
+struct AuthenticationExtensionsClientInputs {
+    91: set<string> lineAuthenSel;
+}
+
+/* C17506c @sources/B80/C17506c.java */
+struct AuthenticationExtensionsClientOutputs {
+    91: bool lineAuthenSel;
+}
+
+/* C32966c @sources/p80/C32966c.java */
+struct AuthenticationExtensionsClientOutputs {
+    91: bool lineAuthenSel;
+}
+
+/* C17507d @sources/B80/C17507d.java */
+struct AuthenticatorAssertionResponse {
+    1: string clientDataJSON;
+    2: string authenticatorData;
+    3: string signature;
+    4: string userHandle;
+}
+
+/* C32967d @sources/p80/C32967d.java */
+struct AuthenticatorAssertionResponse {
+    1: string clientDataJSON;
+    2: string authenticatorData;
+    3: string signature;
+    4: string userHandle;
+}
+
+/* C32968e @sources/p80/C32968e.java */
+struct AuthenticatorAttestationResponse {
+    1: string clientDataJSON;
+    2: string attestationObject;
+    3: set<string> transports;
+}
+
+/* C32969f @sources/p80/C32969f.java */
+struct AuthenticatorSelectionCriteria {
+    1: string authenticatorAttachment;
+    2: bool requireResidentKey;
+    3: string userVerification;
+}
+
+/* C12626h @sources/Ob1/C12626h.java */
+struct AutoSuggestionShowcaseRequest {
+    1: Ob1_O0 productType;
+    2: Ob1_a2 suggestionType;
+}
+
+/* C12629i @sources/Ob1/C12629i.java */
+struct AutoSuggestionShowcaseResponse {
+    1: list<ProductSummaryForAutoSuggest> productList;
+    2: i64 totalSize;
+}
+
+/* C12995g0 @sources/Pb1/C12995g0.java */
+struct AvatarProfile {
+    1: string version;
+    2: i64 updatedMillis;
+    3: string thumbnail;
+    4: bool usablePublicly;
+}
+
+/* C12167g @sources/NZ0/C12167g.java */
+struct BadgeInfo {
+    1: bool enabled;
+    2: i64 badgeRevision;
+}
+
+/* a @sources/ZQ0/a.java */
+struct Balance {
+    1: string currentPointsFixedPointDecimal;
+}
+
+/* C12173i @sources/NZ0/C12173i.java */
+struct BalanceShortcut {
+    1: bool osPayment;
+    2: i32 iconPosition;
+    3: string iconUrl;
+    4: string iconText;
+    5: string iconAltText;
+    6: string linkUrl;
+    7: string tsTargetId;
+    8: NZ0_EnumC12154b1 iconType;
+    9: string iconUrlDarkMode;
+    10: Tooltip toolTip;
+}
+
+/* C12176j @sources/NZ0/C12176j.java */
+struct BalanceShortcutInfo {
+    1: list<BalanceShortcut> balanceShortcuts;
+    2: BalanceShortcut osPaymentFallbackShortcut;
+}
+
+/* C12179k @sources/NZ0/C12179k.java */
+struct BalanceShortcutInfoV4 {
+    1: list<CompactShortcut> compactShortcuts;
+    2: list<BalanceShortcut> balanceShortcuts;
+    3: bool defaultExpand;
+}
+
+/* C34363c @sources/r80/C34363c.java */
+struct BankBranchInfo {
+    1: string branchId;
+    2: string branchCode;
+    3: string name;
+    4: string name2;
+}
+
+/* C14865g @sources/uf/C14865g.java */
+struct BannerRequest {
+    1: bool test;
+    2: Uf_C14856C trigger;
+    3: AdRequest ad;
+    4: ContentRequest content;
+}
+
+/* C14866h @sources/uf/C14866h.java */
+struct BannerResponse {
+    1: string rid;
+    2: i64 timestamp;
+    3: i64 minInterval;
+    4: string lang;
+    5: Uf_C14856C trigger;
+    6: list<Uf_p> payloads;
+}
+
+/* C14867i @sources/uf/C14867i.java */
+struct Beacon {
+    1: string hardwareId;
+}
+
+/* C34109b @sources/QM/C34109b.java */
+struct BeaconBackgroundNotification {
+    1: i64 actionInterval;
+    2: list<qm_C34110c> actionAndConditions;
+    3: i64 actionDelay;
+    4: list<list<_any>> actionConditions;
+}
+
+/* C13023i0 @sources/Pb1/C13023i0.java */
+struct BeaconData {
+    1: string hwid;
+    2: i32 rssi;
+    3: i32 txPower;
+    4: i64 scannedTimestampMs;
+}
+
+/* C34111d @sources/QM/C34111d.java */
+struct BeaconLayerInfoAndActions {
+    1: string pictureUrl;
+    2: string label;
+    3: string text;
+    4: list<string> actions;
+    5: list<qm_C34110c> showOrConditions;
+    6: list<list<_any>> showConditions;
+    7: i64 timeToHide;
+}
+
+/* C34113f @sources/QM/C34113f.java */
+struct BeaconQueryResponse {
+    2: list<string> deprecated_actionUrls;
+    3: i64 cacheTtl;
+    4: BeaconTouchActions touchActions;
+    5: BeaconLayerInfoAndActions layerInfoAndActions;
+    6: BeaconBackgroundNotification backgroundEnteringNotification;
+    7: BeaconBackgroundNotification backgroundLeavingNotification;
+    8: string group;
+    9: string major;
+    10: string minor;
+    11: double effectiveRange;
+    12: list<string> channelWhiteList;
+    13: i64 actionId;
+    14: i64 stayReportInterval;
+    15: i64 leaveThresholdTime;
+    17: double touchThreshold;
+    18: i16 cutoffThreshold;
+    19: list<DataUserBot> dataUserBots;
+    20: string deviceId;
+    21: string deviceDisplayName;
+    22: string botMid;
+    23: bool pop;
+}
+
+/* q @sources/QM/q.java */
+struct BeaconTouchActions {
+    1: list<string> actions;
+}
+
+/* C12632j @sources/Ob1/C12632j.java */
+struct BirthdayGiftAssociationVerifyRequest {
+    1: string associationToken;
+}
+
+/* C12635k @sources/Ob1/C12635k.java */
+struct BirthdayGiftAssociationVerifyResponse {
+    1: Ob1_EnumC12638l tokenStatus;
+    2: string recipientUserMid;
+}
+
+/* C23144b @sources/Do0/C23144b.java */
+struct BleNotificationReceivedTrigger {
+    1: string serviceUuid;
+    2: string characteristicUuid;
+}
+
+/* C23145c @sources/Do0/C23145c.java */
+struct BleProduct {
+    1: string serviceUuid;
+    2: string psdiServiceUuid;
+    3: string psdiCharacteristicUuid;
+    4: string name;
+    5: string profileImageLocation;
+    6: bool bondingRequired;
+}
+
+/* C32662c @sources/og/C32662c.java */
+struct Bot {
+    1: string mid;
+    2: string basicSearchId;
+    3: string region;
+    4: string displayName;
+    5: string pictureUrl;
+    6: og_EnumC32663d brandType;
+}
+
+/* W @sources/LN0/W.java */
+struct BotBlockDetail {
+    3: bool deletedFromBlockList;
+}
+
+/* X @sources/LN0/X.java */
+struct BotFriendDetail {
+    1: i64 createdTime;
+    4: i64 favoriteTime;
+    6: bool hidden;
+}
+
+/* C13051k0 @sources/Pb1/C13051k0.java */
+struct BotOaCallDetail {
+    1: string oaCallUrl;
+}
+
+/* C13065l0 @sources/Pb1/C13065l0.java */
+struct BotTalkroomAds {
+    1: bool talkroomAdsEnabled;
+    2: list<BotTalkroomAdsInventoryKey> botTalkroomAdsInventoryKeys;
+    3: bool displayTalkroomAdsToMembershipUser;
+}
+
+/* C13079m0 @sources/Pb1/C13079m0.java */
+struct BotTalkroomAdsInventoryKey {
+    1: Pb1_EnumC13093n0 talkroomAdsPosition;
+    2: string talkroomAdsIosInventoryKey;
+    3: string talkroomAdsAndroidInventoryKey;
+}
+
+/* C12644n @sources/Ob1/C12644n.java */
+struct BrowsingHistory {
+    1: ProductSearchSummary productSearchSummary;
+    2: i64 browsingTime;
+}
+
+/* C13121p0 @sources/Pb1/C13121p0.java */
+struct BuddyCautionNotice {
+    1: Pb1_EnumC13162s0 type;
+}
+
+/* C13135q0 @sources/Pb1/C13135q0.java */
+struct BuddyCautionNoticeFromCMS {
+    1: Pb1_EnumC13148r0 visibility;
+}
+
+/* C13176t0 @sources/Pb1/C13176t0.java */
+struct BuddyChatBar {
+    1: list<Pb1_C13190u0> barItems;
+}
+
+/* C13204v0 @sources/Pb1/C13204v0.java */
+struct BuddyDetail {
+    1: string mid;
+    2: i64 memberCount;
+    3: bool onAir;
+    4: bool businessAccount;
+    5: bool addable;
+    6: set<i32> acceptableContentTypes;
+    7: bool capableMyhome;
+    8: bool freePhoneCallable;
+    9: string phoneNumberToDial;
+    10: bool needPermissionApproval;
+    11: i32 channelId;
+    12: string channelProviderName;
+    13: i32 iconType;
+    14: BotType botType;
+    15: bool showRichMenu;
+    16: i64 richMenuRevision;
+    17: Pb1_EnumC13260z0 onAirLabel;
+    18: bool useTheme;
+    19: string themeId;
+    20: bool useBar;
+    21: i64 barRevision;
+    22: bool useBackground;
+    23: string backgroundId;
+    24: bool statusBarEnabled;
+    25: i64 statusBarRevision;
+    26: string searchId;
+    27: i32 onAirVersion;
+    28: bool blockable;
+    29: Pb1_EnumC13037j0 botActiveStatus;
+    30: bool membershipEnabled;
+    31: string legalCountryCode;
+    32: BotTalkroomAds botTalkroomAds;
+    33: BotOaCallDetail botOaCallDetail;
+    34: bool aiChatBot;
+    35: bool supportSpeechToText;
+    36: bool voomEnabled;
+    37: BuddyCautionNoticeFromCMS buddyCautionNoticeFromCMS;
+    38: string region;
+}
+
+/* C13218w0 @sources/Pb1/C13218w0.java */
+struct BuddyDetailWithPersonal {
+    1: BuddyDetail buddyDetail;
+    2: BuddyPersonalDetail personalDetail;
+}
+
+/* C13232x0 @sources/Pb1/C13232x0.java */
+struct BuddyLive {
+    1: string mid;
+    2: bool onLive;
+    3: string title;
+    4: i64 viewerCount;
+    5: string liveUrl;
+}
+
+/* C13246y0 @sources/Pb1/C13246y0.java */
+struct BuddyOnAir {
+    1: string mid;
+    3: i64 freshnessLifetime;
+    4: string onAirId;
+    5: bool onAir;
+    11: string text;
+    12: i64 viewerCount;
+    13: i64 targetCount;
+    14: i64 livePlayTime;
+    15: string screenAspectRate;
+    31: Pb1_A0 onAirType;
+    32: BuddyOnAirUrls onAirUrls;
+    33: string aspectRatioOfSource;
+    41: bool useFadingOut;
+    42: i64 fadingOutIn;
+    43: string urlAfterFadingOut;
+    44: string labelAfterFadingOut;
+    51: bool useLowerBanner;
+    52: string lowerBannerUrl;
+    53: string lowerBannerLabel;
+}
+
+/* B0 @sources/Pb1/B0.java */
+struct BuddyOnAirUrls {
+    1: map<string, string> hls;
+    2: map<string, string> smoothStreaming;
+}
+
+/* C0 @sources/Pb1/C0.java */
+struct BuddyPersonalDetail {
+    1: string richMenuId;
+    2: i64 statusBarRevision;
+    3: BuddyCautionNotice buddyCautionNotice;
+}
+
+/* E0 @sources/Pb1/E0.java */
+struct BuddyRichMenuChatBarItem {
+    1: string label;
+    2: string body;
+    3: bool selected;
+}
+
+/* G0 @sources/Pb1/G0.java */
+struct BuddySearchResult {
+    1: string mid;
+    2: string displayName;
+    3: string pictureStatus;
+    4: string picturePath;
+    5: string statusMessage;
+    6: bool businessAccount;
+    7: i32 iconType;
+    8: BotType botType;
+}
+
+/* C12912a1 @sources/Pb1/C12912a1.java */
+struct BuddyStatusBar {
+    1: string label;
+    2: Pb1_EnumC12926b1 displayType;
+    3: string title;
+    4: string iconUrl;
+    5: string linkUrl;
+}
+
+/* C12940c1 @sources/Pb1/C12940c1.java */
+struct BuddyWebChatBarItem {
+    1: string label;
+    2: string url;
+}
+
+/* C12954d1 @sources/Pb1/C12954d1.java */
+struct BuddyWidget {
+    1: string icon;
+    2: string label;
+    3: string url;
+}
+
+/* C12968e1 @sources/Pb1/C12968e1.java */
+struct BuddyWidgetListCharBarItem {
+    1: string label;
+    2: list<BuddyWidget> widgets;
+    3: bool selected;
+}
+
+/* C12982f1 @sources/Pb1/C12982f1.java */
+struct BulkFollowRequest {
+    1: set<string> followTargetMids;
+    2: set<string> unfollowTargetMids;
+    3: bool hasNext;
+}
+
+/* C35692a @sources/t80/C35692a.java */
+struct BulkGetRequest {
+    1: set<GetRequest> requests;
+}
+
+/* b @sources/t80/b.java */
+struct BulkGetResponse {
+    1: map<string, t80_g> values;
+}
+
+/* c @sources/t80/c.java */
+struct BulkSetRequest {
+    1: set<SetRequest> requests;
+}
+
+/* d @sources/t80/d.java */
+struct BulkSetResponse {
+    1: map<string, t80_l> values;
+}
+
+/* Button @sources/com/linecorp/square/protocol/thrift/common/Button.java */
+struct Button {
+    1: ButtonContent content;
+    2: ButtonStyle style;
+}
+
+/* ButtonStyle @sources/com/linecorp/square/protocol/thrift/common/ButtonStyle.java */
+struct ButtonStyle {
+    1: string textColorHexCode;
+    2: ButtonBGColor bgColor;
+}
+
+/* C12647o @sources/Ob1/C12647o.java */
+struct BuyMustbuyRequest {
+    1: Ob1_O0 productType;
+    2: string productId;
+    3: string serialNumber;
+}
+
+/* C13024i1 @sources/Pb1/C13024i1.java */
+struct CallHost {
+    1: string host;
+    2: i32 port;
+    3: string zone;
+}
+
+/* C13038j1 @sources/Pb1/C13038j1.java */
+struct CallRoute {
+    1: string fromToken;
+    2: Pb1_EnumC13010h1 callFlowType;
+    3: string voipAddress;
+    4: i32 voipUdpPort;
+    5: i32 voipTcpPort;
+    6: string fromZone;
+    7: string toZone;
+    8: bool fakeCall;
+    9: string ringbackTone;
+    10: string toMid;
+    11: string tunneling;
+    12: string commParam;
+    13: string stid;
+    14: string encFromMid;
+    15: string encToMid;
+    16: bool switchableToVideo;
+    17: string voipAddress6;
+    18: string w2pGw;
+    19: bool drCall;
+    20: string stnpk;
+}
+
+/* C14868j @sources/uf/C14868j.java */
+struct Callback {
+    1: string impEventUrl;
+    2: string clickEventUrl;
+    3: string muteEventUrl;
+    4: string upvoteEventUrl;
+    5: string downvoteEventUrl;
+    6: string bounceEventUrl;
+    7: string undeliveredEventUrl;
+}
+
+/* C12182l @sources/NZ0/C12182l.java */
+struct CampaignContent {
+    1: string iconUrl;
+    2: string iconAltText;
+    3: IconDisplayRule iconDisplayRule;
+    4: AnimationEffectContent animationEffectContent;
+}
+
+/* C12185m @sources/NZ0/C12185m.java */
+struct CampaignProperty {
+    1: string id;
+    2: string name;
+    3: string type;
+    4: HeaderContent headerContent;
+    5: CampaignContent campaignContent;
+}
+
+/* C12650p @sources/Ob1/C12650p.java */
+struct CanCreateCombinationStickerRequest {
+    1: set<string> packageIds;
+}
+
+/* C12653q @sources/Ob1/C12653q.java */
+struct CanCreateCombinationStickerResponse {
+    1: bool canCreate;
+    2: set<string> usablePackageIds;
+}
+
+/* T1 @sources/Pb1/T1.java */
+struct CancelChatInvitationRequest {
+    1: i32 reqSeq;
+    2: string chatMid;
+    3: set<string> targetUserMids;
+}
+
+/* c @sources/o80/c.java */
+struct CancelPaakAuthRequest {
+    1: string sessionId;
+}
+
+/* C31223c @sources/n80/C31223c.java */
+struct CancelPaakAuthenticationRequest {
+    1: string authSessionId;
+}
+
+/* C33649a @sources/q80/C33649a.java */
+struct CancelPinCodeRequest {
+    1: string authSessionId;
+}
+
+/* V1 @sources/Pb1/V1.java */
+struct CancelReactionRequest {
+    1: i32 reqSeq;
+    2: i64 messageId;
+}
+
+/* CancelToSpeakRequest @sources/com/linecorp/square/protocol/thrift/CancelToSpeakRequest.java */
+struct CancelToSpeakRequest {
+    1: string squareChatMid;
+    2: string sessionId;
+}
+
+/* a @sources/ar0/a.java */
+struct Candidate {
+    1: zR0_EnumC40579d type;
+    2: string productId;
+    3: string itemId;
+}
+
+/* Category @sources/com/linecorp/square/protocol/thrift/common/Category.java */
+struct Category {
+    1: i32 id;
+    2: string name;
+}
+
+/* CategoryName @sources/com/linecorp/square/protocol/thrift/common/CategoryName.java */
+struct CategoryName {
+    1: i32 categoryId;
+    2: map<string, string> names;
+}
+
+/* r @sources/Ob1/r.java */
+struct ChangeSubscriptionRequest {
+    1: string billingItemId;
+    2: Ob1_S1 subscriptionService;
+    3: Ob1_K1 storeCode;
+}
+
+/* C12658s @sources/Ob1/C12658s.java */
+struct ChangeSubscriptionResponse {
+    1: Ob1_M1 result;
+    2: string orderId;
+    3: string confirmUrl;
+}
+
+/* a @sources/W70/a.java */
+struct ChannelContext {
+    1: string channelName;
+}
+
+/* Y1 @sources/Pb1/Y1.java */
+struct ChannelDomain {
+    1: string host;
+    2: bool removed;
+}
+
+/* Z1 @sources/Pb1/Z1.java */
+struct ChannelDomains {
+    1: list<ChannelDomain> channelDomains;
+    2: i64 revision;
+}
+
+/* C12955d2 @sources/Pb1/C12955d2.java */
+struct ChannelIdWithLastUpdated {
+    1: string channelId;
+    2: i64 lastUpdated;
+}
+
+/* C12969e2 @sources/Pb1/C12969e2.java */
+struct ChannelInfo {
+    1: string channelId;
+    3: string name;
+    4: string entryPageUrl;
+    5: string descriptionText;
+    6: ChannelProvider provider;
+    7: Pb1_P6 publicType;
+    8: string iconImage;
+    9: list<string> permissions;
+    11: string iconThumbnailImage;
+    12: list<i32> channelConfigurations;
+    13: bool lcsAllApiUsable;
+    14: set<Pb1_EnumC12997g2> allowedPermissions;
+    15: list<ChannelDomain> channelDomains;
+    16: i64 updatedTimestamp;
+    17: set<Pb1_EnumC12941c2> featureLicenses;
+}
+
+/* C12983f2 @sources/Pb1/C12983f2.java */
+struct ChannelNotificationSetting {
+    1: string channelId;
+    2: string name;
+    3: bool notificationReceivable;
+    4: bool messageReceivable;
+    5: bool showDefault;
+}
+
+/* C13011h2 @sources/Pb1/C13011h2.java */
+struct ChannelProvider {
+    1: string name;
+    2: bool certified;
+}
+
+/* J2 @sources/Pb1/J2.java */
+struct ChannelSettings {
+    1: bool unapprovedMessageReceivable;
+}
+
+/* M2 @sources/Pb1/M2.java */
+struct ChannelToken {
+    1: string token;
+    2: string obsToken;
+    3: i64 expiration;
+    4: string refreshToken;
+    5: string channelAccessToken;
+}
+
+/* N2 @sources/Pb1/N2.java */
+struct Chat {
+    1: Pb1_Z2 type;
+    2: string chatMid;
+    3: i64 createdTime;
+    4: bool notificationDisabled;
+    5: i64 favoriteTimestamp;
+    6: string chatName;
+    7: string picturePath;
+    8: Pb1_C13208v4 extra;
+}
+
+/* P2 @sources/Pb1/P2.java */
+struct ChatEffectMeta {
+    1: i64 contentId;
+    2: Pb1_Q2 category;
+    3: string name;
+    4: ChatEffectMetaContent defaultContent;
+    5: map<i32, ChatEffectMetaContent> optionalContents;
+    6: set<string> keywords;
+    7: i64 beginTimeMillis;
+    8: i64 endTimeMillis;
+    9: i64 createdTimeMillis;
+    10: i64 updatedTimeMillis;
+    11: string contentMetadataTag;
+}
+
+/* R2 @sources/Pb1/R2.java */
+struct ChatEffectMetaContent {
+    1: string url;
+    2: string checksum;
+}
+
+/* T2 @sources/Pb1/T2.java */
+struct ChatRoomAnnouncement {
+    1: i64 announcementSeq;
+    2: Pb1_X2 type;
+    3: ChatRoomAnnouncementContents contents;
+    4: string creatorMid;
+    5: i64 createdTime;
+    6: Pb1_W2 deletePermission;
+}
+
+/* U2 @sources/Pb1/U2.java */
+struct ChatRoomAnnouncementContentMetadata {
+    1: string replace;
+    2: string sticonOwnership;
+    3: string postNotificationMetadata;
+}
+
+/* V2 @sources/Pb1/V2.java */
+struct ChatRoomAnnouncementContents {
+    1: i32 displayFields;
+    2: string text;
+    3: string link;
+    4: string thumbnail;
+    5: ChatRoomAnnouncementContentMetadata contentMetadata;
+}
+
+/* Y2 @sources/Pb1/Y2.java */
+struct ChatRoomBGM {
+    1: string creatorMid;
+    2: i64 createdTime;
+    3: string chatRoomBGMInfo;
+}
+
+/* C40714b @sources/zf/C40714b.java */
+struct Chatapp {
+    1: string chatappId;
+    2: string name;
+    3: string icon;
+    4: string url;
+    5: list<i32> availableChatTypes;
+}
+
+/* ChatroomPopup @sources/com/linecorp/square/protocol/thrift/common/ChatroomPopup.java */
+struct ChatroomPopup {
+    1: string imageObsHash;
+    2: string title;
+    3: string content;
+    4: set<i32> targetRoles;
+    5: Button button;
+    6: ChatroomPopupType type;
+    7: bool animatedImage;
+    8: TargetChatType targetChatType;
+    9: TargetChats targetChats;
+    10: TargetUserType targetUserType;
+    11: TargetUsers targetUsers;
+}
+
+/* C26396d @sources/I80/C26396d.java */
+struct I80_C26396d {
+    1: string authSessionId;
+}
+
+/* C14396e @sources/T70/C14396e.java */
+struct CheckEmailAssignedResponse {
+    1: bool sameAccountFromPhone;
+}
+
+/* C25641a @sources/H80/C25641a.java */
+struct CheckIfEncryptedE2EEKeyReceivedRequest {
+    1: string sessionId;
+    2: h80_t secureChannelData;
+}
+
+/* C25642b @sources/H80/C25642b.java */
+struct CheckIfEncryptedE2EEKeyReceivedResponse {
+    1: string nonce;
+    2: h80_Z70_a encryptedSecureChannelPayload;
+    3: h80_V70_a userProfile;
+    4: bool appTypeDifferentFromPrevDevice;
+    5: bool e2eeKeyBackupServiceConfig;
+}
+
+/* C26400f @sources/I80/C26400f.java */
+struct I80_C26400f {
+    1: string authSessionId;
+}
+
+/* C26402g @sources/I80/C26402g.java */
+struct I80_C26402g {
+    1: bool verified;
+}
+
+/* C14400g @sources/T70/C14400g.java */
+struct CheckIfPhonePinCodeMsgVerifiedRequest {
+    1: string authSessionId;
+    2: UserPhoneNumber userPhoneNumber;
+}
+
+/* C14402h @sources/T70/C14402h.java */
+struct CheckIfPhonePinCodeMsgVerifiedResponse {
+    1: bool accountExist;
+    2: bool sameUdidFromAccount;
+    3: bool allowedToRegister;
+    11: UserProfile userProfile;
+}
+
+/* CheckJoinCodeRequest @sources/com/linecorp/square/protocol/thrift/CheckJoinCodeRequest.java */
+struct CheckJoinCodeRequest {
+    2: string squareMid;
+    3: string joinCode;
+}
+
+/* CheckJoinCodeResponse @sources/com/linecorp/square/protocol/thrift/CheckJoinCodeResponse.java */
+struct CheckJoinCodeResponse {
+    1: string joinToken;
+}
+
+/* C34364d @sources/r80/C34364d.java */
+struct CheckOperationResult {
+    1: bool tradable;
+    2: string reason;
+    3: string detailMessage;
+}
+
+/* C12914a3 @sources/Pb1/C12914a3.java */
+struct CheckUserAgeAfterApprovalWithDocomoV2Request {
+    1: string accessToken;
+    2: string agprm;
+}
+
+/* C12928b3 @sources/Pb1/C12928b3.java */
+struct CheckUserAgeAfterApprovalWithDocomoV2Response {
+    1: Pb1_gd userAgeType;
+}
+
+/* C12942c3 @sources/Pb1/C12942c3.java */
+struct CheckUserAgeWithDocomoV2Request {
+    1: string authCode;
+}
+
+/* C12956d3 @sources/Pb1/C12956d3.java */
+struct CheckUserAgeWithDocomoV2Response {
+    1: Pb1_EnumC12970e3 responseType;
+    2: Pb1_gd userAgeType;
+    3: string approvalRedirectUrl;
+    4: string accessToken;
+}
+
+/* C12984f3 @sources/Pb1/C12984f3.java */
+struct ClientNetworkStatus {
+    1: Pb1_EnumC12998g3 networkType;
+    2: list<WifiSignal> wifiSignals;
+}
+
+/* CodeValue @sources/com/linecorp/square/protocol/thrift/common/CodeValue.java */
+struct CodeValue {
+    1: string code;
+}
+
+/* C27534a @sources/jo0/C27534a.java */
+struct Coin {
+    1: i32 freeCoinBalance;
+    2: i32 payedCoinBalance;
+    3: i32 totalCoinBalance;
+    4: i32 rewardCoinBalance;
+}
+
+/* C27537d @sources/jo0/C27537d.java */
+struct CoinHistory {
+    1: i64 payDate;
+    2: i32 coinBalance;
+    3: i32 coin;
+    4: string price;
+    5: string title;
+    6: bool refund;
+    7: string paySeq;
+    8: string currency;
+    9: string currencySign;
+    10: string displayPrice;
+    11: CoinPayLoad payload;
+    12: string channelId;
+}
+
+/* C27538e @sources/jo0/C27538e.java */
+struct CoinPayLoad {
+    1: i32 payCoin;
+    2: i32 freeCoin;
+    3: PayloadType type;
+    4: i32 rewardCoin;
+}
+
+/* C27539f @sources/jo0/C27539f.java */
+struct CoinProductItem {
+    1: string itemId;
+    2: i32 coin;
+    3: i32 freeCoin;
+    5: string currency;
+    6: string price;
+    7: string displayPrice;
+    8: string name;
+    9: string desc;
+}
+
+/* C27540g @sources/jo0/C27540g.java */
+struct CoinPurchaseReservation {
+    1: string productId;
+    2: string country;
+    3: string currency;
+    4: string price;
+    5: jO0_EnumC27533B appStoreCode;
+    6: string language;
+    7: jO0_EnumC27559z pgCode;
+    8: string redirectUrl;
+}
+
+/* C12661t @sources/Ob1/C12661t.java */
+struct Collection {
+    1: string collectionId;
+    2: list<CollectionItem> items;
+    3: Ob1_O0 productType;
+    4: i64 createdTimeMillis;
+    5: i64 updatedTimeMillis;
+}
+
+/* C12670w @sources/Ob1/C12670w.java */
+struct CollectionItem {
+    1: string itemId;
+    2: string productId;
+    3: Ob1_E displayData;
+    4: i32 sortId;
+}
+
+/* C12673x @sources/Ob1/C12673x.java */
+struct CombinationStickerMetadata {
+    1: i64 version;
+    2: double canvasWidth;
+    3: double canvasHeight;
+    4: list<StickerLayout> stickerLayouts;
+}
+
+/* C12676y @sources/Ob1/C12676y.java */
+struct CombinationStickerStickerData {
+    1: string packageId;
+    2: string stickerId;
+    3: i64 version;
+}
+
+/* C12191o @sources/NZ0/C12191o.java */
+struct CompactShortcut {
+    1: i32 iconPosition;
+    2: string iconUrl;
+    3: string iconAltText;
+    4: NZ0_EnumC12154b1 iconType;
+    5: string linkUrl;
+    6: string tsTargetId;
+}
+
+/* C13012h3 @sources/Pb1/C13012h3.java */
+struct Configurations {
+    1: i64 revision;
+    2: map<string, string> configMap;
+}
+
+/* C13026i3 @sources/Pb1/C13026i3.java */
+struct ConfigurationsParams {
+    1: string regionOfUsim;
+    2: string regionOfTelephone;
+    3: string regionOfLocale;
+    4: string carrier;
+}
+
+/* C23146d @sources/Do0/C23146d.java */
+struct ConnectDeviceOperation {
+    1: i64 connectionTimeoutMillis;
+}
+
+/* k @sources/q70/k.java */
+struct ConnectEapAccountRequest {
+    1: string authSessionId;
+}
+
+/* C13040j3 @sources/Pb1/C13040j3.java */
+struct Contact {
+    1: string mid;
+    2: i64 createdTime;
+    10: ContactType type;
+    11: ContactStatus status;
+    21: Pb1_EnumC13151r3 relation;
+    22: string displayName;
+    23: string phoneticName;
+    24: string pictureStatus;
+    25: string thumbnailUrl;
+    26: string statusMessage;
+    27: string displayNameOverridden;
+    28: i64 favoriteTime;
+    31: bool capableVoiceCall;
+    32: bool capableVideoCall;
+    33: bool capableMyhome;
+    34: bool capableBuddy;
+    35: i32 attributes;
+    36: i64 settings;
+    37: string picturePath;
+    38: string recommendParams;
+    39: FriendRequestStatus friendRequestStatus;
+    40: string musicProfile;
+    42: string videoProfile;
+    43: map<string, string> statusMessageContentMetadata;
+    44: AvatarProfile avatarProfile;
+    45: string friendRingtone;
+    46: string friendRingbackTone;
+    47: bool nftProfile;
+    48: Pb1_N6 pictureSource;
+    49: string profileId;
+}
+
+/* C13068l3 @sources/Pb1/C13068l3.java */
+struct ContactCalendarEvent {
+    1: string id;
+    2: Pb1_EnumC13082m3 state;
+    3: i32 year;
+    4: i32 month;
+    5: i32 day;
+}
+
+/* C13110o3 @sources/Pb1/C13110o3.java */
+struct ContactCalendarEvents {
+    1: map<i32, list<_any>> events;
+}
+
+/* C13124p3 @sources/Pb1/C13124p3.java */
+struct ContactModification {
+    1: Pb1_EnumC13029i6 type;
+    2: string luid;
+    11: list<string> phones;
+    12: list<string> emails;
+    13: list<string> userids;
+    14: string mobileContactName;
+    15: string phoneticName;
+}
+
+/* C13138q3 @sources/Pb1/C13138q3.java */
+struct ContactRegistration {
+    1: Contact contact;
+    10: string luid;
+    11: ContactType contactType;
+    12: string contactKey;
+}
+
+/* C14869k @sources/uf/C14869k.java */
+struct Content {
+    1: string title;
+    2: string desc;
+    3: string linkUrl;
+    4: string fallbackUrl;
+    5: Uf_C14864f badge;
+    6: Image image;
+    7: ActionButton button;
+    8: Callback callback;
+    9: NoBidCallback noBidCallback;
+    10: i64 ttl;
+    11: bool muteSupported;
+    12: bool voteSupported;
+    13: Priority priority;
+}
+
+/* C14870l @sources/uf/C14870l.java */
+struct ContentRequest {
+    1: Uf_EnumC14873o os;
+    2: string appv;
+    3: string lineAcceptableLanguage;
+    4: string countryCode;
+}
+
+/* a @sources/x70/a.java */
+struct CountryCode {
+    1: string code;
+}
+
+/* C13235x3 @sources/Pb1/C13235x3.java */
+struct CreateChatRequest {
+    1: i32 reqSeq;
+    2: Pb1_Z2 type;
+    3: string name;
+    4: set<string> targetUserMids;
+    5: string picturePath;
+}
+
+/* C13249y3 @sources/Pb1/C13249y3.java */
+struct CreateChatResponse {
+    1: Chat chat;
+}
+
+/* A @sources/Ob1/A.java */
+struct CreateCollectionForUserRequest {
+    1: Ob1_O0 productType;
+}
+
+/* B @sources/Ob1/B.java */
+struct CreateCollectionForUserResponse {
+    1: Collection collection;
+}
+
+/* C @sources/Ob1/C.java */
+struct CreateCombinationStickerRequest {
+    1: CombinationStickerMetadata metadata;
+    2: list<CombinationStickerStickerData> stickers;
+    3: string idOfPreviousVersionOfCombinationSticker;
+}
+
+/* D @sources/Ob1/D.java */
+struct CreateCombinationStickerResponse {
+    1: string id;
+}
+
+/* C3 @sources/Pb1/C3.java */
+struct CreateGroupCallUrlRequest {
+    1: string title;
+}
+
+/* D3 @sources/Pb1/D3.java */
+struct CreateGroupCallUrlResponse {
+    1: GroupCallUrl url;
+}
+
+/* C25144a @sources/GN0/C25144a.java */
+struct CreateMultiProfileRequest {
+    1: string displayName;
+}
+
+/* C25145b @sources/GN0/C25145b.java */
+struct CreateMultiProfileResponse {
+    1: string profileId;
+}
+
+/* C26406i @sources/I80/C26406i.java */
+struct I80_C26406i {
+    1: string authSessionId;
+}
+
+/* C25644d @sources/H80/C25644d.java */
+struct CreateSessionResponse {
+    1: string sessionId;
+}
+
+/* b @sources/R70/b.java */
+struct CreateSessionResponse {
+    1: string sessionId;
+}
+
+/* b @sources/U70/b.java */
+struct CreateSessionResponse {
+    1: string sessionId;
+}
+
+/* CreateSquareChatAnnouncementRequest @sources/com/linecorp/square/protocol/thrift/CreateSquareChatAnnouncementRequest.java */
+struct CreateSquareChatAnnouncementRequest {
+    1: i32 reqSeq;
+    2: string squareChatMid;
+    3: SquareChatAnnouncement squareChatAnnouncement;
+}
+
+/* CreateSquareChatAnnouncementResponse @sources/com/linecorp/square/protocol/thrift/CreateSquareChatAnnouncementResponse.java */
+struct CreateSquareChatAnnouncementResponse {
+    1: SquareChatAnnouncement announcement;
+}
+
+/* CreateSquareChatRequest @sources/com/linecorp/square/protocol/thrift/CreateSquareChatRequest.java */
+struct CreateSquareChatRequest {
+    1: i32 reqSeq;
+    2: SquareChat squareChat;
+    3: list<string> squareMemberMids;
+}
+
+/* CreateSquareChatResponse @sources/com/linecorp/square/protocol/thrift/CreateSquareChatResponse.java */
+struct CreateSquareChatResponse {
+    1: SquareChat squareChat;
+    2: SquareChatStatus squareChatStatus;
+    3: SquareChatMember squareChatMember;
+    4: SquareChatFeatureSet squareChatFeatureSet;
+}
+
+/* CreateSquareRequest @sources/com/linecorp/square/protocol/thrift/CreateSquareRequest.java */
+struct CreateSquareRequest {
+    1: i32 reqSeq;
+    2: Square square;
+    3: SquareMember creator;
+}
+
+/* CreateSquareResponse @sources/com/linecorp/square/protocol/thrift/CreateSquareResponse.java */
+struct CreateSquareResponse {
+    1: Square square;
+    2: SquareMember creator;
+    3: SquareAuthority authority;
+    4: SquareStatus status;
+    5: SquareFeatureSet featureSet;
+    6: NoteStatus noteStatus;
+    7: SquareChat squareChat;
+    8: SquareChatStatus squareChatStatus;
+    9: SquareChatMember squareChatMember;
+    10: SquareChatFeatureSet squareChatFeatureSet;
+}
+
+/* C12194p @sources/NZ0/C12194p.java */
+struct CurrencyProperty {
+    1: string code;
+    2: string symbol;
+    3: NZ0_EnumC12197q position;
+    4: i32 scale;
+}
+
+/* r @sources/NZ0/r.java */
+struct CustomBadgeLabel {
+    1: string text;
+    2: string backgroundColorCode;
+}
+
+/* CustomColor @sources/com/linecorp/square/protocol/thrift/common/CustomColor.java */
+struct CustomColor {
+    1: string hexColorCode;
+}
+
+/* C24470b @sources/fn0/C24470b.java */
+struct DataRetention {
+    1: string productId;
+    2: string productRegion;
+    3: fN0_EnumC24466B productType;
+    4: bool inDataRetention;
+    5: i64 dataRetentionEndTime;
+}
+
+/* r @sources/QM/r.java */
+struct DataUserBot {
+    1: string mid;
+    4: string placeName;
+}
+
+/* J3 @sources/Pb1/J3.java */
+struct DeleteGroupCallUrlRequest {
+    1: string urlId;
+}
+
+/* C25146c @sources/GN0/C25146c.java */
+struct DeleteMultiProfileRequest {
+    1: string profileId;
+}
+
+/* L3 @sources/Pb1/L3.java */
+struct DeleteOtherFromChatRequest {
+    1: i32 reqSeq;
+    2: string chatMid;
+    3: set<string> targetUserMids;
+}
+
+/* C37630a @sources/Vh/C37630a.java */
+struct DeleteSafetyStatusRequest {
+    1: string disasterId;
+}
+
+/* N3 @sources/Pb1/N3.java */
+struct DeleteSelfFromChatRequest {
+    1: i32 reqSeq;
+    2: string chatMid;
+    3: i64 lastSeenMessageDeliveredTime;
+    4: string lastSeenMessageId;
+    5: i64 lastMessageDeliveredTime;
+    6: string lastMessageId;
+}
+
+/* DeleteSquareChatAnnouncementRequest @sources/com/linecorp/square/protocol/thrift/DeleteSquareChatAnnouncementRequest.java */
+struct DeleteSquareChatAnnouncementRequest {
+    2: string squareChatMid;
+    3: i64 announcementSeq;
+}
+
+/* DeleteSquareChatRequest @sources/com/linecorp/square/protocol/thrift/DeleteSquareChatRequest.java */
+struct DeleteSquareChatRequest {
+    2: string squareChatMid;
+    3: i64 revision;
+}
+
+/* DeleteSquareRequest @sources/com/linecorp/square/protocol/thrift/DeleteSquareRequest.java */
+struct DeleteSquareRequest {
+    2: string mid;
+    3: i64 revision;
+}
+
+/* C13586c @sources/Qj/C13586c.java */
+struct DestinationLIFFRequest {
+    1: string originalUrl;
+}
+
+/* C13587d @sources/Qj/C13587d.java */
+struct DestinationLIFFResponse {
+    1: string destinationUrl;
+}
+
+/* DestroyMessageRequest @sources/com/linecorp/square/protocol/thrift/DestroyMessageRequest.java */
+struct DestroyMessageRequest {
+    2: string squareChatMid;
+    4: string messageId;
+    5: string threadMid;
+}
+
+/* DestroyMessagesRequest @sources/com/linecorp/square/protocol/thrift/DestroyMessagesRequest.java */
+struct DestroyMessagesRequest {
+    2: string squareChatMid;
+    4: set<string> messageIds;
+    5: string threadMid;
+}
+
+/* P3 @sources/Pb1/P3.java */
+struct DetermineMediaMessageFlowRequest {
+    1: string chatMid;
+}
+
+/* Q3 @sources/Pb1/Q3.java */
+struct DetermineMediaMessageFlowResponse {
+    1: map<i32, i32> flowMap;
+    2: i64 cacheTtlMillis;
+}
+
+/* a @sources/Y70/a.java */
+struct Device {
+    1: string deviceModel;
+    2: string deviceId;
+}
+
+/* m @sources/q70/m.java */
+struct Device {
+    1: string udid;
+    2: string deviceModel;
+}
+
+/* C14404i @sources/T70/C14404i.java */
+struct Device {
+    1: string udid;
+    2: string deviceModel;
+}
+
+/* S3 @sources/Pb1/S3.java */
+struct DeviceInfo {
+    1: string deviceName;
+    2: string systemName;
+    3: string systemVersion;
+    4: string model;
+    5: string webViewVersion;
+    10: CarrierCode carrierCode;
+    11: string carrierName;
+    20: ApplicationType applicationType;
+}
+
+/* C23149g @sources/Do0/C23149g.java */
+struct DeviceLinkRequest {
+    1: string deviceId;
+}
+
+/* C23150h @sources/Do0/C23150h.java */
+struct DeviceLinkResponse {
+    1: i64 latestOffset;
+}
+
+/* C23151i @sources/Do0/C23151i.java */
+struct DeviceUnlinkRequest {
+    1: string deviceId;
+}
+
+/* C37631b @sources/Vh/C37631b.java */
+struct DisasterInfo {
+    1: string disasterId;
+    2: string title;
+    3: string region;
+    4: string disasterDescription;
+    5: string seeMoreUrl;
+    7: vh_EnumC37632c status;
+    8: bool highImpact;
+}
+
+/* n @sources/q70/n.java */
+struct DisconnectEapAccountRequest {
+    1: Q70_q eapType;
+}
+
+/* C34366f @sources/r80/C34366f.java */
+struct DisplayMoney {
+    1: string amount;
+    2: string amountString;
+    3: string currency;
+}
+
+/* C13041j4 @sources/Pb1/C13041j4.java */
+struct E2EEKeyChain {
+    1: list<Pb1_V3> keychain;
+}
+
+/* C13055k4 @sources/Pb1/C13055k4.java */
+struct E2EEMessageInfo {
+    1: ContentType contentType;
+    2: map<string, string> contentMetadata;
+    3: list<string> chunks;
+}
+
+/* C13069l4 @sources/Pb1/C13069l4.java */
+struct E2EEMetadata {
+    1: i64 e2EEPublicKeyId;
+}
+
+/* C13083m4 @sources/Pb1/C13083m4.java */
+struct E2EENegotiationResult {
+    1: set<i32> allowedTypes;
+    2: Pb1_C13097n4 publicKey;
+    3: i32 specVersion;
+}
+
+/* p @sources/q70/p.java */
+struct EapLogin {
+    1: Q70_q type;
+    2: string accessToken;
+}
+
+/* C16643a @sources/a80/C16643a.java */
+struct EapLogin {
+    1: a80_EnumC16644b type;
+    2: string accessToken;
+    3: string countryCode;
+}
+
+/* F @sources/Ob1/F.java */
+struct EditItemsInCollectionRequest {
+    1: string collectionId;
+    2: list<CollectionItem> items;
+}
+
+/* H @sources/Ob1/H.java */
+struct EditorsPickBannerForClient {
+    1: i64 id;
+    2: string endPageBannerImageUrl;
+    3: Ob1_I defaulteditorsPickShowcaseType;
+    4: bool showNewBadge;
+    5: string name;
+    6: string description;
+}
+
+/* C8928b @sources/Eg/C8928b.java */
+struct Eg_C8928b {
+    
+}
+
+/* C8933a @sources/eH/C8933a.java */
+struct Eh_C8933a {
+    
+}
+
+/* C8935c @sources/eH/C8935c.java */
+struct Eh_C8935c {
+    
+}
+
+/* J @sources/Ob1/J.java */
+struct EstablishE2EESessionRequest {
+    1: string clientPublicKey;
+}
+
+/* K @sources/Ob1/K.java */
+struct EstablishE2EESessionResponse {
+    1: string sessionId;
+    2: string serverPublicKey;
+    3: i64 expireAt;
+}
+
+/* C12202s @sources/NZ0/C12202s.java */
+struct EventButton {
+    1: string text;
+    2: string linkUrl;
+}
+
+/* C13139q4 @sources/Pb1/C13139q4.java */
+struct EvidenceId {
+    1: string spaceId;
+    2: string objectId;
+}
+
+/* C23154l @sources/Do0/C23154l.java */
+struct ExecuteOnetimeScenarioOperation {
+    1: string connectionId;
+    2: Scenario scenario;
+}
+
+/* c @sources/S70/c.java */
+struct ExistPinCodeResponse {
+    1: bool exists;
+}
+
+/* C13152r4 @sources/Pb1/C13152r4.java */
+struct ExtendedMessageBox {
+    1: string id;
+    2: MIDType midType;
+    4: MessageBoxV2MessageId lastDeliveredMessageId;
+    5: i64 lastSeenMessageId;
+    6: i64 unreadCount;
+    7: list<Message> lastMessages;
+    8: i64 lastRemovedMessageId;
+    9: i64 lastRemovedTime;
+    10: i64 hiddenAtMessageId;
+}
+
+/* C13166s4 @sources/Pb1/C13166s4.java */
+struct ExtendedProfile {
+    1: ExtendedProfileBirthday birthday;
+}
+
+/* C13194u4 @sources/Pb1/C13194u4.java */
+struct ExtendedProfileBirthday {
+    1: string year;
+    2: Pb1_H6 yearPrivacyLevelType;
+    3: bool yearEnabled;
+    5: string day;
+    6: Pb1_H6 dayPrivacyLevelType;
+    7: bool dayEnabled;
+}
+
+/* FetchLiveTalkEventsRequest @sources/com/linecorp/square/protocol/thrift/FetchLiveTalkEventsRequest.java */
+struct FetchLiveTalkEventsRequest {
+    1: string squareChatMid;
+    2: string sessionId;
+    3: string syncToken;
+    4: i32 limit;
+}
+
+/* FetchLiveTalkEventsResponse @sources/com/linecorp/square/protocol/thrift/FetchLiveTalkEventsResponse.java */
+struct FetchLiveTalkEventsResponse {
+    1: list<LiveTalkEvent> events;
+    2: string syncToken;
+    3: bool hasMore;
+}
+
+/* FetchMyEventsRequest @sources/com/linecorp/square/protocol/thrift/FetchMyEventsRequest.java */
+struct FetchMyEventsRequest {
+    1: i64 subscriptionId;
+    2: string syncToken;
+    3: i32 limit;
+    4: string continuationToken;
+}
+
+/* FetchMyEventsResponse @sources/com/linecorp/square/protocol/thrift/FetchMyEventsResponse.java */
+struct FetchMyEventsResponse {
+    1: SubscriptionState subscription;
+    2: list<SquareEvent> events;
+    3: string syncToken;
+    4: string continuationToken;
+}
+
+/* C23155m @sources/Do0/C23155m.java */
+struct FetchOperationsRequest {
+    1: string deviceId;
+    2: i64 offsetFrom;
+}
+
+/* C23156n @sources/Do0/C23156n.java */
+struct FetchOperationsResponse {
+    1: list<ThingsOperation> operations;
+    2: bool hasNext;
+}
+
+/* C14408k @sources/T70/C14408k.java */
+struct FetchPhonePinCodeMsgRequest {
+    1: string authSessionId;
+    2: UserPhoneNumber userPhoneNumber;
+}
+
+/* C14410l @sources/T70/C14410l.java */
+struct FetchPhonePinCodeMsgResponse {
+    1: string pinCodeMessage;
+    2: string destinationPhoneNumber;
+}
+
+/* FetchSquareChatEventsRequest @sources/com/linecorp/square/protocol/thrift/FetchSquareChatEventsRequest.java */
+struct FetchSquareChatEventsRequest {
+    1: i64 subscriptionId;
+    2: string squareChatMid;
+    3: string syncToken;
+    4: i32 limit;
+    5: FetchDirection direction;
+    6: BooleanState inclusive;
+    7: string continuationToken;
+    8: FetchType fetchType;
+    9: string threadMid;
+}
+
+/* FetchSquareChatEventsResponse @sources/com/linecorp/square/protocol/thrift/FetchSquareChatEventsResponse.java */
+struct FetchSquareChatEventsResponse {
+    1: SubscriptionState subscription;
+    2: list<SquareEvent> events;
+    3: string syncToken;
+    4: string continuationToken;
+}
+
+/* a @sources/VR0/a.java */
+struct FileMeta {
+    1: string url;
+    2: string hash;
+}
+
+/* C13236x4 @sources/Pb1/C13236x4.java */
+struct FindChatByTicketRequest {
+    1: string ticketId;
+}
+
+/* C13250y4 @sources/Pb1/C13250y4.java */
+struct FindChatByTicketResponse {
+    1: Chat chat;
+}
+
+/* FindLiveTalkByInvitationTicketRequest @sources/com/linecorp/square/protocol/thrift/FindLiveTalkByInvitationTicketRequest.java */
+struct FindLiveTalkByInvitationTicketRequest {
+    1: string invitationTicket;
+}
+
+/* FindLiveTalkByInvitationTicketResponse @sources/com/linecorp/square/protocol/thrift/FindLiveTalkByInvitationTicketResponse.java */
+struct FindLiveTalkByInvitationTicketResponse {
+    1: string chatInvitationTicket;
+    2: LiveTalk liveTalk;
+    3: SquareChat chat;
+    4: SquareMember squareMember;
+    5: SquareChatMembershipState chatMembershipState;
+    6: BooleanState squareAdultOnly;
+}
+
+/* FindSquareByEmidRequest @sources/com/linecorp/square/protocol/thrift/FindSquareByEmidRequest.java */
+struct FindSquareByEmidRequest {
+    1: string emid;
+}
+
+/* FindSquareByEmidResponse @sources/com/linecorp/square/protocol/thrift/FindSquareByEmidResponse.java */
+struct FindSquareByEmidResponse {
+    1: Square square;
+    2: SquareMember myMembership;
+    3: SquareAuthority squareAuthority;
+    4: SquareStatus squareStatus;
+    5: SquareFeatureSet squareFeatureSet;
+    6: NoteStatus noteStatus;
+}
+
+/* FindSquareByInvitationTicketRequest @sources/com/linecorp/square/protocol/thrift/FindSquareByInvitationTicketRequest.java */
+struct FindSquareByInvitationTicketRequest {
+    2: string invitationTicket;
+}
+
+/* FindSquareByInvitationTicketResponse @sources/com/linecorp/square/protocol/thrift/FindSquareByInvitationTicketResponse.java */
+struct FindSquareByInvitationTicketResponse {
+    1: Square square;
+    2: SquareMember myMembership;
+    3: SquareAuthority squareAuthority;
+    4: SquareStatus squareStatus;
+    5: SquareFeatureSet squareFeatureSet;
+    6: NoteStatus noteStatus;
+    7: SquareChat chat;
+    8: SquareChatStatus chatStatus;
+}
+
+/* FindSquareByInvitationTicketV2Request @sources/com/linecorp/square/protocol/thrift/FindSquareByInvitationTicketV2Request.java */
+struct FindSquareByInvitationTicketV2Request {
+    1: string invitationTicket;
+}
+
+/* FindSquareByInvitationTicketV2Response @sources/com/linecorp/square/protocol/thrift/FindSquareByInvitationTicketV2Response.java */
+struct FindSquareByInvitationTicketV2Response {
+    1: Square square;
+    2: SquareMember myMembership;
+    3: SquareAuthority squareAuthority;
+    4: SquareStatus squareStatus;
+    5: SquareFeatureSet squareFeatureSet;
+    6: NoteStatus noteStatus;
+    7: SquareChat chat;
+    8: SquareChatStatusWithoutMessage chatStatus;
+}
+
+/* C13264z4 @sources/Pb1/C13264z4.java */
+struct FollowBuddyDetail {
+    1: i32 iconType;
+}
+
+/* B4 @sources/Pb1/B4.java */
+struct FollowProfile {
+    1: Pb1_A4 followMid;
+    2: string displayName;
+    3: string picturePath;
+    4: bool following;
+    5: bool allowFollow;
+    6: FollowBuddyDetail followBuddyDetail;
+}
+
+/* C4 @sources/Pb1/C4.java */
+struct FollowRequest {
+    1: Pb1_A4 followMid;
+}
+
+/* b @sources/VR0/b.java */
+struct FontMeta {
+    1: string id;
+    2: string name;
+    3: string displayName;
+    4: VR0_WR0_a type;
+    5: FileMeta font;
+    6: FileMeta fontSubset;
+    7: i64 expiresAtMillis;
+}
+
+/* ForceEndLiveTalkRequest @sources/com/linecorp/square/protocol/thrift/ForceEndLiveTalkRequest.java */
+struct ForceEndLiveTalkRequest {
+    1: string squareChatMid;
+    2: string sessionId;
+}
+
+/* C12205t @sources/NZ0/C12205t.java */
+struct ForceSelectedSubTabInfo {
+    1: string subTabId;
+    2: i64 forceSelectedSubTabRevision;
+    3: string wrsDefaultTabModelId;
+}
+
+/* C22734a @sources/D80/C22734a.java */
+struct FormattedPhoneNumbers {
+    1: string localFormatPhoneNumber;
+    2: string prettifiedFormatPhoneNumber;
+}
+
+/* E4 @sources/Pb1/E4.java */
+struct FriendRequest {
+    1: string eMid;
+    2: string mid;
+    3: Pb1_F4 direction;
+    4: Pb1_G4 method;
+    5: string param;
+    6: i64 timestamp;
+    7: i64 seqId;
+    10: string displayName;
+    11: string picturePath;
+    12: string pictureStatus;
+}
+
+/* I4 @sources/Pb1/I4.java */
+struct FriendRequestsInfo {
+    1: i32 totalIncomingCount;
+    2: i32 totalOutgoingCount;
+    3: list<FriendRequest> recentIncomings;
+    4: list<FriendRequest> recentOutgoings;
+    5: i32 totalIncomingLimit;
+    6: i32 totalOutgoingLimit;
+}
+
+/* K4 @sources/Pb1/K4.java */
+struct FullSyncResponse {
+    1: set<i32> reasons;
+    2: i64 nextRevision;
+}
+
+/* C23157o @sources/Do0/C23157o.java */
+struct GattReadAction {
+    1: string serviceUuid;
+    2: string characteristicUuid;
+}
+
+/* M4 @sources/Pb1/M4.java */
+struct Geolocation {
+    1: double longitude;
+    2: double latitude;
+    3: GeolocationAccuracy accuracy;
+    4: double altitudeMeters;
+    5: double velocityMetersPerSecond;
+    6: double bearingDegrees;
+    7: list<BeaconData> beaconData;
+}
+
+/* N4 @sources/Pb1/N4.java */
+struct GeolocationAccuracy {
+    1: double radiusMeters;
+    2: double radiusConfidence;
+    3: double altitudeAccuracy;
+    4: double velocityAccuracy;
+    5: double bearingAccuracy;
+    6: Pb1_EnumC13050k accuracyMode;
+}
+
+/* h @sources/VR0/h.java */
+struct GetAccessTokenRequest {
+    1: string fontId;
+}
+
+/* i @sources/VR0/i.java */
+struct GetAccessTokenResponse {
+    1: map<string, list<_any>> queryParams;
+    2: map<string, list<_any>> headers;
+    3: i64 expiresAtMillis;
+}
+
+/* C26410k @sources/I80/C26410k.java */
+struct I80_C26410k {
+    1: string authSessionId;
+}
+
+/* C14412m @sources/T70/C14412m.java */
+struct GetAcctVerifMethodResponse {
+    1: T70_EnumC14392c availableMethod;
+    2: bool sameAccountFromAuthFactor;
+}
+
+/* C26412l @sources/I80/C26412l.java */
+struct I80_C26412l {
+    1: I80_EnumC26392b availableMethod;
+}
+
+/* O4 @sources/Pb1/O4.java */
+struct GetAllChatMidsRequest {
+    1: bool withMemberChats;
+    2: bool withInvitedChats;
+}
+
+/* P4 @sources/Pb1/P4.java */
+struct GetAllChatMidsResponse {
+    1: set<string> memberChatMids;
+    2: set<string> invitedChatMids;
+}
+
+/* C14414n @sources/T70/C14414n.java */
+struct GetAllowedRegistrationMethodResponse {
+    1: T70_Z0 registrationMethod;
+}
+
+/* m @sources/m80/m.java */
+struct GetAssertionChallengeResponse {
+    1: string sessionId;
+    2: string challenge;
+}
+
+/* o @sources/m80/o.java */
+struct GetAttestationChallengeResponse {
+    1: string sessionId;
+    2: string challenge;
+}
+
+/* c @sources/ZQ0/c.java */
+struct GetBalanceResponse {
+    1: Balance balance;
+}
+
+/* C12211v @sources/NZ0/C12211v.java */
+struct GetBalanceSummaryResponseV2 {
+    1: LinePayInfo payInfo;
+    2: list<LinePayPromotion> payPromotions;
+    4: LinePointInfo pointInfo;
+    5: BalanceShortcutInfo balanceShortcutInfo;
+}
+
+/* C12217x @sources/NZ0/C12217x.java */
+struct GetBalanceSummaryV4WithPayV3Response {
+    1: LinePayInfoV3 payInfo;
+    2: list<LinePayPromotion> payPromotions;
+    3: BalanceShortcutInfoV4 balanceShortcutInfo;
+    4: LinePointInfo pointInfo;
+}
+
+/* C8934b @sources/eH/C8934b.java */
+struct GetBirthdayEffectResponse {
+    1: HomeEffect effect;
+}
+
+/* C23159q @sources/Do0/C23159q.java */
+struct GetBleDeviceRequest {
+    1: string serviceUuid;
+    2: string psdi;
+}
+
+/* Q4 @sources/Pb1/Q4.java */
+struct GetBuddyChatBarRequest {
+    1: string buddyMid;
+    2: i64 chatBarRevision;
+    3: string richMenuId;
+}
+
+/* R4 @sources/Pb1/R4.java */
+struct GetBuddyLiveRequest {
+    1: string mid;
+}
+
+/* S4 @sources/Pb1/S4.java */
+struct GetBuddyLiveResponse {
+    1: BuddyLive info;
+    2: i64 refreshedIn;
+}
+
+/* T4 @sources/Pb1/T4.java */
+struct GetBuddyStatusBarV2Request {
+    1: string botMid;
+    2: i64 revision;
+}
+
+/* C27713b @sources/jf/C27713b.java */
+struct GetCallStatusRequest {
+    1: string basicSearchId;
+    2: string otp;
+}
+
+/* C27714c @sources/jf/C27714c.java */
+struct GetCallStatusResponse {
+    1: bool isInsideBusinessHours;
+    2: string displayName;
+    3: bool isCallSettingEnabled;
+    4: bool isExpiredOtp;
+    5: bool requireOtpInCallUrl;
+}
+
+/* C12220y @sources/NZ0/C12220y.java */
+struct GetCampaignRequest {
+    1: string campaignType;
+}
+
+/* C12223z @sources/NZ0/C12223z.java */
+struct GetCampaignResponse {
+    1: NZ0_EnumC12188n campaignStatus;
+    2: CampaignProperty campaignProperty;
+    3: i64 intervalDateTimeMillis;
+}
+
+/* p @sources/n80/p.java */
+struct GetChallengeForPaakAuthRequest {
+    1: string authSessionId;
+}
+
+/* f @sources/o80/f.java */
+struct GetChallengeForPaakAuthRequest {
+    1: string sessionId;
+}
+
+/* q @sources/n80/q.java */
+struct GetChallengeForPaakAuthResponse {
+    1: PublicKeyCredentialRequestOptions options;
+}
+
+/* g @sources/o80/g.java */
+struct GetChallengeForPaakAuthResponse {
+    1: o80_p80_j options;
+}
+
+/* f @sources/R70/f.java */
+struct GetChallengeForPrimaryRegRequest {
+    1: string sessionId;
+}
+
+/* g @sources/R70/g.java */
+struct GetChallengeForPrimaryRegResponse {
+    1: PublicKeyCredentialCreationOptions options;
+}
+
+/* r @sources/n80/r.java */
+struct GetChannelContextRequest {
+    1: string authSessionId;
+}
+
+/* s @sources/n80/s.java */
+struct GetChannelContextResponse {
+    1: n80_W70_a channelContext;
+}
+
+/* k @sources/zf/k.java */
+struct GetChatappRequest {
+    1: string chatappId;
+    2: string language;
+}
+
+/* l @sources/zf/l.java */
+struct GetChatappResponse {
+    1: Chatapp app;
+}
+
+/* U4 @sources/Pb1/U4.java */
+struct GetChatsRequest {
+    1: list<string> chatMids;
+    2: bool withMembers;
+    3: bool withInvitees;
+}
+
+/* V4 @sources/Pb1/V4.java */
+struct GetChatsResponse {
+    1: list<Chat> chats;
+}
+
+/* C27552s @sources/jo0/C27552s.java */
+struct GetCoinHistoryRequest {
+    1: jO0_EnumC27533B appStoreCode;
+    2: string country;
+    3: string language;
+    4: string searchEndDate;
+    5: i32 offset;
+    6: i32 limit;
+}
+
+/* C27553t @sources/jo0/C27553t.java */
+struct GetCoinHistoryResponse {
+    1: list<CoinHistory> histories;
+    2: Coin balance;
+    3: i32 offset;
+    4: bool hasNext;
+}
+
+/* C27554u @sources/jo0/C27554u.java */
+struct GetCoinProductsRequest {
+    1: jO0_EnumC27533B appStoreCode;
+    2: string country;
+    3: string language;
+    4: jO0_EnumC27559z pgCode;
+}
+
+/* C27555v @sources/jo0/C27555v.java */
+struct GetCoinProductsResponse {
+    1: list<CoinProductItem> items;
+}
+
+/* C11269a0 @sources/LN0/C11269a0.java */
+struct GetContactCalendarEventResponse {
+    1: string targetUserMid;
+    2: LN0_X0 userType;
+    3: ContactCalendarEvents ContactCalendarEvents;
+    4: i64 snapshotTimeMillis;
+}
+
+/* C11271b0 @sources/LN0/C11271b0.java */
+struct GetContactCalendarEventTarget {
+    1: string targetUserMid;
+}
+
+/* C11273c0 @sources/LN0/C11273c0.java */
+struct GetContactCalendarEventsRequest {
+    1: list<GetContactCalendarEventTarget> targetUsers;
+    2: Pb1_V7 syncReason;
+    3: set<Pb1_EnumC13096n3> requiredContactCalendarEvents;
+}
+
+/* C11275d0 @sources/LN0/C11275d0.java */
+struct GetContactCalendarEventsResponse {
+    1: list<GetContactCalendarEventResponse> responses;
+}
+
+/* C11277e0 @sources/LN0/C11277e0.java */
+struct GetContactV3Response {
+    1: string targetUserMid;
+    2: LN0_X0 userType;
+    3: TargetProfileDetail targetProfileDetail;
+    4: LN0_Z friendDetail;
+    5: LN0_V blockDetail;
+    6: LN0_y0 recommendationDetail;
+    7: NotificationSettingEntry notificationSettingEntry;
+}
+
+/* C11279f0 @sources/LN0/C11279f0.java */
+struct GetContactV3Target {
+    1: string targetUserMid;
+}
+
+/* C11281g0 @sources/LN0/C11281g0.java */
+struct GetContactsV3Request {
+    1: list<GetContactV3Target> targetUsers;
+    2: Pb1_V7 syncReason;
+    3: bool checkUserStatusStrictly;
+}
+
+/* C11283h0 @sources/LN0/C11283h0.java */
+struct GetContactsV3Response {
+    1: list<GetContactV3Response> responses;
+}
+
+/* C26413m @sources/I80/C26413m.java */
+struct I80_C26413m {
+    1: string authSessionId;
+    2: I80_B0 simCard;
+}
+
+/* C26414n @sources/I80/C26414n.java */
+struct I80_C26414n {
+    1: string countryCode;
+    2: bool countryInEEA;
+    3: set<string> countrySetOfEEA;
+}
+
+/* C14416o @sources/T70/C14416o.java */
+struct GetCountryInfoResponse {
+    1: string countryCode;
+    2: bool countryInEEA;
+    3: set<string> countrySetOfEEA;
+}
+
+/* C37634e @sources/Vh/C37634e.java */
+struct GetDisasterCasesResponse {
+    1: list<DisasterInfo> disasters;
+    2: list<string> messageTemplate;
+    3: i64 ttlInMillis;
+}
+
+/* X4 @sources/Pb1/X4.java */
+struct GetE2EEKeyBackupCertificatesResponse {
+    1: list<string> urlHashList;
+}
+
+/* Z4 @sources/Pb1/Z4.java */
+struct GetE2EEKeyBackupInfoResponse {
+    1: string blobHeaderHash;
+    2: string blobPayloadHash;
+    3: set<i32> missingKeyIds;
+    4: i64 startTimeMillis;
+    5: i64 endTimeMillis;
+}
+
+/* h @sources/o80/h.java */
+struct GetExchangeKeyRequest {
+    1: string sessionId;
+}
+
+/* i @sources/o80/i.java */
+struct GetExchangeKeyResponse {
+    2: map<string, string> exchangeKey;
+}
+
+/* C12930b5 @sources/Pb1/C12930b5.java */
+struct GetFollowBlacklistRequest {
+    1: string cursor;
+}
+
+/* C12944c5 @sources/Pb1/C12944c5.java */
+struct GetFollowBlacklistResponse {
+    1: list<FollowProfile> profiles;
+    2: string cursor;
+}
+
+/* C12958d5 @sources/Pb1/C12958d5.java */
+struct GetFollowersRequest {
+    1: Pb1_A4 followMid;
+    2: string cursor;
+}
+
+/* C12972e5 @sources/Pb1/C12972e5.java */
+struct GetFollowersResponse {
+    1: list<FollowProfile> profiles;
+    2: string cursor;
+    3: i64 followingCount;
+    4: i64 followerCount;
+}
+
+/* C12986f5 @sources/Pb1/C12986f5.java */
+struct GetFollowingsRequest {
+    1: Pb1_A4 followMid;
+    2: string cursor;
+}
+
+/* C13000g5 @sources/Pb1/C13000g5.java */
+struct GetFollowingsResponse {
+    1: list<FollowProfile> profiles;
+    2: string cursor;
+    3: i64 followingCount;
+    4: i64 followerCount;
+}
+
+/* j @sources/VR0/j.java */
+struct GetFontMetasRequest {
+    1: VR0_l requestCause;
+}
+
+/* k @sources/VR0/k.java */
+struct GetFontMetasResponse {
+    1: list<FontMeta> fontMetas;
+    2: i32 ttlInSeconds;
+}
+
+/* C11285i0 @sources/LN0/C11285i0.java */
+struct GetFriendDetailResponse {
+    1: string targetUserMid;
+    2: LN0_Z friendDetail;
+}
+
+/* C11287j0 @sources/LN0/C11287j0.java */
+struct GetFriendDetailTarget {
+    1: string targetUserMid;
+}
+
+/* C11289k0 @sources/LN0/C11289k0.java */
+struct GetFriendDetailsRequest {
+    1: list<GetFriendDetailTarget> targetUsers;
+    2: Pb1_V7 syncReason;
+}
+
+/* C11291l0 @sources/LN0/C11291l0.java */
+struct GetFriendDetailsResponse {
+    1: list<GetFriendDetailResponse> responses;
+}
+
+/* A @sources/NZ0/A.java */
+struct GetGnbBadgeStatusRequest {
+    1: string uenRevision;
+}
+
+/* B @sources/NZ0/B.java */
+struct GetGnbBadgeStatusResponse {
+    1: string uenRevision;
+    2: NZ0_EnumC12170h badgeStatus;
+}
+
+/* GetGoogleAdOptionsRequest @sources/com/linecorp/square/protocol/thrift/GetGoogleAdOptionsRequest.java */
+struct GetGoogleAdOptionsRequest {
+    1: string squareMid;
+    2: string chatMid;
+    3: AdScreen adScreen;
+}
+
+/* GetGoogleAdOptionsResponse @sources/com/linecorp/square/protocol/thrift/GetGoogleAdOptionsResponse.java */
+struct GetGoogleAdOptionsResponse {
+    1: bool showAd;
+    2: list<string> contentUrls;
+    3: map<string, list<_any>> customTargeting;
+    4: i32 clientCacheTtlSeconds;
+}
+
+/* C13014h5 @sources/Pb1/C13014h5.java */
+struct GetGroupCallUrlInfoRequest {
+    1: string urlId;
+}
+
+/* C13028i5 @sources/Pb1/C13028i5.java */
+struct GetGroupCallUrlInfoResponse {
+    1: string title;
+    2: i64 createdTimeMillis;
+}
+
+/* C13056k5 @sources/Pb1/C13056k5.java */
+struct GetGroupCallUrlsResponse {
+    1: list<GroupCallUrl> urls;
+}
+
+/* C8724a @sources/DG/C8724a.java */
+struct GetHomeFlexContentRequest {
+    1: i32 supportedFlexVersion;
+}
+
+/* b @sources/DG/b.java */
+struct GetHomeFlexContentResponse {
+    1: list<HomeTabPlacement> placements;
+    2: i64 expireTimeMillis;
+    3: string gnbBadgeId;
+    4: i64 gnbBadgeExpireTimeMillis;
+}
+
+/* c @sources/Eg/c.java */
+struct GetHomeServiceListResponse {
+    1: list<HomeService> services;
+    2: list<i32> fixedServiceIds;
+    3: list<i32> pinnedServiceCandidateIds;
+    4: list<HomeCategory> categories;
+    5: list<i32> fixedServiceIdsV3;
+    6: i32 specificServiceId;
+}
+
+/* d @sources/Eg/d.java */
+struct GetHomeServicesRequest {
+    1: list<i32> ids;
+}
+
+/* e @sources/Eg/e.java */
+struct GetHomeServicesResponse {
+    1: list<HomeService> services;
+}
+
+/* C24472d @sources/fn0/C24472d.java */
+struct GetIncentiveStatusResponse {
+    1: i32 paypayPoint;
+    2: string incentiveCode;
+    3: bool subscribedFromViral;
+}
+
+/* GetInvitationTicketUrlRequest @sources/com/linecorp/square/protocol/thrift/GetInvitationTicketUrlRequest.java */
+struct GetInvitationTicketUrlRequest {
+    2: string mid;
+}
+
+/* GetInvitationTicketUrlResponse @sources/com/linecorp/square/protocol/thrift/GetInvitationTicketUrlResponse.java */
+struct GetInvitationTicketUrlResponse {
+    1: string invitationURL;
+}
+
+/* GetJoinableSquareChatsRequest @sources/com/linecorp/square/protocol/thrift/GetJoinableSquareChatsRequest.java */
+struct GetJoinableSquareChatsRequest {
+    1: string squareMid;
+    10: string continuationToken;
+    11: i32 limit;
+}
+
+/* GetJoinableSquareChatsResponse @sources/com/linecorp/square/protocol/thrift/GetJoinableSquareChatsResponse.java */
+struct GetJoinableSquareChatsResponse {
+    1: list<SquareChat> squareChats;
+    2: string continuationToken;
+    3: i32 totalSquareChatCount;
+    4: map<string, SquareChatStatus> squareChatStatuses;
+}
+
+/* C32664e @sources/og/C32664e.java */
+struct GetJoinedMembershipByBotMidRequest {
+    1: string botMid;
+}
+
+/* C32665f @sources/og/C32665f.java */
+struct GetJoinedMembershipRequest {
+    1: string uniqueKey;
+}
+
+/* GetJoinedSquareChatsRequest @sources/com/linecorp/square/protocol/thrift/GetJoinedSquareChatsRequest.java */
+struct GetJoinedSquareChatsRequest {
+    2: string continuationToken;
+    3: i32 limit;
+}
+
+/* GetJoinedSquareChatsResponse @sources/com/linecorp/square/protocol/thrift/GetJoinedSquareChatsResponse.java */
+struct GetJoinedSquareChatsResponse {
+    1: list<SquareChat> chats;
+    2: map<string, SquareChatMember> chatMembers;
+    3: map<string, SquareChatStatus> statuses;
+    4: string continuationToken;
+}
+
+/* GetJoinedSquaresRequest @sources/com/linecorp/square/protocol/thrift/GetJoinedSquaresRequest.java */
+struct GetJoinedSquaresRequest {
+    2: string continuationToken;
+    3: i32 limit;
+}
+
+/* GetJoinedSquaresResponse @sources/com/linecorp/square/protocol/thrift/GetJoinedSquaresResponse.java */
+struct GetJoinedSquaresResponse {
+    1: list<Square> squares;
+    2: map<string, SquareMember> members;
+    3: map<string, SquareAuthority> authorities;
+    4: map<string, SquareStatus> statuses;
+    5: string continuationToken;
+    6: map<string, NoteStatus> noteStatuses;
+}
+
+/* C13084m5 @sources/Pb1/C13084m5.java */
+struct GetKeyBackupCertificatesV2Response {
+    1: list<string> urlHashList;
+}
+
+/* c @sources/ar0/c.java */
+struct GetLFLSuggestionResponse {
+    1: string majorVersion;
+    2: string minorVersion;
+    3: string clusterLink;
+}
+
+/* GetLiveTalkInfoForNonMemberRequest @sources/com/linecorp/square/protocol/thrift/GetLiveTalkInfoForNonMemberRequest.java */
+struct GetLiveTalkInfoForNonMemberRequest {
+    1: string squareChatMid;
+    2: string sessionId;
+    3: list<string> speakers;
+}
+
+/* GetLiveTalkInfoForNonMemberResponse @sources/com/linecorp/square/protocol/thrift/GetLiveTalkInfoForNonMemberResponse.java */
+struct GetLiveTalkInfoForNonMemberResponse {
+    1: string chatName;
+    2: string chatImageObsHash;
+    3: LiveTalk liveTalk;
+    4: list<LiveTalkSpeaker> speakers;
+    5: string chatInvitationTicket;
+}
+
+/* GetLiveTalkInvitationUrlRequest @sources/com/linecorp/square/protocol/thrift/GetLiveTalkInvitationUrlRequest.java */
+struct GetLiveTalkInvitationUrlRequest {
+    1: string squareChatMid;
+    2: string sessionId;
+}
+
+/* GetLiveTalkInvitationUrlResponse @sources/com/linecorp/square/protocol/thrift/GetLiveTalkInvitationUrlResponse.java */
+struct GetLiveTalkInvitationUrlResponse {
+    1: string invitationUrl;
+}
+
+/* GetLiveTalkSpeakersForNonMemberRequest @sources/com/linecorp/square/protocol/thrift/GetLiveTalkSpeakersForNonMemberRequest.java */
+struct GetLiveTalkSpeakersForNonMemberRequest {
+    1: string squareChatMid;
+    2: string sessionId;
+    3: list<string> speakers;
+}
+
+/* GetLiveTalkSpeakersForNonMemberResponse @sources/com/linecorp/square/protocol/thrift/GetLiveTalkSpeakersForNonMemberResponse.java */
+struct GetLiveTalkSpeakersForNonMemberResponse {
+    1: list<LiveTalkSpeaker> speakers;
+}
+
+/* C33652d @sources/q80/C33652d.java */
+struct GetLoginActorContextRequest {
+    1: string authSessionId;
+}
+
+/* j @sources/o80/j.java */
+struct GetLoginActorContextRequest {
+    1: string sessionId;
+}
+
+/* e @sources/q80/e.java */
+struct GetLoginActorContextResponse {
+    1: string appType;
+    2: string accessLocation;
+}
+
+/* k @sources/o80/k.java */
+struct GetLoginActorContextResponse {
+    1: string applicationType;
+    2: string ipAddress;
+    3: string location;
+}
+
+/* C25148e @sources/GN0/C25148e.java */
+struct GetMappedProfileIdsRequest {
+    1: list<string> targetUserMids;
+}
+
+/* C25149f @sources/GN0/C25149f.java */
+struct GetMappedProfileIdsResponse {
+    1: map<string, string> mappings;
+}
+
+/* C26415o @sources/I80/C26415o.java */
+struct I80_C26415o {
+    1: string authSessionId;
+}
+
+/* C26416p @sources/I80/C26416p.java */
+struct I80_C26416p {
+    1: string maskedEmail;
+}
+
+/* C14418p @sources/T70/C14418p.java */
+struct GetMaskedEmailResponse {
+    1: string maskedEmail;
+}
+
+/* GetMessageReactionsRequest @sources/com/linecorp/square/protocol/thrift/GetMessageReactionsRequest.java */
+struct GetMessageReactionsRequest {
+    1: string squareChatMid;
+    2: string messageId;
+    3: MessageReactionType type;
+    4: string continuationToken;
+    5: i32 limit;
+    6: string threadMid;
+}
+
+/* GetMessageReactionsResponse @sources/com/linecorp/square/protocol/thrift/GetMessageReactionsResponse.java */
+struct GetMessageReactionsResponse {
+    1: list<SquareMessageReaction> reactions;
+    2: SquareMessageReactionStatus status;
+    3: string continuationToken;
+}
+
+/* C @sources/NZ0/C.java */
+struct GetModuleLayoutV4Request {
+    2: string etag;
+}
+
+/* I @sources/NZ0/I.java */
+struct GetModulesRequestV2 {
+    1: string etag;
+    2: string deviceAdId;
+}
+
+/* J @sources/NZ0/J.java */
+struct GetModulesRequestV3 {
+    1: string etag;
+    2: NZ0_EnumC12169g1 tabIdentifier;
+    3: string deviceAdId;
+    4: bool agreedWithTargetingAdByMid;
+}
+
+/* L @sources/NZ0/L.java */
+struct GetModulesV4WithStatusRequest {
+    1: string etag;
+    2: string subTabId;
+    3: string deviceAdId;
+    4: bool agreedWithTargetingAdByMid;
+    5: string deviceId;
+}
+
+/* O @sources/Ob1/O.java */
+struct GetMusicSubscriptionStatusResponse {
+    1: i64 validUntil;
+    2: bool expired;
+    3: bool isStickersPremiumEnabled;
+}
+
+/* N @sources/NZ0/N.java */
+struct GetMyAssetInformationV2Request {
+    1: bool refresh;
+}
+
+/* O @sources/NZ0/O.java */
+struct GetMyAssetInformationV2Response {
+    1: HeaderInfo headerInfo;
+    2: list<AssetServiceInfo> assetServiceInfos;
+    3: ServiceDisclaimerInfo serviceDisclaimerInfo;
+    4: PointInfo pointInfo;
+    5: LinkRewardInfo linkRewardInfo;
+    6: PocketMoneyInfo pocketMoneyInfo;
+    7: ScoreInfo scoreInfo;
+    8: i64 timestamp;
+}
+
+/* m @sources/zf/m.java */
+struct GetMyChatappsRequest {
+    1: string language;
+    2: string continuationToken;
+}
+
+/* n @sources/zf/n.java */
+struct GetMyChatappsResponse {
+    1: list<MyChatapp> apps;
+    2: string continuationToken;
+}
+
+/* P @sources/NZ0/P.java */
+struct GetMyDashboardRequest {
+    1: NZ0_EnumC12169g1 tabIdentifier;
+}
+
+/* Q @sources/NZ0/Q.java */
+struct GetMyDashboardResponse {
+    1: NZ0_W0 responseStatus;
+    2: list<MyDashboardItem> messages;
+    3: i32 cacheTimeSec;
+    4: string cautionText;
+}
+
+/* GetNoteStatusRequest @sources/com/linecorp/square/protocol/thrift/GetNoteStatusRequest.java */
+struct GetNoteStatusRequest {
+    2: string squareMid;
+}
+
+/* GetNoteStatusResponse @sources/com/linecorp/square/protocol/thrift/GetNoteStatusResponse.java */
+struct GetNoteStatusResponse {
+    1: string squareMid;
+    2: NoteStatus status;
+}
+
+/* C13098n5 @sources/Pb1/C13098n5.java */
+struct GetNotificationSettingsRequest {
+    1: set<string> chatMids;
+    2: Pb1_V7 syncReason;
+}
+
+/* C13112o5 @sources/Pb1/C13112o5.java */
+struct GetNotificationSettingsResponse {
+    1: map<string, NotificationSettingEntry> notificationSettingEntries;
+}
+
+/* C26417q @sources/I80/C26417q.java */
+struct I80_C26417q {
+    1: string authSessionId;
+}
+
+/* C14420q @sources/T70/C14420q.java */
+struct GetPasswordHashingParametersForPwdRegRequest {
+    1: string authSessionId;
+}
+
+/* r @sources/T70/r.java */
+struct GetPasswordHashingParametersForPwdRegResponse {
+    1: PasswordHashingParameters params;
+    2: list<PasswordValidationRule> passwordValidationRule;
+}
+
+/* C26418r @sources/I80/C26418r.java */
+struct I80_C26418r {
+    1: PasswordHashingParameters params;
+    2: list<PasswordValidationRule> passwordValidationRule;
+}
+
+/* C14423s @sources/T70/C14423s.java */
+struct GetPasswordHashingParametersForPwdVerifRequest {
+    1: string authSessionId;
+    2: AccountIdentifier accountIdentifier;
+}
+
+/* C26419s @sources/I80/C26419s.java */
+struct I80_C26419s {
+    1: string authSessionId;
+}
+
+/* C14425t @sources/T70/C14425t.java */
+struct GetPasswordHashingParametersForPwdVerifResponse {
+    1: bool isV1HashRequired;
+    2: V1PasswordHashingParameters v1HashParams;
+    3: PasswordHashingParameters hashParams;
+}
+
+/* C26420t @sources/I80/C26420t.java */
+struct I80_C26420t {
+    1: bool isV1HashRequired;
+    2: V1PasswordHashingParameters v1HashParams;
+    3: PasswordHashingParameters hashParams;
+}
+
+/* d @sources/U70/d.java */
+struct GetPasswordHashingParametersRequest {
+    1: string sessionId;
+}
+
+/* e @sources/U70/e.java */
+struct GetPasswordHashingParametersResponse {
+    1: string hmacKey;
+    2: ScryptParams scryptParams;
+    3: list<PasswordValidationRule> passwordValidationRule;
+}
+
+/* C14427u @sources/T70/C14427u.java */
+struct GetPhoneVerifMethodForRegistrationRequest {
+    1: string authSessionId;
+    2: Device device;
+    3: UserPhoneNumber userPhoneNumber;
+}
+
+/* C14429v @sources/T70/C14429v.java */
+struct GetPhoneVerifMethodForRegistrationResponse {
+    1: list<i32> availableMethods;
+    2: string prettifiedPhoneNumber;
+}
+
+/* C14431w @sources/T70/C14431w.java */
+struct GetPhoneVerifMethodV2Request {
+    1: string authSessionId;
+    2: Device device;
+    3: UserPhoneNumber userPhoneNumber;
+}
+
+/* C26421u @sources/I80/C26421u.java */
+struct I80_C26421u {
+    1: string authSessionId;
+    2: UserPhoneNumber userPhoneNumber;
+}
+
+/* C26422v @sources/I80/C26422v.java */
+struct I80_C26422v {
+    1: list<i32> availableMethods;
+    3: string prettifiedPhoneNumber;
+}
+
+/* C14433x @sources/T70/C14433x.java */
+struct GetPhoneVerifMethodV2Response {
+    1: list<i32> availableMethods;
+    3: string prettifiedPhoneNumber;
+}
+
+/* C13140q5 @sources/Pb1/C13140q5.java */
+struct GetPhotoboothBalanceResponse {
+    1: i32 availableTickets;
+    2: i64 nextTicketAvailableAt;
+}
+
+/* GetPopularKeywordsResponse @sources/com/linecorp/square/protocol/thrift/GetPopularKeywordsResponse.java */
+struct GetPopularKeywordsResponse {
+    1: list<PopularKeyword> popularKeywords;
+    2: i64 expiredAt;
+}
+
+/* r @sources/Do0/r.java */
+struct GetPredefinedScenarioSetsRequest {
+    1: list<string> deviceIds;
+}
+
+/* C23160s @sources/Do0/C23160s.java */
+struct GetPredefinedScenarioSetsResponse {
+    1: map<string, ScenarioSet> scenarioSets;
+}
+
+/* C14435y @sources/T70/C14435y.java */
+struct GetPremiumContextForMigResponse {
+    1: bool isPremiumActive;
+    2: bool isPremiumBackupActive;
+    3: T70_L premiumType;
+    4: list<i32> availablePremiumTypes;
+}
+
+/* C24474f @sources/fn0/C24474f.java */
+struct GetPremiumDataRetentionResponse {
+    1: list<DataRetention> dataRetentions;
+    2: i64 noSyncUntil;
+}
+
+/* C24477i @sources/fn0/C24477i.java */
+struct GetPremiumStatusResponse {
+    1: bool active;
+    2: i64 validUntil;
+    3: i64 updatedTime;
+    4: bool freeTrialUsed;
+    5: bool willExpire;
+    6: bool newToYahooShopping;
+    8: bool idLinked;
+    9: bool onFreeTrial;
+    10: bool duplicated;
+    11: fN0_p planType;
+    12: i64 noSyncUntil;
+    13: string productId;
+    14: string currency;
+    15: string price;
+    16: fN0_H status;
+    17: bool invitedByFriend;
+    18: list<i32> canceledProviders;
+    19: i64 nextPaymentTime;
+}
+
+/* C13153r5 @sources/Pb1/C13153r5.java */
+struct GetPreviousMessagesV2Request {
+    1: string messageBoxId;
+    2: MessageBoxV2MessageId endMessageId;
+    3: i32 messagesCount;
+    4: bool withReadCount;
+    5: bool receivedOnly;
+}
+
+/* P @sources/Ob1/P.java */
+struct GetProductLatestVersionForUserRequest {
+    1: Ob1_O0 productType;
+    2: string productId;
+}
+
+/* Q @sources/Ob1/Q.java */
+struct GetProductLatestVersionForUserResponse {
+    1: i64 latestVersion;
+    2: string latestVersionString;
+}
+
+/* S @sources/Ob1/S.java */
+struct GetProductRequest {
+    1: Ob1_O0 productType;
+    2: string productId;
+    3: string carrierCode;
+    4: bool saveBrowsingHistory;
+}
+
+/* T @sources/Ob1/T.java */
+struct GetProductResponse {
+    1: ProductDetail productDetail;
+}
+
+/* C25150g @sources/GN0/C25150g.java */
+struct GetProfileRequest {
+    1: string profileId;
+}
+
+/* C25151h @sources/GN0/C25151h.java */
+struct GetProfileResponse {
+    1: Profile profile;
+}
+
+/* C25152i @sources/GN0/C25152i.java */
+struct GetProfilesRequest {
+    1: Pb1_V7 syncReason;
+}
+
+/* C25153j @sources/GN0/C25153j.java */
+struct GetProfilesResponse {
+    1: list<Profile> profiles;
+}
+
+/* C32666g @sources/og/C32666g.java */
+struct GetPublishedMembershipsRequest {
+    1: string basicSearchId;
+}
+
+/* T @sources/NZ0/T.java */
+struct GetQuickMenuResponse {
+    1: QuickMenuPointInfo pointInfo;
+    2: QuickMenuCouponInfo couponInfo;
+    3: QuickMenuMyCardInfo myCardInfo;
+}
+
+/* C11293m0 @sources/LN0/C11293m0.java */
+struct GetRecommendationDetailResponse {
+    1: string targetUserMid;
+    2: LN0_y0 recommendationOrNot;
+}
+
+/* C11295n0 @sources/LN0/C11295n0.java */
+struct GetRecommendationDetailTarget {
+    1: string targetUserMid;
+}
+
+/* C11297o0 @sources/LN0/C11297o0.java */
+struct GetRecommendationDetailsRequest {
+    1: list<GetRecommendationDetailTarget> targetUsers;
+    2: Pb1_V7 syncReason;
+}
+
+/* C11299p0 @sources/LN0/C11299p0.java */
+struct GetRecommendationDetailsResponse {
+    1: list<GetRecommendationDetailResponse> responses;
+}
+
+/* X @sources/Ob1/X.java */
+struct GetRecommendationResponse {
+    1: list<ProductSearchSummary> results;
+    2: string continuationToken;
+    3: i64 totalSize;
+}
+
+/* C13167s5 @sources/Pb1/C13167s5.java */
+struct GetRepairElementsRequest {
+    1: bool profile;
+    2: bool settings;
+    3: ConfigurationsParams configurations;
+    4: i32 numLocalJoinedGroups;
+    5: i32 numLocalInvitedGroups;
+    6: i32 numLocalFriends;
+    7: i32 numLocalRecommendations;
+    8: i32 numLocalBlockedFriends;
+    9: i32 numLocalBlockedRecommendations;
+    10: map<string, RepairGroupMembers> localGroupMembers;
+    11: Pb1_V7 syncReason;
+    12: map<string, i32> localProfileMappings;
+}
+
+/* C13181t5 @sources/Pb1/C13181t5.java */
+struct GetRepairElementsResponse {
+    1: RepairTriggerProfileElement profile;
+    2: RepairTriggerSettingsElement settings;
+    3: RepairTriggerConfigurationsElement configurations;
+    4: RepairTriggerNumElement numJoinedGroups;
+    5: RepairTriggerNumElement numInvitedGroups;
+    6: RepairTriggerNumElement numFriends;
+    7: RepairTriggerNumElement numRecommendations;
+    8: RepairTriggerNumElement numBlockedFriends;
+    9: RepairTriggerNumElement numBlockedRecommendations;
+    10: RepairTriggerGroupMembersElement groupMembers;
+    11: RepairTriggerProfileMappingListElement profileMappings;
+}
+
+/* e @sources/t80/e.java */
+struct GetRequest {
+    1: string keyName;
+    2: t80_h ns;
+}
+
+/* Y @sources/Ob1/Y.java */
+struct GetResourceFileReponse {
+    1: GetTagClusterFileResponse tagClusterFileResponse;
+}
+
+/* Z @sources/Ob1/Z.java */
+struct GetResourceFileRequest {
+    1: Ob1_C12642m0 tagClusterFileRequest;
+    2: bool staging;
+}
+
+/* f @sources/t80/f.java */
+struct GetResponse {
+    1: SettingValue value;
+}
+
+/* C27715d @sources/jf/C27715d.java */
+struct GetResponseStatusRequest {
+    1: string botMid;
+}
+
+/* C27716e @sources/jf/C27716e.java */
+struct GetResponseStatusResponse {
+    1: jf_EnumC27712a displayedResponseStatus;
+}
+
+/* C32667h @sources/og/C32667h.java */
+struct GetSCCRequest {
+    1: string basicSearchId;
+}
+
+/* C26423w @sources/I80/C26423w.java */
+struct I80_C26423w {
+    1: string authSessionId;
+}
+
+/* C26424x @sources/I80/C26424x.java */
+struct I80_C26424x {
+    1: I80_y0 encryptionKey;
+}
+
+/* C8936d @sources/eH/C8936d.java */
+struct GetSeasonalEffectsResponse {
+    1: list<HomeEffect> effects;
+}
+
+/* C14437z @sources/T70/C14437z.java */
+struct GetSecondAuthMethodResponse {
+    1: T70_e1 secondAuthMethod;
+}
+
+/* V @sources/NZ0/V.java */
+struct GetServiceShortcutMenuResponse {
+    1: string revision;
+    2: i32 refreshTimeSec;
+    3: bool expandable;
+    4: list<ServiceShortcut> serviceShortcuts;
+    5: string menuDescription;
+    6: i32 numberOfItemsInRow;
+}
+
+/* A @sources/T70/A.java */
+struct GetSessionContentBeforeMigCompletionResponse {
+    1: bool appTypeDifferentFromPrevDevice;
+    2: bool e2eeKeyBackupServiceConfig;
+    4: i32 e2eeKeyBackupPeriodServiceConfig;
+}
+
+/* W @sources/NZ0/W.java */
+struct GetSmartChannelRecommendationsRequest {
+    1: i32 maxResults;
+    2: string placement;
+    3: bool testMode;
+}
+
+/* X @sources/NZ0/X.java */
+struct GetSmartChannelRecommendationsResponse {
+    1: list<SmartChannelRecommendation> smartChannelRecommendations;
+    2: i32 minInterval;
+    3: string requestId;
+}
+
+/* GetSquareAuthoritiesRequest @sources/com/linecorp/square/protocol/thrift/GetSquareAuthoritiesRequest.java */
+struct GetSquareAuthoritiesRequest {
+    2: set<string> squareMids;
+}
+
+/* GetSquareAuthoritiesResponse @sources/com/linecorp/square/protocol/thrift/GetSquareAuthoritiesResponse.java */
+struct GetSquareAuthoritiesResponse {
+    1: map<string, SquareAuthority> authorities;
+}
+
+/* GetSquareAuthorityRequest @sources/com/linecorp/square/protocol/thrift/GetSquareAuthorityRequest.java */
+struct GetSquareAuthorityRequest {
+    1: string squareMid;
+}
+
+/* GetSquareAuthorityResponse @sources/com/linecorp/square/protocol/thrift/GetSquareAuthorityResponse.java */
+struct GetSquareAuthorityResponse {
+    1: SquareAuthority authority;
+}
+
+/* C39216a @sources/XM/C39216a.java */
+struct GetSquareBotRequest {
+    1: string botMid;
+}
+
+/* C39217b @sources/XM/C39217b.java */
+struct GetSquareBotResponse {
+    1: SquareBot squareBot;
+}
+
+/* GetSquareCategoriesResponse @sources/com/linecorp/square/protocol/thrift/GetSquareCategoriesResponse.java */
+struct GetSquareCategoriesResponse {
+    1: list<Category> categoryList;
+}
+
+/* GetSquareChatAnnouncementsRequest @sources/com/linecorp/square/protocol/thrift/GetSquareChatAnnouncementsRequest.java */
+struct GetSquareChatAnnouncementsRequest {
+    2: string squareChatMid;
+}
+
+/* GetSquareChatAnnouncementsResponse @sources/com/linecorp/square/protocol/thrift/GetSquareChatAnnouncementsResponse.java */
+struct GetSquareChatAnnouncementsResponse {
+    1: list<SquareChatAnnouncement> announcements;
+}
+
+/* GetSquareChatEmidRequest @sources/com/linecorp/square/protocol/thrift/GetSquareChatEmidRequest.java */
+struct GetSquareChatEmidRequest {
+    1: string squareChatMid;
+}
+
+/* GetSquareChatEmidResponse @sources/com/linecorp/square/protocol/thrift/GetSquareChatEmidResponse.java */
+struct GetSquareChatEmidResponse {
+    1: string squareChatEmid;
+}
+
+/* GetSquareChatFeatureSetRequest @sources/com/linecorp/square/protocol/thrift/GetSquareChatFeatureSetRequest.java */
+struct GetSquareChatFeatureSetRequest {
+    2: string squareChatMid;
+}
+
+/* GetSquareChatFeatureSetResponse @sources/com/linecorp/square/protocol/thrift/GetSquareChatFeatureSetResponse.java */
+struct GetSquareChatFeatureSetResponse {
+    1: SquareChatFeatureSet squareChatFeatureSet;
+}
+
+/* GetSquareChatMemberRequest @sources/com/linecorp/square/protocol/thrift/GetSquareChatMemberRequest.java */
+struct GetSquareChatMemberRequest {
+    2: string squareMemberMid;
+    3: string squareChatMid;
+}
+
+/* GetSquareChatMemberResponse @sources/com/linecorp/square/protocol/thrift/GetSquareChatMemberResponse.java */
+struct GetSquareChatMemberResponse {
+    1: SquareChatMember squareChatMember;
+}
+
+/* GetSquareChatMembersRequest @sources/com/linecorp/square/protocol/thrift/GetSquareChatMembersRequest.java */
+struct GetSquareChatMembersRequest {
+    1: string squareChatMid;
+    2: string continuationToken;
+    3: i32 limit;
+}
+
+/* GetSquareChatMembersResponse @sources/com/linecorp/square/protocol/thrift/GetSquareChatMembersResponse.java */
+struct GetSquareChatMembersResponse {
+    1: list<SquareMember> squareChatMembers;
+    2: string continuationToken;
+    3: map<string, i32> contentsAttributes;
+}
+
+/* GetSquareChatRequest @sources/com/linecorp/square/protocol/thrift/GetSquareChatRequest.java */
+struct GetSquareChatRequest {
+    1: string squareChatMid;
+}
+
+/* GetSquareChatResponse @sources/com/linecorp/square/protocol/thrift/GetSquareChatResponse.java */
+struct GetSquareChatResponse {
+    1: SquareChat squareChat;
+    2: SquareChatMember squareChatMember;
+    3: SquareChatStatus squareChatStatus;
+}
+
+/* GetSquareChatStatusRequest @sources/com/linecorp/square/protocol/thrift/GetSquareChatStatusRequest.java */
+struct GetSquareChatStatusRequest {
+    2: string squareChatMid;
+}
+
+/* GetSquareChatStatusResponse @sources/com/linecorp/square/protocol/thrift/GetSquareChatStatusResponse.java */
+struct GetSquareChatStatusResponse {
+    1: SquareChatStatus chatStatus;
+}
+
+/* GetSquareEmidRequest @sources/com/linecorp/square/protocol/thrift/GetSquareEmidRequest.java */
+struct GetSquareEmidRequest {
+    1: string squareMid;
+}
+
+/* GetSquareEmidResponse @sources/com/linecorp/square/protocol/thrift/GetSquareEmidResponse.java */
+struct GetSquareEmidResponse {
+    1: string squareEmid;
+}
+
+/* GetSquareFeatureSetRequest @sources/com/linecorp/square/protocol/thrift/GetSquareFeatureSetRequest.java */
+struct GetSquareFeatureSetRequest {
+    2: string squareMid;
+}
+
+/* GetSquareFeatureSetResponse @sources/com/linecorp/square/protocol/thrift/GetSquareFeatureSetResponse.java */
+struct GetSquareFeatureSetResponse {
+    1: SquareFeatureSet squareFeatureSet;
+}
+
+/* GetSquareInfoByChatMidRequest @sources/com/linecorp/square/protocol/thrift/GetSquareInfoByChatMidRequest.java */
+struct GetSquareInfoByChatMidRequest {
+    1: string squareChatMid;
+}
+
+/* GetSquareInfoByChatMidResponse @sources/com/linecorp/square/protocol/thrift/GetSquareInfoByChatMidResponse.java */
+struct GetSquareInfoByChatMidResponse {
+    1: string defaultChatMid;
+    2: string squareName;
+    3: string squareDesc;
+}
+
+/* GetSquareMemberRelationRequest @sources/com/linecorp/square/protocol/thrift/GetSquareMemberRelationRequest.java */
+struct GetSquareMemberRelationRequest {
+    2: string squareMid;
+    3: string targetSquareMemberMid;
+}
+
+/* GetSquareMemberRelationResponse @sources/com/linecorp/square/protocol/thrift/GetSquareMemberRelationResponse.java */
+struct GetSquareMemberRelationResponse {
+    1: string squareMid;
+    2: string targetSquareMemberMid;
+    3: SquareMemberRelation relation;
+}
+
+/* GetSquareMemberRelationsRequest @sources/com/linecorp/square/protocol/thrift/GetSquareMemberRelationsRequest.java */
+struct GetSquareMemberRelationsRequest {
+    2: SquareMemberRelationState state;
+    3: string continuationToken;
+    4: i32 limit;
+}
+
+/* GetSquareMemberRelationsResponse @sources/com/linecorp/square/protocol/thrift/GetSquareMemberRelationsResponse.java */
+struct GetSquareMemberRelationsResponse {
+    1: list<SquareMember> squareMembers;
+    2: map<string, SquareMemberRelation> relations;
+    3: string continuationToken;
+}
+
+/* GetSquareMemberRequest @sources/com/linecorp/square/protocol/thrift/GetSquareMemberRequest.java */
+struct GetSquareMemberRequest {
+    2: string squareMemberMid;
+}
+
+/* GetSquareMemberResponse @sources/com/linecorp/square/protocol/thrift/GetSquareMemberResponse.java */
+struct GetSquareMemberResponse {
+    1: SquareMember squareMember;
+    2: SquareMemberRelation relation;
+    3: string oneOnOneChatMid;
+    4: ContentsAttribute contentsAttribute;
+}
+
+/* GetSquareMembersBySquareRequest @sources/com/linecorp/square/protocol/thrift/GetSquareMembersBySquareRequest.java */
+struct GetSquareMembersBySquareRequest {
+    2: string squareMid;
+    3: set<string> squareMemberMids;
+}
+
+/* GetSquareMembersBySquareResponse @sources/com/linecorp/square/protocol/thrift/GetSquareMembersBySquareResponse.java */
+struct GetSquareMembersBySquareResponse {
+    1: list<SquareMember> members;
+    2: map<string, i32> contentsAttributes;
+}
+
+/* GetSquareMembersRequest @sources/com/linecorp/square/protocol/thrift/GetSquareMembersRequest.java */
+struct GetSquareMembersRequest {
+    2: set<string> mids;
+}
+
+/* GetSquareMembersResponse @sources/com/linecorp/square/protocol/thrift/GetSquareMembersResponse.java */
+struct GetSquareMembersResponse {
+    1: map<string, SquareMember> members;
+}
+
+/* GetSquareRequest @sources/com/linecorp/square/protocol/thrift/GetSquareRequest.java */
+struct GetSquareRequest {
+    2: string mid;
+}
+
+/* GetSquareResponse @sources/com/linecorp/square/protocol/thrift/GetSquareResponse.java */
+struct GetSquareResponse {
+    1: Square square;
+    2: SquareMember myMembership;
+    3: SquareAuthority squareAuthority;
+    4: SquareStatus squareStatus;
+    5: SquareFeatureSet squareFeatureSet;
+    6: NoteStatus noteStatus;
+    7: SquareExtraInfo extraInfo;
+}
+
+/* GetSquareStatusRequest @sources/com/linecorp/square/protocol/thrift/GetSquareStatusRequest.java */
+struct GetSquareStatusRequest {
+    2: string squareMid;
+}
+
+/* GetSquareStatusResponse @sources/com/linecorp/square/protocol/thrift/GetSquareStatusResponse.java */
+struct GetSquareStatusResponse {
+    1: SquareStatus squareStatus;
+}
+
+/* GetSquareThreadMidRequest @sources/com/linecorp/square/protocol/thrift/GetSquareThreadMidRequest.java */
+struct GetSquareThreadMidRequest {
+    1: string chatMid;
+    2: string messageId;
+}
+
+/* GetSquareThreadMidResponse @sources/com/linecorp/square/protocol/thrift/GetSquareThreadMidResponse.java */
+struct GetSquareThreadMidResponse {
+    1: string threadMid;
+}
+
+/* GetSquareThreadRequest @sources/com/linecorp/square/protocol/thrift/GetSquareThreadRequest.java */
+struct GetSquareThreadRequest {
+    1: string threadMid;
+    2: bool includeRootMessage;
+}
+
+/* GetSquareThreadResponse @sources/com/linecorp/square/protocol/thrift/GetSquareThreadResponse.java */
+struct GetSquareThreadResponse {
+    1: SquareThread squareThread;
+    2: SquareThreadMember myThreadMember;
+    3: SquareMessage rootMessage;
+}
+
+/* C12609b0 @sources/Ob1/C12609b0.java */
+struct GetStudentInformationResponse {
+    1: StudentInformation studentInformation;
+    2: bool isValid;
+}
+
+/* C12612c0 @sources/Ob1/C12612c0.java */
+struct GetSubscriptionPlansRequest {
+    1: Ob1_S1 subscriptionService;
+    2: Ob1_K1 storeCode;
+}
+
+/* C12615d0 @sources/Ob1/C12615d0.java */
+struct GetSubscriptionPlansResponse {
+    1: list<SubscriptionPlan> plans;
+}
+
+/* C12624g0 @sources/Ob1/C12624g0.java */
+struct GetSubscriptionStatusRequest {
+    1: bool includeOtherOwnedSubscriptions;
+}
+
+/* C12627h0 @sources/Ob1/C12627h0.java */
+struct GetSubscriptionStatusResponse {
+    1: map<i32, SubscriptionStatus> subscriptions;
+    2: bool hasValidStudentInformation;
+    3: map<i32, list<_any>> otherOwnedSubscriptions;
+}
+
+/* C12633j0 @sources/Ob1/C12633j0.java */
+struct GetSuggestDictionarySettingResponse {
+    1: list<SuggestDictionarySetting> results;
+}
+
+/* C12636k0 @sources/Ob1/C12636k0.java */
+struct GetSuggestResourcesV2Request {
+    1: Ob1_O0 productType;
+    2: list<string> productIds;
+}
+
+/* C12639l0 @sources/Ob1/C12639l0.java */
+struct GetSuggestResourcesV2Response {
+    1: map<string, SuggestResource> suggestResources;
+}
+
+/* C40577b @sources/Zr0/C40577b.java */
+struct GetSuggestTrialRecommendationResponse {
+    1: list<SuggestTrialRecommendation> recommendations;
+    2: i64 expiresAt;
+    3: string recommendationGrouping;
+}
+
+/* C12645n0 @sources/Ob1/C12645n0.java */
+struct GetTagClusterFileResponse {
+    1: string path;
+    2: i64 updatedTimeMillis;
+}
+
+/* Y @sources/NZ0/Y.java */
+struct GetTaiwanBankBalanceRequest {
+    1: string accessToken;
+    2: string authorizationCode;
+    3: string codeVerifier;
+}
+
+/* Z @sources/NZ0/Z.java */
+struct GetTaiwanBankBalanceResponse {
+    1: string maintenaceText;
+    2: list<LineBankPromotion> lineBankPromotions;
+    3: TaiwanBankBalanceInfo taiwanBankBalanceInfo;
+    4: LineBankShortcutInfo lineBankShortcutInfo;
+    5: TaiwanBankLoginParameters loginParameters;
+}
+
+/* C11301q0 @sources/LN0/C11301q0.java */
+struct GetTargetProfileResponse {
+    1: string targetUserMid;
+    2: LN0_X0 userType;
+    3: TargetProfileDetail targetProfileDetail;
+}
+
+/* C11302r0 @sources/LN0/C11302r0.java */
+struct GetTargetProfileTarget {
+    1: string targetUserMid;
+}
+
+/* C11304s0 @sources/LN0/C11304s0.java */
+struct GetTargetProfilesRequest {
+    1: list<GetTargetProfileTarget> targetUsers;
+    2: Pb1_V7 syncReason;
+}
+
+/* C11306t0 @sources/LN0/C11306t0.java */
+struct GetTargetProfilesResponse {
+    1: list<GetTargetProfileResponse> responses;
+}
+
+/* C12153b0 @sources/NZ0/C12153b0.java */
+struct GetTargetingPopupResponse {
+    1: list<PopupProperty> targetingPopups;
+    2: i32 intervalTimeSec;
+}
+
+/* C12156c0 @sources/NZ0/C12156c0.java */
+struct GetThaiBankBalanceRequest {
+    1: string deviceId;
+}
+
+/* C12159d0 @sources/NZ0/C12159d0.java */
+struct GetThaiBankBalanceResponse {
+    1: string maintenaceText;
+    2: ThaiBankBalanceInfo thaiBankBalanceInfo;
+    3: list<LineBankPromotion> lineBankPromotions;
+    4: LineBankShortcutInfo lineBankShortcutInfo;
+}
+
+/* C27556w @sources/jo0/C27556w.java */
+struct GetTotalCoinBalanceRequest {
+    1: jO0_EnumC27533B appStoreCode;
+}
+
+/* C27557x @sources/jo0/C27557x.java */
+struct GetTotalCoinBalanceResponse {
+    1: string totalBalance;
+    2: string paidCoinBalance;
+    3: string freeCoinBalance;
+    4: string rewardCoinBalance;
+    5: string expectedAutoExchangedCoinBalance;
+}
+
+/* C12648o0 @sources/Ob1/C12648o0.java */
+struct GetUserCollectionsRequest {
+    1: i64 lastUpdatedTimeMillis;
+    2: bool includeSummary;
+    3: Ob1_O0 productType;
+}
+
+/* C12651p0 @sources/Ob1/C12651p0.java */
+struct GetUserCollectionsResponse {
+    1: list<Collection> collections;
+    2: bool updated;
+}
+
+/* B @sources/T70/B.java */
+struct GetUserProfileResponse {
+    1: UserProfile userProfile;
+}
+
+/* GetUserSettingsRequest @sources/com/linecorp/square/protocol/thrift/GetUserSettingsRequest.java */
+struct GetUserSettingsRequest {
+    1: set<SquareUserSettingsAttribute> requestedAttrs;
+}
+
+/* GetUserSettingsResponse @sources/com/linecorp/square/protocol/thrift/GetUserSettingsResponse.java */
+struct GetUserSettingsResponse {
+    1: set<i32> requestedAttrs;
+    2: SquareUserSettings userSettings;
+}
+
+/* d @sources/ar0/d.java */
+struct GetUserVectorRequest {
+    1: string majorVersion;
+}
+
+/* e @sources/ar0/e.java */
+struct GetUserVectorResponse {
+    1: list<double> userVector;
+    2: string majorVersion;
+    3: string minorVersion;
+}
+
+/* C25154k @sources/GN0/C25154k.java */
+struct GetUsersMappedByProfileRequest {
+    1: string profileId;
+    2: Pb1_V7 syncReason;
+}
+
+/* C25155l @sources/GN0/C25155l.java */
+struct GetUsersMappedByProfileResponse {
+    1: list<string> mappedMids;
+}
+
+/* C13195u5 @sources/Pb1/C13195u5.java */
+struct GlobalEvent {
+    1: Pb1_EnumC13209v5 type;
+    2: i32 minDelayInMinutes;
+    3: i32 maxDelayInMinutes;
+    4: i64 createTimeMillis;
+    5: bool maxDelayHardLimit;
+}
+
+/* C13223w5 @sources/Pb1/C13223w5.java */
+struct GroupCall {
+    1: bool online;
+    2: string chatMid;
+    3: string hostMid;
+    4: list<string> memberMids;
+    5: i64 started;
+    6: Pb1_EnumC13237x5 mediaType;
+    7: Pb1_EnumC13251y5 protocol;
+    8: i32 maxAllowableMembers;
+}
+
+/* C13265z5 @sources/Pb1/C13265z5.java */
+struct GroupCallRoute {
+    1: string token;
+    2: CallHost cscf;
+    3: CallHost mix;
+    4: string hostMid;
+    5: list<string> capabilities;
+    6: Pb1_EnumC13251y5 proto;
+    7: string voipAddress;
+    8: i32 voipUdpPort;
+    9: i32 voipTcpPort;
+    10: string fromZone;
+    11: string commParam;
+    12: string polarisAddress;
+    13: i32 polarisUdpPort;
+    14: string polarisZone;
+    15: string orionAddress;
+    16: string voipAddress6;
+    17: string stnpk;
+}
+
+/* A5 @sources/Pb1/A5.java */
+struct GroupCallUrl {
+    1: string urlId;
+    2: string title;
+    3: i64 createdTimeMillis;
+}
+
+/* B5 @sources/Pb1/B5.java */
+struct GroupExtra {
+    1: string creator;
+    2: bool preventedJoinByTicket;
+    3: string invitationTicket;
+    4: map<string, i64> memberMids;
+    5: map<string, i64> inviteeMids;
+    6: bool addFriendDisabled;
+    7: bool ticketDisabled;
+    8: bool autoName;
+}
+
+/* C12162e0 @sources/NZ0/C12162e0.java */
+struct HeaderContent {
+    1: string iconUrl;
+    2: string iconAltText;
+    3: string linkUrl;
+    4: string title;
+    5: string animationImageUrl;
+    6: string tooltipText;
+}
+
+/* C12165f0 @sources/NZ0/C12165f0.java */
+struct HeaderInfo {
+    1: string totalBalance;
+    2: CurrencyProperty currencyProperty;
+}
+
+/* HideSquareMemberContentsRequest @sources/com/linecorp/square/protocol/thrift/HideSquareMemberContentsRequest.java */
+struct HideSquareMemberContentsRequest {
+    1: string squareMemberMid;
+}
+
+/* f @sources/Eg/f.java */
+struct HomeCategory {
+    1: i32 id;
+    2: string title;
+    3: list<i32> ids;
+}
+
+/* e @sources/eH/e.java */
+struct HomeEffect {
+    1: string id;
+    2: string resourceUrl;
+    3: string checksum;
+    4: i64 startDate;
+    5: i64 endDate;
+}
+
+/* g @sources/Eg/g.java */
+struct HomeService {
+    1: i32 id;
+    2: string title;
+    3: string serviceEntryUrl;
+    4: string storeUrl;
+    5: string iconUrl;
+    6: string pictogramIconUrl;
+    7: i64 badgeUpdatedTimeMillis;
+    8: Eg_EnumC8927a badgeType;
+    9: string serviceDescription;
+    10: bool iconThemeDisabled;
+}
+
+/* f @sources/DG/f.java */
+struct HomeTabPlacement {
+    1: string placementTemplateId;
+    2: string placementService;
+    3: string placementLogic;
+    4: string contents;
+    5: string crsPlacementImpressionTrackingUrl;
+}
+
+/* C12168g0 @sources/NZ0/C12168g0.java */
+struct Icon {
+    1: string darkModeUrl;
+    2: string lightModeUrl;
+}
+
+/* C12171h0 @sources/NZ0/C12171h0.java */
+struct IconDisplayRule {
+    1: string rule;
+    2: i32 offset;
+}
+
+/* C5 @sources/Pb1/C5.java */
+struct IdentifierConfirmationRequest {
+    1: map<string, string> metaData;
+    2: bool forceRegistration;
+    3: string verificationCode;
+}
+
+/* D5 @sources/Pb1/D5.java */
+struct IdentityCredentialRequest {
+    1: map<string, string> metaData;
+    2: IdentityProvider identityProvider;
+    3: string cipherKeyId;
+    4: string cipherText;
+    5: IdentifierConfirmationRequest confirmationRequest;
+}
+
+/* E5 @sources/Pb1/E5.java */
+struct IdentityCredentialResponse {
+    1: map<string, string> metaData;
+    2: Pb1_F5 responseType;
+    3: string confirmationVerifier;
+    4: i64 timeoutInSeconds;
+}
+
+/* C14871m @sources/uf/C14871m.java */
+struct Image {
+    1: string url;
+    2: i32 height;
+    3: i32 width;
+}
+
+/* C12654q0 @sources/Ob1/C12654q0.java */
+struct ImageTextProperty {
+    1: Ob1_EnumC12656r0 status;
+    2: string plainText;
+    3: i32 nameTextMaxCharacterCount;
+    4: string encryptedText;
+}
+
+/* H5 @sources/Pb1/H5.java */
+struct InstantNews {
+    1: i64 newsId;
+    2: string newsService;
+    3: i64 ttlMillis;
+    4: string category;
+    5: string categoryBgColor;
+    6: string categoryColor;
+    7: string title;
+    8: string url;
+    9: string image;
+}
+
+/* m @sources/fn0/m.java */
+struct InviteFriendsRequest {
+    1: string campaignId;
+    2: list<string> invitees;
+}
+
+/* n @sources/fn0/n.java */
+struct InviteFriendsResponse {
+    1: fN0_EnumC24469a result;
+}
+
+/* I5 @sources/Pb1/I5.java */
+struct InviteIntoChatRequest {
+    1: i32 reqSeq;
+    2: string chatMid;
+    3: set<string> targetUserMids;
+}
+
+/* InviteIntoSquareChatRequest @sources/com/linecorp/square/protocol/thrift/InviteIntoSquareChatRequest.java */
+struct InviteIntoSquareChatRequest {
+    1: list<string> inviteeMids;
+    2: string squareChatMid;
+}
+
+/* InviteIntoSquareChatResponse @sources/com/linecorp/square/protocol/thrift/InviteIntoSquareChatResponse.java */
+struct InviteIntoSquareChatResponse {
+    1: list<string> inviteeMids;
+}
+
+/* InviteToChangeRoleRequest @sources/com/linecorp/square/protocol/thrift/InviteToChangeRoleRequest.java */
+struct InviteToChangeRoleRequest {
+    1: string squareChatMid;
+    2: string sessionId;
+    3: string targetMid;
+    4: LiveTalkRole targetRole;
+}
+
+/* InviteToListenRequest @sources/com/linecorp/square/protocol/thrift/InviteToListenRequest.java */
+struct InviteToListenRequest {
+    1: string squareChatMid;
+    2: string sessionId;
+    3: string targetMid;
+}
+
+/* InviteToLiveTalkRequest @sources/com/linecorp/square/protocol/thrift/InviteToLiveTalkRequest.java */
+struct InviteToLiveTalkRequest {
+    1: string squareChatMid;
+    2: string sessionId;
+    3: list<string> invitees;
+}
+
+/* InviteToSpeakRequest @sources/com/linecorp/square/protocol/thrift/InviteToSpeakRequest.java */
+struct InviteToSpeakRequest {
+    1: string squareChatMid;
+    2: string sessionId;
+    3: string targetMid;
+}
+
+/* InviteToSpeakResponse @sources/com/linecorp/square/protocol/thrift/InviteToSpeakResponse.java */
+struct InviteToSpeakResponse {
+    1: string inviteRequestId;
+}
+
+/* InviteToSquareRequest @sources/com/linecorp/square/protocol/thrift/InviteToSquareRequest.java */
+struct InviteToSquareRequest {
+    2: string squareMid;
+    3: list<string> invitees;
+    4: string squareChatMid;
+}
+
+/* C12174i0 @sources/NZ0/C12174i0.java */
+struct IpassTokenProperty {
+    1: string token;
+    2: string tokenIssuedTimestamp;
+}
+
+/* C12659s0 @sources/Ob1/C12659s0.java */
+struct IsProductForCollectionsRequest {
+    1: Ob1_O0 productType;
+    2: string productId;
+}
+
+/* C12662t0 @sources/Ob1/C12662t0.java */
+struct IsProductForCollectionsResponse {
+    1: bool isAvailable;
+}
+
+/* C12665u0 @sources/Ob1/C12665u0.java */
+struct IsStickerAvailableForCombinationStickerRequest {
+    1: string packageId;
+}
+
+/* C12668v0 @sources/Ob1/C12668v0.java */
+struct IsStickerAvailableForCombinationStickerResponse {
+    1: bool availableForCombinationSticker;
+}
+
+/* d @sources/Cg/d.java */
+struct IssueBirthdayGiftTokenRequest {
+    1: string recipientUserMid;
+}
+
+/* e @sources/Cg/e.java */
+struct IssueBirthdayGiftTokenResponse {
+    1: string giftAssociationToken;
+}
+
+/* K5 @sources/Pb1/K5.java */
+struct IssueV3TokenForPrimaryRequest {
+    1: string udid;
+    2: string systemDisplayName;
+    3: string modelName;
+}
+
+/* L5 @sources/Pb1/L5.java */
+struct IssueV3TokenForPrimaryResponse {
+    1: string accessToken;
+    2: string refreshToken;
+    3: i64 durationUntilRefreshInSec;
+    4: RefreshApiRetryPolicy refreshApiRetryPolicy;
+    5: string loginSessionId;
+    6: i64 tokenIssueTimeEpochSec;
+    7: string mid;
+}
+
+/* D @sources/T70/D.java */
+struct IssueWebAuthDetailsForSecondAuthResponse {
+    1: WebAuthDetails webAuthDetails;
+}
+
+/* M5 @sources/Pb1/M5.java */
+struct JoinChatByCallUrlRequest {
+    1: string urlId;
+    2: i32 reqSeq;
+}
+
+/* N5 @sources/Pb1/N5.java */
+struct JoinChatByCallUrlResponse {
+    1: Chat chat;
+}
+
+/* JoinLiveTalkRequest @sources/com/linecorp/square/protocol/thrift/JoinLiveTalkRequest.java */
+struct JoinLiveTalkRequest {
+    1: string squareChatMid;
+    2: string sessionId;
+    3: bool wantToSpeak;
+    4: BooleanState claimAdult;
+}
+
+/* JoinLiveTalkResponse @sources/com/linecorp/square/protocol/thrift/JoinLiveTalkResponse.java */
+struct JoinLiveTalkResponse {
+    1: string hostMemberMid;
+    2: string memberSessionId;
+    3: string token;
+    4: string proto;
+    5: string voipAddress;
+    6: string voipAddress6;
+    7: i32 voipUdpPort;
+    8: i32 voipTcpPort;
+    9: string fromZone;
+    10: string commParam;
+    11: string orionAddress;
+    12: string polarisAddress;
+    13: string polarisZone;
+    14: i32 polarisUdpPort;
+    15: bool speaker;
+}
+
+/* JoinSquareChatRequest @sources/com/linecorp/square/protocol/thrift/JoinSquareChatRequest.java */
+struct JoinSquareChatRequest {
+    1: string squareChatMid;
+}
+
+/* JoinSquareChatResponse @sources/com/linecorp/square/protocol/thrift/JoinSquareChatResponse.java */
+struct JoinSquareChatResponse {
+    1: SquareChat squareChat;
+    2: SquareChatStatus squareChatStatus;
+    3: SquareChatMember squareChatMember;
+}
+
+/* JoinSquareRequest @sources/com/linecorp/square/protocol/thrift/JoinSquareRequest.java */
+struct JoinSquareRequest {
+    2: string squareMid;
+    3: SquareMember member;
+    4: string squareChatMid;
+    5: SquareJoinMethodValue joinValue;
+    6: BooleanState claimAdult;
+}
+
+/* JoinSquareResponse @sources/com/linecorp/square/protocol/thrift/JoinSquareResponse.java */
+struct JoinSquareResponse {
+    1: Square square;
+    2: SquareAuthority squareAuthority;
+    3: SquareStatus squareStatus;
+    4: SquareMember squareMember;
+    5: SquareFeatureSet squareFeatureSet;
+    6: NoteStatus noteStatus;
+    7: SquareChat squareChat;
+    8: SquareChatStatus squareChatStatus;
+    9: SquareChatMember squareChatMember;
+}
+
+/* JoinSquareThreadRequest @sources/com/linecorp/square/protocol/thrift/JoinSquareThreadRequest.java */
+struct JoinSquareThreadRequest {
+    1: string chatMid;
+    2: string threadMid;
+}
+
+/* JoinSquareThreadResponse @sources/com/linecorp/square/protocol/thrift/JoinSquareThreadResponse.java */
+struct JoinSquareThreadResponse {
+    1: SquareThreadMember threadMember;
+}
+
+/* C32668i @sources/og/C32668i.java */
+struct JoinedMemberships {
+    1: list<MemberInfo> subscribing;
+    2: list<MemberInfo> expired;
+}
+
+/* KickOutLiveTalkParticipantsRequest @sources/com/linecorp/square/protocol/thrift/KickOutLiveTalkParticipantsRequest.java */
+struct KickOutLiveTalkParticipantsRequest {
+    1: string squareChatMid;
+    2: string sessionId;
+    3: LiveTalkKickOutTarget target;
+}
+
+/* R5 @sources/Pb1/R5.java */
+struct KickoutFromGroupCallRequest {
+    1: string chatMid;
+    2: list<string> targetMids;
+}
+
+/* f @sources/ar0/f.java */
+struct LFLClusterV2 {
+    1: string majorVersion;
+    2: string minorVersion;
+    3: list<Tag> tags;
+    4: list<Product> products;
+}
+
+/* C13589f @sources/Qj/C13589f.java */
+struct LIFFMenuColor {
+    1: i32 iconColor;
+    2: Qj_EnumC13585b statusBarColor;
+    3: i32 titleTextColor;
+    4: i32 titleSubtextColor;
+    5: i32 titleButtonColor;
+    6: i32 titleBackgroundColor;
+    7: i32 progressBarColor;
+    8: i32 progressBackgroundColor;
+    9: i32 titleButtonAreaBackgroundColor;
+    10: i32 titleButtonAreaBorderColor;
+}
+
+/* C13590g @sources/Qj/C13590g.java */
+struct LIFFMenuColorSetting {
+    1: LIFFMenuColor lightModeColor;
+    2: LIFFMenuColor darkModeColor;
+}
+
+/* A @sources/LN0/A.java */
+struct LN0_A {
+    
+}
+
+/* A0 @sources/LN0/A0.java */
+struct LN0_A0 {
+    
+}
+
+/* B @sources/LN0/B.java */
+struct LN0_B {
+    
+}
+
+/* B0 @sources/LN0/B0.java */
+struct LN0_B0 {
+    
+}
+
+/* C0 @sources/LN0/C0.java */
+struct LN0_C0 {
+    
+}
+
+/* C11270b @sources/LN0/C11270b.java */
+struct LN0_C11270b {
+    
+}
+
+/* C11274d @sources/LN0/C11274d.java */
+struct LN0_C11274d {
+    1: AddMetaInvalid invalid;
+    2: AddMetaByPhone byPhone;
+    3: AddMetaBySearchId bySearchId;
+    4: AddMetaByUserTicket byUserTicket;
+    5: AddMetaGroupMemberList groupMemberList;
+    6: LN0_P timelineCPF;
+    7: LN0_L smartChannelCPF;
+    8: LN0_G openchatCPF;
+    9: LN0_C11282h beaconBanner;
+    10: LN0_C11300q friendRecommendation;
+    11: LN0_C11307u homeRecommendation;
+    12: AddMetaShareContact shareContact;
+    13: AddMetaStrangerMessage strangerMessage;
+    14: AddMetaStrangerCall strangerCall;
+    15: AddMetaMentionInChat mentionInChat;
+    16: LN0_O timeline;
+    17: LN0_Q unifiedSearch;
+    18: LN0_C11313x lineLab;
+    19: LN0_A lineToCall;
+    20: AddMetaGroupVideoCall groupVideo;
+    21: LN0_r friendRequest;
+    22: LN0_C11315y liveViewer;
+    23: LN0_C11316z lineThings;
+    24: LN0_B mediaCapture;
+    25: LN0_C11280g avatarOASetting;
+    26: LN0_T urlScheme;
+    27: LN0_C11276e addressBook;
+    28: LN0_S unifiedSearchOATab;
+    29: AddMetaProfileUndefined profileUndefined;
+    30: LN0_F DEPRECATED_oaChatHeader;
+    31: LN0_C11294n chatMenu;
+    32: LN0_C11290l chatHeader;
+    33: LN0_C11309v homeTabCPF;
+    34: LN0_C11292m chatList;
+    35: AddMetaChatNote chatNote;
+    36: AddMetaChatNoteMenu chatNoteMenu;
+    37: LN0_U walletTabCPF;
+    38: LN0_E oaCall;
+    39: AddMetaSearchIdInUnifiedSearch searchIdInUnifiedSearch;
+    40: LN0_D newsDigestADCPF;
+    41: LN0_C11278f albumCPF;
+    42: LN0_H premiumAgreement;
+}
+
+/* C11276e @sources/LN0/C11276e.java */
+struct LN0_C11276e {
+    
+}
+
+/* C11278f @sources/LN0/C11278f.java */
+struct LN0_C11278f {
+    
+}
+
+/* C11280g @sources/LN0/C11280g.java */
+struct LN0_C11280g {
+    
+}
+
+/* C11282h @sources/LN0/C11282h.java */
+struct LN0_C11282h {
+    
+}
+
+/* C11290l @sources/LN0/C11290l.java */
+struct LN0_C11290l {
+    
+}
+
+/* C11292m @sources/LN0/C11292m.java */
+struct LN0_C11292m {
+    
+}
+
+/* C11294n @sources/LN0/C11294n.java */
+struct LN0_C11294n {
+    
+}
+
+/* C11300q @sources/LN0/C11300q.java */
+struct LN0_C11300q {
+    
+}
+
+/* C11307u @sources/LN0/C11307u.java */
+struct LN0_C11307u {
+    
+}
+
+/* C11308u0 @sources/LN0/C11308u0.java */
+struct LN0_C11308u0 {
+    
+}
+
+/* C11309v @sources/LN0/C11309v.java */
+struct LN0_C11309v {
+    
+}
+
+/* C11310v0 @sources/LN0/C11310v0.java */
+struct LN0_C11310v0 {
+    
+}
+
+/* C11312w0 @sources/LN0/C11312w0.java */
+struct LN0_C11312w0 {
+    
+}
+
+/* C11313x @sources/LN0/C11313x.java */
+struct LN0_C11313x {
+    
+}
+
+/* C11315y @sources/LN0/C11315y.java */
+struct LN0_C11315y {
+    
+}
+
+/* C11316z @sources/LN0/C11316z.java */
+struct LN0_C11316z {
+    
+}
+
+/* D @sources/LN0/D.java */
+struct LN0_D {
+    
+}
+
+/* E @sources/LN0/E.java */
+struct LN0_E {
+    
+}
+
+/* F @sources/LN0/F.java */
+struct LN0_F {
+    
+}
+
+/* G @sources/LN0/G.java */
+struct LN0_G {
+    
+}
+
+/* H @sources/LN0/H.java */
+struct LN0_H {
+    
+}
+
+/* L @sources/LN0/L.java */
+struct LN0_L {
+    
+}
+
+/* O @sources/LN0/O.java */
+struct LN0_O {
+    
+}
+
+/* P @sources/LN0/P.java */
+struct LN0_P {
+    
+}
+
+/* Q @sources/LN0/Q.java */
+struct LN0_Q {
+    
+}
+
+/* S @sources/LN0/S.java */
+struct LN0_S {
+    
+}
+
+/* T @sources/LN0/T.java */
+struct LN0_T {
+    
+}
+
+/* U @sources/LN0/U.java */
+struct LN0_U {
+    
+}
+
+/* V @sources/LN0/V.java */
+struct LN0_V {
+    1: UserBlockDetail user;
+    2: BotBlockDetail bot;
+    3: LN0_C11308u0 notBlocked;
+}
+
+/* Z @sources/LN0/Z.java */
+struct LN0_Z {
+    1: UserFriendDetail user;
+    2: BotFriendDetail bot;
+    3: LN0_C11310v0 notFriend;
+}
+
+/* r @sources/LN0/r.java */
+struct LN0_r {
+    
+}
+
+/* y0 @sources/LN0/y0.java */
+struct LN0_y0 {
+    1: RecommendationDetail recommendationDetail;
+    2: LN0_C11312w0 notRecommended;
+}
+
+/* z0 @sources/LN0/z0.java */
+struct LN0_z0 {
+    1: RecommendationReasonSharedChat sharedChat;
+    2: LN0_C0 reverseFriendByUserId;
+    3: LN0_B0 reverseFriendByQrCode;
+    4: LN0_A0 reverseFriendByPhone;
+}
+
+/* C12671w0 @sources/Ob1/C12671w0.java */
+struct LatestProductByAuthorItem {
+    1: string productId;
+    2: string displayName;
+    3: i64 version;
+    4: bool newFlag;
+    5: Ob1_I0 productResourceType;
+    6: Ob1_B0 popupLayer;
+}
+
+/* C12674x0 @sources/Ob1/C12674x0.java */
+struct LatestProductsByAuthorRequest {
+    1: Ob1_O0 productType;
+    2: i64 authorId;
+    3: i32 limit;
+}
+
+/* C12677y0 @sources/Ob1/C12677y0.java */
+struct LatestProductsByAuthorResponse {
+    1: i64 authorId;
+    2: string author;
+    3: list<LatestProductByAuthorItem> items;
+}
+
+/* LeaveSquareChatRequest @sources/com/linecorp/square/protocol/thrift/LeaveSquareChatRequest.java */
+struct LeaveSquareChatRequest {
+    2: string squareChatMid;
+    3: bool sayGoodbye;
+    4: i64 squareChatMemberRevision;
+}
+
+/* LeaveSquareRequest @sources/com/linecorp/square/protocol/thrift/LeaveSquareRequest.java */
+struct LeaveSquareRequest {
+    2: string squareMid;
+}
+
+/* LeaveSquareThreadRequest @sources/com/linecorp/square/protocol/thrift/LeaveSquareThreadRequest.java */
+struct LeaveSquareThreadRequest {
+    1: string chatMid;
+    2: string threadMid;
+}
+
+/* LeaveSquareThreadResponse @sources/com/linecorp/square/protocol/thrift/LeaveSquareThreadResponse.java */
+struct LeaveSquareThreadResponse {
+    1: SquareThreadMember threadMember;
+}
+
+/* LeftSquareMember @sources/com/linecorp/square/protocol/thrift/common/LeftSquareMember.java */
+struct LeftSquareMember {
+    1: string squareMemberMid;
+    2: string displayName;
+    3: string profileImageObsHash;
+    4: i64 updatedAt;
+}
+
+/* C13591h @sources/Qj/C13591h.java */
+struct LiffAdvertisingId {
+    1: string advertisingId;
+    2: bool tracking;
+    3: Qj_EnumC13584a att;
+    4: SKAdNetwork skAdNetwork;
+}
+
+/* C13594k @sources/Qj/C13594k.java */
+struct LiffChatContext {
+    1: string chatMid;
+}
+
+/* C13596m @sources/Qj/C13596m.java */
+struct LiffDeviceSetting {
+    1: bool videoAutoPlayAllowed;
+    2: LiffAdvertisingId advertisingId;
+}
+
+/* C13598o @sources/Qj/C13598o.java */
+struct LiffErrorConsentRequired {
+    1: string channelId;
+    2: string consentUrl;
+}
+
+/* C13600q @sources/Qj/C13600q.java */
+struct LiffErrorPermanentLinkInvalidRequest {
+    1: string liffId;
+    2: string fallbackUrl;
+}
+
+/* C13603u @sources/Qj/C13603u.java */
+struct LiffFIDOExternalService {
+    1: string rpId;
+    2: string rpApiBaseUrl;
+}
+
+/* T @sources/Qj/T.java */
+struct LiffSquareChatContext {
+    1: string squareChatMid;
+}
+
+/* U @sources/Qj/U.java */
+struct LiffView {
+    1: string type;
+    2: string url;
+    4: i32 titleTextColor;
+    5: i32 titleBackgroundColor;
+    6: string titleIconUrl;
+    7: i32 titleSubtextColor;
+    8: i32 titleButtonColor;
+    9: i32 progressBarColor;
+    10: i32 progressBackgroundColor;
+    11: bool trustedDomain;
+    12: bool suspendable;
+    13: bool maxBrightness;
+    14: i32 titleButtonAreaBackgroundColor;
+    15: i32 titleButtonAreaBorderColor;
+    16: bool suspendableV2;
+    17: Qj_EnumC13606x menuStyle;
+    18: bool moduleMode;
+    19: i32 pinToHomeServiceId;
+    20: LIFFMenuColorSetting menuColorSetting;
+    21: bool showPinInduction;
+    22: string appName;
+    23: set<i32> adaptableColorSchemes;
+    24: Provider provider;
+    25: bool basicAuthAllowed;
+    26: bool siriDonationAllowed;
+    27: bool transitionToNonLiffWithoutPopupAllowed;
+    28: bool urlHistoryAllowed;
+    29: bool shrinkHeaderDisabled;
+    30: bool skipWebRTCPermissionPopupAllowed;
+    31: bool useGmaSdkAllowed;
+    32: bool useMinimizeButtonAllowed;
+}
+
+/* V @sources/Qj/V.java */
+struct LiffViewRequest {
+    1: string liffId;
+    2: Qj_C13595l context;
+    3: string lang;
+    4: LiffDeviceSetting deviceSetting;
+    5: string msit;
+    6: bool subsequentLiff;
+    7: string domain;
+}
+
+/* W @sources/Qj/W.java */
+struct LiffViewResponse {
+    1: LiffView view;
+    2: string contextToken;
+    3: string accessToken;
+    4: string featureToken;
+    5: list<i32> features;
+    6: string channelId;
+    7: string idToken;
+    8: list<string> scopes;
+    9: list<i32> launchOptions;
+    10: Qj_a0 permanentLinkPattern;
+    11: SubLiffView subLiffView;
+    12: map<i32, i32> revisions;
+    13: i64 accessTokenExpiresIn;
+    14: i64 accessTokenExpiresInWithRoom;
+    15: string liffId;
+    16: bool miniDomainAllowed;
+    17: string miniAppId;
+    18: i32 miniHistoryServiceId;
+    19: bool addToHomeV2Allowed;
+    20: bool addToHomeV2LineSchemeAllowed;
+    21: Qj_C13602t fido;
+    22: bool omitLiffReferrer;
+}
+
+/* X @sources/Qj/X.java */
+struct LiffViewWithoutUserContextRequest {
+    1: string liffId;
+}
+
+/* Y @sources/Qj/Y.java */
+struct LiffWebLoginRequest {
+    1: string hookedFullUrl;
+    2: string sessionString;
+    3: Qj_C13595l context;
+    4: LiffDeviceSetting deviceSetting;
+}
+
+/* Z @sources/Qj/Z.java */
+struct LiffWebLoginResponse {
+    1: string returnUrl;
+    2: string sessionString;
+    3: string liffId;
+}
+
+/* C12177j0 @sources/NZ0/C12177j0.java */
+struct LineBankBalanceShortcut {
+    1: i32 iconPosition;
+    2: string iconUrl;
+    3: string iconText;
+    4: string iconAltText;
+    5: NZ0_EnumC12154b1 iconType;
+    6: string linkUrl;
+    7: string tsTargetId;
+    8: ShortcutUserGuidePopupInfo userGuidePopupInfo;
+}
+
+/* C12180k0 @sources/NZ0/C12180k0.java */
+struct LineBankPromotion {
+    1: string mainText;
+    2: string linkUrl;
+    3: string tsTargetId;
+}
+
+/* C12183l0 @sources/NZ0/C12183l0.java */
+struct LineBankShortcutInfo {
+    1: list<LineBankBalanceShortcut> mainShortcuts;
+    2: list<LineBankBalanceShortcut> subShortcuts;
+}
+
+/* C12186m0 @sources/NZ0/C12186m0.java */
+struct LinePayInfo {
+    1: string balanceAmount;
+    2: CurrencyProperty currencyProperty;
+    3: NZ0_EnumC12195p0 payMemberStatus;
+    4: string applicationUrl;
+    5: string chargeUrl;
+    6: NZ0_EnumC12192o0 payMemberGrade;
+    7: string country;
+    8: string referenceNumber;
+    9: IpassTokenProperty ipassTokenProperty;
+    10: string iconUrl;
+    11: string iconAltText;
+    12: string iconLinkUrl;
+    13: string suspendedText;
+    14: NZ0_W0 responseStatus;
+}
+
+/* C12189n0 @sources/NZ0/C12189n0.java */
+struct LinePayInfoV3 {
+    1: string availableBalance;
+    2: string availableBalanceString;
+    3: CurrencyProperty currencyProperty;
+    4: NZ0_EnumC12195p0 payMemberStatus;
+    5: NZ0_EnumC12192o0 payMemberGrade;
+    6: string country;
+    7: string applicationUrl;
+    8: string iconAltText;
+    9: string iconLinkUrl;
+    10: string suspendedText;
+    11: NZ0_W0 responseStatus;
+}
+
+/* C12198q0 @sources/NZ0/C12198q0.java */
+struct LinePayPromotion {
+    1: string mainText;
+    2: string subText;
+    3: string buttonText;
+    4: string iconUrl;
+    5: string linkUrl;
+    6: string tsTargetId;
+}
+
+/* C12200r0 @sources/NZ0/C12200r0.java */
+struct LinePointInfo {
+    1: string balanceAmount;
+    2: string applicationUrl;
+    3: string iconUrl;
+    4: string displayText;
+    5: NZ0_W0 responseStatus;
+}
+
+/* C12203s0 @sources/NZ0/C12203s0.java */
+struct LinkRewardInfo {
+    1: AssetServiceInfo assetServiceInfo;
+    2: bool autoConversion;
+    3: string backgroundColorCode;
+}
+
+/* LiveTalk @sources/com/linecorp/square/protocol/thrift/common/LiveTalk.java */
+struct LiveTalk {
+    1: string squareChatMid;
+    2: string sessionId;
+    3: string title;
+    4: LiveTalkType type;
+    5: LiveTalkSpeakerSetting speakerSetting;
+    6: bool allowRequestToSpeak;
+    7: string hostMemberMid;
+    8: string announcement;
+    9: i32 participantCount;
+    10: i64 revision;
+    11: i64 startedAt;
+}
+
+/* LiveTalkEvent @sources/com/linecorp/square/protocol/thrift/LiveTalkEvent.java */
+struct LiveTalkEvent {
+    1: LiveTalkEventType type;
+    2: LiveTalkEventPayload payload;
+    3: i64 revision;
+}
+
+/* LiveTalkEventNotifiedUpdateLiveTalkAllowRequestToSpeak @sources/com/linecorp/square/protocol/thrift/LiveTalkEventNotifiedUpdateLiveTalkAllowRequestToSpeak.java */
+struct LiveTalkEventNotifiedUpdateLiveTalkAllowRequestToSpeak {
+    1: bool allowRequestToSpeak;
+}
+
+/* LiveTalkEventNotifiedUpdateLiveTalkAnnouncement @sources/com/linecorp/square/protocol/thrift/LiveTalkEventNotifiedUpdateLiveTalkAnnouncement.java */
+struct LiveTalkEventNotifiedUpdateLiveTalkAnnouncement {
+    1: string announcement;
+}
+
+/* LiveTalkEventNotifiedUpdateLiveTalkTitle @sources/com/linecorp/square/protocol/thrift/LiveTalkEventNotifiedUpdateLiveTalkTitle.java */
+struct LiveTalkEventNotifiedUpdateLiveTalkTitle {
+    1: string title;
+}
+
+/* LiveTalkEventNotifiedUpdateSquareMember @sources/com/linecorp/square/protocol/thrift/LiveTalkEventNotifiedUpdateSquareMember.java */
+struct LiveTalkEventNotifiedUpdateSquareMember {
+    1: string squareMemberMid;
+    2: string displayName;
+    3: string profileImageObsHash;
+    4: SquareMemberRole role;
+}
+
+/* LiveTalkEventNotifiedUpdateSquareMemberRole @sources/com/linecorp/square/protocol/thrift/LiveTalkEventNotifiedUpdateSquareMemberRole.java */
+struct LiveTalkEventNotifiedUpdateSquareMemberRole {
+    1: string squareMemberMid;
+    2: SquareMemberRole role;
+}
+
+/* LiveTalkExtraInfo @sources/com/linecorp/square/protocol/thrift/common/LiveTalkExtraInfo.java */
+struct LiveTalkExtraInfo {
+    1: string saturnResponse;
+}
+
+/* LiveTalkParticipant @sources/com/linecorp/square/protocol/thrift/LiveTalkParticipant.java */
+struct LiveTalkParticipant {
+    1: string mid;
+}
+
+/* LiveTalkSpeaker @sources/com/linecorp/square/protocol/thrift/common/LiveTalkSpeaker.java */
+struct LiveTalkSpeaker {
+    1: string displayName;
+    2: string profileImageObsHash;
+    3: SquareMemberRole role;
+}
+
+/* LiveTalkSubscriptionNotification @sources/com/linecorp/square/protocol/thrift/LiveTalkSubscriptionNotification.java */
+struct LiveTalkSubscriptionNotification {
+    1: string squareChatMid;
+    2: string sessionId;
+}
+
+/* C12680z0 @sources/Ob1/C12680z0.java */
+struct Locale {
+    1: string language;
+    2: string country;
+}
+
+/* Y5 @sources/Pb1/Y5.java */
+struct Location {
+    1: string title;
+    2: string address;
+    3: double latitude;
+    4: double longitude;
+    5: string phone;
+    6: string categoryId;
+    7: Pb1_D6 provider;
+    8: GeolocationAccuracy accuracy;
+    9: double altitudeMeters;
+}
+
+/* Z5 @sources/Pb1/Z5.java */
+struct LocationDebugInfo {
+    1: PoiInfo poiInfo;
+}
+
+/* E @sources/T70/E.java */
+struct LookupAvailableEapRequest {
+    1: string authSessionId;
+}
+
+/* F @sources/T70/F.java */
+struct LookupAvailableEapResponse {
+    1: list<i32> availableEap;
+}
+
+/* A0 @sources/Ob1/A0.java */
+struct LpPromotionProperty {
+    1: string landingPageUrl;
+    2: string label;
+    3: string buttonLabel;
+}
+
+/* MainPopup @sources/com/linecorp/square/protocol/thrift/common/MainPopup.java */
+struct MainPopup {
+    1: string imageObsHash;
+    2: Button button;
+}
+
+/* ManualRepairRequest @sources/com/linecorp/square/protocol/thrift/ManualRepairRequest.java */
+struct ManualRepairRequest {
+    1: string syncToken;
+    2: i32 limit;
+    3: string continuationToken;
+}
+
+/* ManualRepairResponse @sources/com/linecorp/square/protocol/thrift/ManualRepairResponse.java */
+struct ManualRepairResponse {
+    1: list<SquareEvent> events;
+    2: string syncToken;
+    3: string continuationToken;
+}
+
+/* C25156m @sources/GN0/C25156m.java */
+struct MapProfileToUsersRequest {
+    1: string profileId;
+    2: list<string> targetMids;
+}
+
+/* C25157n @sources/GN0/C25157n.java */
+struct MapProfileToUsersResponse {
+    1: list<string> mappedMids;
+}
+
+/* MarkAsReadRequest @sources/com/linecorp/square/protocol/thrift/MarkAsReadRequest.java */
+struct MarkAsReadRequest {
+    2: string squareChatMid;
+    4: string messageId;
+    5: string threadMid;
+}
+
+/* MarkChatsAsReadRequest @sources/com/linecorp/square/protocol/thrift/MarkChatsAsReadRequest.java */
+struct MarkChatsAsReadRequest {
+    2: set<string> chatMids;
+}
+
+/* MarkThreadsAsReadRequest @sources/com/linecorp/square/protocol/thrift/MarkThreadsAsReadRequest.java */
+struct MarkThreadsAsReadRequest {
+    1: string chatMid;
+}
+
+/* C32669j @sources/og/C32669j.java */
+struct MemberInfo {
+    1: Membership membership;
+    2: i32 memberNo;
+    3: bool isJoining;
+    4: bool isSubscribing;
+    5: i64 validUntil;
+    6: string billingItemName;
+}
+
+/* C32670k @sources/og/C32670k.java */
+struct Membership {
+    1: i64 membershipId;
+    2: string uniqueKey;
+    3: string title;
+    4: string membershipDescription;
+    5: string benefits;
+    6: bool isInAppPurchase;
+    7: og_G paymentType;
+    8: bool isPublished;
+    9: bool isFullMember;
+    10: string price;
+    11: string currency;
+    12: og_E membershipStatus;
+    13: Bot bot;
+    14: i64 closeDate;
+    15: string membershipCardUrl;
+    16: string openchatUrl;
+}
+
+/* MentionableBot @sources/com/linecorp/square/protocol/thrift/common/MentionableBot.java */
+struct MentionableBot {
+    1: string mid;
+    2: string displayName;
+    3: string profileImageObsHash;
+    4: string squareMid;
+}
+
+/* MentionableSquareMember @sources/com/linecorp/square/protocol/thrift/common/MentionableSquareMember.java */
+struct MentionableSquareMember {
+    1: string mid;
+    2: string displayName;
+    3: string profileImageObsHash;
+    4: SquareMemberRole role;
+    5: string squareMid;
+}
+
+/* C12959d6 @sources/Pb1/C12959d6.java */
+struct Message {
+    1: string from;
+    2: string to;
+    3: MIDType toType;
+    4: string id;
+    5: i64 createdTime;
+    6: i64 deliveredTime;
+    10: string text;
+    11: Location location;
+    14: bool hasContent;
+    15: ContentType contentType;
+    17: string contentPreview;
+    18: map<string, string> contentMetadata;
+    19: byte sessionId;
+    20: list<string> chunks;
+    21: string relatedMessageId;
+    22: Pb1_EnumC13015h6 messageRelationType;
+    23: i32 readCount;
+    24: Pb1_E7 relatedMessageServiceCode;
+    25: Pb1_B appExtensionType;
+    27: list<Reaction> reactions;
+}
+
+/* C12973e6 @sources/Pb1/C12973e6.java */
+struct MessageBoxList {
+    1: list<ExtendedMessageBox> messageBoxes;
+    2: bool hasNext;
+}
+
+/* C12987f6 @sources/Pb1/C12987f6.java */
+struct MessageBoxListRequest {
+    1: string minChatId;
+    2: string maxChatId;
+    3: bool activeOnly;
+    4: i32 messageBoxCountLimit;
+    5: bool withUnreadCount;
+    6: i32 lastMessagesPerMessageBoxCount;
+    7: bool unreadOnly;
+}
+
+/* C13001g6 @sources/Pb1/C13001g6.java */
+struct MessageBoxV2MessageId {
+    1: i64 deliveredTime;
+    2: i64 messageId;
+}
+
+/* MessageSummary @sources/com/linecorp/square/protocol/thrift/common/MessageSummary.java */
+struct MessageSummary {
+    1: list<string> summary;
+    2: list<string> keywords;
+    3: MessageSummaryRange range;
+    4: list<string> detailedSummary;
+}
+
+/* MessageSummaryContent @sources/com/linecorp/square/protocol/thrift/common/MessageSummaryContent.java */
+struct MessageSummaryContent {
+    1: list<string> summary;
+    2: list<string> keywords;
+    3: MessageSummaryRange range;
+}
+
+/* MessageSummaryRange @sources/com/linecorp/square/protocol/thrift/common/MessageSummaryRange.java */
+struct MessageSummaryRange {
+    1: i64 from;
+    2: i64 to;
+}
+
+/* MessageVisibility @sources/com/linecorp/square/protocol/thrift/common/MessageVisibility.java */
+struct MessageVisibility {
+    1: bool showJoinMessage;
+    2: bool showLeaveMessage;
+    3: bool showKickoutMessage;
+}
+
+/* C25646f @sources/H80/C25646f.java */
+struct MigratePrimaryUsingQrCodeRequest {
+    1: string sessionId;
+    2: string nonce;
+    3: h80_Y70_a newDevice;
+}
+
+/* C25647g @sources/H80/C25647g.java */
+struct MigratePrimaryUsingQrCodeResponse {
+    1: string mid;
+    2: TokenV3IssueResult tokenV3IssueResult;
+    3: TokenV1IssueResult tokenV1IssueResult;
+    4: h80_X70_a accountCountryCode;
+    5: FormattedPhoneNumbers formattedPhoneNumbers;
+}
+
+/* G @sources/T70/G.java */
+struct MigratePrimaryWithTokenV3Response {
+    1: string authToken;
+    2: TokenV3IssueResult tokenV3IssueResult;
+    3: string countryCode;
+    4: string prettifiedFormatPhoneNumber;
+    5: string localFormatPhoneNumber;
+    6: string mid;
+}
+
+/* C12215w0 @sources/NZ0/C12215w0.java */
+struct ModuleResponse {
+    1: NZ0_C12206t0 moduleInstance;
+}
+
+/* A0 @sources/NZ0/A0.java */
+struct ModuleWithStatusResponse {
+    1: NZ0_C12221y0 moduleInstance;
+}
+
+/* o @sources/zf/o.java */
+struct MyChatapp {
+    1: Chatapp app;
+    2: zf_EnumC40715c category;
+    3: i64 priority;
+}
+
+/* D0 @sources/NZ0/D0.java */
+struct MyDashboardItem {
+    1: string id;
+    2: string messageText;
+    4: MyDashboardMessageIcon icon;
+    5: string linkUrl;
+    6: i64 exposedAt;
+    7: i64 expiredAt;
+    8: i32 order;
+    9: string targetWrsModelId;
+    10: string templateId;
+    11: string fullMessageText;
+    12: string templateCautionText;
+}
+
+/* E0 @sources/NZ0/E0.java */
+struct MyDashboardMessageIcon {
+    1: string walletTabIconUrl;
+    2: string assetTabIconUrl;
+    3: string iconAltText;
+}
+
+/* C12150a0 @sources/NZ0/C12150a0.java */
+struct NZ0_C12150a0 {
+    
+}
+
+/* C12152b @sources/NZ0/C12152b.java */
+struct NZ0_C12152b {
+    
+}
+
+/* C12155c @sources/NZ0/C12155c.java */
+struct NZ0_C12155c {
+    
+}
+
+/* C12206t0 @sources/NZ0/C12206t0.java */
+struct NZ0_C12206t0 {
+    1: string id;
+    2: string templateName;
+    3: map<string, string> fields;
+    4:list<_any>elements;
+    5: string etag;
+    6: i32 refreshTimeSec;
+    7: string name;
+    8: bool recommendable;
+    9: string recommendedModelId;
+    10: string flexContent;
+    11:list<_any>categories;
+    12:list<_any>headers;
+}
+
+/* C12208u @sources/NZ0/C12208u.java */
+struct NZ0_C12208u {
+    
+}
+
+/* C12209u0 @sources/NZ0/C12209u0.java */
+struct NZ0_C12209u0 {
+    1: list<NZ0_C12206t0> fixedModules;
+    2: string etag;
+    3: i32 refreshTimeSec;
+    4: list<NZ0_C12206t0> recommendedModules;
+}
+
+/* C12212v0 @sources/NZ0/C12212v0.java */
+struct NZ0_C12212v0 {
+    1: TopTab topTab;
+    2: list<SubTab> subTabs;
+    3: ForceSelectedSubTabInfo forceSelectedSubTabInfo;
+    4: i32 refreshTimeSec;
+    6: string etag;
+}
+
+/* C12214w @sources/NZ0/C12214w.java */
+struct NZ0_C12214w {
+    
+}
+
+/* C12221y0 @sources/NZ0/C12221y0.java */
+struct NZ0_C12221y0 {
+    1: NZ0_EnumC12218x0 status;
+    2: string id;
+    3: string templateName;
+    4: string etag;
+    5: i32 refreshTimeSec;
+    6: string name;
+    7: bool recommendable;
+    8: string recommendedModelId;
+    9: map<string, string> fields;
+    10:list<_any>elements;
+    11:list<_any>categories;
+    12:list<_any>headers;
+}
+
+/* C12224z0 @sources/NZ0/C12224z0.java */
+struct NZ0_C12224z0 {
+    1: string etag;
+    2: i32 refreshTimeSec;
+    3: list<NZ0_C12221y0> fixedModules;
+    4: list<NZ0_C12221y0> recommendedModules;
+}
+
+/* D @sources/NZ0/D.java */
+struct NZ0_D {
+    1: NZ0_C12212v0 moduleLayoutV4;
+    2: NZ0_G0 notModified;
+    3: NZ0_F0 notFound;
+}
+
+/* E @sources/NZ0/E.java */
+struct NZ0_E {
+    1: string id;
+    2: string etag;
+    3: string recommendedModelId;
+    4: string deviceAdId;
+    5: bool agreedWithTargetingAdByMid;
+    6: string deviceId;
+}
+
+/* F @sources/NZ0/F.java */
+struct NZ0_F {
+    1: ModuleResponse moduleResponse;
+    2: NZ0_G0 notModified;
+    3: NZ0_F0 notFound;
+}
+
+/* F0 @sources/NZ0/F0.java */
+struct NZ0_F0 {
+    
+}
+
+/* G @sources/NZ0/G.java */
+struct NZ0_G {
+    1: string id;
+    2: string etag;
+    3: string recommendedModelId;
+    4: string deviceAdId;
+    5: bool agreedWithTargetingAdByMid;
+    6: string deviceId;
+}
+
+/* G0 @sources/NZ0/G0.java */
+struct NZ0_G0 {
+    
+}
+
+/* H @sources/NZ0/H.java */
+struct NZ0_H {
+    1: ModuleWithStatusResponse moduleResponse;
+    2: NZ0_G0 notModified;
+    3: NZ0_F0 notFound;
+}
+
+/* K @sources/NZ0/K.java */
+struct NZ0_K {
+    1: NZ0_C12209u0 moduleAggregationResponse;
+    2: NZ0_G0 notModified;
+}
+
+/* M @sources/NZ0/M.java */
+struct NZ0_M {
+    1: NZ0_C12224z0 moduleAggregationResponse;
+    2: NZ0_G0 notModified;
+}
+
+/* S @sources/NZ0/S.java */
+struct NZ0_S {
+    
+}
+
+/* U @sources/NZ0/U.java */
+struct NZ0_U {
+    
+}
+
+/* C13043j6 @sources/Pb1/C13043j6.java */
+struct NearbyEntry {
+    1: string emid;
+    2: double distance;
+    3: i32 lastUpdatedInSec;
+    4: map<string, string> property;
+    5: Profile profile;
+}
+
+/* C14872n @sources/uf/C14872n.java */
+struct NoBidCallback {
+    1: string impEventUrl;
+    2: string vimpEventUrl;
+    3: string imp100pEventUrl;
+}
+
+/* NoteStatus @sources/com/linecorp/square/protocol/thrift/common/NoteStatus.java */
+struct NoteStatus {
+    1: i32 noteCount;
+    2: i64 latestCreatedAt;
+}
+
+/* C13057k6 @sources/Pb1/C13057k6.java */
+struct NotificationSetting {
+    1: bool mute;
+}
+
+/* C13071l6 @sources/Pb1/C13071l6.java */
+struct NotificationSettingEntry {
+    1: NotificationSetting notificationSetting;
+}
+
+/* h @sources/KF/h.java */
+struct NotifyChatAdEntryRequest {
+    1: string chatMid;
+    2: string scenarioId;
+    3: string sdata;
+}
+
+/* C23162u @sources/Do0/C23162u.java */
+struct NotifyDeviceConnectionRequest {
+    1: string deviceId;
+    2: string connectionId;
+    3: do0_EnumC23148f connectionType;
+    4: do0_EnumC23147e code;
+    5: string errorReason;
+    6: i64 startTime;
+    7: i64 endTime;
+}
+
+/* C23163v @sources/Do0/C23163v.java */
+struct NotifyDeviceConnectionResponse {
+    1: i64 latestOffset;
+}
+
+/* C23164w @sources/Do0/C23164w.java */
+struct NotifyDeviceDisconnectionRequest {
+    1: string deviceId;
+    2: string connectionId;
+    4: i64 disconnectedTime;
+}
+
+/* j @sources/KF/j.java */
+struct NotifyOATalkroomEventsRequest {
+    1: list<OATalkroomEvent> events;
+}
+
+/* C23166y @sources/Do0/C23166y.java */
+struct NotifyScenarioExecutedRequest {
+    2: list<do0_F> scenarioResults;
+}
+
+/* l @sources/KF/l.java */
+struct OATalkroomEvent {
+    1: string eventId;
+    2: kf_p type;
+    3: OATalkroomEventContext context;
+    4: kf_m content;
+}
+
+/* n @sources/KF/n.java */
+struct OATalkroomEventContext {
+    1: i64 timestampMillis;
+    2: string botMid;
+    3: string userMid;
+    4: kf_o os;
+    5: string osVersion;
+    6: string appVersion;
+    7: string region;
+}
+
+/* H0 @sources/NZ0/H0.java */
+struct OaAddFriendArea {
+    1: string text;
+}
+
+/* C12606a0 @sources/Ob1/C12606a0.java */
+struct Ob1_C12606a0 {
+    
+}
+
+/* C12608b @sources/Ob1/C12608b.java */
+struct Ob1_C12608b {
+    
+}
+
+/* C12618e0 @sources/Ob1/C12618e0.java */
+struct Ob1_C12618e0 {
+    1: Ob1_S1 subscriptionService;
+    2: string continuationToken;
+    3: i32 limit;
+    4: Ob1_O0 productType;
+}
+
+/* C12621f0 @sources/Ob1/C12621f0.java */
+struct Ob1_C12621f0 {
+    1: list<SubscriptionSlotHistory> history;
+    2: string continuationToken;
+    3: i64 totalSize;
+}
+
+/* C12630i0 @sources/Ob1/C12630i0.java */
+struct Ob1_C12630i0 {
+    
+}
+
+/* C12637k1 @sources/Ob1/C12637k1.java */
+struct Ob1_C12637k1 {
+    
+}
+
+/* C12642m0 @sources/Ob1/C12642m0.java */
+struct Ob1_C12642m0 {
+    
+}
+
+/* C12649o1 @sources/Ob1/C12649o1.java */
+struct Ob1_C12649o1 {
+    
+}
+
+/* C12660s1 @sources/Ob1/C12660s1.java */
+struct Ob1_C12660s1 {
+    
+}
+
+/* E @sources/Ob1/E.java */
+struct Ob1_E {
+    1: StickerDisplayData stickerSummary;
+}
+
+/* G @sources/Ob1/G.java */
+struct Ob1_G {
+    
+}
+
+/* H0 @sources/Ob1/H0.java */
+struct Ob1_H0 {
+    1: LpPromotionProperty lpPromotionProperty;
+}
+
+/* I0 @sources/Ob1/I0.java */
+struct Ob1_I0 {
+    1: i32 stickerResourceType;
+    2: i32 themeResourceType;
+    3: i32 sticonResourceType;
+}
+
+/* L @sources/Ob1/L.java */
+struct Ob1_L {
+    1: set<Ob1_O0> productTypes;
+    2: string continuationToken;
+    3: i32 limit;
+    4: ShopFilter shopFilter;
+}
+
+/* M @sources/Ob1/M.java */
+struct Ob1_M {
+    1: list<BrowsingHistory> browsingHistory;
+    2: string continuationToken;
+    3: i32 totalSize;
+}
+
+/* N @sources/Ob1/N.java */
+struct Ob1_N {
+    
+}
+
+/* P0 @sources/Ob1/P0.java */
+struct Ob1_P0 {
+    1: StickerSummary stickerSummary;
+    2: ThemeSummary themeSummary;
+    3: SticonSummary sticonSummary;
+}
+
+/* U @sources/Ob1/U.java */
+struct Ob1_U {
+    1: Ob1_O0 productType;
+    2: string continuationToken;
+    3: i32 limit;
+    4: Ob1_S1 subscriptionService;
+    5: Ob1_V1 sortType;
+}
+
+/* V @sources/Ob1/V.java */
+struct Ob1_V {
+    1: list<ProductSummary> products;
+    2: string continuationToken;
+    3: i64 totalSize;
+    4: i32 maxSlotCount;
+}
+
+/* W @sources/Ob1/W.java */
+struct Ob1_W {
+    1: string continuationToken;
+    2: i32 limit;
+    3: Ob1_O0 productType;
+    4: Ob1_EnumC12631i1 recommendationType;
+    5: string productId;
+    6: set<i32> subtypes;
+    7: bool shouldShuffle;
+    8: bool includeStickerIds;
+    9: ShopFilter shopFilter;
+}
+
+/* W0 @sources/Ob1/W0.java */
+struct Ob1_W0 {
+    1: PromotionBuddyInfo promotionBuddyInfo;
+    2: PromotionInstallInfo promotionInstallInfo;
+    3: PromotionMissionInfo promotionMissionInfo;
+}
+
+/* OkButton @sources/com/linecorp/square/protocol/thrift/common/OkButton.java */
+struct OkButton {
+    1: string text;
+}
+
+/* s @sources/q70/s.java */
+struct OpenSessionRequest {
+    1: Device device;
+    2: Q70_q type;
+}
+
+/* H @sources/T70/H.java */
+struct OpenSessionRequest {
+    1: map<string, string> metaData;
+}
+
+/* t @sources/q70/t.java */
+struct OpenSessionResponse {
+    1: string authSessionId;
+}
+
+/* C13168s6 @sources/Pb1/C13168s6.java */
+struct OperationResponse {
+    1: list<Pb1_C13154r6> operations;
+    2: bool hasMoreOps;
+    3: TGlobalEvents globalEvents;
+    4: TIndividualEvents individualEvents;
+}
+
+/* F @sources/og/F.java */
+struct OrderInfo {
+    1: string productId;
+    2: string orderId;
+    3: string confirmUrl;
+    4: Bot bot;
+}
+
+/* k @sources/P70/k.java */
+struct P70_k {
+    
+}
+
+/* C13182t6 @sources/Pb1/C13182t6.java */
+struct PaidCallDialing {
+    1: PaidCallType type;
+    2: string dialedNumber;
+    3: string serviceDomain;
+    4: Pb1_EnumC13196u6 productType;
+    5: string productName;
+    6: bool multipleProduct;
+    7: Pb1_EnumC13238x6 callerIdStatus;
+    10: i32 balance;
+    11: string unit;
+    12: i32 rate;
+    13: string displayCode;
+    14: string calledNumber;
+    15: string calleeNationalNumber;
+    16: string calleeCallingCode;
+    17: string rateDivision;
+    20: i32 adMaxMin;
+    21: i32 adRemains;
+    22: string adSessionId;
+}
+
+/* C13210v6 @sources/Pb1/C13210v6.java */
+struct PaidCallResponse {
+    1: CallHost host;
+    2: PaidCallDialing dialing;
+    3: string token;
+    4: list<SpotItem> spotItems;
+}
+
+/* C13266z6 @sources/Pb1/C13266z6.java */
+struct PartialFullSyncResponse {
+    1: map<i32, i64> targetCategories;
+}
+
+/* I @sources/T70/I.java */
+struct PasswordHashingParameters {
+    1: string hmacKey;
+    2: ScryptParams scryptParams;
+}
+
+/* C18288a @sources/c80/C18288a.java */
+struct PasswordHashingParameters {
+    1: string hmacKey;
+    2: ScryptParams scryptParams;
+}
+
+/* J @sources/T70/J.java */
+struct PasswordValidationRule {
+    1: T70_p1 type;
+    2: list<string> pattern;
+    3: string clientNoticeMessage;
+}
+
+/* p @sources/U70/p.java */
+struct PasswordValidationRule {
+    1: U70_q type;
+    2: list<string> pattern;
+    3: string clientNoticeMessage;
+}
+
+/* C18289b @sources/c80/C18289b.java */
+struct PasswordValidationRule {
+    1: c80_EnumC18292e type;
+    2: list<string> pattern;
+    3: string clientNoticeMessage;
+}
+
+/* C34369i @sources/r80/C34369i.java */
+struct PaymentAuthenticationInfo {
+    1: string authToken;
+    2: string confirmMessage;
+}
+
+/* C34373m @sources/r80/C34373m.java */
+struct PaymentEligibleFriendStatus {
+    1: string mid;
+    2: r80_EnumC34367g status;
+}
+
+/* C34379t @sources/r80/C34379t.java */
+struct PaymentLineCardInfo {
+    1: string designCode;
+    2: string imageUrl;
+}
+
+/* C34380u @sources/r80/C34380u.java */
+struct PaymentLineCardIssueForm {
+    1: r80_e0 requiredTermsOfServiceBundle;
+    2: list<PaymentLineCardInfo> availableLineCards;
+}
+
+/* C34381v @sources/r80/C34381v.java */
+struct PaymentRequiredAgreementsInfo {
+    1: string title;
+    2: string desc;
+    3: string linkName;
+    4: string linkUrl;
+    5: list<string> newAgreements;
+}
+
+/* C27532A @sources/jo0/C27532A.java */
+struct PaymentReservationResult {
+    1: string orderId;
+    2: string confirmUrl;
+    3: map<string, string> extras;
+}
+
+/* f0 @sources/r80/f0.java */
+struct PaymentTradeInfo {
+    1: string chargeRequestId;
+    2: r80_g0 chargeRequestType;
+    3: i64 chargeRequestYmdt;
+    4: string tradeNumber;
+    7: string agencyNo;
+    8: string confirmNo;
+    9: i64 expireYmd;
+    10: DisplayMoney moneyAmount;
+    11: i64 completeYmdt;
+    12: string paymentProcessCorp;
+    13: r80_h0 status;
+    14: string helpUrl;
+    15: string guideMessage;
+}
+
+/* A4 @sources/Pb1/A4.java */
+struct Pb1_A4 {
+    1: string mid;
+    2: string eMid;
+}
+
+/* A6 @sources/Pb1/A6.java */
+struct Pb1_A6 {
+    
+}
+
+/* B3 @sources/Pb1/B3.java */
+struct Pb1_B3 {
+    
+}
+
+/* C12916a5 @sources/Pb1/C12916a5.java */
+struct Pb1_C12916a5 {
+    1: string wrappedNonce;
+    2: string kdfParameter1;
+    3: string kdfParameter2;
+}
+
+/* C12938c @sources/Pb1/C12938c.java */
+struct Pb1_C12938c {
+    1: AbuseReport message;
+    2: AbuseReportLineMeeting lineMeeting;
+}
+
+/* C12946c7 @sources/Pb1/C12946c7.java */
+struct Pb1_C12946c7 {
+    
+}
+
+/* C12953d0 @sources/Pb1/C12953d0.java */
+struct Pb1_C12953d0 {
+    2: string verifier;
+    3: string pinCode;
+    4: ErrorCode errorCode;
+    5: Pb1_C13097n4 publicKey;
+    6: string encryptedKeyChain;
+    7: string hashKeyChain;
+}
+
+/* C12980f @sources/Pb1/C12980f.java */
+struct Pb1_C12980f {
+    
+}
+
+/* C12996g1 @sources/Pb1/C12996g1.java */
+struct Pb1_C12996g1 {
+    
+}
+
+/* C13008h @sources/Pb1/C13008h.java */
+struct Pb1_C13008h {
+    
+}
+
+/* C13019ha @sources/Pb1/C13019ha.java */
+struct Pb1_C13019ha {
+    
+}
+
+/* C13042j5 @sources/Pb1/C13042j5.java */
+struct Pb1_C13042j5 {
+    
+}
+
+/* C13070l5 @sources/Pb1/C13070l5.java */
+struct Pb1_C13070l5 {
+    
+}
+
+/* C13097n4 @sources/Pb1/C13097n4.java */
+struct Pb1_C13097n4 {
+    1: i32 version;
+    2: i32 keyId;
+    4: string keyData;
+    5: i64 createdTime;
+}
+
+/* C13113o6 @sources/Pb1/C13113o6.java */
+struct Pb1_C13113o6 {
+    1: CallRoute callRoute;
+    2: PaidCallResponse paidCallResponse;
+}
+
+/* C13114o7 @sources/Pb1/C13114o7.java */
+struct Pb1_C13114o7 {
+    
+}
+
+/* C13126p5 @sources/Pb1/C13126p5.java */
+struct Pb1_C13126p5 {
+    
+}
+
+/* C13131pa @sources/Pb1/C13131pa.java */
+struct Pb1_C13131pa {
+    
+}
+
+/* C13150r2 @sources/Pb1/C13150r2.java */
+struct Pb1_C13150r2 {
+    
+}
+
+/* C13154r6 @sources/Pb1/C13154r6.java */
+struct Pb1_C13154r6 {
+    1: i64 revision;
+    2: i64 createdTime;
+    3: OpType type;
+    4: i32 reqSeq;
+    5: string checksum;
+    7: Pb1_EnumC13127p6 status;
+    10: string param1;
+    11: string param2;
+    12: string param3;
+    20: Message message;
+}
+
+/* C13155r7 @sources/Pb1/C13155r7.java */
+struct Pb1_C13155r7 {
+    1: string restoreClaim;
+}
+
+/* C13169s7 @sources/Pb1/C13169s7.java */
+struct Pb1_C13169s7 {
+    1: string recoveryKey;
+    2: string blobPayload;
+}
+
+/* C13183t7 @sources/Pb1/C13183t7.java */
+struct Pb1_C13183t7 {
+    
+}
+
+/* C13190u0 @sources/Pb1/C13190u0.java */
+struct Pb1_C13190u0 {
+    1: BuddyRichMenuChatBarItem rich;
+    2: BuddyWidgetListCharBarItem widgetList;
+    3: BuddyWebChatBarItem web;
+}
+
+/* C13202uc @sources/Pb1/C13202uc.java */
+struct Pb1_C13202uc {
+    
+}
+
+/* C13208v4 @sources/Pb1/C13208v4.java */
+struct Pb1_C13208v4 {
+    1: GroupExtra groupExtra;
+    2: Pb1_A6 peerExtra;
+}
+
+/* C13254y8 @sources/Pb1/C13254y8.java */
+struct Pb1_C13254y8 {
+    
+}
+
+/* C13263z3 @sources/Pb1/C13263z3.java */
+struct Pb1_C13263z3 {
+    1: string blobHeader;
+    2: string blobPayload;
+    3: Pb1_A3 reason;
+}
+
+/* Ca @sources/Pb1/Ca.java */
+struct Pb1_Ca {
+    
+}
+
+/* E3 @sources/Pb1/E3.java */
+struct Pb1_E3 {
+    1: string blobHeader;
+    2: list<Pb1_X5> payloadDataList;
+}
+
+/* Ea @sources/Pb1/Ea.java */
+struct Pb1_Ea {
+    
+}
+
+/* F3 @sources/Pb1/F3.java */
+struct Pb1_F3 {
+    
+}
+
+/* H3 @sources/Pb1/H3.java */
+struct Pb1_H3 {
+    
+}
+
+/* I3 @sources/Pb1/I3.java */
+struct Pb1_I3 {
+    
+}
+
+/* Ia @sources/Pb1/Ia.java */
+struct Pb1_Ia {
+    
+}
+
+/* J5 @sources/Pb1/J5.java */
+struct Pb1_J5 {
+    
+}
+
+/* K3 @sources/Pb1/K3.java */
+struct Pb1_K3 {
+    
+}
+
+/* M3 @sources/Pb1/M3.java */
+struct Pb1_M3 {
+    
+}
+
+/* O @sources/Pb1/O.java */
+struct Pb1_O {
+    
+}
+
+/* O3 @sources/Pb1/O3.java */
+struct Pb1_O3 {
+    
+}
+
+/* P9 @sources/Pb1/P9.java */
+struct Pb1_P9 {
+    
+}
+
+/* Q8 @sources/Pb1/Q8.java */
+struct Pb1_Q8 {
+    
+}
+
+/* S5 @sources/Pb1/S5.java */
+struct Pb1_S5 {
+    
+}
+
+/* Sb @sources/Pb1/Sb.java */
+struct Pb1_Sb {
+    1: i32 reqSeq;
+    2: string encryptedKeyChain;
+    3: string hashKeyChain;
+}
+
+/* U1 @sources/Pb1/U1.java */
+struct Pb1_U1 {
+    
+}
+
+/* U3 @sources/Pb1/U3.java */
+struct Pb1_U3 {
+    1: i32 keyVersion;
+    2: i32 groupKeyId;
+    3: string creator;
+    4: i32 creatorKeyId;
+    5: string receiver;
+    6: i32 receiverKeyId;
+    7: string encryptedSharedKey;
+    8: set<i32> allowedTypes;
+    9: i32 specVersion;
+}
+
+/* V3 @sources/Pb1/V3.java */
+struct Pb1_V3 {
+    1: i32 version;
+    2: i32 keyId;
+    4: string publicKey;
+    5: string privateKey;
+    6: i64 createdTime;
+}
+
+/* W4 @sources/Pb1/W4.java */
+struct Pb1_W4 {
+    
+}
+
+/* W5 @sources/Pb1/W5.java */
+struct Pb1_W5 {
+    1: E2EEMetadata e2ee;
+    2: SingleValueMetadata singleValue;
+}
+
+/* W6 @sources/Pb1/W6.java */
+struct Pb1_W6 {
+    1: i32 reqSeq;
+    2: Pb1_C13097n4 publicKey;
+    3: string blobPayload;
+}
+
+/* X @sources/Pb1/X.java */
+struct Pb1_X {
+    1: string verifier;
+    2: Pb1_C13097n4 publicKey;
+    3: string encryptedKeyChain;
+    4: string hashKeyChain;
+    5: ErrorCode errorCode;
+}
+
+/* X5 @sources/Pb1/X5.java */
+struct Pb1_X5 {
+    1: Pb1_W5 metadata;
+    2: string blobPayload;
+}
+
+/* X7 @sources/Pb1/X7.java */
+struct Pb1_X7 {
+    1: OperationResponse operationResponse;
+    2: FullSyncResponse fullSyncResponse;
+    3: PartialFullSyncResponse partialFullSyncResponse;
+}
+
+/* Y4 @sources/Pb1/Y4.java */
+struct Pb1_Y4 {
+    
+}
+
+/* Za @sources/Pb1/Za.java */
+struct Pb1_Za {
+    
+}
+
+/* Zc @sources/Pb1/Zc.java */
+struct Pb1_Zc {
+    
+}
+
+/* ad @sources/Pb1/ad.java */
+struct Pb1_ad {
+    1: string title;
+}
+
+/* cd @sources/Pb1/cd.java */
+struct Pb1_cd {
+    
+}
+
+/* B6 @sources/Pb1/B6.java */
+struct PendingAgreementsResponse {
+    1: list<i32> pendingAgreements;
+}
+
+/* C24994b @sources/g80/C24994b.java */
+struct PermitLoginRequest {
+    1: string sessionId;
+    2: map<string, string> metaData;
+}
+
+/* C24995c @sources/g80/C24995c.java */
+struct PermitLoginResponse {
+    1: string oneTimeToken;
+}
+
+/* C6 @sources/Pb1/C6.java */
+struct PhoneVerificationResult {
+    1: VerificationResult verificationResult;
+    2: Pb1_EnumC13022i accountMigrationCheckType;
+    3: bool recommendAddFriends;
+}
+
+/* J0 @sources/NZ0/J0.java */
+struct PocketMoneyInfo {
+    1: AssetServiceInfo assetServiceInfo;
+    2: NZ0_I0 displayType;
+    3: NZ0_K0 productType;
+    4: string refinanceText;
+}
+
+/* E6 @sources/Pb1/E6.java */
+struct PoiInfo {
+    1: string poiId;
+    2: Pb1_F6 poiRealm;
+}
+
+/* L0 @sources/NZ0/L0.java */
+struct PointInfo {
+    1: AssetServiceInfo assetServiceInfo;
+}
+
+/* PopularKeyword @sources/com/linecorp/square/protocol/thrift/common/PopularKeyword.java */
+struct PopularKeyword {
+    1: string value;
+    2: bool highlighted;
+    3: i64 id;
+}
+
+/* Popup @sources/com/linecorp/square/protocol/thrift/common/Popup.java */
+struct Popup {
+    1: i64 id;
+    2: string country;
+    3: string name;
+    4: PopupType type;
+    5: PopupContent content;
+    6: bool activated;
+    7: i64 revision;
+    8: i64 startsAt;
+    9: i64 endsAt;
+    10: i64 createdAt;
+}
+
+/* M0 @sources/NZ0/M0.java */
+struct PopupContent {
+    1: string imageUrl;
+    2: string imageAltText;
+    3: string linkUrl;
+    5: string backgroundColorCode;
+}
+
+/* O0 @sources/NZ0/O0.java */
+struct PopupProperty {
+    1: string id;
+    2: string name;
+    3: i64 startDateTimeMillis;
+    4: i64 endDateTimeMillis;
+    5: list<PopupContent> popupContents;
+    6: string wrsCampaignId;
+    7: bool optOut;
+    8: NZ0_N0 layoutSize;
+}
+
+/* C0 @sources/Ob1/C0.java */
+struct Price {
+    1: string currency;
+    2: string amount;
+    3: string priceString;
+}
+
+/* q @sources/uf/q.java */
+struct Priority {
+    1: i64 value;
+}
+
+/* n @sources/ar0/n.java */
+struct Product {
+    1: string id;
+    2: i64 productVersion;
+    3: AR0_o productDetails;
+}
+
+/* E0 @sources/Ob1/E0.java */
+struct ProductDetail {
+    1: string id;
+    2: string billingItemId;
+    3: string type;
+    4: Ob1_X1 subtype;
+    5: string billingCpId;
+    11: string name;
+    12: string author;
+    13: string details;
+    14: string copyright;
+    15: string notice;
+    16: PromotionInfo promotionInfo;
+    21: i64 latestVersion;
+    22: string latestVersionString;
+    23: i64 version;
+    24: string versionString;
+    25: ApplicationVersionRange applicationVersionRange;
+    31: bool owned;
+    32: bool grantedByDefault;
+    41: i32 validFor;
+    42: i64 validUntil;
+    51: bool onSale;
+    52: set<string> salesFlags;
+    53: bool availableForPresent;
+    54: bool availableForMyself;
+    61: i32 priceTier;
+    62: Price price;
+    63: string priceInLineCoin;
+    64: Price localizedPrice;
+    91: map<string, list<_any>> images;
+    92: map<string, string> attributes;
+    93: string authorId;
+    94: StickerResourceType stickerResourceType;
+    95: jp_naver_line_shop_protocol_thrift_ProductProperty productProperty;
+    96: Ob1_J0 productSalesState;
+    97: i64 installedTime;
+    101: ProductWishProperty wishProperty;
+    102: ProductSubscriptionProperty subscriptionProperty;
+    103: Ob1_H0 productPromotionProperty;
+    104: bool availableInCountry;
+    105: list<EditorsPickBannerForClient> editorsPickBanners;
+    106: bool ableToBeGivenAsPresent;
+    107: bool madeWithStickerMaker;
+    108: string customDownloadButtonLabel;
+}
+
+/* F0 @sources/Ob1/F0.java */
+struct ProductList {
+    1: list<ProductDetail> productList;
+    2: i32 offset;
+    3: i32 totalSize;
+    11: string title;
+}
+
+/* G0 @sources/Ob1/G0.java */
+struct ProductListByAuthorRequest {
+    1: Ob1_O0 productType;
+    2: string authorId;
+    3: i32 offset;
+    4: i32 limit;
+    5: ShopFilter shopFilter;
+    6: bool includeStickerIds;
+    7: list<i32> additionalProductTypes;
+    8: Ob1_EnumC12666u1 showcaseType;
+}
+
+/* ProductSearchSummary @sources/JP/naver/line/shop/protocol/thrift/ProductSearchSummary.java */
+struct ProductSearchSummary {
+    
+}
+
+/* K0 @sources/Ob1/K0.java */
+struct ProductSubscriptionProperty {
+    1: bool availableForSubscribe;
+    2: Ob1_D0 subscriptionAvailability;
+}
+
+/* L0 @sources/Ob1/L0.java */
+struct ProductSummary {
+    1: string id;
+    11: string name;
+    21: i64 latestVersion;
+    25: ApplicationVersionRange applicationVersionRange;
+    32: bool grantedByDefault;
+    92: map<string, string> attributes;
+    93: Ob1_P0 productTypeSummary;
+    94: i64 validUntil;
+    95: i32 validFor;
+    96: i64 installedTime;
+    97: Ob1_D0 availability;
+    98: string authorId;
+    99: bool canAutoDownload;
+    100: PromotionInfo promotionInfo;
+}
+
+/* M0 @sources/Ob1/M0.java */
+struct ProductSummaryForAutoSuggest {
+    1: string id;
+    2: i64 version;
+    3: string name;
+    4: StickerResourceType stickerResourceType;
+    5: i64 suggestVersion;
+    6: Ob1_B0 popupLayer;
+    7: Ob1_O0 type;
+    8: Ob1_I0 resourceType;
+    9: Ob1_C1 stickerSize;
+}
+
+/* N0 @sources/Ob1/N0.java */
+struct ProductSummaryList {
+    1: list<ProductSummary> productList;
+    2: i32 offset;
+    3: i32 totalSize;
+}
+
+/* Q0 @sources/Ob1/Q0.java */
+struct ProductValidationRequest {
+    1: ProductValidationScheme validationScheme;
+    10: string authCode;
+}
+
+/* R0 @sources/Ob1/R0.java */
+struct ProductValidationResult {
+    1: bool validated;
+}
+
+/* S0 @sources/Ob1/S0.java */
+struct ProductValidationScheme {
+    10: string key;
+    11: i64 offset;
+    12: i64 size;
+}
+
+/* T0 @sources/Ob1/T0.java */
+struct ProductWishProperty {
+    1: i64 totalCount;
+}
+
+/* J6 @sources/Pb1/J6.java */
+struct Profile {
+    1: string mid;
+    3: string userid;
+    10: string phone;
+    11: string email;
+    12: string regionCode;
+    20: string displayName;
+    21: string phoneticName;
+    22: string pictureStatus;
+    23: string thumbnailUrl;
+    24: string statusMessage;
+    31: bool allowSearchByUserid;
+    32: bool allowSearchByEmail;
+    33: string picturePath;
+    34: string musicProfile;
+    35: string videoProfile;
+    36: map<string, string> statusMessageContentMetadata;
+    37: AvatarProfile avatarProfile;
+    38: bool nftProfile;
+    39: Pb1_N6 pictureSource;
+    40: string profileId;
+    41: Pb1_O6 profileType;
+    42: i64 createdTimeMillis;
+}
+
+/* L6 @sources/Pb1/L6.java */
+struct ProfileContent {
+    1: string value;
+    2: map<string, string> meta;
+}
+
+/* q @sources/KF/q.java */
+struct ProfileRefererContent {
+    1: map<string, string> oatQueryParameters;
+}
+
+/* U0 @sources/Ob1/U0.java */
+struct PromotionBuddyDetail {
+    1: string searchId;
+    2: ContactStatus contactStatus;
+    3: string name;
+    4: string pictureUrl;
+    5: string statusMessage;
+    6: Ob1_EnumC12641m brandType;
+}
+
+/* V0 @sources/Ob1/V0.java */
+struct PromotionBuddyInfo {
+    1: string buddyMid;
+    2: PromotionBuddyDetail promotionBuddyDetail;
+    3: bool showBanner;
+}
+
+/* X0 @sources/Ob1/X0.java */
+struct PromotionInfo {
+    1: Ob1_EnumC12610b1 promotionType;
+    2: Ob1_W0 promotionDetail;
+    51: PromotionBuddyInfo buddyInfo;
+}
+
+/* Y0 @sources/Ob1/Y0.java */
+struct PromotionInstallInfo {
+    1: string downloadUrl;
+    2: string customUrlSchema;
+}
+
+/* Z0 @sources/Ob1/Z0.java */
+struct PromotionMissionInfo {
+    1: Ob1_EnumC12607a1 promotionMissionType;
+    2: bool missionCompleted;
+    3: string downloadUrl;
+    4: string customUrlSchema;
+    5: string oaMid;
+}
+
+/* b0 @sources/Qj/b0.java */
+struct Provider {
+    1: string id;
+    2: string name;
+    3: string providerPageUrl;
+}
+
+/* C32970g @sources/p80/C32970g.java */
+struct PublicKeyCredentialCreationOptions {
+    1: PublicKeyCredentialRpEntity rp;
+    2: PublicKeyCredentialUserEntity user;
+    3: string challenge;
+    4: list<PublicKeyCredentialParameters> pubKeyCredParams;
+    5: i64 timeout;
+    6: set<PublicKeyCredentialDescriptor> excludeCredentials;
+    7: AuthenticatorSelectionCriteria authenticatorSelection;
+    8: string attestation;
+    9: AuthenticationExtensionsClientInputs extensions;
+}
+
+/* C17508e @sources/B80/C17508e.java */
+struct PublicKeyCredentialDescriptor {
+    1: string type;
+    2: string id;
+    3: set<string> transports;
+}
+
+/* h @sources/p80/h.java */
+struct PublicKeyCredentialDescriptor {
+    1: string type;
+    2: string id;
+    3: set<string> transports;
+}
+
+/* i @sources/p80/i.java */
+struct PublicKeyCredentialParameters {
+    1: string type;
+    2: i32 alg;
+}
+
+/* C17509f @sources/B80/C17509f.java */
+struct PublicKeyCredentialRequestOptions {
+    1: string challenge;
+    2: i64 timeout;
+    3: string rpId;
+    4: set<PublicKeyCredentialDescriptor> allowCredentials;
+    5: string userVerification;
+    6: AuthenticationExtensionsClientInputs extensions;
+}
+
+/* j @sources/p80/j.java */
+struct PublicKeyCredentialRequestOptions {
+    1: string challenge;
+    2: i64 timeout;
+    3: string rpId;
+    4: set<PublicKeyCredentialDescriptor> allowCredentials;
+    5: string userVerification;
+    6: AuthenticationExtensionsClientInputs extensions;
+}
+
+/* k @sources/p80/k.java */
+struct PublicKeyCredentialRpEntity {
+    1: string name;
+    2: string icon;
+    3: string id;
+}
+
+/* l @sources/p80/l.java */
+struct PublicKeyCredentialUserEntity {
+    1: string name;
+    2: string icon;
+    3: string id;
+    4: string displayName;
+}
+
+/* H @sources/og/H.java */
+struct PurchaseEnabledRequest {
+    1: string uniqueKey;
+}
+
+/* C12613c1 @sources/Ob1/C12613c1.java */
+struct PurchaseOrder {
+    1: string shopId;
+    2: string productId;
+    5: string recipientMid;
+    11: Price price;
+    12: bool enableLinePointAutoExchange;
+    21: Locale locale;
+    31: map<string, string> presentAttributes;
+}
+
+/* C12616d1 @sources/Ob1/C12616d1.java */
+struct PurchaseOrderResponse {
+    1: string orderId;
+    11: map<string, string> attributes;
+    12: string billingConfirmUrl;
+}
+
+/* C12619e1 @sources/Ob1/C12619e1.java */
+struct PurchaseRecord {
+    1: ProductDetail productDetail;
+    11: i64 purchasedTime;
+    21: string giver;
+    22: string recipient;
+    31: Price purchasedPrice;
+}
+
+/* C12622f1 @sources/Ob1/C12622f1.java */
+struct PurchaseRecordList {
+    1: list<PurchaseRecord> purchaseRecords;
+    2: i32 offset;
+    3: i32 totalSize;
+}
+
+/* C12625g1 @sources/Ob1/C12625g1.java */
+struct PurchaseSubscriptionRequest {
+    1: string billingItemId;
+    2: Ob1_S1 subscriptionService;
+    3: Ob1_K1 storeCode;
+    4: string storeOrderId;
+    5: bool outsideAppPurchase;
+    6: bool unavailableItemPurchase;
+}
+
+/* C12628h1 @sources/Ob1/C12628h1.java */
+struct PurchaseSubscriptionResponse {
+    1: Ob1_M1 result;
+    2: string orderId;
+    3: string confirmUrl;
+}
+
+/* Q6 @sources/Pb1/Q6.java */
+struct PushRecvReport {
+    1: string pushTrackingId;
+    2: i64 recvTimestamp;
+    3: i32 battery;
+    4: Pb1_EnumC13009h0 batteryMode;
+    5: Pb1_EnumC12998g3 clientNetworkType;
+    6: string carrierCode;
+    7: i64 displayTimestamp;
+}
+
+/* l @sources/o80/l.java */
+struct PutE2eeKeyRequest {
+    1: string sessionId;
+    2: map<string, string> e2eeKey;
+}
+
+/* l @sources/q70/l.java */
+struct Q70_l {
+    
+}
+
+/* o @sources/q70/o.java */
+struct Q70_o {
+    
+}
+
+/* C13595l @sources/Qj/C13595l.java */
+struct Qj_C13595l {
+    1: Qj_C13607y none;
+    2: LiffChatContext chat;
+    3: LiffSquareChatContext squareChat;
+}
+
+/* C13599p @sources/Qj/C13599p.java */
+struct Qj_C13599p {
+    3: LiffErrorConsentRequired consentRequired;
+    4: LiffErrorPermanentLinkInvalidRequest permanentLinkInvalidRequest;
+}
+
+/* C13602t @sources/Qj/C13602t.java */
+struct Qj_C13602t {
+    1: LiffFIDOExternalService externalService;
+}
+
+/* C13607y @sources/Qj/C13607y.java */
+struct Qj_C13607y {
+    
+}
+
+/* P0 @sources/NZ0/P0.java */
+struct QuickMenuCouponInfo {
+    1: string couponCount;
+    2: string mainText;
+    3: string linkUrl;
+    4: string iconUrl;
+    5: string targetId;
+    6: string targetName;
+    7: NZ0_W0 responseStatus;
+    8: string darkModeIconUrl;
+}
+
+/* Q0 @sources/NZ0/Q0.java */
+struct QuickMenuMyCardInfo {
+    1: list<QuickMenuMyCardItem> myCardItems;
+    2: NZ0_W0 responseStatus;
+}
+
+/* R0 @sources/NZ0/R0.java */
+struct QuickMenuMyCardItem {
+    1: NZ0_S0 itemType;
+    2: string mainText;
+    3: string linkUrl;
+    4: string iconUrl;
+    5: string targetId;
+    6: string targetName;
+    7: string darkModeIconUrl;
+}
+
+/* T0 @sources/NZ0/T0.java */
+struct QuickMenuPointInfo {
+    1: string balance;
+    2: string linkUrl;
+    3: string iconUrl;
+    4: string targetId;
+    5: string targetName;
+    6: NZ0_W0 responseStatus;
+}
+
+/* a @sources/R70/a.java */
+struct R70_a {
+    
+}
+
+/* c @sources/R70/c.java */
+struct R70_c {
+    
+}
+
+/* d @sources/R70/d.java */
+struct R70_d {
+    
+}
+
+/* t @sources/R70/t.java */
+struct R70_t {
+    
+}
+
+/* j0 @sources/r80/j0.java */
+struct RSAEncryptedLoginInfo {
+    1: string loginId;
+    2: string loginPassword;
+}
+
+/* k0 @sources/r80/k0.java */
+struct RSAEncryptedPassword {
+    1: string encrypted;
+    2: string keyName;
+}
+
+/* R6 @sources/Pb1/R6.java */
+struct RSAKey {
+    1: string keynm;
+    2: string nvalue;
+    3: string evalue;
+    4: string sessionKey;
+}
+
+/* S6 @sources/Pb1/S6.java */
+struct ReactRequest {
+    1: i32 reqSeq;
+    2: i64 messageId;
+    3: ReactionType reactionType;
+}
+
+/* ReactToMessageRequest @sources/com/linecorp/square/protocol/thrift/ReactToMessageRequest.java */
+struct ReactToMessageRequest {
+    1: i32 reqSeq;
+    2: string squareChatMid;
+    3: string messageId;
+    4: MessageReactionType reactionType;
+    5: string threadMid;
+}
+
+/* ReactToMessageResponse @sources/com/linecorp/square/protocol/thrift/ReactToMessageResponse.java */
+struct ReactToMessageResponse {
+    1: SquareMessageReaction reaction;
+    2: SquareMessageReactionStatus status;
+}
+
+/* T6 @sources/Pb1/T6.java */
+struct Reaction {
+    1: string fromUserMid;
+    2: i64 atMillis;
+    3: ReactionType reactionType;
+}
+
+/* U6 @sources/Pb1/U6.java */
+struct ReactionType {
+    1: Pb1_G6 predefinedReactionType;
+}
+
+/* C11314x0 @sources/LN0/C11314x0.java */
+struct RecommendationDetail {
+    1: i64 createdTime;
+    2: list<LN0_z0> reasons;
+    4: bool hidden;
+}
+
+/* D0 @sources/LN0/D0.java */
+struct RecommendationReasonSharedChat {
+    1: string chatMid;
+}
+
+/* h @sources/P70/h.java */
+struct RefreshAccessTokenRequest {
+    1: string refreshToken;
+}
+
+/* i @sources/P70/i.java */
+struct RefreshAccessTokenResponse {
+    1: string accessToken;
+    2: i64 durationUntilRefreshInSec;
+    3: RetryPolicy retryPolicy;
+    4: i64 tokenIssueTimeEpochSec;
+    5: string refreshToken;
+}
+
+/* C29124a @sources/L80/C29124a.java */
+struct RefreshApiRetryPolicy {
+    1: i64 initialDelayInMillis;
+    2: i64 maxDelayInMillis;
+    3: double multiplier;
+    4: double jitterRate;
+}
+
+/* V6 @sources/Pb1/V6.java */
+struct RefreshApiRetryPolicy {
+    1: i64 initialDelayInMillis;
+    2: i64 maxDelayInMillis;
+    3: double multiplier;
+    4: double jitterRate;
+}
+
+/* X0 @sources/T70/X0.java */
+struct RefreshApiRetryPolicy {
+    1: i64 initialDelayInMillis;
+    2: i64 maxDelayInMillis;
+    3: double multiplier;
+    4: double jitterRate;
+}
+
+/* RefreshSubscriptionsRequest @sources/com/linecorp/square/protocol/thrift/RefreshSubscriptionsRequest.java */
+struct RefreshSubscriptionsRequest {
+    2: list<i64> subscriptions;
+}
+
+/* RefreshSubscriptionsResponse @sources/com/linecorp/square/protocol/thrift/RefreshSubscriptionsResponse.java */
+struct RefreshSubscriptionsResponse {
+    1: i64 ttlMillis;
+    2: map<i64, SubscriptionState> subscriptionStates;
+}
+
+/* m @sources/p80/m.java */
+struct RegPublicKeyCredential {
+    1: string id;
+    2: string type;
+    3: AuthenticatorAttestationResponse response;
+    4: AuthenticationExtensionsClientOutputs extensionResults;
+}
+
+/* U0 @sources/NZ0/U0.java */
+struct RegisterCampaignRewardRequest {
+    1: string campaignId;
+}
+
+/* V0 @sources/NZ0/V0.java */
+struct RegisterCampaignRewardResponse {
+    1: NZ0_EnumC12188n campaignStatus;
+    2: ResultPopupProperty resultPopupProperty;
+    3: string errorMessage;
+    4: string registeredId;
+    5: i64 registeredDateTimeMillis;
+    6: string redirectUrlWithoutResultPopup;
+}
+
+/* X6 @sources/Pb1/X6.java */
+struct RegisterE2EEPublicKeyV2Response {
+    1: Pb1_C13097n4 publicKey;
+    2: bool isMasterKeyConflict;
+}
+
+/* s @sources/R70/s.java */
+struct RegisterPrimaryCredentialRequest {
+    1: string sessionId;
+    2: R70_p80_m credential;
+}
+
+/* Y0 @sources/T70/Y0.java */
+struct RegisterPrimaryWithTokenV3Response {
+    1: string authToken;
+    2: TokenV3IssueResult tokenV3IssueResult;
+    3: string mid;
+}
+
+/* q0 @sources/I80/q0.java */
+struct I80_q0 {
+    1: string authSessionId;
+    2: I80_y0 encryptionKey;
+}
+
+/* r @sources/uf/r.java */
+struct RegularBadge {
+    1: string label;
+    2: string color;
+}
+
+/* Z6 @sources/Pb1/Z6.java */
+struct ReissueChatTicketRequest {
+    1: i32 reqSeq;
+    2: string groupMid;
+}
+
+/* C12918a7 @sources/Pb1/C12918a7.java */
+struct ReissueChatTicketResponse {
+    1: string ticketId;
+}
+
+/* C12932b7 @sources/Pb1/C12932b7.java */
+struct RejectChatInvitationRequest {
+    1: i32 reqSeq;
+    2: string chatMid;
+}
+
+/* RejectSpeakersRequest @sources/com/linecorp/square/protocol/thrift/RejectSpeakersRequest.java */
+struct RejectSpeakersRequest {
+    1: string squareChatMid;
+    2: string sessionId;
+    3: set<string> targetMids;
+}
+
+/* RejectSquareMembersRequest @sources/com/linecorp/square/protocol/thrift/RejectSquareMembersRequest.java */
+struct RejectSquareMembersRequest {
+    2: string squareMid;
+    3: list<string> requestedMemberMids;
+}
+
+/* RejectSquareMembersResponse @sources/com/linecorp/square/protocol/thrift/RejectSquareMembersResponse.java */
+struct RejectSquareMembersResponse {
+    1: list<SquareMember> rejectedMembers;
+    2: SquareStatus status;
+}
+
+/* RejectToSpeakRequest @sources/com/linecorp/square/protocol/thrift/RejectToSpeakRequest.java */
+struct RejectToSpeakRequest {
+    1: string squareChatMid;
+    2: string sessionId;
+    3: string inviteRequestId;
+}
+
+/* C12960d7 @sources/Pb1/C12960d7.java */
+struct RemoveFollowerRequest {
+    1: Pb1_A4 followMid;
+}
+
+/* C12974e7 @sources/Pb1/C12974e7.java */
+struct RemoveFromFollowBlacklistRequest {
+    1: Pb1_A4 followMid;
+}
+
+/* C12634j1 @sources/Ob1/C12634j1.java */
+struct RemoveItemFromCollectionRequest {
+    1: string collectionId;
+    3: string productId;
+    4: string itemId;
+}
+
+/* RemoveLiveTalkSubscriptionRequest @sources/com/linecorp/square/protocol/thrift/RemoveLiveTalkSubscriptionRequest.java */
+struct RemoveLiveTalkSubscriptionRequest {
+    1: string squareChatMid;
+    2: string sessionId;
+}
+
+/* C12640l1 @sources/Ob1/C12640l1.java */
+struct RemoveProductFromSubscriptionSlotRequest {
+    1: Ob1_O0 productType;
+    2: string productId;
+    3: Ob1_S1 subscriptionService;
+    4: set<string> productIds;
+}
+
+/* C12643m1 @sources/Ob1/C12643m1.java */
+struct RemoveProductFromSubscriptionSlotResponse {
+    1: Ob1_U1 result;
+}
+
+/* RemoveSubscriptionsRequest @sources/com/linecorp/square/protocol/thrift/RemoveSubscriptionsRequest.java */
+struct RemoveSubscriptionsRequest {
+    2: list<i64> unsubscriptions;
+}
+
+/* C12988f7 @sources/Pb1/C12988f7.java */
+struct RepairGroupMembers {
+    1: i32 numMembers;
+    3: bool invalidGroup;
+}
+
+/* C13002g7 @sources/Pb1/C13002g7.java */
+struct RepairProfileMappingMembers {
+    1: bool matched;
+    2: i32 numMembers;
+}
+
+/* C13016h7 @sources/Pb1/C13016h7.java */
+struct RepairTriggerConfigurationsElement {
+    1: Configurations serverConfigurations;
+    2: i32 nextCallIntervalMinutes;
+}
+
+/* C13030i7 @sources/Pb1/C13030i7.java */
+struct RepairTriggerGroupMembersElement {
+    1: map<string, RepairGroupMembers> matchedGroups;
+    2: map<string, RepairGroupMembers> mismatchedGroups;
+    3: i32 nextCallIntervalMinutes;
+}
+
+/* C13044j7 @sources/Pb1/C13044j7.java */
+struct RepairTriggerNumElement {
+    1: bool matched;
+    2: i32 numValue;
+    3: i32 nextCallIntervalMinutes;
+}
+
+/* C13058k7 @sources/Pb1/C13058k7.java */
+struct RepairTriggerProfileElement {
+    1: Profile serverProfile;
+    2: i32 nextCallIntervalMinutes;
+    3: list<Profile> serverMultiProfiles;
+}
+
+/* C13072l7 @sources/Pb1/C13072l7.java */
+struct RepairTriggerProfileMappingListElement {
+    1: map<string, RepairProfileMappingMembers> profileMappings;
+    2: i32 nextCallIntervalMinutes;
+}
+
+/* C13086m7 @sources/Pb1/C13086m7.java */
+struct RepairTriggerSettingsElement {
+    1: Settings serverSettings;
+    2: i32 nextCallIntervalMinutes;
+}
+
+/* C13100n7 @sources/Pb1/C13100n7.java */
+struct ReportAbuseExRequest {
+    1: Pb1_C12938c abuseReportEntry;
+}
+
+/* ReportLiveTalkRequest @sources/com/linecorp/square/protocol/thrift/ReportLiveTalkRequest.java */
+struct ReportLiveTalkRequest {
+    1: string squareChatMid;
+    2: string sessionId;
+    3: LiveTalkReportType reportType;
+}
+
+/* ReportLiveTalkSpeakerRequest @sources/com/linecorp/square/protocol/thrift/ReportLiveTalkSpeakerRequest.java */
+struct ReportLiveTalkSpeakerRequest {
+    1: string squareChatMid;
+    2: string sessionId;
+    3: string speakerMemberMid;
+    4: LiveTalkReportType reportType;
+}
+
+/* ReportMessageSummaryRequest @sources/com/linecorp/square/protocol/thrift/ReportMessageSummaryRequest.java */
+struct ReportMessageSummaryRequest {
+    1: string chatEmid;
+    2: i64 messageSummaryRangeTo;
+    3: MessageSummaryReportType reportType;
+}
+
+/* j @sources/P70/j.java */
+struct ReportRefreshedAccessTokenRequest {
+    1: string accessToken;
+}
+
+/* ReportSquareChatRequest @sources/com/linecorp/square/protocol/thrift/ReportSquareChatRequest.java */
+struct ReportSquareChatRequest {
+    2: string squareMid;
+    3: string squareChatMid;
+    5: ReportType reportType;
+    6: string otherReason;
+}
+
+/* ReportSquareMemberRequest @sources/com/linecorp/square/protocol/thrift/ReportSquareMemberRequest.java */
+struct ReportSquareMemberRequest {
+    2: string squareMemberMid;
+    3: ReportType reportType;
+    4: string otherReason;
+    5: string squareChatMid;
+    6: string threadMid;
+}
+
+/* ReportSquareMessageRequest @sources/com/linecorp/square/protocol/thrift/ReportSquareMessageRequest.java */
+struct ReportSquareMessageRequest {
+    2: string squareMid;
+    3: string squareChatMid;
+    4: string squareMessageId;
+    5: ReportType reportType;
+    6: string otherReason;
+    7: string threadMid;
+}
+
+/* ReportSquareRequest @sources/com/linecorp/square/protocol/thrift/ReportSquareRequest.java */
+struct ReportSquareRequest {
+    2: string squareMid;
+    3: ReportType reportType;
+    4: string otherReason;
+}
+
+/* a1 @sources/T70/a1.java */
+struct ReqToSendPhonePinCodeRequest {
+    1: string authSessionId;
+    2: UserPhoneNumber userPhoneNumber;
+    3: T70_K verifMethod;
+}
+
+/* s0 @sources/I80/s0.java */
+struct I80_s0 {
+    1: string authSessionId;
+    2: UserPhoneNumber userPhoneNumber;
+    3: I80_EnumC26425y verifMethod;
+}
+
+/* t0 @sources/I80/t0.java */
+struct I80_t0 {
+    1: list<i32> availableMethods;
+}
+
+/* b1 @sources/T70/b1.java */
+struct ReqToSendPhonePinCodeResponse {
+    1: list<i32> availableMethods;
+}
+
+/* RequestToListenRequest @sources/com/linecorp/square/protocol/thrift/RequestToListenRequest.java */
+struct RequestToListenRequest {
+    1: string squareChatMid;
+    2: string sessionId;
+}
+
+/* u0 @sources/I80/u0.java */
+struct I80_u0 {
+    1: string authSessionId;
+    2: string email;
+}
+
+/* c1 @sources/T70/c1.java */
+struct RequestToSendPasswordSetVerificationEmailResponse {
+    1: i64 timeoutMinutes;
+}
+
+/* RequestToSpeakRequest @sources/com/linecorp/square/protocol/thrift/RequestToSpeakRequest.java */
+struct RequestToSpeakRequest {
+    1: string squareChatMid;
+    2: string sessionId;
+}
+
+/* C13142q7 @sources/Pb1/C13142q7.java */
+struct RequestTokenResponse {
+    1: string requestToken;
+    2: string returnUrl;
+}
+
+/* J @sources/og/J.java */
+struct ReserveInfo {
+    1: og_I purchaseEnabledStatus;
+    2: OrderInfo orderInfo;
+}
+
+/* K @sources/og/K.java */
+struct ReserveRequest {
+    1: string uniqueKey;
+}
+
+/* C24468D @sources/fn0/C24468D.java */
+struct ReserveSubscriptionPurchaseRequest {
+    1: string billingItemId;
+    2: fN0_G storeCode;
+    3: bool addOaFriend;
+    4: string entryPoint;
+    5: string campaignId;
+    6: string invitationId;
+}
+
+/* E @sources/fn0/E.java */
+struct ReserveSubscriptionPurchaseResponse {
+    1: fN0_F result;
+    2: string orderId;
+    3: string confirmUrl;
+}
+
+/* w0 @sources/I80/w0.java */
+struct I80_w0 {
+    1: string authSessionId;
+}
+
+/* x0 @sources/I80/x0.java */
+struct I80_x0 {
+    1: string mid;
+    2: TokenV3IssueResult tokenV3IssueResult;
+    3: TokenV1IssueResult tokenV1IssueResult;
+    4: I80_X70_a accountCountryCode;
+    5: FormattedPhoneNumbers formattedPhoneNumbers;
+}
+
+/* X0 @sources/NZ0/X0.java */
+struct ResultPopupProperty {
+    1: string iconUrl;
+    2: string text;
+    3: string closeButtonText;
+    4: string linkButtonText;
+    5: string linkButtonForwardUrl;
+    6: EventButton eventButton;
+    7: OaAddFriendArea oaAddfreindArea;
+}
+
+/* C13197u7 @sources/Pb1/C13197u7.java */
+struct RetrieveRequestTokenWithDocomoV2Response {
+    1: string loginRedirectUrl;
+}
+
+/* l @sources/P70/l.java */
+struct RetryPolicy {
+    1: i64 initialDelayInMillis;
+    2: i64 maxDelayInMillis;
+    3: double multiplier;
+    4: double jitterRate;
+}
+
+/* c0 @sources/Qj/c0.java */
+struct RevokeTokensRequest {
+    1: list<string> accessTokens;
+}
+
+/* s @sources/uf/s.java */
+struct RichContent {
+    1: Callback callback;
+    2: NoBidCallback noBidCallback;
+    3: i64 ttl;
+    4: bool muteSupported;
+    5: bool voteSupported;
+    6: Priority priority;
+    7: Uf_t richFormatPayload;
+}
+
+/* u @sources/uf/u.java */
+struct RichImage {
+    1: string url;
+}
+
+/* v @sources/uf/v.java */
+struct RichItem {
+    1: string eyeCatchMessage;
+    2: string message;
+    3: AnimationLayer animationLayer;
+    4: ThumbnailLayer thumbnailLayer;
+    5: string linkUrl;
+    6: string fallbackUrl;
+}
+
+/* C13211v7 @sources/Pb1/C13211v7.java */
+struct RichString {
+    1: string content;
+    2: map<string, string> meta;
+}
+
+/* s @sources/KF/s.java */
+struct RichmenuCoordinates {
+    1: double x;
+    2: double y;
+}
+
+/* t @sources/KF/t.java */
+struct RichmenuEvent {
+    1: kf_u type;
+    2: string richmenuId;
+    3: RichmenuCoordinates coordinates;
+    4: i32 areaIndex;
+    5: string clickUrl;
+    6: kf_r clickAction;
+}
+
+/* C13225w7 @sources/Pb1/C13225w7.java */
+struct RingbackTone {
+    1: string uuid;
+    2: string trackId;
+    3: string title;
+    4: string oid;
+    5: map<string, string> tids;
+    6: string sid;
+    7: string artist;
+    8: string channelId;
+}
+
+/* C13239x7 @sources/Pb1/C13239x7.java */
+struct Ringtone {
+    1: string title;
+    2: string artist;
+    3: string oid;
+    4: string channelId;
+}
+
+/* C13253y7 @sources/Pb1/C13253y7.java */
+struct Room {
+    1: string mid;
+    2: i64 createdTime;
+    10: list<Contact> contacts;
+    31: bool notificationDisabled;
+    40: list<string> memberMids;
+}
+
+/* t @sources/QM/t.java */
+struct Rssi {
+    1: i32 value;
+}
+
+/* b @sources/S70/b.java */
+struct S70_b {
+    
+}
+
+/* k @sources/S70/k.java */
+struct S70_k {
+    
+}
+
+/* L @sources/og/L.java */
+struct SCC {
+    1: string businessName;
+    2: string tel;
+    3: string email;
+    4: string url;
+    5: string address;
+    6: string personName;
+    7: string memo;
+}
+
+/* A7 @sources/Pb1/A7.java */
+struct SIMInfo {
+    1: string phoneNumber;
+    2: string countryCode;
+}
+
+/* d0 @sources/Qj/d0.java */
+struct SKAdNetwork {
+    1: string identifiers;
+    2: string version;
+}
+
+/* y0 @sources/I80/y0.java */
+struct I80_y0 {
+    1: string keyMaterial;
+}
+
+/* C12646n1 @sources/Ob1/C12646n1.java */
+struct SaveStudentInformationRequest {
+    1: StudentInformation studentInformation;
+}
+
+/* C23140C @sources/Do0/C23140C.java */
+struct Scenario {
+    1: string id;
+    2: do0_I trigger;
+    3: list<do0_C23141D> actions;
+}
+
+/* H @sources/Do0/H.java */
+struct ScenarioSet {
+    1: list<Scenario> scenarios;
+    2: bool autoClose;
+    3: i64 suppressionInterval;
+    4: i64 revision;
+    5: i64 modifiedTime;
+}
+
+/* Y0 @sources/NZ0/Y0.java */
+struct ScoreInfo {
+    1: AssetServiceInfo assetServiceInfo;
+}
+
+/* r @sources/U70/r.java */
+struct ScryptParams {
+    1: string salt;
+    2: string nrp;
+    3: i32 dkLen;
+}
+
+/* C18290c @sources/c80/C18290c.java */
+struct ScryptParams {
+    1: string salt;
+    2: string nrp;
+    3: i64 dkLen;
+}
+
+/* d1 @sources/T70/d1.java */
+struct ScryptParams {
+    1: string salt;
+    2: string nrp;
+    3: i64 dkLen;
+}
+
+/* SearchSquareChatMembersRequest @sources/com/linecorp/square/protocol/thrift/SearchSquareChatMembersRequest.java */
+struct SearchSquareChatMembersRequest {
+    1: string squareChatMid;
+    2: SquareChatMemberSearchOption searchOption;
+    3: string continuationToken;
+    4: i32 limit;
+}
+
+/* SearchSquareChatMembersResponse @sources/com/linecorp/square/protocol/thrift/SearchSquareChatMembersResponse.java */
+struct SearchSquareChatMembersResponse {
+    1: list<SquareMember> members;
+    2: string continuationToken;
+    3: i32 totalCount;
+}
+
+/* SearchSquareChatMentionablesRequest @sources/com/linecorp/square/protocol/thrift/SearchSquareChatMentionablesRequest.java */
+struct SearchSquareChatMentionablesRequest {
+    1: string squareChatMid;
+    2: SquareChatMentionableSearchOption searchOption;
+    3: string continuationToken;
+    4: i32 limit;
+}
+
+/* SearchSquareChatMentionablesResponse @sources/com/linecorp/square/protocol/thrift/SearchSquareChatMentionablesResponse.java */
+struct SearchSquareChatMentionablesResponse {
+    1: list<Mentionable> mentionables;
+    2: string continuationToken;
+}
+
+/* SearchSquareMembersRequest @sources/com/linecorp/square/protocol/thrift/SearchSquareMembersRequest.java */
+struct SearchSquareMembersRequest {
+    2: string squareMid;
+    3: SquareMemberSearchOption searchOption;
+    4: string continuationToken;
+    5: i32 limit;
+}
+
+/* SearchSquareMembersResponse @sources/com/linecorp/square/protocol/thrift/SearchSquareMembersResponse.java */
+struct SearchSquareMembersResponse {
+    1: list<SquareMember> members;
+    2: i64 revision;
+    3: string continuationToken;
+    4: i32 totalCount;
+}
+
+/* SearchSquaresRequest @sources/com/linecorp/square/protocol/thrift/SearchSquaresRequest.java */
+struct SearchSquaresRequest {
+    2: string query;
+    3: string continuationToken;
+    4: i32 limit;
+}
+
+/* SearchSquaresResponse @sources/com/linecorp/square/protocol/thrift/SearchSquaresResponse.java */
+struct SearchSquaresResponse {
+    1: list<Square> squares;
+    2: map<string, SquareStatus> squareStatuses;
+    3: map<string, SquareMember> myMemberships;
+    4: string continuationToken;
+    5: map<string, NoteStatus> noteStatuses;
+}
+
+/* B7 @sources/Pb1/B7.java */
+struct SecurityCenterResult {
+    1: string uri;
+    2: string token;
+    3: string cookiePath;
+    4: bool skip;
+}
+
+/* u @sources/H80/u.java */
+struct SendEncryptedE2EEKeyRequest {
+    1: string sessionId;
+    2: h80_Z70_a encryptedSecureChannelPayload;
+}
+
+/* SendMessageRequest @sources/com/linecorp/square/protocol/thrift/SendMessageRequest.java */
+struct SendMessageRequest {
+    1: i32 reqSeq;
+    2: string squareChatMid;
+    3: SquareMessage squareMessage;
+}
+
+/* SendMessageResponse @sources/com/linecorp/square/protocol/thrift/SendMessageResponse.java */
+struct SendMessageResponse {
+    1: SquareMessage createdSquareMessage;
+}
+
+/* D7 @sources/Pb1/D7.java */
+struct SendPostbackRequest {
+    1: string messageId;
+    2: string url;
+    3: string chatMID;
+    4: string originMID;
+}
+
+/* SendSquareThreadMessageRequest @sources/com/linecorp/square/protocol/thrift/SendSquareThreadMessageRequest.java */
+struct SendSquareThreadMessageRequest {
+    1: i32 reqSeq;
+    2: string chatMid;
+    3: string threadMid;
+    4: SquareMessage threadMessage;
+}
+
+/* SendSquareThreadMessageResponse @sources/com/linecorp/square/protocol/thrift/SendSquareThreadMessageResponse.java */
+struct SendSquareThreadMessageResponse {
+    1: SquareMessage createdThreadMessage;
+}
+
+/* Z0 @sources/NZ0/Z0.java */
+struct ServiceDisclaimerInfo {
+    1: string disclaimerText;
+    2: string popupTitle;
+    3: string popupText;
+}
+
+/* C12151a1 @sources/NZ0/C12151a1.java */
+struct ServiceShortcut {
+    1: string id;
+    2: string name;
+    3: string serviceEntryUrl;
+    4: string pictogramIconUrl;
+    5: string storeUrl;
+    6: string badgeActiveUntilTimestamp;
+    7: string recommendedModelId;
+    8: Icon eventIcon;
+    9: Icon coloredPictogramIcon;
+    10: CustomBadgeLabel customBadgeLabel;
+}
+
+/* F7 @sources/Pb1/F7.java */
+struct SetChatHiddenStatusRequest {
+    1: i32 reqSeq;
+    2: string chatMid;
+    3: i64 lastMessageId;
+    4: bool hidden;
+}
+
+/* z0 @sources/I80/z0.java */
+struct I80_z0 {
+    1: string authSessionId;
+    2: string password;
+}
+
+/* f1 @sources/T70/f1.java */
+struct SetHashedPasswordRequest {
+    1: string authSessionId;
+    2: string password;
+}
+
+/* s @sources/U70/s.java */
+struct SetPasswordRequest {
+    1: string sessionId;
+    2: string hashedPassword;
+}
+
+/* j @sources/t80/j.java */
+struct SetRequest {
+    1: string keyName;
+    2: t80_p value;
+    3: i64 clientTimestampMillis;
+    4: t80_h ns;
+    5: string transactionId;
+    6: UpdateReason updateReason;
+}
+
+/* k @sources/t80/k.java */
+struct SetResponse {
+    1: SettingValue value;
+    2: string updateTransactionId;
+}
+
+/* m @sources/t80/m.java */
+struct SettingValue {
+    1: t80_p value;
+    2: i64 updateTimeMillis;
+    3: t80_i scope;
+    4: string scopeKey;
+}
+
+/* G7 @sources/Pb1/G7.java */
+struct Settings {
+    10: bool notificationEnable;
+    11: i64 notificationMuteExpiration;
+    12: bool notificationNewMessage;
+    13: bool notificationGroupInvitation;
+    14: bool notificationShowMessage;
+    15: bool notificationIncomingCall;
+    16: string notificationSoundMessage;
+    17: string notificationSoundGroup;
+    18: bool notificationDisabledWithSub;
+    19: bool notificationPayment;
+    20: bool privacySyncContacts;
+    21: bool privacySearchByPhoneNumber;
+    22: bool privacySearchByUserid;
+    23: bool privacySearchByEmail;
+    24: bool privacyAllowSecondaryDeviceLogin;
+    25: bool privacyProfileImagePostToMyhome;
+    26: bool privacyReceiveMessagesFromNotFriend;
+    27: bool privacyAgreeUseLineCoinToPaidCall;
+    28: bool privacyAgreeUsePaidCall;
+    29: bool privacyAllowFriendRequest;
+    30: string contactMyTicket;
+    40: IdentityProvider identityProvider;
+    41: string identityIdentifier;
+    42: map<i32, string> snsAccounts;
+    43: bool phoneRegistration;
+    44: EmailConfirmationStatus emailConfirmationStatus;
+    45: AccountMigrationPincodeType accountMigrationPincodeType;
+    46: bool enforcedInputAccountMigrationPincode;
+    47: AccountMigrationPincodeType securityCenterSettingsType;
+    48: bool allowUnregistrationSecondaryDevice;
+    49: bool pwlessPrimaryCredentialRegistration;
+    50: string preferenceLocale;
+    60: map<i32, string> customModes;
+    61: bool e2eeEnable;
+    62: bool hitokotoBackupRequested;
+    63: bool privacyProfileMusicPostToMyhome;
+    65: bool privacyAllowNearby;
+    66: i64 agreementNearbyTime;
+    67: i64 agreementSquareTime;
+    68: bool notificationMention;
+    69: i64 botUseAgreementAcceptedAt;
+    70: i64 agreementShakeFunction;
+    71: i64 agreementMobileContactName;
+    72: bool notificationThumbnail;
+    73: i64 agreementSoundToText;
+    74: string privacyPolicyVersion;
+    75: i64 agreementAdByWebAccess;
+    76: i64 agreementPhoneNumberMatching;
+    77: i64 agreementCommunicationInfo;
+    78: Pb1_I6 privacySharePersonalInfoToFriends;
+    79: i64 agreementThingsWirelessCommunication;
+    80: i64 agreementGdpr;
+    81: Pb1_S7 privacyStatusMessageHistory;
+    82: i64 agreementProvideLocation;
+    83: i64 agreementBeacon;
+    85: Pb1_M6 privacyAllowProfileHistory;
+    86: i64 agreementContentsSuggest;
+    87: i64 agreementContentsSuggestDataCollection;
+    88: Pb1_gd privacyAgeResult;
+    89: bool privacyAgeResultReceived;
+    90: i64 agreementOcrImageCollection;
+    91: bool privacyAllowFollow;
+    92: bool privacyShowFollowList;
+    93: bool notificationBadgeTalkOnly;
+    94: i64 agreementIcna;
+    95: bool notificationReaction;
+    96: i64 agreementMid;
+    97: bool homeNotificationNewFriend;
+    98: bool homeNotificationFavoriteFriendUpdate;
+    99: bool homeNotificationGroupMemberUpdate;
+    100: bool homeNotificationBirthday;
+    101: map<i32, bool> eapAllowedToConnect;
+    102: i64 agreementLineOutUse;
+    103: i64 agreementLineOutProvideInfo;
+    104: bool notificationShowProfileImage;
+    105: i64 agreementPdpa;
+    106: string agreementLocationVersion;
+    107: bool zhdPageAllowedToShow;
+    108: i64 agreementSnowAiAvatar;
+    109: bool eapOnlyAccountTargetCountry;
+    110: i64 agreementLypPremiumAlbum;
+    112: i64 agreementLypPremiumAlbumVersion;
+    113: i64 agreementAlbumUsageData;
+    114: i64 agreementAlbumUsageDataVersion;
+    115: i64 agreementLypPremiumBackup;
+    116: i64 agreementLypPremiumBackupVersion;
+    117: i64 agreementOaAiAssistant;
+    118: i64 agreementOaAiAssistantVersion;
+    119: i64 agreementLypPremiumMultiProfile;
+    120: i64 agreementLypPremiumMultiProfileVersion;
+}
+
+/* f0 @sources/Qj/f0.java */
+struct ShareTargetPickerResultRequest {
+    1: string ott;
+    2: string liffId;
+    3: Qj_e0 resultCode;
+    4: string resultDescription;
+}
+
+/* C12657r1 @sources/Ob1/C12657r1.java */
+struct ShopFilter {
+    1: set<i32> productAvailabilities;
+    2: set<i32> stickerSizes;
+    3: set<i32> popupLayers;
+}
+
+/* C12157c1 @sources/NZ0/C12157c1.java */
+struct ShortcutUserGuidePopupInfo {
+    1: string popupTitle;
+    2: string popupText;
+    3: i64 revisionTimeMillis;
+}
+
+/* C12663t1 @sources/Ob1/C12663t1.java */
+struct ShouldShowWelcomeStickerBannerResponse {
+    1: bool shouldShowBanner;
+}
+
+/* B0 @sources/I80/B0.java */
+struct I80_B0 {
+    1: string countryCode;
+    2: string hni;
+    3: string carrierName;
+}
+
+/* h1 @sources/T70/h1.java */
+struct SimCard {
+    1: string countryCode;
+    2: string hni;
+    3: string carrierName;
+}
+
+/* J7 @sources/Pb1/J7.java */
+struct SingleValueMetadata {
+    1: Pb1_K7 type;
+}
+
+/* J @sources/Do0/J.java */
+struct SleepAction {
+    1: i64 sleepMillis;
+}
+
+/* C12160d1 @sources/NZ0/C12160d1.java */
+struct SmartChannelRecommendation {
+    1: i32 minDisplayDuration;
+    2: string title;
+    3: string descriptionText;
+    4: string labelText;
+    5: string imageUrl;
+    6: string bgColorCode;
+    7: string linkUrl;
+    8: string impEventUrl;
+    9: string clickEventUrl;
+    10: string muteEventUrl;
+    11: string upvoteEventUrl;
+    12: string downvoteEventUrl;
+    13: SmartChannelRecommendationTemplate template;
+}
+
+/* C12163e1 @sources/NZ0/C12163e1.java */
+struct SmartChannelRecommendationTemplate {
+    1: string type;
+    2: string bgColorName;
+}
+
+/* i1 @sources/T70/i1.java */
+struct SocialLogin {
+    1: T70_j1 type;
+    2: string accessToken;
+    3: string countryCode;
+}
+
+/* P7 @sources/Pb1/P7.java */
+struct SpotItem {
+    2: string name;
+    3: string phone;
+    4: SpotCategory category;
+    5: string mid;
+    6: string countryAreaCode;
+    10: bool freePhoneCallable;
+}
+
+/* Square @sources/com/linecorp/square/protocol/thrift/common/Square.java */
+struct Square {
+    1: string mid;
+    2: string name;
+    3: string welcomeMessage;
+    4: string profileImageObsHash;
+    5: string desc;
+    6: bool searchable;
+    7: SquareType type;
+    8: i32 categoryId;
+    9: string invitationURL;
+    10: i64 revision;
+    11: bool ableToUseInvitationTicket;
+    12: SquareState state;
+    13: list<i32> emblems;
+    14: SquareJoinMethod joinMethod;
+    15: BooleanState adultOnly;
+    16: list<string> svcTags;
+    17: i64 createdAt;
+}
+
+/* SquareAuthority @sources/com/linecorp/square/protocol/thrift/common/SquareAuthority.java */
+struct SquareAuthority {
+    1: string squareMid;
+    2: SquareMemberRole updateSquareProfile;
+    3: SquareMemberRole inviteNewMember;
+    4: SquareMemberRole approveJoinRequest;
+    5: SquareMemberRole createPost;
+    6: SquareMemberRole createOpenSquareChat;
+    7: SquareMemberRole deleteSquareChatOrPost;
+    8: SquareMemberRole removeSquareMember;
+    9: SquareMemberRole grantRole;
+    10: SquareMemberRole enableInvitationTicket;
+    11: i64 revision;
+    12: SquareMemberRole createSquareChatAnnouncement;
+    13: SquareMemberRole updateMaxChatMemberCount;
+    14: SquareMemberRole useReadonlyDefaultChat;
+    15: SquareMemberRole sendAllMention;
+}
+
+/* C39218c @sources/XM/C39218c.java */
+struct SquareBot {
+    1: string botMid;
+    2: bool active;
+    3: string displayName;
+    4: string profileImageObsHash;
+    5: i32 iconType;
+    6: i64 lastModifiedAt;
+    7: i64 expiredIn;
+}
+
+/* SquareChat @sources/com/linecorp/square/protocol/thrift/common/SquareChat.java */
+struct SquareChat {
+    1: string squareChatMid;
+    2: string squareMid;
+    3: SquareChatType type;
+    4: string name;
+    5: string chatImageObsHash;
+    6: i64 squareChatRevision;
+    7: i32 maxMemberCount;
+    8: SquareChatState state;
+    9: string invitationUrl;
+    10: MessageVisibility messageVisibility;
+    11: BooleanState ableToSearchMessage;
+}
+
+/* SquareChatAnnouncement @sources/com/linecorp/square/protocol/thrift/common/SquareChatAnnouncement.java */
+struct SquareChatAnnouncement {
+    1: i64 announcementSeq;
+    2: SquareChatAnnouncementType type;
+    3: SquareChatAnnouncementContents contents;
+    4: i64 createdAt;
+    5: string creator;
+}
+
+/* SquareChatFeature @sources/com/linecorp/square/protocol/thrift/common/SquareChatFeature.java */
+struct SquareChatFeature {
+    1: SquareChatFeatureControlState controlState;
+    2: BooleanState booleanValue;
+}
+
+/* SquareChatFeatureSet @sources/com/linecorp/square/protocol/thrift/common/SquareChatFeatureSet.java */
+struct SquareChatFeatureSet {
+    1: string squareChatMid;
+    2: i64 revision;
+    11: SquareChatFeature disableUpdateMaxChatMemberCount;
+    12: SquareChatFeature disableMarkAsReadEvent;
+}
+
+/* SquareChatMember @sources/com/linecorp/square/protocol/thrift/common/SquareChatMember.java */
+struct SquareChatMember {
+    1: string squareMemberMid;
+    2: string squareChatMid;
+    3: i64 revision;
+    4: SquareChatMembershipState membershipState;
+    5: bool notificationForMessage;
+    6: bool notificationForNewMember;
+}
+
+/* SquareChatMemberSearchOption @sources/com/linecorp/square/protocol/thrift/SquareChatMemberSearchOption.java */
+struct SquareChatMemberSearchOption {
+    1: string displayName;
+    2: bool includingMe;
+}
+
+/* SquareChatMentionableSearchOption @sources/com/linecorp/square/protocol/thrift/SquareChatMentionableSearchOption.java */
+struct SquareChatMentionableSearchOption {
+    1: string displayName;
+}
+
+/* SquareChatStatus @sources/com/linecorp/square/protocol/thrift/common/SquareChatStatus.java */
+struct SquareChatStatus {
+    3: SquareMessage lastMessage;
+    4: string senderDisplayName;
+    5: SquareChatStatusWithoutMessage otherStatus;
+}
+
+/* SquareChatStatusWithoutMessage @sources/com/linecorp/square/protocol/thrift/common/SquareChatStatusWithoutMessage.java */
+struct SquareChatStatusWithoutMessage {
+    1: i32 memberCount;
+    2: i32 unreadMessageCount;
+    3: string markedAsReadMessageId;
+    4: string mentionedMessageId;
+    5: NotifiedMessageType notifiedMessageType;
+    6: list<i32> badges;
+}
+
+/* SquareCleanScore @sources/com/linecorp/square/protocol/thrift/common/SquareCleanScore.java */
+struct SquareCleanScore {
+    1: double score;
+}
+
+/* SquareEvent @sources/com/linecorp/square/protocol/thrift/SquareEvent.java */
+struct SquareEvent {
+    2: i64 createdTime;
+    3: SquareEventType type;
+    4: SquareEventPayload payload;
+    5: string syncToken;
+    6: SquareEventStatus eventStatus;
+}
+
+/* SquareEventChatPopup @sources/com/linecorp/square/protocol/thrift/SquareEventChatPopup.java */
+struct SquareEventChatPopup {
+    1: string squareChatMid;
+    2: i64 popupId;
+    3: string flexJson;
+    4: ButtonContent button;
+}
+
+/* SquareEventMutateMessage @sources/com/linecorp/square/protocol/thrift/SquareEventMutateMessage.java */
+struct SquareEventMutateMessage {
+    1: string squareChatMid;
+    2: SquareMessage squareMessage;
+    3: i32 reqSeq;
+    4: string senderDisplayName;
+    5: string threadMid;
+}
+
+/* SquareEventNotificationJoinRequest @sources/com/linecorp/square/protocol/thrift/SquareEventNotificationJoinRequest.java */
+struct SquareEventNotificationJoinRequest {
+    1: string squareMid;
+    2: string squareName;
+    3: string requestMemberName;
+    4: string profileImageObsHash;
+}
+
+/* SquareEventNotificationLiveTalk @sources/com/linecorp/square/protocol/thrift/SquareEventNotificationLiveTalk.java */
+struct SquareEventNotificationLiveTalk {
+    1: string squareChatMid;
+    2: string liveTalkInvitationTicket;
+    3: string squareChatName;
+    4: string chatImageObsHash;
+}
+
+/* SquareEventNotificationMemberUpdate @sources/com/linecorp/square/protocol/thrift/SquareEventNotificationMemberUpdate.java */
+struct SquareEventNotificationMemberUpdate {
+    1: string squareMid;
+    2: string squareName;
+    3: string profileImageObsHash;
+}
+
+/* SquareEventNotificationMessage @sources/com/linecorp/square/protocol/thrift/SquareEventNotificationMessage.java */
+struct SquareEventNotificationMessage {
+    1: string squareChatMid;
+    2: SquareMessage squareMessage;
+    3: string senderDisplayName;
+    4: i32 unreadCount;
+    5: bool requiredToFetchChatEvents;
+    6: string mentionedMessageId;
+    7: NotifiedMessageType notifiedMessageType;
+    8: i32 reqSeq;
+}
+
+/* SquareEventNotificationMessageReaction @sources/com/linecorp/square/protocol/thrift/SquareEventNotificationMessageReaction.java */
+struct SquareEventNotificationMessageReaction {
+    1: string squareChatMid;
+    2: string messageId;
+    3: string squareChatName;
+    4: string reactorName;
+    5: string thumbnailObsHash;
+    6: string messageText;
+    7: MessageReactionType type;
+}
+
+/* SquareEventNotificationNewChatMember @sources/com/linecorp/square/protocol/thrift/SquareEventNotificationNewChatMember.java */
+struct SquareEventNotificationNewChatMember {
+    1: string squareChatMid;
+    2: string squareChatName;
+}
+
+/* SquareEventNotificationPost @sources/com/linecorp/square/protocol/thrift/SquareEventNotificationPost.java */
+struct SquareEventNotificationPost {
+    1: string squareMid;
+    2: NotificationPostType notificationPostType;
+    3: string thumbnailObsHash;
+    4: string text;
+    5: string actionUri;
+}
+
+/* SquareEventNotificationPostAnnouncement @sources/com/linecorp/square/protocol/thrift/SquareEventNotificationPostAnnouncement.java */
+struct SquareEventNotificationPostAnnouncement {
+    1: string squareMid;
+    2: string squareName;
+    3: string squareProfileImageObsHash;
+    4: string actionUri;
+}
+
+/* SquareEventNotificationSquareChatDelete @sources/com/linecorp/square/protocol/thrift/SquareEventNotificationSquareChatDelete.java */
+struct SquareEventNotificationSquareChatDelete {
+    1: string squareChatMid;
+    2: string squareChatName;
+    3: string profileImageObsHash;
+}
+
+/* SquareEventNotificationSquareDelete @sources/com/linecorp/square/protocol/thrift/SquareEventNotificationSquareDelete.java */
+struct SquareEventNotificationSquareDelete {
+    1: string squareMid;
+    2: string squareName;
+    3: string profileImageObsHash;
+}
+
+/* SquareEventNotificationThreadMessage @sources/com/linecorp/square/protocol/thrift/SquareEventNotificationThreadMessage.java */
+struct SquareEventNotificationThreadMessage {
+    1: string threadMid;
+    2: string chatMid;
+    3: SquareMessage squareMessage;
+    4: string senderDisplayName;
+    5: i64 unreadCount;
+    6: i64 totalMessageCount;
+    7: string threadRootMessageId;
+}
+
+/* SquareEventNotificationThreadMessageReaction @sources/com/linecorp/square/protocol/thrift/SquareEventNotificationThreadMessageReaction.java */
+struct SquareEventNotificationThreadMessageReaction {
+    1: string threadMid;
+    2: string chatMid;
+    3: string messageId;
+    4: string squareChatName;
+    5: string reactorName;
+    6: string thumbnailObsHash;
+}
+
+/* SquareEventNotifiedAddBot @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedAddBot.java */
+struct SquareEventNotifiedAddBot {
+    1: string squareChatMid;
+    2: SquareMember squareMember;
+    3: string botMid;
+    4: string botDisplayName;
+}
+
+/* SquareEventNotifiedCreateSquareChatMember @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedCreateSquareChatMember.java */
+struct SquareEventNotifiedCreateSquareChatMember {
+    1: SquareChat chat;
+    2: SquareChatStatus chatStatus;
+    3: SquareChatMember chatMember;
+    4: i64 joinedAt;
+    5: SquareMember peerSquareMember;
+    6: SquareChatFeatureSet squareChatFeatureSet;
+}
+
+/* SquareEventNotifiedCreateSquareMember @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedCreateSquareMember.java */
+struct SquareEventNotifiedCreateSquareMember {
+    1: Square square;
+    2: SquareAuthority squareAuthority;
+    3: SquareStatus squareStatus;
+    4: SquareMember squareMember;
+    5: SquareFeatureSet squareFeatureSet;
+    6: NoteStatus noteStatus;
+}
+
+/* SquareEventNotifiedDeleteSquareChat @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedDeleteSquareChat.java */
+struct SquareEventNotifiedDeleteSquareChat {
+    1: SquareChat squareChat;
+}
+
+/* SquareEventNotifiedDestroyMessage @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedDestroyMessage.java */
+struct SquareEventNotifiedDestroyMessage {
+    1: string squareChatMid;
+    3: string messageId;
+    4: string threadMid;
+}
+
+/* SquareEventNotifiedInviteIntoSquareChat @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedInviteIntoSquareChat.java */
+struct SquareEventNotifiedInviteIntoSquareChat {
+    1: string squareChatMid;
+    2: list<SquareMember> invitees;
+    3: SquareMember invitor;
+    4: SquareMemberRelation invitorRelation;
+}
+
+/* SquareEventNotifiedJoinSquareChat @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedJoinSquareChat.java */
+struct SquareEventNotifiedJoinSquareChat {
+    1: string squareChatMid;
+    2: SquareMember joinedMember;
+}
+
+/* SquareEventNotifiedKickoutFromSquare @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedKickoutFromSquare.java */
+struct SquareEventNotifiedKickoutFromSquare {
+    1: string squareChatMid;
+    2: list<SquareMember> kickees;
+    3: SquareMember kicker;
+}
+
+/* SquareEventNotifiedLeaveSquareChat @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedLeaveSquareChat.java */
+struct SquareEventNotifiedLeaveSquareChat {
+    1: string squareChatMid;
+    2: string squareMemberMid;
+    3: bool sayGoodbye;
+    4: SquareMember squareMember;
+}
+
+/* SquareEventNotifiedMarkAsRead @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedMarkAsRead.java */
+struct SquareEventNotifiedMarkAsRead {
+    1: string squareChatMid;
+    2: string sMemberMid;
+    4: string messageId;
+}
+
+/* SquareEventNotifiedRemoveBot @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedRemoveBot.java */
+struct SquareEventNotifiedRemoveBot {
+    1: string squareChatMid;
+    2: SquareMember squareMember;
+    3: string botMid;
+    4: string botDisplayName;
+}
+
+/* SquareEventNotifiedShutdownSquare @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedShutdownSquare.java */
+struct SquareEventNotifiedShutdownSquare {
+    1: string squareChatMid;
+    2: Square square;
+}
+
+/* SquareEventNotifiedSystemMessage @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedSystemMessage.java */
+struct SquareEventNotifiedSystemMessage {
+    1: string squareChatMid;
+    2: string text;
+    3: string messageKey;
+}
+
+/* SquareEventNotifiedUpdateLiveTalk @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateLiveTalk.java */
+struct SquareEventNotifiedUpdateLiveTalk {
+    1: string squareChatMid;
+    2: string sessionId;
+    3: bool liveTalkOnAir;
+}
+
+/* SquareEventNotifiedUpdateLiveTalkInfo @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateLiveTalkInfo.java */
+struct SquareEventNotifiedUpdateLiveTalkInfo {
+    1: string squareChatMid;
+    2: LiveTalk liveTalk;
+    3: bool liveTalkOnAir;
+}
+
+/* SquareEventNotifiedUpdateMessageStatus @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateMessageStatus.java */
+struct SquareEventNotifiedUpdateMessageStatus {
+    1: string squareChatMid;
+    2: string messageId;
+    3: SquareMessageStatus messageStatus;
+    4: string threadMid;
+}
+
+/* SquareEventNotifiedUpdateReadonlyChat @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateReadonlyChat.java */
+struct SquareEventNotifiedUpdateReadonlyChat {
+    1: string squareChatMid;
+    2: bool readonly;
+}
+
+/* SquareEventNotifiedUpdateSquare @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateSquare.java */
+struct SquareEventNotifiedUpdateSquare {
+    1: string squareMid;
+    2: Square square;
+}
+
+/* SquareEventNotifiedUpdateSquareAuthority @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateSquareAuthority.java */
+struct SquareEventNotifiedUpdateSquareAuthority {
+    1: string squareMid;
+    2: SquareAuthority squareAuthority;
+}
+
+/* SquareEventNotifiedUpdateSquareChat @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateSquareChat.java */
+struct SquareEventNotifiedUpdateSquareChat {
+    1: string squareMid;
+    2: string squareChatMid;
+    3: SquareChat squareChat;
+}
+
+/* SquareEventNotifiedUpdateSquareChatAnnouncement @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateSquareChatAnnouncement.java */
+struct SquareEventNotifiedUpdateSquareChatAnnouncement {
+    1: string squareChatMid;
+    2: i64 announcementSeq;
+}
+
+/* SquareEventNotifiedUpdateSquareChatFeatureSet @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateSquareChatFeatureSet.java */
+struct SquareEventNotifiedUpdateSquareChatFeatureSet {
+    1: SquareChatFeatureSet squareChatFeatureSet;
+}
+
+/* SquareEventNotifiedUpdateSquareChatMaxMemberCount @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateSquareChatMaxMemberCount.java */
+struct SquareEventNotifiedUpdateSquareChatMaxMemberCount {
+    1: string squareChatMid;
+    2: i32 maxMemberCount;
+    3: SquareMember editor;
+}
+
+/* SquareEventNotifiedUpdateSquareChatMember @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateSquareChatMember.java */
+struct SquareEventNotifiedUpdateSquareChatMember {
+    1: string squareChatMid;
+    3: SquareChatMember squareChatMember;
+}
+
+/* SquareEventNotifiedUpdateSquareChatProfileImage @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateSquareChatProfileImage.java */
+struct SquareEventNotifiedUpdateSquareChatProfileImage {
+    1: string squareChatMid;
+    2: SquareMember editor;
+}
+
+/* SquareEventNotifiedUpdateSquareChatProfileName @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateSquareChatProfileName.java */
+struct SquareEventNotifiedUpdateSquareChatProfileName {
+    1: string squareChatMid;
+    2: SquareMember editor;
+    3: string updatedChatName;
+}
+
+/* SquareEventNotifiedUpdateSquareChatStatus @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateSquareChatStatus.java */
+struct SquareEventNotifiedUpdateSquareChatStatus {
+    1: string squareChatMid;
+    2: SquareChatStatusWithoutMessage statusWithoutMessage;
+}
+
+/* SquareEventNotifiedUpdateSquareFeatureSet @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateSquareFeatureSet.java */
+struct SquareEventNotifiedUpdateSquareFeatureSet {
+    1: SquareFeatureSet squareFeatureSet;
+}
+
+/* SquareEventNotifiedUpdateSquareMember @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateSquareMember.java */
+struct SquareEventNotifiedUpdateSquareMember {
+    1: string squareMid;
+    2: string squareMemberMid;
+    3: SquareMember squareMember;
+}
+
+/* SquareEventNotifiedUpdateSquareMemberProfile @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateSquareMemberProfile.java */
+struct SquareEventNotifiedUpdateSquareMemberProfile {
+    1: string squareChatMid;
+    2: SquareMember squareMember;
+}
+
+/* SquareEventNotifiedUpdateSquareMemberRelation @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateSquareMemberRelation.java */
+struct SquareEventNotifiedUpdateSquareMemberRelation {
+    1: string squareMid;
+    2: string myMemberMid;
+    3: string targetSquareMemberMid;
+    4: SquareMemberRelation squareMemberRelation;
+}
+
+/* SquareEventNotifiedUpdateSquareNoteStatus @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateSquareNoteStatus.java */
+struct SquareEventNotifiedUpdateSquareNoteStatus {
+    1: string squareMid;
+    2: NoteStatus noteStatus;
+}
+
+/* SquareEventNotifiedUpdateSquareStatus @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateSquareStatus.java */
+struct SquareEventNotifiedUpdateSquareStatus {
+    1: string squareMid;
+    2: SquareStatus squareStatus;
+}
+
+/* SquareEventNotifiedUpdateThread @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateThread.java */
+struct SquareEventNotifiedUpdateThread {
+    1: SquareThread squareThread;
+}
+
+/* SquareEventNotifiedUpdateThreadMember @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateThreadMember.java */
+struct SquareEventNotifiedUpdateThreadMember {
+    1: SquareThreadMember threadMember;
+    2: SquareThread squareThread;
+    3: SquareMessage threadRootMessage;
+    4: i64 totalMessageCount;
+    5: SquareMessage lastMessage;
+    6: string lastMessageSenderDisplayName;
+}
+
+/* SquareEventNotifiedUpdateThreadRootMessage @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateThreadRootMessage.java */
+struct SquareEventNotifiedUpdateThreadRootMessage {
+    1: SquareThread squareThread;
+}
+
+/* SquareEventNotifiedUpdateThreadRootMessageStatus @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateThreadRootMessageStatus.java */
+struct SquareEventNotifiedUpdateThreadRootMessageStatus {
+    1: string chatMid;
+    2: string threadMid;
+    3: string threadRootMessageId;
+    4: i64 totalMessageCount;
+    5: i64 lastMessageAt;
+}
+
+/* SquareEventNotifiedUpdateThreadStatus @sources/com/linecorp/square/protocol/thrift/SquareEventNotifiedUpdateThreadStatus.java */
+struct SquareEventNotifiedUpdateThreadStatus {
+    1: string threadMid;
+    2: string chatMid;
+    3: i64 unreadCount;
+    4: string markAsReadMessageId;
+}
+
+/* SquareEventReceiveMessage @sources/com/linecorp/square/protocol/thrift/SquareEventReceiveMessage.java */
+struct SquareEventReceiveMessage {
+    1: string squareChatMid;
+    2: SquareMessage squareMessage;
+    3: string senderDisplayName;
+    4: SquareMessageReactionStatus messageReactionStatus;
+    5: i64 senderRevision;
+    6: string squareMid;
+    7: string threadMid;
+    8: i64 threadTotalMessageCount;
+    9: i64 threadLastMessageAt;
+    10: ContentsAttribute contentsAttribute;
+}
+
+/* SquareEventSendMessage @sources/com/linecorp/square/protocol/thrift/SquareEventSendMessage.java */
+struct SquareEventSendMessage {
+    1: string squareChatMid;
+    2: SquareMessage squareMessage;
+    3: i32 reqSeq;
+    4: string senderDisplayName;
+    5: SquareMessageReactionStatus messageReactionStatus;
+    6: string threadMid;
+    7: i64 threadTotalMessageCount;
+    8: i64 threadLastMessageAt;
+}
+
+/* SquareExtraInfo @sources/com/linecorp/square/protocol/thrift/common/SquareExtraInfo.java */
+struct SquareExtraInfo {
+    1: string country;
+}
+
+/* SquareFeature @sources/com/linecorp/square/protocol/thrift/common/SquareFeature.java */
+struct SquareFeature {
+    1: SquareFeatureControlState controlState;
+    2: BooleanState booleanValue;
+}
+
+/* SquareFeatureSet @sources/com/linecorp/square/protocol/thrift/common/SquareFeatureSet.java */
+struct SquareFeatureSet {
+    1: string squareMid;
+    2: i64 revision;
+    11: SquareFeature creatingSecretSquareChat;
+    12: SquareFeature invitingIntoOpenSquareChat;
+    13: SquareFeature creatingSquareChat;
+    14: SquareFeature readonlyDefaultChat;
+    15: SquareFeature showingAdvertisement;
+    16: SquareFeature delegateJoinToPlug;
+    17: SquareFeature delegateKickOutToPlug;
+    18: SquareFeature disableUpdateJoinMethod;
+    19: SquareFeature disableTransferAdmin;
+    20: SquareFeature creatingLiveTalk;
+    21: SquareFeature disableUpdateSearchable;
+    22: SquareFeature summarizingMessages;
+    23: SquareFeature creatingSquareThread;
+    24: SquareFeature enableSquareThread;
+    25: SquareFeature disableChangeRoleCoAdmin;
+}
+
+/* SquareInfo @sources/com/linecorp/square/protocol/thrift/common/SquareInfo.java */
+struct SquareInfo {
+    1: Square square;
+    2: SquareStatus squareStatus;
+    3: NoteStatus squareNoteStatus;
+}
+
+/* SquareJoinMethod @sources/com/linecorp/square/protocol/thrift/common/SquareJoinMethod.java */
+struct SquareJoinMethod {
+    1: SquareJoinMethodType type;
+    2: SquareJoinMethodValue value;
+}
+
+/* SquareJoinMethodValue @sources/com/linecorp/square/protocol/thrift/common/SquareJoinMethodValue.java */
+struct SquareJoinMethodValue {
+    1: ApprovalValue approvalValue;
+    2: CodeValue codeValue;
+}
+
+/* SquareMember @sources/com/linecorp/square/protocol/thrift/common/SquareMember.java */
+struct SquareMember {
+    1: string squareMemberMid;
+    2: string squareMid;
+    3: string displayName;
+    4: string profileImageObsHash;
+    5: bool ableToReceiveMessage;
+    7: SquareMembershipState membershipState;
+    8: SquareMemberRole role;
+    9: i64 revision;
+    10: SquarePreference preference;
+    11: string joinMessage;
+    12: i64 createdAt;
+}
+
+/* SquareMemberRelation @sources/com/linecorp/square/protocol/thrift/common/SquareMemberRelation.java */
+struct SquareMemberRelation {
+    1: SquareMemberRelationState state;
+    2: i64 revision;
+}
+
+/* SquareMemberSearchOption @sources/com/linecorp/square/protocol/thrift/SquareMemberSearchOption.java */
+struct SquareMemberSearchOption {
+    1: SquareMembershipState membershipState;
+    2: set<SquareMemberRole> memberRoles;
+    3: string displayName;
+    4: BooleanState ableToReceiveMessage;
+    5: BooleanState ableToReceiveFriendRequest;
+    6: string chatMidToExcludeMembers;
+    7: bool includingMe;
+    8: bool excludeBlockedMembers;
+    9: bool includingMeOnlyMatch;
+}
+
+/* SquareMessage @sources/com/linecorp/square/protocol/thrift/common/SquareMessage.java */
+struct SquareMessage {
+    1: Message message;
+    3: MIDType fromType;
+    4: i64 squareMessageRevision;
+    5: SquareMessageState state;
+    6: SquareMessageThreadInfo threadInfo;
+}
+
+/* SquareMessageInfo @sources/com/linecorp/square/protocol/thrift/common/SquareMessageInfo.java */
+struct SquareMessageInfo {
+    1: SquareMessage message;
+    2: Square square;
+    3: SquareChat chat;
+    4: SquareMember sender;
+}
+
+/* SquareMessageReaction @sources/com/linecorp/square/protocol/thrift/common/SquareMessageReaction.java */
+struct SquareMessageReaction {
+    1: MessageReactionType type;
+    2: SquareMember reactor;
+    3: i64 createdAt;
+    4: i64 updatedAt;
+}
+
+/* SquareMessageReactionStatus @sources/com/linecorp/square/protocol/thrift/common/SquareMessageReactionStatus.java */
+struct SquareMessageReactionStatus {
+    1: i32 totalCount;
+    2: map<i32, i32> countByReactionType;
+    3: SquareMessageReaction myReaction;
+}
+
+/* SquareMessageStatus @sources/com/linecorp/square/protocol/thrift/common/SquareMessageStatus.java */
+struct SquareMessageStatus {
+    1: string squareChatMid;
+    2: string globalMessageId;
+    3: MessageStatusType type;
+    4: MessageStatusContents contents;
+    5: i64 publishedAt;
+    6: string squareChatThreadMid;
+}
+
+/* SquareMessageThreadInfo @sources/com/linecorp/square/protocol/thrift/common/SquareMessageThreadInfo.java */
+struct SquareMessageThreadInfo {
+    1: string chatThreadMid;
+    2: bool threadRoot;
+}
+
+/* SquareMetadata @sources/com/linecorp/square/protocol/thrift/common/SquareMetadata.java */
+struct SquareMetadata {
+    1: string mid;
+    2: set<i32> excluded;
+    3: i64 revision;
+    4: bool noAd;
+    5: i64 updatedAt;
+}
+
+/* SquarePreference @sources/com/linecorp/square/protocol/thrift/common/SquarePreference.java */
+struct SquarePreference {
+    1: i64 favoriteTimestamp;
+    2: bool notiForNewJoinRequest;
+}
+
+/* SquareStatus @sources/com/linecorp/square/protocol/thrift/common/SquareStatus.java */
+struct SquareStatus {
+    1: i32 memberCount;
+    2: i32 joinRequestCount;
+    3: i64 lastJoinRequestAt;
+    4: i32 openChatCount;
+}
+
+/* SquareThread @sources/com/linecorp/square/protocol/thrift/common/SquareThread.java */
+struct SquareThread {
+    1: string threadMid;
+    2: string chatMid;
+    3: string squareMid;
+    4: string messageId;
+    5: SquareThreadState state;
+    6: i64 expiresAt;
+    7: i64 readOnlyAt;
+    8: i64 revision;
+}
+
+/* SquareThreadMember @sources/com/linecorp/square/protocol/thrift/common/SquareThreadMember.java */
+struct SquareThreadMember {
+    1: string squareMemberMid;
+    2: string threadMid;
+    3: string chatMid;
+    4: i64 revision;
+    5: SquareThreadMembershipState membershipState;
+}
+
+/* SquareUserSettings @sources/com/linecorp/square/protocol/thrift/common/SquareUserSettings.java */
+struct SquareUserSettings {
+    1: BooleanState liveTalkNotification;
+}
+
+/* SquareVisibility @sources/com/linecorp/square/protocol/thrift/common/SquareVisibility.java */
+struct SquareVisibility {
+    1: bool common;
+    2: bool search;
+}
+
+/* Q7 @sources/Pb1/Q7.java */
+struct StartPhotoboothRequest {
+    1: string chatMid;
+}
+
+/* R7 @sources/Pb1/R7.java */
+struct StartPhotoboothResponse {
+    1: string photoboothSessionId;
+}
+
+/* C0 @sources/I80/C0.java */
+struct I80_C0 {
+    1: string authSessionId;
+    2: string modelName;
+    3: string deviceUid;
+}
+
+/* D0 @sources/I80/D0.java */
+struct I80_D0 {
+    1: string displayName;
+    2: list<i32> availableAuthFactors;
+}
+
+/* p @sources/ar0/p.java */
+struct Sticker {
+    1: AR0_zR0_g resourceType;
+    2: zR0_EnumC40578c popupLayer;
+    3: AR0_zR0_h stickerSize;
+}
+
+/* f @sources/Zr0/f.java */
+struct Sticker {
+    1: string stickerId;
+    2: StickerResourceType resourceType;
+    3: zR0_EnumC40578c popupLayer;
+}
+
+/* C12669v1 @sources/Ob1/C12669v1.java */
+struct StickerDisplayData {
+    1: string stickerHash;
+    2: StickerResourceType stickerResourceType;
+    3: ImageTextProperty nameTextProperty;
+    4: Ob1_B0 popupLayer;
+    5: Ob1_C1 stickerSize;
+    6: Ob1_D0 productAvailability;
+    7: i32 height;
+    8: i32 width;
+    9: i64 version;
+    10: bool availableForCombinationSticker;
+}
+
+/* C12672w1 @sources/Ob1/C12672w1.java */
+struct StickerIdRange {
+    1: i64 start;
+    2: i32 size;
+}
+
+/* C12675x1 @sources/Ob1/C12675x1.java */
+struct StickerLayout {
+    1: StickerLayoutInfo layoutInfo;
+    2: StickerLayoutStickerInfo stickerInfo;
+}
+
+/* C12678y1 @sources/Ob1/C12678y1.java */
+struct StickerLayoutInfo {
+    1: double width;
+    2: double height;
+    3: double rotation;
+    4: double x;
+    5: double y;
+}
+
+/* C12681z1 @sources/Ob1/C12681z1.java */
+struct StickerLayoutStickerInfo {
+    1: i64 stickerId;
+    2: i64 productId;
+    3: string stickerHash;
+    4: string stickerOptions;
+    5: i64 stickerVersion;
+}
+
+/* A1 @sources/Ob1/A1.java */
+struct StickerProperty {
+    1: bool hasAnimation;
+    2: bool hasSound;
+    3: bool hasPopup;
+    4: StickerResourceType stickerResourceType;
+    5: string stickerOptions;
+    6: i32 compactStickerOptions;
+    7: string stickerHash;
+    9: list<string> stickerIds;
+    10: ImageTextProperty nameTextProperty;
+    11: bool availableForPhotoEdit;
+    12: map<string, string> stickerDefaultTexts;
+    13: Ob1_C1 stickerSize;
+    14: Ob1_B0 popupLayer;
+    15: bool cpdProduct;
+    16: bool availableForCombinationSticker;
+}
+
+/* D1 @sources/Ob1/D1.java */
+struct StickerSummary {
+    1: list<StickerIdRange> stickerIdRanges;
+    2: i64 suggestVersion;
+    3: string stickerHash;
+    4: bool defaultDisplayOnKeyboard;
+    5: StickerResourceType stickerResourceType;
+    6: ImageTextProperty nameTextProperty;
+    7: bool availableForPhotoEdit;
+    8: Ob1_B0 popupLayer;
+    9: Ob1_C1 stickerSize;
+    10: bool availableForCombinationSticker;
+}
+
+/* E1 @sources/Ob1/E1.java */
+struct SticonProperty {
+    2: list<string> sticonIds;
+    3: bool availableForPhotoEdit;
+    4: Ob1_F1 sticonResourceType;
+    5: list<list<_any>> endPageMainImages;
+}
+
+/* G1 @sources/Ob1/G1.java */
+struct SticonSummary {
+    1: i64 suggestVersion;
+    2: bool availableForPhotoEdit;
+    3: Ob1_F1 sticonResourceType;
+}
+
+/* H1 @sources/Ob1/H1.java */
+struct StopBundleSubscriptionRequest {
+    1: Ob1_S1 subscriptionService;
+    2: Ob1_K1 storeCode;
+}
+
+/* I1 @sources/Ob1/I1.java */
+struct StopBundleSubscriptionResponse {
+    1: Ob1_J1 result;
+}
+
+/* K @sources/Do0/K.java */
+struct StopNotificationAction {
+    1: string serviceUuid;
+    2: string characteristicUuid;
+}
+
+/* L1 @sources/Ob1/L1.java */
+struct StudentInformation {
+    1: string schoolName;
+    2: string graduationDate;
+}
+
+/* g0 @sources/Qj/g0.java */
+struct SubLiffView {
+    1: Qj_i0 presentationType;
+    2: string url;
+    3: bool maxBrightness;
+    4: LIFFMenuColorSetting menuColorSetting;
+    5: Qj_h0 closeButtonPosition;
+    6: string closeButtonLabel;
+    7: bool skipWebRTCPermissionPopupAllowed;
+}
+
+/* C12166f1 @sources/NZ0/C12166f1.java */
+struct SubTab {
+    1: string id;
+    2: string name;
+    3: BadgeInfo badgeInfo;
+    4: TooltipInfo tooltipInfo;
+    5: list<string> modulesOrder;
+    6: string wrsSubTabModelId;
+}
+
+/* j0 @sources/Qj/j0.java */
+struct SubWindowResultRequest {
+    1: string msit;
+    2: string mstVerifier;
+}
+
+/* SubscriptionNotification @sources/com/linecorp/square/protocol/thrift/SubscriptionNotification.java */
+struct SubscriptionNotification {
+    1: i64 subscriptionId;
+}
+
+/* N1 @sources/Ob1/N1.java */
+struct SubscriptionPlan {
+    1: string billingItemId;
+    2: Ob1_S1 subscriptionService;
+    3: Ob1_P1 target;
+    4: Ob1_R1 type;
+    5: string period;
+    6: string freeTrial;
+    7: string localizedName;
+    8: Price price;
+    9: Ob1_O1 availability;
+    10: string cpId;
+    11: string nameKey;
+    12: Ob1_Q1 tier;
+}
+
+/* T1 @sources/Ob1/T1.java */
+struct SubscriptionSlotHistory {
+    1: ProductSearchSummary product;
+    2: i64 addedTime;
+    3: i64 removedTime;
+}
+
+/* SubscriptionState @sources/com/linecorp/square/protocol/thrift/SubscriptionState.java */
+struct SubscriptionState {
+    1: i64 subscriptionId;
+    2: i64 ttlMillis;
+}
+
+/* W1 @sources/Ob1/W1.java */
+struct SubscriptionStatus {
+    1: string billingItemId;
+    2: Ob1_S1 subscriptionService;
+    3: string period;
+    4: string localizedName;
+    5: bool freeTrial;
+    6: bool expired;
+    7: i64 validUntil;
+    8: i32 maxSlotCount;
+    9: Ob1_P1 target;
+    10: Ob1_R1 type;
+    11: Ob1_K1 storeCode;
+    12: string nameKey;
+    13: Ob1_Q1 tier;
+    14: bool accountHold;
+    15: map<i32, i32> maxSlotCountsByProductType;
+    16: bool agreementAccepted;
+    17: i64 originalValidUntil;
+}
+
+/* Y1 @sources/Ob1/Y1.java */
+struct SuggestDictionarySetting {
+    1: string language;
+    2: string name;
+    3: bool preload;
+    4: SuggestResource suggestResource;
+    5: map<i64, string> patch;
+    6: SuggestResource suggestTagResource;
+    7: map<i64, string> tagPatch;
+    8: SuggestResource corpusResource;
+}
+
+/* Z1 @sources/Ob1/Z1.java */
+struct SuggestResource {
+    1: string dataUrl;
+    2: i64 version;
+    3: i64 updatedTime;
+}
+
+/* i @sources/Zr0/i.java */
+struct SuggestTag {
+    1: string tagId;
+    2: double weight;
+}
+
+/* l @sources/Zr0/l.java */
+struct SuggestTrialRecommendation {
+    1: string productId;
+    2: i64 productVersion;
+    3: string productName;
+    4: zR0_C40580e resource;
+    5: list<SuggestTag> tags;
+}
+
+/* W7 @sources/Pb1/W7.java */
+struct SyncRequest {
+    1: i64 lastRevision;
+    2: i32 count;
+    3: i64 lastGlobalRevision;
+    4: i64 lastIndividualRevision;
+    5: Pb1_J4 fullSyncRequestReason;
+    6: map<i32, i64> lastPartialFullSyncs;
+}
+
+/* SyncSquareMembersRequest @sources/com/linecorp/square/protocol/thrift/SyncSquareMembersRequest.java */
+struct SyncSquareMembersRequest {
+    1: string squareMid;
+    2: map<string, i64> squareMembers;
+}
+
+/* SyncSquareMembersResponse @sources/com/linecorp/square/protocol/thrift/SyncSquareMembersResponse.java */
+struct SyncSquareMembersResponse {
+    1: list<SquareMember> updatedSquareMembers;
+}
+
+/* C14398f @sources/T70/C14398f.java */
+struct T70_C14398f {
+    
+}
+
+/* g1 @sources/T70/g1.java */
+struct T70_g1 {
+    
+}
+
+/* o1 @sources/T70/o1.java */
+struct T70_o1 {
+    
+}
+
+/* s1 @sources/T70/s1.java */
+struct T70_s1 {
+    
+}
+
+/* Y7 @sources/Pb1/Y7.java */
+struct TGlobalEvents {
+    1: map<i32, GlobalEvent> events;
+    2: i64 lastRevision;
+}
+
+/* Z7 @sources/Pb1/Z7.java */
+struct TIndividualEvents {
+    1: set<i32> events;
+    2: i64 lastRevision;
+}
+
+/* C12919a8 @sources/Pb1/C12919a8.java */
+struct TMessageReadRange {
+    1: string chatId;
+    2: map<string, list<_any>> ranges;
+}
+
+/* C12933b8 @sources/Pb1/C12933b8.java */
+struct TMessageReadRangeEntry {
+    1: i64 startMessageId;
+    2: i64 endMessageId;
+    3: i64 startTime;
+    4: i64 endTime;
+}
+
+/* r @sources/ar0/r.java */
+struct Tag {
+    1: string tagId;
+    2: list<Candidate> candidates;
+}
+
+/* C12172h1 @sources/NZ0/C12172h1.java */
+struct TaiwanBankAgreementRequiredPopupInfo {
+    1: string popupTitle;
+    2: string popupContent;
+}
+
+/* C12175i1 @sources/NZ0/C12175i1.java */
+struct TaiwanBankBalanceInfo {
+    1: bool bankUser;
+    2: i64 balance;
+    3: string accessToken;
+    4: i32 accessTokenExpiresInSecond;
+    5: string balanceLinkUrl;
+    6: bool balanceDisplay;
+    7: bool agreedToShowBalance;
+    8: TaiwanBankAgreementRequiredPopupInfo agreementRequiredPopupInfo;
+}
+
+/* C12178j1 @sources/NZ0/C12178j1.java */
+struct TaiwanBankLoginParameters {
+    1: string loginScheme;
+    2: string type;
+    3: string action;
+    4: string scope;
+    5: string responseType;
+    6: string codeChallengeMethod;
+    7: string clientId;
+}
+
+/* v @sources/KF/v.java */
+struct TalkroomEnterReferer {
+    1: string urlScheme;
+    2: kf_x type;
+    3: kf_w content;
+}
+
+/* y @sources/KF/y.java */
+struct TalkroomEvent {
+    1: kf_z type;
+    2: TalkroomEnterReferer referer;
+}
+
+/* U0 @sources/LN0/U0.java */
+struct TargetProfileDetail {
+    1: i64 snapshotTimeMillis;
+    2: string profileName;
+    3: string picturePath;
+    4: RichString statusMessage;
+    5: string musicProfile;
+    6: string videoProfile;
+    7: AvatarProfile avatarProfile;
+    8: Pb1_N6 pictureSource;
+    9: string pictureStatus;
+    10: string profileId;
+}
+
+/* TermsAgreementExtraInfo @sources/com/linecorp/square/protocol/thrift/common/TermsAgreementExtraInfo.java */
+struct TermsAgreementExtraInfo {
+    1: TermsType termsType;
+    2: i32 termsVersion;
+    3: string lanUrl;
+}
+
+/* TextButton @sources/com/linecorp/square/protocol/thrift/common/TextButton.java */
+struct TextButton {
+    1: string text;
+}
+
+/* TextMessageAnnouncementContents @sources/com/linecorp/square/protocol/thrift/common/TextMessageAnnouncementContents.java */
+struct TextMessageAnnouncementContents {
+    1: string messageId;
+    2: string text;
+    3: string senderSquareMemberMid;
+    4: i64 createdAt;
+    5: string senderMid;
+}
+
+/* C12181k1 @sources/NZ0/C12181k1.java */
+struct ThaiBankBalanceInfo {
+    1: bool bankUser;
+    2: bool balanceDisplay;
+    3: double balance;
+    4: string balanceLinkUrl;
+}
+
+/* b2 @sources/Ob1/b2.java */
+struct ThemeProperty {
+    1: string thumbnailUrl;
+    2: Ob1_c2 themeResourceType;
+}
+
+/* d2 @sources/Ob1/d2.java */
+struct ThemeSummary {
+    1: string imagePath;
+    2: i64 version;
+    3: string versionString;
+}
+
+/* L @sources/Do0/L.java */
+struct ThingsDevice {
+    1: string deviceId;
+    2: string actionUri;
+    3: string botMid;
+    4: do0_EnumC23139B productType;
+    5: string providerName;
+    6: string profileImageLocation;
+    7: list<string> channelIdList;
+    8: i16 targetABCEngineVersion;
+    9: string serviceUuid;
+    10: bool bondingRequired;
+}
+
+/* O @sources/Do0/O.java */
+struct ThingsOperation {
+    1: string deviceId;
+    2: i64 offset;
+    3: do0_C23138A action;
+}
+
+/* C14855B @sources/uf/C14855B.java */
+struct ThumbnailLayer {
+    1: RichImage frontThumbnailImage;
+    2: RichImage backgroundThumbnailImage;
+}
+
+/* Wc @sources/Pb1/Wc.java */
+struct Ticket {
+    1: string id;
+    10: i64 expirationTime;
+    21: i32 maxUseCount;
+}
+
+/* C28156a @sources/K80/C28156a.java */
+struct TokenV1IssueResult {
+    1: string tokenSecret;
+}
+
+/* k1 @sources/T70/k1.java */
+struct TokenV3IssueResult {
+    1: string accessToken;
+    2: string refreshToken;
+    3: i64 durationUntilRefreshInSec;
+    4: RefreshApiRetryPolicy refreshApiRetryPolicy;
+    5: string loginSessionId;
+    6: i64 tokenIssueTimeEpochSec;
+}
+
+/* C29125b @sources/L80/C29125b.java */
+struct TokenV3IssueResult {
+    1: string accessToken;
+    2: string refreshToken;
+    3: i64 durationUntilRefreshInSec;
+    4: RefreshApiRetryPolicy refreshApiRetryPolicy;
+    5: string loginSessionId;
+    6: i64 tokenIssueTimeEpochSec;
+}
+
+/* C12184l1 @sources/NZ0/C12184l1.java */
+struct Tooltip {
+    1: string text;
+    2: i64 revisionTimeMillis;
+}
+
+/* C12187m1 @sources/NZ0/C12187m1.java */
+struct TooltipInfo {
+    1: string text;
+    2: i64 tooltipRevision;
+}
+
+/* C12190n1 @sources/NZ0/C12190n1.java */
+struct TopTab {
+    1: string id;
+    2: list<string> modulesOrder;
+}
+
+/* TryAgainLaterExtraInfo @sources/com/linecorp/square/protocol/thrift/common/TryAgainLaterExtraInfo.java */
+struct TryAgainLaterExtraInfo {
+    1: i32 blockSecs;
+}
+
+/* a @sources/U70/a.java */
+struct U70_a {
+    
+}
+
+/* t @sources/U70/t.java */
+struct U70_t {
+    
+}
+
+/* v @sources/U70/v.java */
+struct U70_v {
+    
+}
+
+/* C14857D @sources/uf/C14857D.java */
+struct UEN {
+    1: i64 revision;
+}
+
+/* C14856C @sources/uf/C14856C.java */
+struct Uf_C14856C {
+    1: UEN uen;
+    2: Beacon beacon;
+}
+
+/* C14864f @sources/uf/C14864f.java */
+struct Uf_C14864f {
+    1: RegularBadge regularBadge;
+    2: UrgentBadge urgentBadge;
+}
+
+/* p @sources/uf/p.java */
+struct Uf_p {
+    1: AD ad;
+    2: Content content;
+    3: RichContent richContent;
+}
+
+/* t @sources/uf/t.java */
+struct Uf_t {
+    1: RichItem typeA;
+    2: RichItem typeB;
+}
+
+/* Xc @sources/Pb1/Xc.java */
+struct UnfollowRequest {
+    1: Pb1_A4 followMid;
+}
+
+/* UnhideSquareMemberContentsRequest @sources/com/linecorp/square/protocol/thrift/UnhideSquareMemberContentsRequest.java */
+struct UnhideSquareMemberContentsRequest {
+    1: string squareMemberMid;
+}
+
+/* l0 @sources/r80/l0.java */
+struct UnregisterAvailabilityInfo {
+    1: r80_m0 result;
+    2: string message;
+}
+
+/* UnsendMessageRequest @sources/com/linecorp/square/protocol/thrift/UnsendMessageRequest.java */
+struct UnsendMessageRequest {
+    2: string squareChatMid;
+    3: string messageId;
+    4: string threadMid;
+}
+
+/* UnsendMessageResponse @sources/com/linecorp/square/protocol/thrift/UnsendMessageResponse.java */
+struct UnsendMessageResponse {
+    1: SquareMessage unsentMessage;
+}
+
+/* Yc @sources/Pb1/Yc.java */
+struct UpdateChatRequest {
+    1: i32 reqSeq;
+    2: Chat chat;
+    3: Pb1_O2 updatedAttribute;
+}
+
+/* bd @sources/Pb1/bd.java */
+struct UpdateGroupCallUrlRequest {
+    1: string urlId;
+    2: Pb1_ad targetAttribute;
+}
+
+/* UpdateLiveTalkAttrsRequest @sources/com/linecorp/square/protocol/thrift/UpdateLiveTalkAttrsRequest.java */
+struct UpdateLiveTalkAttrsRequest {
+    1: set<LiveTalkAttribute> updatedAttrs;
+    2: LiveTalk liveTalk;
+}
+
+/* u @sources/U70/u.java */
+struct UpdatePasswordRequest {
+    1: string sessionId;
+    2: string hashedPassword;
+}
+
+/* C25142F @sources/GN0/C25142F.java */
+struct UpdateProfileAttributesRequest {
+    1: i32 reqSeq;
+    2: map<i32, gN0_L6> profileAttributes;
+    3: string profileId;
+}
+
+/* dd @sources/Pb1/dd.java */
+struct UpdateProfileAttributesRequest {
+    1: map<i32, ProfileContent> profileAttributes;
+}
+
+/* q @sources/t80/q.java */
+struct UpdateReason {
+    1: t80_r type;
+    2: string detail;
+}
+
+/* n @sources/Vh/n.java */
+struct UpdateSafetyStatusRequest {
+    1: string disasterId;
+    2: vh_m safetyStatus;
+    3: string message;
+}
+
+/* UpdateSquareAuthorityRequest @sources/com/linecorp/square/protocol/thrift/UpdateSquareAuthorityRequest.java */
+struct UpdateSquareAuthorityRequest {
+    2: set<SquareAuthorityAttribute> updateAttributes;
+    3: SquareAuthority authority;
+}
+
+/* UpdateSquareAuthorityResponse @sources/com/linecorp/square/protocol/thrift/UpdateSquareAuthorityResponse.java */
+struct UpdateSquareAuthorityResponse {
+    1: set<i32> updatdAttributes;
+    2: SquareAuthority authority;
+}
+
+/* UpdateSquareChatMemberRequest @sources/com/linecorp/square/protocol/thrift/UpdateSquareChatMemberRequest.java */
+struct UpdateSquareChatMemberRequest {
+    2: set<SquareChatMemberAttribute> updatedAttrs;
+    3: SquareChatMember chatMember;
+}
+
+/* UpdateSquareChatMemberResponse @sources/com/linecorp/square/protocol/thrift/UpdateSquareChatMemberResponse.java */
+struct UpdateSquareChatMemberResponse {
+    1: SquareChatMember updatedChatMember;
+}
+
+/* UpdateSquareChatRequest @sources/com/linecorp/square/protocol/thrift/UpdateSquareChatRequest.java */
+struct UpdateSquareChatRequest {
+    2: set<SquareChatAttribute> updatedAttrs;
+    3: SquareChat squareChat;
+}
+
+/* UpdateSquareChatResponse @sources/com/linecorp/square/protocol/thrift/UpdateSquareChatResponse.java */
+struct UpdateSquareChatResponse {
+    1: set<i32> updatedAttrs;
+    2: SquareChat squareChat;
+}
+
+/* UpdateSquareFeatureSetRequest @sources/com/linecorp/square/protocol/thrift/UpdateSquareFeatureSetRequest.java */
+struct UpdateSquareFeatureSetRequest {
+    2: set<SquareFeatureSetAttribute> updateAttributes;
+    3: SquareFeatureSet squareFeatureSet;
+}
+
+/* UpdateSquareFeatureSetResponse @sources/com/linecorp/square/protocol/thrift/UpdateSquareFeatureSetResponse.java */
+struct UpdateSquareFeatureSetResponse {
+    1: set<i32> updateAttributes;
+    2: SquareFeatureSet squareFeatureSet;
+}
+
+/* UpdateSquareMemberRelationRequest @sources/com/linecorp/square/protocol/thrift/UpdateSquareMemberRelationRequest.java */
+struct UpdateSquareMemberRelationRequest {
+    2: string squareMid;
+    3: string targetSquareMemberMid;
+    4: set<i32> updatedAttrs;
+    5: SquareMemberRelation relation;
+}
+
+/* UpdateSquareMemberRelationResponse @sources/com/linecorp/square/protocol/thrift/UpdateSquareMemberRelationResponse.java */
+struct UpdateSquareMemberRelationResponse {
+    1: string squareMid;
+    2: string targetSquareMemberMid;
+    3: set<i32> updatedAttrs;
+    4: SquareMemberRelation relation;
+}
+
+/* UpdateSquareMemberRequest @sources/com/linecorp/square/protocol/thrift/UpdateSquareMemberRequest.java */
+struct UpdateSquareMemberRequest {
+    2: set<SquareMemberAttribute> updatedAttrs;
+    3: set<SquarePreferenceAttribute> updatedPreferenceAttrs;
+    4: SquareMember squareMember;
+}
+
+/* UpdateSquareMemberResponse @sources/com/linecorp/square/protocol/thrift/UpdateSquareMemberResponse.java */
+struct UpdateSquareMemberResponse {
+    1: set<i32> updatedAttrs;
+    2: SquareMember squareMember;
+    3: set<i32> updatedPreferenceAttrs;
+}
+
+/* UpdateSquareMembersRequest @sources/com/linecorp/square/protocol/thrift/UpdateSquareMembersRequest.java */
+struct UpdateSquareMembersRequest {
+    2: set<SquareMemberAttribute> updatedAttrs;
+    3: list<SquareMember> members;
+}
+
+/* UpdateSquareMembersResponse @sources/com/linecorp/square/protocol/thrift/UpdateSquareMembersResponse.java */
+struct UpdateSquareMembersResponse {
+    1: set<i32> updatedAttrs;
+    2: SquareMember editor;
+    3: map<string, SquareMember> members;
+}
+
+/* UpdateSquareRequest @sources/com/linecorp/square/protocol/thrift/UpdateSquareRequest.java */
+struct UpdateSquareRequest {
+    2: set<SquareAttribute> updatedAttrs;
+    3: Square square;
+}
+
+/* UpdateSquareResponse @sources/com/linecorp/square/protocol/thrift/UpdateSquareResponse.java */
+struct UpdateSquareResponse {
+    1: set<i32> updatedAttrs;
+    2: Square square;
+}
+
+/* UpdateUserSettingsRequest @sources/com/linecorp/square/protocol/thrift/UpdateUserSettingsRequest.java */
+struct UpdateUserSettingsRequest {
+    1: set<SquareUserSettingsAttribute> updatedAttrs;
+    2: SquareUserSettings userSettings;
+}
+
+/* C14858E @sources/uf/C14858E.java */
+struct UrgentBadge {
+    1: string bgColor;
+    2: string label;
+    3: string color;
+}
+
+/* UrlButton @sources/com/linecorp/square/protocol/thrift/common/UrlButton.java */
+struct UrlButton {
+    1: string text;
+    2: string url;
+}
+
+/* ed @sources/Pb1/ed.java */
+struct UsePhotoboothTicketRequest {
+    1: string chatMid;
+    2: string photoboothSessionId;
+}
+
+/* fd @sources/Pb1/fd.java */
+struct UsePhotoboothTicketResponse {
+    1: string signedTicketJwt;
+}
+
+/* V0 @sources/LN0/V0.java */
+struct UserBlockDetail {
+    3: bool deletedFromBlockList;
+}
+
+/* l0 @sources/Do0/l0.java */
+struct UserDevice {
+    1: ThingsDevice device;
+    2: string deviceDisplayName;
+}
+
+/* W0 @sources/LN0/W0.java */
+struct UserFriendDetail {
+    1: i64 createdTime;
+    3: string overriddenName;
+    4: i64 favoriteTime;
+    6: bool hidden;
+    7: string ringtone;
+    8: string ringbackTone;
+}
+
+/* C22735b @sources/D80/C22735b.java */
+struct UserPhoneNumber {
+    1: string phoneNumber;
+    2: string countryCode;
+}
+
+/* l1 @sources/T70/l1.java */
+struct UserPhoneNumber {
+    1: string phoneNumber;
+    2: string countryCode;
+}
+
+/* m1 @sources/T70/m1.java */
+struct UserProfile {
+    1: string displayName;
+    2: string profileImageUrl;
+}
+
+/* a @sources/v70/a.java */
+struct UserProfile {
+    1: string displayName;
+    2: string profileImageUrl;
+}
+
+/* UserRestrictionExtraInfo @sources/com/linecorp/square/protocol/thrift/common/UserRestrictionExtraInfo.java */
+struct UserRestrictionExtraInfo {
+    1: string linkUrl;
+}
+
+/* C18291d @sources/c80/C18291d.java */
+struct V1PasswordHashingParameters {
+    1: string aesKey;
+    2: string salt;
+}
+
+/* n1 @sources/T70/n1.java */
+struct V1PasswordHashingParameters {
+    1: string aesKey;
+    2: string salt;
+}
+
+/* rd @sources/Pb1/rd.java */
+struct VerificationSessionData {
+    1: string sessionId;
+    2: VerificationMethod method;
+    3: string callback;
+    4: string normalizedPhone;
+    5: string countryCode;
+    6: string nationalSignificantNumber;
+    7: list<i32> availableVerificationMethods;
+    8: string callerIdMask;
+}
+
+/* q1 @sources/T70/q1.java */
+struct VerifyAccountUsingHashedPwdRequest {
+    1: string authSessionId;
+    2: AccountIdentifier accountIdentifier;
+    3: string v1HashedPassword;
+    4: string clientHashedPassword;
+}
+
+/* E0 @sources/I80/E0.java */
+struct I80_E0 {
+    1: string authSessionId;
+    2: string v1HashedPassword;
+    3: string clientHashedPassword;
+}
+
+/* r1 @sources/T70/r1.java */
+struct VerifyAccountUsingHashedPwdResponse {
+    1: UserProfile userProfile;
+}
+
+/* p @sources/m80/p.java */
+struct VerifyAssertionRequest {
+    1: string sessionId;
+    2: string credentialId;
+    3: string assertionObject;
+    4: string clientDataJSON;
+}
+
+/* r @sources/m80/r.java */
+struct VerifyAttestationRequest {
+    1: string sessionId;
+    2: string attestationObject;
+    3: string clientDataJSON;
+}
+
+/* u @sources/q70/u.java */
+struct VerifyEapLoginRequest {
+    1: string authSessionId;
+    2: EapLogin eapLogin;
+}
+
+/* G0 @sources/I80/G0.java */
+struct I80_G0 {
+    1: string authSessionId;
+    2: EapLogin eapLogin;
+}
+
+/* v @sources/q70/v.java */
+struct VerifyEapLoginResponse {
+    1: bool accountExists;
+}
+
+/* H0 @sources/I80/H0.java */
+struct I80_H0 {
+    1: I80_V70_a userProfile;
+}
+
+/* t1 @sources/T70/t1.java */
+struct VerifyPhonePinCodeRequest {
+    1: string authSessionId;
+    2: UserPhoneNumber userPhoneNumber;
+    3: string pinCode;
+}
+
+/* I0 @sources/I80/I0.java */
+struct I80_I0 {
+    1: string authSessionId;
+    2: UserPhoneNumber userPhoneNumber;
+    3: string pinCode;
+}
+
+/* u1 @sources/T70/u1.java */
+struct VerifyPhonePinCodeResponse {
+    1: bool accountExist;
+    2: bool sameUdidFromAccount;
+    3: bool allowedToRegister;
+    11: UserProfile userProfile;
+}
+
+/* J0 @sources/I80/J0.java */
+struct I80_J0 {
+    1: I80_V70_a userProfile;
+}
+
+/* p @sources/q80/p.java */
+struct VerifyPinCodeRequest {
+    1: string authSessionId;
+    2: string pinCode;
+}
+
+/* j @sources/S70/j.java */
+struct VerifyPinCodeRequest {
+    1: string pinCode;
+}
+
+/* r @sources/q80/r.java */
+struct VerifyQrCodeRequest {
+    1: string authSessionId;
+    2: map<string, string> metaData;
+}
+
+/* v1 @sources/T70/v1.java */
+struct VerifySocialLoginResponse {
+    2: bool accountExist;
+    11: UserProfile userProfile;
+    12: bool sameUdidFromAccount;
+}
+
+/* K0 @sources/I80/K0.java */
+struct I80_K0 {
+    1: string baseUrl;
+    2: string token;
+}
+
+/* w @sources/q70/w.java */
+struct WebAuthDetails {
+    1: string baseUrl;
+    2: string token;
+}
+
+/* w1 @sources/T70/w1.java */
+struct WebAuthDetails {
+    1: string baseUrl;
+    2: string token;
+}
+
+/* sd @sources/Pb1/sd.java */
+struct WebLoginRequest {
+    1: string hookedFullUrl;
+    2: string sessionString;
+    3: bool fromIAB;
+    4: string sourceApplication;
+}
+
+/* td @sources/Pb1/td.java */
+struct WebLoginResponse {
+    1: string returnUrl;
+    2: string optionalReturnUrl;
+    3: string redirectConfirmationPageUrl;
+}
+
+/* ud @sources/Pb1/ud.java */
+struct WifiSignal {
+    2: string ssid;
+    3: string bssid;
+    4: string wifiStandard;
+    5: double frequency;
+    10: i64 lastSeenTimestamp;
+    11: i32 rssi;
+}
+
+/* a @sources/Z70/a.java */
+struct Z70_a {
+    1: string recoveryKey;
+    2: string backupBlobPayload;
+}
+
+/* b @sources/ZQ0/b.java */
+struct ZQ0_b {
+    
+}
+
+/* C12975e8 @sources/Pb1/C12975e8.java */
+struct acceptChatInvitationByTicket_args {
+    1: AcceptChatInvitationByTicketRequest request;
+}
+
+/* C12989f8 @sources/Pb1/C12989f8.java */
+struct acceptChatInvitationByTicket_result {
+    0: Pb1_C12980f success;
+    1: TalkException e;
+}
+
+/* C13003g8 @sources/Pb1/C13003g8.java */
+struct acceptChatInvitation_args {
+    1: AcceptChatInvitationRequest request;
+}
+
+/* C13017h8 @sources/Pb1/C13017h8.java */
+struct acceptChatInvitation_result {
+    0: Pb1_C13008h success;
+    1: TalkException e;
+}
+
+/* SquareService_acceptSpeakers_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_acceptSpeakers_result {
+    0: AcceptSpeakersResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_acceptToChangeRole_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_acceptToChangeRole_result {
+    0: AcceptToChangeRoleResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_acceptToListen_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_acceptToListen_result {
+    0: AcceptToListenResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_acceptToSpeak_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_acceptToSpeak_result {
+    0: AcceptToSpeakResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_acquireLiveTalk_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_acquireLiveTalk_result {
+    0: AcquireLiveTalkResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_cancelToSpeak_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_cancelToSpeak_result {
+    0: CancelToSpeakResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_fetchLiveTalkEvents_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_fetchLiveTalkEvents_result {
+    0: FetchLiveTalkEventsResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_findLiveTalkByInvitationTicket_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_findLiveTalkByInvitationTicket_result {
+    0: FindLiveTalkByInvitationTicketResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_forceEndLiveTalk_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_forceEndLiveTalk_result {
+    0: ForceEndLiveTalkResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getLiveTalkInfoForNonMember_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_getLiveTalkInfoForNonMember_result {
+    0: GetLiveTalkInfoForNonMemberResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getLiveTalkInvitationUrl_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_getLiveTalkInvitationUrl_result {
+    0: GetLiveTalkInvitationUrlResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getLiveTalkSpeakersForNonMember_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_getLiveTalkSpeakersForNonMember_result {
+    0: GetLiveTalkSpeakersForNonMemberResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getSquareInfoByChatMid_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_getSquareInfoByChatMid_result {
+    0: GetSquareInfoByChatMidResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_inviteToChangeRole_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_inviteToChangeRole_result {
+    0: InviteToChangeRoleResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_inviteToListen_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_inviteToListen_result {
+    0: InviteToListenResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_inviteToLiveTalk_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_inviteToLiveTalk_result {
+    0: InviteToLiveTalkResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_inviteToSpeak_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_inviteToSpeak_result {
+    0: InviteToSpeakResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_joinLiveTalk_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_joinLiveTalk_result {
+    0: JoinLiveTalkResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_kickOutLiveTalkParticipants_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_kickOutLiveTalkParticipants_result {
+    0: KickOutLiveTalkParticipantsResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_rejectSpeakers_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_rejectSpeakers_result {
+    0: RejectSpeakersResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_rejectToSpeak_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_rejectToSpeak_result {
+    0: RejectToSpeakResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_removeLiveTalkSubscription_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_removeLiveTalkSubscription_result {
+    0: RemoveLiveTalkSubscriptionResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_reportLiveTalk_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_reportLiveTalk_result {
+    0: ReportLiveTalkResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_reportLiveTalkSpeaker_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_reportLiveTalkSpeaker_result {
+    0: ReportLiveTalkSpeakerResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_requestToListen_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_requestToListen_result {
+    0: RequestToListenResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_requestToSpeak_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_requestToSpeak_result {
+    0: RequestToSpeakResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_updateLiveTalkAttrs_result @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_updateLiveTalkAttrs_result {
+    0: UpdateLiveTalkAttrsResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_acceptSpeakers_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_acceptSpeakers_args {
+    1: AcceptSpeakersRequest request;
+}
+
+/* SquareService_acceptToChangeRole_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_acceptToChangeRole_args {
+    1: AcceptToChangeRoleRequest request;
+}
+
+/* SquareService_acceptToListen_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_acceptToListen_args {
+    1: AcceptToListenRequest request;
+}
+
+/* SquareService_acceptToSpeak_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_acceptToSpeak_args {
+    1: AcceptToSpeakRequest request;
+}
+
+/* SquareService_acquireLiveTalk_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_acquireLiveTalk_args {
+    1: AcquireLiveTalkRequest request;
+}
+
+/* SquareService_cancelToSpeak_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_cancelToSpeak_args {
+    1: CancelToSpeakRequest request;
+}
+
+/* SquareService_fetchLiveTalkEvents_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_fetchLiveTalkEvents_args {
+    1: FetchLiveTalkEventsRequest request;
+}
+
+/* SquareService_findLiveTalkByInvitationTicket_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_findLiveTalkByInvitationTicket_args {
+    1: FindLiveTalkByInvitationTicketRequest request;
+}
+
+/* SquareService_forceEndLiveTalk_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_forceEndLiveTalk_args {
+    1: ForceEndLiveTalkRequest request;
+}
+
+/* SquareService_getLiveTalkInfoForNonMember_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_getLiveTalkInfoForNonMember_args {
+    1: GetLiveTalkInfoForNonMemberRequest request;
+}
+
+/* SquareService_getLiveTalkInvitationUrl_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_getLiveTalkInvitationUrl_args {
+    1: GetLiveTalkInvitationUrlRequest request;
+}
+
+/* SquareService_getLiveTalkSpeakersForNonMember_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_getLiveTalkSpeakersForNonMember_args {
+    1: GetLiveTalkSpeakersForNonMemberRequest request;
+}
+
+/* SquareService_getSquareInfoByChatMid_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_getSquareInfoByChatMid_args {
+    1: GetSquareInfoByChatMidRequest request;
+}
+
+/* SquareService_inviteToChangeRole_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_inviteToChangeRole_args {
+    1: InviteToChangeRoleRequest request;
+}
+
+/* SquareService_inviteToListen_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_inviteToListen_args {
+    1: InviteToListenRequest request;
+}
+
+/* SquareService_inviteToLiveTalk_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_inviteToLiveTalk_args {
+    1: InviteToLiveTalkRequest request;
+}
+
+/* SquareService_inviteToSpeak_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_inviteToSpeak_args {
+    1: InviteToSpeakRequest request;
+}
+
+/* SquareService_joinLiveTalk_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_joinLiveTalk_args {
+    1: JoinLiveTalkRequest request;
+}
+
+/* SquareService_kickOutLiveTalkParticipants_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_kickOutLiveTalkParticipants_args {
+    1: KickOutLiveTalkParticipantsRequest request;
+}
+
+/* SquareService_rejectSpeakers_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_rejectSpeakers_args {
+    1: RejectSpeakersRequest request;
+}
+
+/* SquareService_rejectToSpeak_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_rejectToSpeak_args {
+    1: RejectToSpeakRequest request;
+}
+
+/* SquareService_removeLiveTalkSubscription_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_removeLiveTalkSubscription_args {
+    1: RemoveLiveTalkSubscriptionRequest request;
+}
+
+/* SquareService_reportLiveTalk_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_reportLiveTalk_args {
+    1: ReportLiveTalkRequest request;
+}
+
+/* SquareService_reportLiveTalkSpeaker_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_reportLiveTalkSpeaker_args {
+    1: ReportLiveTalkSpeakerRequest request;
+}
+
+/* SquareService_requestToListen_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_requestToListen_args {
+    1: RequestToListenRequest request;
+}
+
+/* SquareService_requestToSpeak_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_requestToSpeak_args {
+    1: RequestToSpeakRequest request;
+}
+
+/* SquareService_updateLiveTalkAttrs_args @sources/com/linecorp/square/protocol/thrift/SquareLiveTalkService.java */
+struct SquareService_updateLiveTalkAttrs_args {
+    1: UpdateLiveTalkAttrsRequest request;
+}
+
+/* C13066l1 @sources/Pb1/C13066l1.java */
+struct acquireCallRoute_args {
+    2: string to;
+    3: Pb1_D4 callType;
+    4: map<string, string> fromEnvInfo;
+}
+
+/* C13080m1 @sources/Pb1/C13080m1.java */
+struct acquireCallRoute_result {
+    0: CallRoute success;
+    1: TalkException e;
+}
+
+/* C13031i8 @sources/Pb1/C13031i8.java */
+struct acquireEncryptedAccessToken_args {
+    2: Pb1_EnumC13222w4 featureType;
+}
+
+/* C13045j8 @sources/Pb1/C13045j8.java */
+struct acquireEncryptedAccessToken_result {
+    0: string success;
+    1: TalkException e;
+}
+
+/* C13094n1 @sources/Pb1/C13094n1.java */
+struct acquireGroupCallRoute_args {
+    2: string chatMid;
+    3: Pb1_EnumC13237x5 mediaType;
+    4: bool isInitialHost;
+    5: list<string> capabilities;
+}
+
+/* C13108o1 @sources/Pb1/C13108o1.java */
+struct acquireGroupCallRoute_result {
+    0: GroupCallRoute success;
+    1: TalkException e;
+}
+
+/* C13122p1 @sources/Pb1/C13122p1.java */
+struct acquireOACallRoute_args {
+    2: AcquireOACallRouteRequest request;
+}
+
+/* C13136q1 @sources/Pb1/C13136q1.java */
+struct acquireOACallRoute_result {
+    0: AcquireOACallRouteResponse success;
+    1: TalkException e;
+}
+
+/* C13149r1 @sources/Pb1/C13149r1.java */
+struct acquirePaidCallRoute_args {
+    2: PaidCallType paidCallType;
+    3: string dialedNumber;
+    4: string language;
+    5: string networkCode;
+    6: bool disableCallerId;
+    7: string referer;
+    8: string adSessionId;
+}
+
+/* C13163s1 @sources/Pb1/C13163s1.java */
+struct acquirePaidCallRoute_result {
+    0: PaidCallResponse success;
+    1: TalkException e;
+}
+
+/* o @sources/og/o.java */
+struct activateSubscription_args {
+    1: ActivateSubscriptionRequest request;
+}
+
+/* p @sources/og/p.java */
+struct activateSubscription_result {
+    1: MembershipException e;
+}
+
+/* C12201r1 @sources/NZ0/C12201r1.java */
+struct adTypeOptOutClickEvent_args {
+    1: AdTypeOptOutClickEventRequest request;
+}
+
+/* C12204s1 @sources/NZ0/C12204s1.java */
+struct adTypeOptOutClickEvent_result {
+    0: NZ0_C12152b success;
+    1: WalletException e;
+}
+
+/* H0 @sources/LN0/H0.java */
+struct addFriendByMid_args {
+    1: AddFriendByMidRequest request;
+}
+
+/* I0 @sources/LN0/I0.java */
+struct addFriendByMid_result {
+    0: LN0_C11270b success;
+    1: RejectedException be;
+    2: ServerFailureException ce;
+    3: TalkException te;
+}
+
+/* C16048e @sources/Yn0/C16048e.java */
+struct addItemToCollection_args {
+    1: AddItemToCollectionRequest request;
+}
+
+/* C16050f @sources/Yn0/C16050f.java */
+struct addItemToCollection_result {
+    0: Ob1_C12608b success;
+    1: CollectionException e;
+}
+
+/* C12207t1 @sources/NZ0/C12207t1.java */
+struct addOaFriend_args {
+    1: NZ0_C12155c request;
+}
+
+/* C12210u1 @sources/NZ0/C12210u1.java */
+struct addOaFriend_result {
+    0: AddOaFriendResponse success;
+    1: WalletException e;
+}
+
+/* r @sources/Yn0/r.java */
+struct addProductToSubscriptionSlot_args {
+    2: AddProductToSubscriptionSlotRequest req;
+}
+
+/* C16075s @sources/Yn0/C16075s.java */
+struct addProductToSubscriptionSlot_result {
+    0: AddProductToSubscriptionSlotResponse success;
+    1: ShopException e;
+}
+
+/* C16077t @sources/Yn0/C16077t.java */
+struct addThemeToSubscriptionSlot_args {
+    2: AddThemeToSubscriptionSlotRequest req;
+}
+
+/* C16079u @sources/Yn0/C16079u.java */
+struct addThemeToSubscriptionSlot_result {
+    0: AddThemeToSubscriptionSlotResponse success;
+    1: ShopException e;
+}
+
+/* C13059k8 @sources/Pb1/C13059k8.java */
+struct addToFollowBlacklist_args {
+    2: AddToFollowBlacklistRequest addToFollowBlacklistRequest;
+}
+
+/* C13073l8 @sources/Pb1/C13073l8.java */
+struct addToFollowBlacklist_result {
+    1: TalkException e;
+}
+
+/* SquareService_agreeToTerms_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_agreeToTerms_result {
+    0: AgreeToTermsResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_approveSquareMembers_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_approveSquareMembers_result {
+    0: ApproveSquareMembersResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_checkJoinCode_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_checkJoinCode_result {
+    0: CheckJoinCodeResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_createSquareChatAnnouncement_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_createSquareChatAnnouncement_result {
+    0: CreateSquareChatAnnouncementResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_createSquareChat_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_createSquareChat_result {
+    0: CreateSquareChatResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_createSquare_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_createSquare_result {
+    0: CreateSquareResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_deleteSquareChatAnnouncement_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_deleteSquareChatAnnouncement_result {
+    0: DeleteSquareChatAnnouncementResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_deleteSquareChat_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_deleteSquareChat_result {
+    0: DeleteSquareChatResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_deleteSquare_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_deleteSquare_result {
+    0: DeleteSquareResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_destroyMessage_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_destroyMessage_result {
+    0: DestroyMessageResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_destroyMessages_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_destroyMessages_result {
+    0: DestroyMessagesResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_fetchMyEvents_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_fetchMyEvents_result {
+    0: FetchMyEventsResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_fetchSquareChatEvents_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_fetchSquareChatEvents_result {
+    0: FetchSquareChatEventsResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_findSquareByEmid_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_findSquareByEmid_result {
+    0: FindSquareByEmidResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_findSquareByInvitationTicket_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_findSquareByInvitationTicket_result {
+    0: FindSquareByInvitationTicketResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_findSquareByInvitationTicketV2_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_findSquareByInvitationTicketV2_result {
+    0: FindSquareByInvitationTicketV2Response success;
+    1: SquareException e;
+}
+
+/* SquareService_getGoogleAdOptions_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getGoogleAdOptions_result {
+    0: GetGoogleAdOptionsResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getInvitationTicketUrl_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getInvitationTicketUrl_result {
+    0: GetInvitationTicketUrlResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getJoinableSquareChats_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getJoinableSquareChats_result {
+    0: GetJoinableSquareChatsResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getJoinedSquareChats_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getJoinedSquareChats_result {
+    0: GetJoinedSquareChatsResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getJoinedSquares_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getJoinedSquares_result {
+    0: GetJoinedSquaresResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getMessageReactions_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getMessageReactions_result {
+    0: GetMessageReactionsResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getNoteStatus_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getNoteStatus_result {
+    0: GetNoteStatusResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getPopularKeywords_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getPopularKeywords_result {
+    0: GetPopularKeywordsResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getSquareAuthorities_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareAuthorities_result {
+    0: GetSquareAuthoritiesResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getSquareAuthority_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareAuthority_result {
+    0: GetSquareAuthorityResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getCategories_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getCategories_result {
+    0: GetSquareCategoriesResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getSquareChatAnnouncements_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareChatAnnouncements_result {
+    0: GetSquareChatAnnouncementsResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getSquareChatEmid_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareChatEmid_result {
+    0: GetSquareChatEmidResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getSquareChatFeatureSet_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareChatFeatureSet_result {
+    0: GetSquareChatFeatureSetResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getSquareChatMember_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareChatMember_result {
+    0: GetSquareChatMemberResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getSquareChatMembers_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareChatMembers_result {
+    0: GetSquareChatMembersResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getSquareChat_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareChat_result {
+    0: GetSquareChatResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getSquareChatStatus_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareChatStatus_result {
+    0: GetSquareChatStatusResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getSquareEmid_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareEmid_result {
+    0: GetSquareEmidResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getSquareFeatureSet_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareFeatureSet_result {
+    0: GetSquareFeatureSetResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getSquareMemberRelation_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareMemberRelation_result {
+    0: GetSquareMemberRelationResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getSquareMemberRelations_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareMemberRelations_result {
+    0: GetSquareMemberRelationsResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getSquareMember_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareMember_result {
+    0: GetSquareMemberResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getSquareMembersBySquare_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareMembersBySquare_result {
+    0: GetSquareMembersBySquareResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getSquareMembers_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareMembers_result {
+    0: GetSquareMembersResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getSquare_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquare_result {
+    0: GetSquareResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getSquareStatus_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareStatus_result {
+    0: GetSquareStatusResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getSquareThreadMid_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareThreadMid_result {
+    0: GetSquareThreadMidResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getSquareThread_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareThread_result {
+    0: GetSquareThreadResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_getUserSettings_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getUserSettings_result {
+    0: GetUserSettingsResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_hideSquareMemberContents_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_hideSquareMemberContents_result {
+    0: HideSquareMemberContentsResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_inviteIntoSquareChat_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_inviteIntoSquareChat_result {
+    0: InviteIntoSquareChatResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_inviteToSquare_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_inviteToSquare_result {
+    0: InviteToSquareResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_joinSquareChat_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_joinSquareChat_result {
+    0: JoinSquareChatResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_joinSquare_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_joinSquare_result {
+    0: JoinSquareResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_joinSquareThread_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_joinSquareThread_result {
+    0: JoinSquareThreadResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_leaveSquareChat_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_leaveSquareChat_result {
+    0: LeaveSquareChatResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_leaveSquare_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_leaveSquare_result {
+    0: LeaveSquareResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_leaveSquareThread_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_leaveSquareThread_result {
+    0: LeaveSquareThreadResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_manualRepair_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_manualRepair_result {
+    0: ManualRepairResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_markAsRead_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_markAsRead_result {
+    0: MarkAsReadResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_markChatsAsRead_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_markChatsAsRead_result {
+    0: MarkChatsAsReadResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_markThreadsAsRead_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_markThreadsAsRead_result {
+    0: MarkThreadsAsReadResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_reactToMessage_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_reactToMessage_result {
+    0: ReactToMessageResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_refreshSubscriptions_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_refreshSubscriptions_result {
+    0: RefreshSubscriptionsResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_rejectSquareMembers_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_rejectSquareMembers_result {
+    0: RejectSquareMembersResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_removeSubscriptions_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_removeSubscriptions_result {
+    0: RemoveSubscriptionsResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_reportMessageSummary_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_reportMessageSummary_result {
+    0: ReportMessageSummaryResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_reportSquareChat_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_reportSquareChat_result {
+    0: ReportSquareChatResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_reportSquareMember_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_reportSquareMember_result {
+    0: ReportSquareMemberResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_reportSquareMessage_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_reportSquareMessage_result {
+    0: ReportSquareMessageResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_reportSquare_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_reportSquare_result {
+    0: ReportSquareResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_searchSquareChatMembers_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_searchSquareChatMembers_result {
+    0: SearchSquareChatMembersResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_searchSquareChatMentionables_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_searchSquareChatMentionables_result {
+    0: SearchSquareChatMentionablesResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_searchSquareMembers_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_searchSquareMembers_result {
+    0: SearchSquareMembersResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_searchSquares_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_searchSquares_result {
+    0: SearchSquaresResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_sendMessage_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_sendMessage_result {
+    0: SendMessageResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_sendSquareThreadMessage_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_sendSquareThreadMessage_result {
+    0: SendSquareThreadMessageResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_syncSquareMembers_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_syncSquareMembers_result {
+    0: SyncSquareMembersResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_unhideSquareMemberContents_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_unhideSquareMemberContents_result {
+    0: UnhideSquareMemberContentsResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_unsendMessage_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_unsendMessage_result {
+    0: UnsendMessageResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_updateSquareAuthority_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_updateSquareAuthority_result {
+    0: UpdateSquareAuthorityResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_updateSquareChatMember_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_updateSquareChatMember_result {
+    0: UpdateSquareChatMemberResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_updateSquareChat_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_updateSquareChat_result {
+    0: UpdateSquareChatResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_updateSquareFeatureSet_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_updateSquareFeatureSet_result {
+    0: UpdateSquareFeatureSetResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_updateSquareMemberRelation_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_updateSquareMemberRelation_result {
+    0: UpdateSquareMemberRelationResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_updateSquareMember_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_updateSquareMember_result {
+    0: UpdateSquareMemberResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_updateSquareMembers_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_updateSquareMembers_result {
+    0: UpdateSquareMembersResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_updateSquare_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_updateSquare_result {
+    0: UpdateSquareResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_updateUserSettings_result @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_updateUserSettings_result {
+    0: UpdateUserSettingsResponse success;
+    1: SquareException e;
+}
+
+/* SquareService_agreeToTerms_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_agreeToTerms_args {
+    1: AgreeToTermsRequest request;
+}
+
+/* SquareService_approveSquareMembers_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_approveSquareMembers_args {
+    1: ApproveSquareMembersRequest request;
+}
+
+/* SquareService_checkJoinCode_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_checkJoinCode_args {
+    1: CheckJoinCodeRequest request;
+}
+
+/* SquareService_createSquareChatAnnouncement_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_createSquareChatAnnouncement_args {
+    1: CreateSquareChatAnnouncementRequest createSquareChatAnnouncementRequest;
+}
+
+/* SquareService_createSquareChat_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_createSquareChat_args {
+    1: CreateSquareChatRequest request;
+}
+
+/* SquareService_createSquare_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_createSquare_args {
+    1: CreateSquareRequest request;
+}
+
+/* SquareService_deleteSquareChatAnnouncement_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_deleteSquareChatAnnouncement_args {
+    1: DeleteSquareChatAnnouncementRequest deleteSquareChatAnnouncementRequest;
+}
+
+/* SquareService_deleteSquareChat_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_deleteSquareChat_args {
+    1: DeleteSquareChatRequest request;
+}
+
+/* SquareService_deleteSquare_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_deleteSquare_args {
+    1: DeleteSquareRequest request;
+}
+
+/* SquareService_destroyMessage_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_destroyMessage_args {
+    1: DestroyMessageRequest request;
+}
+
+/* SquareService_destroyMessages_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_destroyMessages_args {
+    1: DestroyMessagesRequest request;
+}
+
+/* SquareService_fetchMyEvents_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_fetchMyEvents_args {
+    1: FetchMyEventsRequest request;
+}
+
+/* SquareService_fetchSquareChatEvents_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_fetchSquareChatEvents_args {
+    1: FetchSquareChatEventsRequest request;
+}
+
+/* SquareService_findSquareByEmid_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_findSquareByEmid_args {
+    1: FindSquareByEmidRequest findSquareByEmidRequest;
+}
+
+/* SquareService_findSquareByInvitationTicket_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_findSquareByInvitationTicket_args {
+    1: FindSquareByInvitationTicketRequest request;
+}
+
+/* SquareService_findSquareByInvitationTicketV2_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_findSquareByInvitationTicketV2_args {
+    1: FindSquareByInvitationTicketV2Request request;
+}
+
+/* SquareService_getGoogleAdOptions_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getGoogleAdOptions_args {
+    1: GetGoogleAdOptionsRequest request;
+}
+
+/* SquareService_getInvitationTicketUrl_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getInvitationTicketUrl_args {
+    1: GetInvitationTicketUrlRequest request;
+}
+
+/* SquareService_getJoinableSquareChats_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getJoinableSquareChats_args {
+    1: GetJoinableSquareChatsRequest request;
+}
+
+/* SquareService_getJoinedSquareChats_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getJoinedSquareChats_args {
+    1: GetJoinedSquareChatsRequest request;
+}
+
+/* SquareService_getJoinedSquares_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getJoinedSquares_args {
+    1: GetJoinedSquaresRequest request;
+}
+
+/* SquareService_getMessageReactions_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getMessageReactions_args {
+    1: GetMessageReactionsRequest request;
+}
+
+/* SquareService_getNoteStatus_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getNoteStatus_args {
+    1: GetNoteStatusRequest request;
+}
+
+/* SquareService_getPopularKeywords_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getPopularKeywords_args {
+    1: GetPopularKeywordsRequest request;
+}
+
+/* SquareService_getSquareAuthorities_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareAuthorities_args {
+    1: GetSquareAuthoritiesRequest request;
+}
+
+/* SquareService_getSquareAuthority_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareAuthority_args {
+    1: GetSquareAuthorityRequest request;
+}
+
+/* SquareService_getCategories_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getCategories_args {
+    1: GetSquareCategoriesRequest request;
+}
+
+/* SquareService_getSquareChatAnnouncements_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareChatAnnouncements_args {
+    1: GetSquareChatAnnouncementsRequest getSquareChatAnnouncementsRequest;
+}
+
+/* SquareService_getSquareChatEmid_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareChatEmid_args {
+    1: GetSquareChatEmidRequest request;
+}
+
+/* SquareService_getSquareChatFeatureSet_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareChatFeatureSet_args {
+    1: GetSquareChatFeatureSetRequest request;
+}
+
+/* SquareService_getSquareChatMember_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareChatMember_args {
+    1: GetSquareChatMemberRequest request;
+}
+
+/* SquareService_getSquareChatMembers_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareChatMembers_args {
+    1: GetSquareChatMembersRequest request;
+}
+
+/* SquareService_getSquareChat_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareChat_args {
+    1: GetSquareChatRequest request;
+}
+
+/* SquareService_getSquareChatStatus_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareChatStatus_args {
+    1: GetSquareChatStatusRequest request;
+}
+
+/* SquareService_getSquareEmid_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareEmid_args {
+    1: GetSquareEmidRequest request;
+}
+
+/* SquareService_getSquareFeatureSet_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareFeatureSet_args {
+    1: GetSquareFeatureSetRequest request;
+}
+
+/* SquareService_getSquareMemberRelation_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareMemberRelation_args {
+    1: GetSquareMemberRelationRequest request;
+}
+
+/* SquareService_getSquareMemberRelations_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareMemberRelations_args {
+    1: GetSquareMemberRelationsRequest request;
+}
+
+/* SquareService_getSquareMember_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareMember_args {
+    1: GetSquareMemberRequest request;
+}
+
+/* SquareService_getSquareMembersBySquare_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareMembersBySquare_args {
+    1: GetSquareMembersBySquareRequest request;
+}
+
+/* SquareService_getSquareMembers_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareMembers_args {
+    1: GetSquareMembersRequest request;
+}
+
+/* SquareService_getSquare_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquare_args {
+    1: GetSquareRequest request;
+}
+
+/* SquareService_getSquareStatus_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareStatus_args {
+    1: GetSquareStatusRequest request;
+}
+
+/* SquareService_getSquareThreadMid_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareThreadMid_args {
+    1: GetSquareThreadMidRequest request;
+}
+
+/* SquareService_getSquareThread_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getSquareThread_args {
+    1: GetSquareThreadRequest request;
+}
+
+/* SquareService_getUserSettings_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_getUserSettings_args {
+    1: GetUserSettingsRequest request;
+}
+
+/* SquareService_hideSquareMemberContents_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_hideSquareMemberContents_args {
+    1: HideSquareMemberContentsRequest request;
+}
+
+/* SquareService_inviteIntoSquareChat_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_inviteIntoSquareChat_args {
+    1: InviteIntoSquareChatRequest request;
+}
+
+/* SquareService_inviteToSquare_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_inviteToSquare_args {
+    1: InviteToSquareRequest request;
+}
+
+/* SquareService_joinSquareChat_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_joinSquareChat_args {
+    1: JoinSquareChatRequest request;
+}
+
+/* SquareService_joinSquare_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_joinSquare_args {
+    1: JoinSquareRequest request;
+}
+
+/* SquareService_joinSquareThread_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_joinSquareThread_args {
+    1: JoinSquareThreadRequest request;
+}
+
+/* SquareService_leaveSquareChat_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_leaveSquareChat_args {
+    1: LeaveSquareChatRequest request;
+}
+
+/* SquareService_leaveSquare_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_leaveSquare_args {
+    1: LeaveSquareRequest request;
+}
+
+/* SquareService_leaveSquareThread_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_leaveSquareThread_args {
+    1: LeaveSquareThreadRequest request;
+}
+
+/* SquareService_manualRepair_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_manualRepair_args {
+    1: ManualRepairRequest request;
+}
+
+/* SquareService_markAsRead_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_markAsRead_args {
+    1: MarkAsReadRequest request;
+}
+
+/* SquareService_markChatsAsRead_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_markChatsAsRead_args {
+    1: MarkChatsAsReadRequest request;
+}
+
+/* SquareService_markThreadsAsRead_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_markThreadsAsRead_args {
+    1: MarkThreadsAsReadRequest request;
+}
+
+/* SquareService_reactToMessage_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_reactToMessage_args {
+    1: ReactToMessageRequest request;
+}
+
+/* SquareService_refreshSubscriptions_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_refreshSubscriptions_args {
+    1: RefreshSubscriptionsRequest request;
+}
+
+/* SquareService_rejectSquareMembers_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_rejectSquareMembers_args {
+    1: RejectSquareMembersRequest request;
+}
+
+/* SquareService_removeSubscriptions_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_removeSubscriptions_args {
+    1: RemoveSubscriptionsRequest request;
+}
+
+/* SquareService_reportMessageSummary_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_reportMessageSummary_args {
+    1: ReportMessageSummaryRequest request;
+}
+
+/* SquareService_reportSquareChat_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_reportSquareChat_args {
+    1: ReportSquareChatRequest request;
+}
+
+/* SquareService_reportSquareMember_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_reportSquareMember_args {
+    1: ReportSquareMemberRequest request;
+}
+
+/* SquareService_reportSquareMessage_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_reportSquareMessage_args {
+    1: ReportSquareMessageRequest request;
+}
+
+/* SquareService_reportSquare_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_reportSquare_args {
+    1: ReportSquareRequest request;
+}
+
+/* SquareService_searchSquareChatMembers_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_searchSquareChatMembers_args {
+    1: SearchSquareChatMembersRequest request;
+}
+
+/* SquareService_searchSquareChatMentionables_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_searchSquareChatMentionables_args {
+    1: SearchSquareChatMentionablesRequest request;
+}
+
+/* SquareService_searchSquareMembers_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_searchSquareMembers_args {
+    1: SearchSquareMembersRequest request;
+}
+
+/* SquareService_searchSquares_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_searchSquares_args {
+    1: SearchSquaresRequest request;
+}
+
+/* SquareService_sendMessage_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_sendMessage_args {
+    1: SendMessageRequest request;
+}
+
+/* SquareService_sendSquareThreadMessage_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_sendSquareThreadMessage_args {
+    1: SendSquareThreadMessageRequest request;
+}
+
+/* SquareService_syncSquareMembers_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_syncSquareMembers_args {
+    1: SyncSquareMembersRequest request;
+}
+
+/* SquareService_unhideSquareMemberContents_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_unhideSquareMemberContents_args {
+    1: UnhideSquareMemberContentsRequest request;
+}
+
+/* SquareService_unsendMessage_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_unsendMessage_args {
+    1: UnsendMessageRequest request;
+}
+
+/* SquareService_updateSquareAuthority_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_updateSquareAuthority_args {
+    1: UpdateSquareAuthorityRequest request;
+}
+
+/* SquareService_updateSquareChatMember_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_updateSquareChatMember_args {
+    1: UpdateSquareChatMemberRequest request;
+}
+
+/* SquareService_updateSquareChat_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_updateSquareChat_args {
+    1: UpdateSquareChatRequest request;
+}
+
+/* SquareService_updateSquareFeatureSet_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_updateSquareFeatureSet_args {
+    1: UpdateSquareFeatureSetRequest request;
+}
+
+/* SquareService_updateSquareMemberRelation_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_updateSquareMemberRelation_args {
+    1: UpdateSquareMemberRelationRequest request;
+}
+
+/* SquareService_updateSquareMember_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_updateSquareMember_args {
+    1: UpdateSquareMemberRequest request;
+}
+
+/* SquareService_updateSquareMembers_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_updateSquareMembers_args {
+    1: UpdateSquareMembersRequest request;
+}
+
+/* SquareService_updateSquare_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_updateSquare_args {
+    1: UpdateSquareRequest request;
+}
+
+/* SquareService_updateUserSettings_args @sources/com/linecorp/square/protocol/thrift/SquareService.java */
+struct SquareService_updateUserSettings_args {
+    1: UpdateUserSettingsRequest request;
+}
+
+/* C13039j2 @sources/Pb1/C13039j2.java */
+struct approveChannelAndIssueChannelToken_args {
+    1: string channelId;
+}
+
+/* C13053k2 @sources/Pb1/C13053k2.java */
+struct approveChannelAndIssueChannelToken_result {
+    0: ChannelToken success;
+    1: ChannelException e;
+}
+
+/* C34383x @sources/r80/C34383x.java */
+struct authenticateUsingBankAccountEx_args {
+    1: r80_EnumC34362b type;
+    2: string bankId;
+    3: string bankBranchId;
+    4: string realAccountNo;
+    5: r80_EnumC34361a accountProductCode;
+    6: string authToken;
+}
+
+/* C34384y @sources/r80/C34384y.java */
+struct authenticateUsingBankAccountEx_result {
+    0: PaymentAuthenticationInfo success;
+    1: PaymentException e;
+}
+
+/* g @sources/n80/g.java */
+struct authenticateWithPaak_args {
+    1: AuthenticateWithPaakRequest request;
+}
+
+/* p @sources/o80/p.java */
+struct authenticateWithPaak_args {
+    1: AuthenticateWithPaakRequest request;
+}
+
+/* h @sources/n80/h.java */
+struct authenticateWithPaak_result {
+    0: n80_C31222b success;
+    1: ChannelPaakAuthnException cpae;
+    2: TokenAuthException tae;
+}
+
+/* q @sources/o80/q.java */
+struct authenticateWithPaak_result {
+    0: o80_C32273b success;
+    1: SecondaryPwlessLoginException e;
+}
+
+/* C13087m8 @sources/Pb1/C13087m8.java */
+struct blockContact_args {
+    1: i32 reqSeq;
+    2: string id;
+}
+
+/* C13101n8 @sources/Pb1/C13101n8.java */
+struct blockContact_result {
+    1: TalkException e;
+}
+
+/* C13115o8 @sources/Pb1/C13115o8.java */
+struct blockRecommendation_args {
+    1: i32 reqSeq;
+    2: string targetMid;
+}
+
+/* C13129p8 @sources/Pb1/C13129p8.java */
+struct blockRecommendation_result {
+    1: TalkException e;
+}
+
+/* C13143q8 @sources/Pb1/C13143q8.java */
+struct bulkFollow_args {
+    2: BulkFollowRequest bulkFollowRequest;
+}
+
+/* C13156r8 @sources/Pb1/C13156r8.java */
+struct bulkFollow_result {
+    0: Pb1_C12996g1 success;
+    1: TalkException e;
+}
+
+/* C35049b @sources/S80/C35049b.java */
+struct bulkGetSetting_args {
+    2: BulkGetRequest request;
+}
+
+/* C35050c @sources/S80/C35050c.java */
+struct bulkGetSetting_result {
+    0: s80_t80_b success;
+    1: SettingsException e;
+}
+
+/* C35051d @sources/S80/C35051d.java */
+struct bulkSetSetting_args {
+    2: s80_t80_c request;
+}
+
+/* C35052e @sources/S80/C35052e.java */
+struct bulkSetSetting_result {
+    0: s80_t80_d success;
+    1: SettingsException e;
+}
+
+/* C16080v @sources/Yn0/C16080v.java */
+struct buyMustbuyProduct_args {
+    2: BuyMustbuyRequest request;
+}
+
+/* C16081w @sources/Yn0/C16081w.java */
+struct buyMustbuyProduct_result {
+    1: ShopException e;
+}
+
+/* C16082x @sources/Yn0/C16082x.java */
+struct canCreateCombinationSticker_args {
+    2: CanCreateCombinationStickerRequest request;
+}
+
+/* C16083y @sources/Yn0/C16083y.java */
+struct canCreateCombinationSticker_result {
+    0: CanCreateCombinationStickerResponse success;
+    1: ShopException e;
+}
+
+/* C16084z @sources/Yn0/C16084z.java */
+struct canReceivePresent_args {
+    2: string shopId;
+    3: string productId;
+    4: Locale locale;
+    5: string recipientMid;
+}
+
+/* A @sources/Yn0/A.java */
+struct canReceivePresent_result {
+    1: ShopException e;
+}
+
+/* C13170s8 @sources/Pb1/C13170s8.java */
+struct cancelChatInvitation_args {
+    1: CancelChatInvitationRequest request;
+}
+
+/* C13184t8 @sources/Pb1/C13184t8.java */
+struct cancelChatInvitation_result {
+    0: Pb1_U1 success;
+    1: TalkException e;
+}
+
+/* r @sources/o80/r.java */
+struct cancelPaakAuth_args {
+    1: CancelPaakAuthRequest request;
+}
+
+/* s @sources/o80/s.java */
+struct cancelPaakAuth_result {
+    0: o80_d success;
+    1: SecondaryPwlessLoginException e;
+}
+
+/* i @sources/n80/i.java */
+struct cancelPaakAuthentication_args {
+    1: CancelPaakAuthenticationRequest request;
+}
+
+/* j @sources/n80/j.java */
+struct cancelPaakAuthentication_result {
+    0: n80_d success;
+    1: ChannelPaakAuthnException cpae;
+    2: TokenAuthException tae;
+}
+
+/* h @sources/q80/h.java */
+struct cancelPinCode_args {
+    1: CancelPinCodeRequest request;
+}
+
+/* i @sources/q80/i.java */
+struct cancelPinCode_result {
+    0: q80_C33650b success;
+    1: SecondaryQrCodeException e;
+}
+
+/* C13198u8 @sources/Pb1/C13198u8.java */
+struct cancelReaction_args {
+    1: CancelReactionRequest cancelReactionRequest;
+}
+
+/* C13212v8 @sources/Pb1/C13212v8.java */
+struct cancelReaction_result {
+    1: TalkException e;
+}
+
+/* B @sources/Yn0/B.java */
+struct changeSubscription_args {
+    2: YN0_Ob1_r req;
+}
+
+/* C @sources/Yn0/C.java */
+struct changeSubscription_result {
+    0: ChangeSubscriptionResponse success;
+    1: ShopException e;
+}
+
+/* C13226w8 @sources/Pb1/C13226w8.java */
+struct changeVerificationMethod_args {
+    2: string sessionId;
+    3: VerificationMethod method;
+}
+
+/* C13240x8 @sources/Pb1/C13240x8.java */
+struct changeVerificationMethod_result {
+    0: VerificationSessionData success;
+    1: TalkException e;
+}
+
+/* C34385z @sources/r80/C34385z.java */
+struct checkCanUnregisterEx_args {
+    1: r80_n0 type;
+}
+
+/* C34345A @sources/r80/C34345A.java */
+struct checkCanUnregisterEx_result {
+    0: UnregisterAvailabilityInfo success;
+    1: PaymentException e;
+}
+
+/* C26370F @sources/I80/C26370F.java */
+struct I80_C26370F {
+    1: I80_C26396d request;
+}
+
+/* Q @sources/T70/Q.java */
+struct checkEmailAssigned_args {
+    1: string authSessionId;
+    2: AccountIdentifier accountIdentifier;
+}
+
+/* S @sources/T70/S.java */
+struct checkEmailAssigned_result {
+    0: CheckEmailAssignedResponse success;
+    1: AuthException e;
+}
+
+/* C26371G @sources/I80/C26371G.java */
+struct I80_C26371G {
+    0: I80_C26398e success;
+    1: I80_C26390a e;
+}
+
+/* C25650j @sources/H80/C25650j.java */
+struct checkIfEncryptedE2EEKeyReceived_args {
+    1: CheckIfEncryptedE2EEKeyReceivedRequest request;
+}
+
+/* k @sources/H80/k.java */
+struct checkIfEncryptedE2EEKeyReceived_result {
+    0: CheckIfEncryptedE2EEKeyReceivedResponse success;
+    1: PrimaryQrCodeMigrationException e;
+}
+
+/* C26372H @sources/I80/C26372H.java */
+struct I80_C26372H {
+    1: I80_C26400f request;
+}
+
+/* T @sources/T70/T.java */
+struct checkIfPasswordSetVerificationEmailVerified_args {
+    1: string authSessionId;
+}
+
+/* U @sources/T70/U.java */
+struct checkIfPasswordSetVerificationEmailVerified_result {
+    0: T70_C14398f success;
+    1: AuthException e;
+}
+
+/* C26373I @sources/I80/C26373I.java */
+struct I80_C26373I {
+    0: I80_C26402g success;
+    1: I80_C26390a e;
+}
+
+/* N @sources/T70/N.java */
+struct checkIfPhonePinCodeMsgVerified_args {
+    1: CheckIfPhonePinCodeMsgVerifiedRequest request;
+}
+
+/* O @sources/T70/O.java */
+struct checkIfPhonePinCodeMsgVerified_result {
+    0: CheckIfPhonePinCodeMsgVerifiedResponse success;
+    1: AuthException e;
+}
+
+/* C34346B @sources/r80/C34346B.java */
+struct checkOperationTimeEx_args {
+    1: r80_EnumC34368h type;
+    2: string lpAccountNo;
+    3: r80_EnumC34371k channelType;
+}
+
+/* C34347C @sources/r80/C34347C.java */
+struct checkOperationTimeEx_result {
+    0: CheckOperationResult success;
+    1: PaymentException e;
+}
+
+/* C13134q @sources/Pb1/C13134q.java */
+struct checkUserAgeAfterApprovalWithDocomoV2_args {
+    1: CheckUserAgeAfterApprovalWithDocomoV2Request request;
+}
+
+/* r @sources/Pb1/r.java */
+struct checkUserAgeAfterApprovalWithDocomoV2_result {
+    0: CheckUserAgeAfterApprovalWithDocomoV2Response success;
+    1: TalkException e;
+}
+
+/* C13161s @sources/Pb1/C13161s.java */
+struct checkUserAgeWithDocomoV2_args {
+    1: CheckUserAgeWithDocomoV2Request request;
+}
+
+/* C13175t @sources/Pb1/C13175t.java */
+struct checkUserAgeWithDocomoV2_result {
+    0: CheckUserAgeWithDocomoV2Response success;
+    1: TalkException e;
+}
+
+/* C13189u @sources/Pb1/C13189u.java */
+struct checkUserAge_args {
+    2: CarrierCode carrier;
+    3: string sessionId;
+    4: string verifier;
+    5: i32 standardAge;
+}
+
+/* C13203v @sources/Pb1/C13203v.java */
+struct checkUserAge_result {
+    0: Pb1_gd success;
+    1: TalkException e;
+}
+
+/* C13268z8 @sources/Pb1/C13268z8.java */
+struct clearRingbackTone_result {
+    1: TalkException e;
+}
+
+/* A8 @sources/Pb1/A8.java */
+struct clearRingtone_args {
+    1: string oid;
+}
+
+/* B8 @sources/Pb1/B8.java */
+struct clearRingtone_result {
+    1: TalkException e;
+}
+
+/* AcceptSpeakersResponse @sources/com/linecorp/square/protocol/thrift/AcceptSpeakersResponse.java */
+struct AcceptSpeakersResponse {
+    
+}
+
+/* AcceptToChangeRoleResponse @sources/com/linecorp/square/protocol/thrift/AcceptToChangeRoleResponse.java */
+struct AcceptToChangeRoleResponse {
+    
+}
+
+/* AcceptToListenResponse @sources/com/linecorp/square/protocol/thrift/AcceptToListenResponse.java */
+struct AcceptToListenResponse {
+    
+}
+
+/* AcceptToSpeakResponse @sources/com/linecorp/square/protocol/thrift/AcceptToSpeakResponse.java */
+struct AcceptToSpeakResponse {
+    
+}
+
+/* AgreeToTermsResponse @sources/com/linecorp/square/protocol/thrift/AgreeToTermsResponse.java */
+struct AgreeToTermsResponse {
+    
+}
+
+/* AllNonMemberLiveTalkParticipants @sources/com/linecorp/square/protocol/thrift/AllNonMemberLiveTalkParticipants.java */
+struct AllNonMemberLiveTalkParticipants {
+    
+}
+
+/* CancelToSpeakResponse @sources/com/linecorp/square/protocol/thrift/CancelToSpeakResponse.java */
+struct CancelToSpeakResponse {
+    
+}
+
+/* DeleteSquareChatAnnouncementResponse @sources/com/linecorp/square/protocol/thrift/DeleteSquareChatAnnouncementResponse.java */
+struct DeleteSquareChatAnnouncementResponse {
+    
+}
+
+/* DeleteSquareChatResponse @sources/com/linecorp/square/protocol/thrift/DeleteSquareChatResponse.java */
+struct DeleteSquareChatResponse {
+    
+}
+
+/* DeleteSquareResponse @sources/com/linecorp/square/protocol/thrift/DeleteSquareResponse.java */
+struct DeleteSquareResponse {
+    
+}
+
+/* DestroyMessageResponse @sources/com/linecorp/square/protocol/thrift/DestroyMessageResponse.java */
+struct DestroyMessageResponse {
+    
+}
+
+/* DestroyMessagesResponse @sources/com/linecorp/square/protocol/thrift/DestroyMessagesResponse.java */
+struct DestroyMessagesResponse {
+    
+}
+
+/* ForceEndLiveTalkResponse @sources/com/linecorp/square/protocol/thrift/ForceEndLiveTalkResponse.java */
+struct ForceEndLiveTalkResponse {
+    
+}
+
+/* GetPopularKeywordsRequest @sources/com/linecorp/square/protocol/thrift/GetPopularKeywordsRequest.java */
+struct GetPopularKeywordsRequest {
+    
+}
+
+/* GetSquareCategoriesRequest @sources/com/linecorp/square/protocol/thrift/GetSquareCategoriesRequest.java */
+struct GetSquareCategoriesRequest {
+    
+}
+
+/* HideSquareMemberContentsResponse @sources/com/linecorp/square/protocol/thrift/HideSquareMemberContentsResponse.java */
+struct HideSquareMemberContentsResponse {
+    
+}
+
+/* InviteToChangeRoleResponse @sources/com/linecorp/square/protocol/thrift/InviteToChangeRoleResponse.java */
+struct InviteToChangeRoleResponse {
+    
+}
+
+/* InviteToListenResponse @sources/com/linecorp/square/protocol/thrift/InviteToListenResponse.java */
+struct InviteToListenResponse {
+    
+}
+
+/* InviteToLiveTalkResponse @sources/com/linecorp/square/protocol/thrift/InviteToLiveTalkResponse.java */
+struct InviteToLiveTalkResponse {
+    
+}
+
+/* InviteToSquareResponse @sources/com/linecorp/square/protocol/thrift/InviteToSquareResponse.java */
+struct InviteToSquareResponse {
+    
+}
+
+/* KickOutLiveTalkParticipantsResponse @sources/com/linecorp/square/protocol/thrift/KickOutLiveTalkParticipantsResponse.java */
+struct KickOutLiveTalkParticipantsResponse {
+    
+}
+
+/* LeaveSquareChatResponse @sources/com/linecorp/square/protocol/thrift/LeaveSquareChatResponse.java */
+struct LeaveSquareChatResponse {
+    
+}
+
+/* LeaveSquareResponse @sources/com/linecorp/square/protocol/thrift/LeaveSquareResponse.java */
+struct LeaveSquareResponse {
+    
+}
+
+/* LiveTalkEventPayload @sources/com/linecorp/square/protocol/thrift/LiveTalkEventPayload.java */
+struct LiveTalkEventPayload {
+    1: LiveTalkEventNotifiedUpdateLiveTalkTitle notifiedUpdateLiveTalkTitle;
+    2: LiveTalkEventNotifiedUpdateLiveTalkAnnouncement notifiedUpdateLiveTalkAnnouncement;
+    3: LiveTalkEventNotifiedUpdateSquareMemberRole notifiedUpdateSquareMemberRole;
+    4: LiveTalkEventNotifiedUpdateLiveTalkAllowRequestToSpeak notifiedUpdateLiveTalkAllowRequestToSpeak;
+    5: LiveTalkEventNotifiedUpdateSquareMember notifiedUpdateSquareMember;
+}
+
+/* LiveTalkKickOutTarget @sources/com/linecorp/square/protocol/thrift/LiveTalkKickOutTarget.java */
+struct LiveTalkKickOutTarget {
+    1: LiveTalkParticipant liveTalkParticipant;
+    2: AllNonMemberLiveTalkParticipants allNonMemberLiveTalkParticipants;
+}
+
+/* MarkAsReadResponse @sources/com/linecorp/square/protocol/thrift/MarkAsReadResponse.java */
+struct MarkAsReadResponse {
+    
+}
+
+/* MarkChatsAsReadResponse @sources/com/linecorp/square/protocol/thrift/MarkChatsAsReadResponse.java */
+struct MarkChatsAsReadResponse {
+    
+}
+
+/* MarkThreadsAsReadResponse @sources/com/linecorp/square/protocol/thrift/MarkThreadsAsReadResponse.java */
+struct MarkThreadsAsReadResponse {
+    
+}
+
+/* RejectSpeakersResponse @sources/com/linecorp/square/protocol/thrift/RejectSpeakersResponse.java */
+struct RejectSpeakersResponse {
+    
+}
+
+/* RejectToSpeakResponse @sources/com/linecorp/square/protocol/thrift/RejectToSpeakResponse.java */
+struct RejectToSpeakResponse {
+    
+}
+
+/* RemoveLiveTalkSubscriptionResponse @sources/com/linecorp/square/protocol/thrift/RemoveLiveTalkSubscriptionResponse.java */
+struct RemoveLiveTalkSubscriptionResponse {
+    
+}
+
+/* RemoveSubscriptionsResponse @sources/com/linecorp/square/protocol/thrift/RemoveSubscriptionsResponse.java */
+struct RemoveSubscriptionsResponse {
+    
+}
+
+/* ReportLiveTalkResponse @sources/com/linecorp/square/protocol/thrift/ReportLiveTalkResponse.java */
+struct ReportLiveTalkResponse {
+    
+}
+
+/* ReportLiveTalkSpeakerResponse @sources/com/linecorp/square/protocol/thrift/ReportLiveTalkSpeakerResponse.java */
+struct ReportLiveTalkSpeakerResponse {
+    
+}
+
+/* ReportMessageSummaryResponse @sources/com/linecorp/square/protocol/thrift/ReportMessageSummaryResponse.java */
+struct ReportMessageSummaryResponse {
+    
+}
+
+/* ReportSquareChatResponse @sources/com/linecorp/square/protocol/thrift/ReportSquareChatResponse.java */
+struct ReportSquareChatResponse {
+    
+}
+
+/* ReportSquareMemberResponse @sources/com/linecorp/square/protocol/thrift/ReportSquareMemberResponse.java */
+struct ReportSquareMemberResponse {
+    
+}
+
+/* ReportSquareMessageResponse @sources/com/linecorp/square/protocol/thrift/ReportSquareMessageResponse.java */
+struct ReportSquareMessageResponse {
+    
+}
+
+/* ReportSquareResponse @sources/com/linecorp/square/protocol/thrift/ReportSquareResponse.java */
+struct ReportSquareResponse {
+    
+}
+
+/* RequestToListenResponse @sources/com/linecorp/square/protocol/thrift/RequestToListenResponse.java */
+struct RequestToListenResponse {
+    
+}
+
+/* RequestToSpeakResponse @sources/com/linecorp/square/protocol/thrift/RequestToSpeakResponse.java */
+struct RequestToSpeakResponse {
+    
+}
+
+/* SquareEventPayload @sources/com/linecorp/square/protocol/thrift/SquareEventPayload.java */
+struct SquareEventPayload {
+    1: SquareEventReceiveMessage receiveMessage;
+    2: SquareEventSendMessage sendMessage;
+    3: SquareEventMutateMessage notifiedJoinSquareChat;
+    4: SquareEventNotifiedJoinSquareChat notifiedInviteIntoSquareChat;
+    5: SquareEventNotifiedInviteIntoSquareChat notifiedLeaveSquareChat;
+    6: SquareEventNotifiedLeaveSquareChat notifiedDestroyMessage;
+    7: SquareEventNotifiedDestroyMessage notifiedMarkAsRead;
+    8: SquareEventNotifiedMarkAsRead notifiedUpdateSquareMemberProfile;
+    9: SquareEventNotifiedUpdateSquareMemberProfile notifiedUpdateSquare;
+    10: SquareEventNotifiedKickoutFromSquare notifiedUpdateSquareMember;
+    11: SquareEventNotifiedShutdownSquare notifiedUpdateSquareChat;
+    12: SquareEventNotifiedDeleteSquareChat notifiedUpdateSquareChatMember;
+    13: SquareEventNotifiedUpdateSquareChatProfileName notifiedUpdateSquareAuthority;
+    14: SquareEventNotifiedUpdateSquareChatProfileImage notifiedUpdateSquareStatus;
+    15: SquareEventNotifiedUpdateSquareChatMaxMemberCount notifiedUpdateSquareChatStatus;
+    16: SquareEventNotifiedAddBot notifiedCreateSquareMember;
+    17: SquareEventNotifiedRemoveBot notifiedCreateSquareChatMember;
+    18: SquareEventNotifiedUpdateReadonlyChat notifiedUpdateSquareMemberRelation;
+    19: SquareEventNotifiedUpdateMessageStatus notifiedShutdownSquare;
+    20: SquareEventChatPopup notifiedKickoutFromSquare;
+    21: SquareEventNotifiedSystemMessage notifiedDeleteSquareChat;
+    22: SquareEventNotifiedUpdateLiveTalkInfo notificationJoinRequest;
+    23: SquareEventNotifiedUpdateThreadRootMessage notificationJoined;
+    24: SquareEventNotifiedUpdateThreadRootMessageStatus notificationPromoteCoadmin;
+    25: SquareEventNotifiedUpdateSquare notificationPromoteAdmin;
+    26: SquareEventNotifiedUpdateSquareStatus notificationDemoteMember;
+    27: SquareEventNotifiedUpdateSquareMember notificationKickedOut;
+    28: SquareEventNotifiedUpdateSquareChat notificationSquareDelete;
+    29: SquareEventNotifiedUpdateSquareChatStatus notificationSquareChatDelete;
+    30: SquareEventNotifiedUpdateSquareChatMember notificationMessage;
+    31: SquareEventNotifiedUpdateSquareAuthority notifiedUpdateSquareChatProfileName;
+    32: SquareEventNotifiedCreateSquareMember notifiedUpdateSquareChatProfileImage;
+    33: SquareEventNotifiedCreateSquareChatMember notifiedUpdateSquareFeatureSet;
+    34: SquareEventNotifiedUpdateSquareMemberRelation notifiedAddBot;
+    35: SquareEventNotifiedUpdateSquareFeatureSet notifiedRemoveBot;
+    36: SquareEventNotifiedUpdateSquareChatFeatureSet notifiedUpdateSquareNoteStatus;
+    37: SquareEventNotifiedUpdateSquareNoteStatus notifiedUpdateSquareChatAnnouncement;
+    38: SquareEventNotifiedUpdateSquareChatAnnouncement notifiedUpdateSquareChatMaxMemberCount;
+    39: SquareEventNotifiedUpdateLiveTalk notificationPostAnnouncement;
+    40: SquareEventNotificationJoinRequest notificationPost;
+    41: SquareEventNotificationMemberUpdate mutateMessage;
+    42: SquareEventNotificationMemberUpdate notificationNewChatMember;
+    43: SquareEventNotificationMemberUpdate notifiedUpdateReadonlyChat;
+    44: SquareEventNotificationMemberUpdate notifiedUpdateMessageStatus;
+    45: SquareEventNotificationMemberUpdate notificationMessageReaction;
+    46: SquareEventNotificationSquareDelete chatPopup;
+    47: SquareEventNotificationSquareChatDelete notifiedSystemMessage;
+    48: SquareEventNotificationMessage notifiedUpdateSquareChatFeatureSet;
+    49: SquareEventNotificationPostAnnouncement notifiedUpdateLiveTalkInfo;
+    50: SquareEventNotificationPost notifiedUpdateLiveTalk;
+    51: SquareEventNotificationNewChatMember notificationLiveTalk;
+    52: SquareEventNotificationMessageReaction notificationThreadMessage;
+    53: SquareEventNotificationLiveTalk notificationThreadMessageReaction;
+    54: SquareEventNotificationThreadMessage notifiedUpdateThread;
+    55: SquareEventNotificationThreadMessageReaction notifiedUpdateThreadStatus;
+    56: SquareEventNotifiedUpdateThread notifiedUpdateThreadMember;
+    57: SquareEventNotifiedUpdateThreadStatus notifiedUpdateThreadRootMessage;
+    58: SquareEventNotifiedUpdateThreadMember notifiedUpdateThreadRootMessageStatus;
+}
+
+/* UnhideSquareMemberContentsResponse @sources/com/linecorp/square/protocol/thrift/UnhideSquareMemberContentsResponse.java */
+struct UnhideSquareMemberContentsResponse {
+    
+}
+
+/* UpdateLiveTalkAttrsResponse @sources/com/linecorp/square/protocol/thrift/UpdateLiveTalkAttrsResponse.java */
+struct UpdateLiveTalkAttrsResponse {
+    
+}
+
+/* UpdateUserSettingsResponse @sources/com/linecorp/square/protocol/thrift/UpdateUserSettingsResponse.java */
+struct UpdateUserSettingsResponse {
+    
+}
+
+/* ButtonBGColor @sources/com/linecorp/square/protocol/thrift/common/ButtonBGColor.java */
+struct ButtonBGColor {
+    1: CustomColor custom;
+    2: DefaultGradientColor defaultGradient;
+}
+
+/* ButtonContent @sources/com/linecorp/square/protocol/thrift/common/ButtonContent.java */
+struct ButtonContent {
+    1: UrlButton urlButton;
+    2: TextButton textButton;
+    3: OkButton okButton;
+}
+
+/* DefaultGradientColor @sources/com/linecorp/square/protocol/thrift/common/DefaultGradientColor.java */
+struct DefaultGradientColor {
+    
+}
+
+/* ErrorExtraInfo @sources/com/linecorp/square/protocol/thrift/common/ErrorExtraInfo.java */
+struct ErrorExtraInfo {
+    1: i32 preconditionFailedExtraInfo;
+    2: UserRestrictionExtraInfo userRestrictionInfo;
+    3: TryAgainLaterExtraInfo tryAgainLaterExtraInfo;
+    4: LiveTalkExtraInfo liveTalkExtraInfo;
+    5: TermsAgreementExtraInfo termsAgreementExtraInfo;
+}
+
+/* Mentionable @sources/com/linecorp/square/protocol/thrift/common/Mentionable.java */
+struct Mentionable {
+    1: MentionableSquareMember squareMember;
+    2: MentionableBot bot;
+}
+
+/* MessageStatusContents @sources/com/linecorp/square/protocol/thrift/common/MessageStatusContents.java */
+struct MessageStatusContents {
+    1: SquareMessageReactionStatus messageReactionStatus;
+}
+
+/* PopupContent @sources/com/linecorp/square/protocol/thrift/common/PopupContent.java */
+struct PopupContent {
+    1: MainPopup mainPopUp;
+    2: ChatroomPopup chatroomPopup;
+}
+
+/* SquareActivityScore @sources/com/linecorp/square/protocol/thrift/common/SquareActivityScore.java */
+struct SquareActivityScore {
+    1: SquareCleanScore cleanScore;
+}
+
+/* SquareChatAnnouncementContents @sources/com/linecorp/square/protocol/thrift/common/SquareChatAnnouncementContents.java */
+struct SquareChatAnnouncementContents {
+    1: TextMessageAnnouncementContents textMessageAnnouncementContents;
+}
+
+/* TargetChats @sources/com/linecorp/square/protocol/thrift/common/TargetChats.java */
+struct TargetChats {
+    1: set<_any> mids;
+    2: set<_any> categories;
+    3: i32 channelId;
+}
+
+/* TargetUsers @sources/com/linecorp/square/protocol/thrift/common/TargetUsers.java */
+struct TargetUsers {
+    1: set<_any> mids;
+}
+
+/* TermsAgreement @sources/com/linecorp/square/protocol/thrift/common/TermsAgreement.java */
+struct TermsAgreement {
+    1: AiQnABotTermsAgreement aiQnABot;
+}
+
+/* G @sources/Pb1/G.java */
+struct confirmIdentifier_args {
+    2: string authSessionId;
+    3: IdentityCredentialRequest request;
+}
+
+/* H @sources/Pb1/H.java */
+struct confirmIdentifier_result {
+    0: IdentityCredentialResponse success;
+    1: TalkException e;
+}
+
+/* b @sources/q70/b.java */
+struct connectEapAccount_args {
+    1: ConnectEapAccountRequest request;
+}
+
+/* c @sources/q70/c.java */
+struct connectEapAccount_result {
+    0: Q70_l success;
+    1: AccountEapConnectException e;
+}
+
+/* C8 @sources/Pb1/C8.java */
+struct createChatRoomAnnouncement_args {
+    1: i32 reqSeq;
+    2: string chatRoomMid;
+    3: Pb1_X2 type;
+    4: ChatRoomAnnouncementContents contents;
+}
+
+/* D8 @sources/Pb1/D8.java */
+struct createChatRoomAnnouncement_result {
+    0: ChatRoomAnnouncement success;
+    1: TalkException e;
+}
+
+/* E8 @sources/Pb1/E8.java */
+struct createChat_args {
+    1: CreateChatRequest request;
+}
+
+/* F8 @sources/Pb1/F8.java */
+struct createChat_result {
+    0: CreateChatResponse success;
+    1: TalkException e;
+}
+
+/* C16052g @sources/Yn0/C16052g.java */
+struct createCollectionForUser_args {
+    1: YN0_Ob1_A request;
+}
+
+/* C16054h @sources/Yn0/C16054h.java */
+struct createCollectionForUser_result {
+    0: YN0_Ob1_B success;
+    1: CollectionException e;
+}
+
+/* D @sources/Yn0/D.java */
+struct createCombinationSticker_args {
+    2: YN0_Ob1_C request;
+}
+
+/* E @sources/Yn0/E.java */
+struct createCombinationSticker_result {
+    0: YN0_Ob1_D success;
+    1: ShopException e;
+}
+
+/* Z3 @sources/Pb1/Z3.java */
+struct createE2EEKeyBackupEnforced_args {
+    2: Pb1_C13263z3 request;
+}
+
+/* C12915a4 @sources/Pb1/C12915a4.java */
+struct createE2EEKeyBackupEnforced_result {
+    0: Pb1_B3 success;
+    1: E2EEKeyBackupException e;
+}
+
+/* C13177t1 @sources/Pb1/C13177t1.java */
+struct createGroupCallUrl_args {
+    2: CreateGroupCallUrlRequest request;
+}
+
+/* C13191u1 @sources/Pb1/C13191u1.java */
+struct createGroupCallUrl_result {
+    0: CreateGroupCallUrlResponse success;
+    1: TalkException e;
+}
+
+/* U5 @sources/Pb1/U5.java */
+struct createLifetimeKeyBackup_args {
+    2: Pb1_E3 request;
+}
+
+/* V5 @sources/Pb1/V5.java */
+struct createLifetimeKeyBackup_result {
+    0: Pb1_F3 success;
+    1: E2EEKeyBackupException e;
+}
+
+/* C25159p @sources/GN0/C25159p.java */
+struct createMultiProfile_args {
+    1: CreateMultiProfileRequest request;
+}
+
+/* C25160q @sources/GN0/C25160q.java */
+struct createMultiProfile_result {
+    0: CreateMultiProfileResponse success;
+    1: TalkException e;
+}
+
+/* G8 @sources/Pb1/G8.java */
+struct createRoomV2_args {
+    1: i32 reqSeq;
+    2: list<string> contactIds;
+}
+
+/* H8 @sources/Pb1/H8.java */
+struct createRoomV2_result {
+    0: Room success;
+    1: TalkException e;
+}
+
+/* m @sources/R70/m.java */
+struct createSession_args {
+    1: R70_a request;
+}
+
+/* h @sources/U70/h.java */
+struct createSession_args {
+    1: U70_a request;
+}
+
+/* m @sources/H80/m.java */
+struct createSession_args {
+    1: h80_C25643c request;
+}
+
+/* C26365A @sources/I80/C26365A.java */
+struct I80_C26365A {
+    1: I80_C26404h request;
+}
+
+/* n @sources/R70/n.java */
+struct createSession_result {
+    0: CreateSessionResponse success;
+    1: PwlessCredentialException e;
+}
+
+/* i @sources/U70/i.java */
+struct createSession_result {
+    0: CreateSessionResponse success;
+    1: PasswordUpdateException pue;
+    2: TokenAuthException tae;
+}
+
+/* n @sources/H80/n.java */
+struct createSession_result {
+    0: CreateSessionResponse success;
+    1: PrimaryQrCodeMigrationException pqme;
+    2: TokenAuthException tae;
+}
+
+/* C26366B @sources/I80/C26366B.java */
+struct I80_C26366B {
+    0: I80_C26406i success;
+    1: I80_C26390a e;
+    2: TokenAuthException tae;
+}
+
+/* I8 @sources/Pb1/I8.java */
+struct decryptFollowEMid_args {
+    2: string eMid;
+}
+
+/* J8 @sources/Pb1/J8.java */
+struct decryptFollowEMid_result {
+    0: string success;
+    1: TalkException e;
+}
+
+/* C12929b4 @sources/Pb1/C12929b4.java */
+struct deleteE2EEKeyBackup_args {
+    2: Pb1_H3 request;
+}
+
+/* C12943c4 @sources/Pb1/C12943c4.java */
+struct deleteE2EEKeyBackup_result {
+    0: Pb1_I3 success;
+    1: E2EEKeyBackupException e;
+}
+
+/* C13205v1 @sources/Pb1/C13205v1.java */
+struct deleteGroupCallUrl_args {
+    2: DeleteGroupCallUrlRequest request;
+}
+
+/* C13219w1 @sources/Pb1/C13219w1.java */
+struct deleteGroupCallUrl_result {
+    0: Pb1_K3 success;
+    1: TalkException e;
+}
+
+/* C25161r @sources/GN0/C25161r.java */
+struct deleteMultiProfile_args {
+    1: DeleteMultiProfileRequest request;
+}
+
+/* C25162s @sources/GN0/C25162s.java */
+struct deleteMultiProfile_result {
+    0: gN0_C25147d success;
+    1: TalkException e;
+}
+
+/* K8 @sources/Pb1/K8.java */
+struct deleteOtherFromChat_args {
+    1: DeleteOtherFromChatRequest request;
+}
+
+/* L8 @sources/Pb1/L8.java */
+struct deleteOtherFromChat_result {
+    0: Pb1_M3 success;
+    1: TalkException e;
+}
+
+/* j @sources/R70/j.java */
+struct deletePrimaryCredential_args {
+    1: R70_c request;
+}
+
+/* k @sources/R70/k.java */
+struct deletePrimaryCredential_result {
+    0: R70_d success;
+    1: PwlessCredentialException e;
+}
+
+/* C37636g @sources/Vh/C37636g.java */
+struct deleteSafetyStatus_args {
+    1: DeleteSafetyStatusRequest req;
+}
+
+/* C37637h @sources/Vh/C37637h.java */
+struct deleteSafetyStatus_result {
+    1: vh_Fg_b e;
+}
+
+/* M8 @sources/Pb1/M8.java */
+struct deleteSelfFromChat_args {
+    1: DeleteSelfFromChatRequest request;
+}
+
+/* N8 @sources/Pb1/N8.java */
+struct deleteSelfFromChat_result {
+    0: Pb1_O3 success;
+    1: TalkException e;
+}
+
+/* O8 @sources/Pb1/O8.java */
+struct determineMediaMessageFlow_args {
+    1: DetermineMediaMessageFlowRequest request;
+}
+
+/* P8 @sources/Pb1/P8.java */
+struct determineMediaMessageFlow_result {
+    0: DetermineMediaMessageFlowResponse success;
+    1: TalkException e;
+}
+
+/* R8 @sources/Pb1/R8.java */
+struct disableNearby_result {
+    1: TalkException e;
+}
+
+/* d @sources/q70/d.java */
+struct disconnectEapAccount_args {
+    1: DisconnectEapAccountRequest request;
+}
+
+/* e @sources/q70/e.java */
+struct disconnectEapAccount_result {
+    0: Q70_o success;
+    1: AccountEapConnectException e;
+}
+
+/* C23138A @sources/Do0/C23138A.java */
+struct do0_C23138A {
+    1: ConnectDeviceOperation connectDevice;
+    2: ExecuteOnetimeScenarioOperation executeOnetimeScenario;
+}
+
+/* C23141D @sources/Do0/C23141D.java */
+struct do0_C23141D {
+    1: GattReadAction gattRead;
+    2: do0_C23158p gattWrite;
+    3: SleepAction sleep;
+    4: do0_C23153k disconnect;
+    5: StopNotificationAction stopNotification;
+}
+
+/* C23142E @sources/Do0/C23142E.java */
+struct do0_C23142E {
+    1: do0_m0 voidResult;
+    2: do0_C23143a binaryResult;
+}
+
+/* C23143a @sources/Do0/C23143a.java */
+struct do0_C23143a {
+    1: string bytes;
+}
+
+/* C23152j @sources/Do0/C23152j.java */
+struct do0_C23152j {
+    
+}
+
+/* C23153k @sources/Do0/C23153k.java */
+struct do0_C23153k {
+    
+}
+
+/* C23158p @sources/Do0/C23158p.java */
+struct do0_C23158p {
+    1: string serviceUuid;
+    2: string characteristicUuid;
+    3: string data;
+}
+
+/* C23161t @sources/Do0/C23161t.java */
+struct do0_C23161t {
+    
+}
+
+/* C23165x @sources/Do0/C23165x.java */
+struct do0_C23165x {
+    
+}
+
+/* C23167z @sources/Do0/C23167z.java */
+struct do0_C23167z {
+    
+}
+
+/* F @sources/Do0/F.java */
+struct do0_F {
+    1: string scenarioId;
+    2: string deviceId;
+    3: i64 revision;
+    4: i64 startTime;
+    5: i64 endTime;
+    6: do0_G code;
+    7: string errorReason;
+    8: string bleNotificationPayload;
+    9: list<do0_C23142E> actionResults;
+    10: string connectionId;
+}
+
+/* I @sources/Do0/I.java */
+struct do0_I {
+    1: do0_C23161t immediate;
+    2: BleNotificationReceivedTrigger bleNotificationReceived;
+}
+
+/* V @sources/Do0/V.java */
+struct do0_V {
+    
+}
+
+/* X @sources/Do0/X.java */
+struct do0_X {
+    
+}
+
+/* m0 @sources/Do0/m0.java */
+struct do0_m0 {
+    
+}
+
+/* C16056i @sources/Yn0/C16056i.java */
+struct editItemsInCollection_args {
+    1: YN0_Ob1_F request;
+}
+
+/* C16058j @sources/Yn0/C16058j.java */
+struct editItemsInCollection_result {
+    0: YN0_Ob1_G success;
+    1: CollectionException e;
+}
+
+/* C34348D @sources/r80/C34348D.java */
+struct enablePointForOneTimeKey_args {
+    1: bool usePoint;
+}
+
+/* C34349E @sources/r80/C34349E.java */
+struct enablePointForOneTimeKey_result {
+    1: PaymentException e;
+}
+
+/* C16042b @sources/Yn0/C16042b.java */
+struct establishE2EESession_args {
+    1: YN0_Ob1_J request;
+}
+
+/* C16044c @sources/Yn0/C16044c.java */
+struct establishE2EESession_result {
+    0: YN0_Ob1_K success;
+    1: ShopException e;
+}
+
+/* f @sources/S70/f.java */
+struct existPinCode_args {
+    1: S70_b request;
+}
+
+/* g @sources/S70/g.java */
+struct existPinCode_result {
+    0: ExistPinCodeResponse success;
+    1: SecondAuthFactorPinCodeException e;
+}
+
+/* C24471c @sources/fn0/C24471c.java */
+struct fN0_C24471c {
+    
+}
+
+/* C24473e @sources/fn0/C24473e.java */
+struct fN0_C24473e {
+    
+}
+
+/* C24475g @sources/fn0/C24475g.java */
+struct fN0_C24475g {
+    
+}
+
+/* C24476h @sources/fn0/C24476h.java */
+struct fN0_C24476h {
+    
+}
+
+/* Q @sources/Do0/Q.java */
+struct fetchOperations_args {
+    1: FetchOperationsRequest request;
+}
+
+/* S @sources/Do0/S.java */
+struct fetchOperations_result {
+    0: FetchOperationsResponse success;
+    1: ThingsException e;
+}
+
+/* V @sources/T70/V.java */
+struct fetchPhonePinCodeMsg_args {
+    1: FetchPhonePinCodeMsgRequest request;
+}
+
+/* W @sources/T70/W.java */
+struct fetchPhonePinCodeMsg_result {
+    0: FetchPhonePinCodeMsgResponse success;
+    1: AuthException e;
+}
+
+/* S8 @sources/Pb1/S8.java */
+struct findAndAddContactByMetaTag_result {
+    0: Contact success;
+    1: TalkException e;
+}
+
+/* T8 @sources/Pb1/T8.java */
+struct findAndAddContactsByMid_result {
+    0: map<string, Contact> success;
+    1: TalkException e;
+}
+
+/* U8 @sources/Pb1/U8.java */
+struct findAndAddContactsByPhone_result {
+    0: map<string, Contact> success;
+    1: TalkException e;
+}
+
+/* V8 @sources/Pb1/V8.java */
+struct findAndAddContactsByUserid_result {
+    0: map<string, Contact> success;
+    1: TalkException e;
+}
+
+/* I0 @sources/Pb1/I0.java */
+struct findBuddyContactsByQuery_args {
+    2: string language;
+    3: string country;
+    4: string query;
+    5: i32 fromIndex;
+    6: i32 count;
+    7: Pb1_F0 requestSource;
+}
+
+/* J0 @sources/Pb1/J0.java */
+struct findBuddyContactsByQuery_result {
+    0: list<BuddySearchResult> success;
+    1: TalkException e;
+}
+
+/* W8 @sources/Pb1/W8.java */
+struct findChatByTicket_args {
+    1: FindChatByTicketRequest request;
+}
+
+/* X8 @sources/Pb1/X8.java */
+struct findChatByTicket_result {
+    0: FindChatByTicketResponse success;
+    1: TalkException e;
+}
+
+/* Y8 @sources/Pb1/Y8.java */
+struct findContactByUserTicket_args {
+    2: string ticketIdWithTag;
+}
+
+/* Z8 @sources/Pb1/Z8.java */
+struct findContactByUserTicket_result {
+    0: Contact success;
+    1: TalkException e;
+}
+
+/* C12920a9 @sources/Pb1/C12920a9.java */
+struct findContactByUserid_args {
+    2: string searchId;
+}
+
+/* C12934b9 @sources/Pb1/C12934b9.java */
+struct findContactByUserid_result {
+    0: Contact success;
+    1: TalkException e;
+}
+
+/* C12948c9 @sources/Pb1/C12948c9.java */
+struct findContactsByPhone_args {
+    2: set<string> phones;
+}
+
+/* C12962d9 @sources/Pb1/C12962d9.java */
+struct findContactsByPhone_result {
+    0: map<string, Contact> success;
+    1: TalkException e;
+}
+
+/* C12976e9 @sources/Pb1/C12976e9.java */
+struct finishUpdateVerification_args {
+    2: string sessionId;
+}
+
+/* C12990f9 @sources/Pb1/C12990f9.java */
+struct finishUpdateVerification_result {
+    1: TalkException e;
+}
+
+/* C13004g9 @sources/Pb1/C13004g9.java */
+struct follow_args {
+    2: FollowRequest followRequest;
+}
+
+/* C13018h9 @sources/Pb1/C13018h9.java */
+struct follow_result {
+    1: TalkException e;
+}
+
+/* C25143G @sources/GN0/C25143G.java */
+struct gN0_C25143G {
+    
+}
+
+/* C25147d @sources/GN0/C25147d.java */
+struct gN0_C25147d {
+    
+}
+
+/* C13032i9 @sources/Pb1/C13032i9.java */
+struct generateUserTicket_args {
+    3: i64 expirationTime;
+    4: i32 maxUseCount;
+}
+
+/* C13046j9 @sources/Pb1/C13046j9.java */
+struct generateUserTicket_result {
+    0: Ticket success;
+    1: TalkException e;
+}
+
+/* d @sources/VR0/d.java */
+struct getAccessToken_args {
+    1: GetAccessTokenRequest request;
+}
+
+/* e @sources/VR0/e.java */
+struct getAccessToken_result {
+    0: GetAccessTokenResponse success;
+    1: TalkException e;
+}
+
+/* C34350F @sources/r80/C34350F.java */
+struct getAccountBalanceAsync_args {
+    1: string requestToken;
+    2: string accountId;
+}
+
+/* C34351G @sources/r80/C34351G.java */
+struct getAccountBalanceAsync_result {
+    1: PaymentException e;
+}
+
+/* C26374J @sources/I80/C26374J.java */
+struct I80_C26374J {
+    1: I80_C26410k request;
+}
+
+/* X @sources/T70/X.java */
+struct getAcctVerifMethod_args {
+    1: string authSessionId;
+    2: AccountIdentifier accountIdentifier;
+}
+
+/* Y @sources/T70/Y.java */
+struct getAcctVerifMethod_result {
+    0: GetAcctVerifMethodResponse success;
+    1: AuthException e;
+}
+
+/* C26375K @sources/I80/C26375K.java */
+struct I80_C26375K {
+    0: I80_C26412l success;
+    1: I80_C26390a e;
+}
+
+/* C13060k9 @sources/Pb1/C13060k9.java */
+struct getAllChatMids_args {
+    1: GetAllChatMidsRequest request;
+    2: Pb1_V7 syncReason;
+}
+
+/* C13074l9 @sources/Pb1/C13074l9.java */
+struct getAllChatMids_result {
+    0: GetAllChatMidsResponse success;
+    1: TalkException e;
+}
+
+/* C13088m9 @sources/Pb1/C13088m9.java */
+struct getAllContactIds_args {
+    1: Pb1_V7 syncReason;
+}
+
+/* C13102n9 @sources/Pb1/C13102n9.java */
+struct getAllContactIds_result {
+    0: list<string> success;
+    1: TalkException e;
+}
+
+/* Z @sources/T70/Z.java */
+struct getAllowedRegistrationMethod_args {
+    1: string authSessionId;
+    2: string countryCode;
+}
+
+/* C14389a0 @sources/T70/C14389a0.java */
+struct getAllowedRegistrationMethod_result {
+    0: GetAllowedRegistrationMethodResponse success;
+    1: AuthException e;
+}
+
+/* C13116o9 @sources/Pb1/C13116o9.java */
+struct getAnalyticsInfo_result {
+    0: AnalyticsInfo success;
+    1: TalkException e;
+}
+
+/* C13067l2 @sources/Pb1/C13067l2.java */
+struct getApprovedChannels_args {
+    2: i64 lastSynced;
+    3: string locale;
+}
+
+/* C13081m2 @sources/Pb1/C13081m2.java */
+struct getApprovedChannels_result {
+    0: ApprovedChannelInfos success;
+    1: ChannelException e;
+}
+
+/* d @sources/m80/d.java */
+struct getAssertionChallenge_args {
+    1: m80_l request;
+}
+
+/* e @sources/m80/e.java */
+struct getAssertionChallenge_result {
+    0: GetAssertionChallengeResponse success;
+    1: m80_b deviceAttestationException;
+    2: m80_C30146a attestationRequiredException;
+}
+
+/* f @sources/m80/f.java */
+struct getAttestationChallenge_args {
+    1: m80_n request;
+}
+
+/* g @sources/m80/g.java */
+struct getAttestationChallenge_result {
+    0: GetAttestationChallengeResponse success;
+    1: m80_b deviceAttestationException;
+}
+
+/* I @sources/Pb1/I.java */
+struct getAuthRSAKey_args {
+    2: string authSessionId;
+    3: IdentityProvider identityProvider;
+}
+
+/* J @sources/Pb1/J.java */
+struct getAuthRSAKey_result {
+    0: RSAKey success;
+    1: TalkException e;
+}
+
+/* F @sources/Yn0/F.java */
+struct getAuthorsLatestProducts_args {
+    2: LatestProductsByAuthorRequest latestProductsByAuthorRequest;
+}
+
+/* G @sources/Yn0/G.java */
+struct getAuthorsLatestProducts_result {
+    0: LatestProductsByAuthorResponse success;
+    1: ShopException e;
+}
+
+/* H @sources/Yn0/H.java */
+struct getAutoSuggestionShowcase_args {
+    2: AutoSuggestionShowcaseRequest autoSuggestionShowcaseRequest;
+}
+
+/* I @sources/Yn0/I.java */
+struct getAutoSuggestionShowcase_result {
+    0: AutoSuggestionShowcaseResponse success;
+    1: ShopException e;
+}
+
+/* C12213v1 @sources/NZ0/C12213v1.java */
+struct getBalanceSummaryV2_args {
+    1: NZ0_C12208u request;
+}
+
+/* C12216w1 @sources/NZ0/C12216w1.java */
+struct getBalanceSummaryV2_result {
+    0: GetBalanceSummaryResponseV2 success;
+    1: WalletException e;
+}
+
+/* C12219x1 @sources/NZ0/C12219x1.java */
+struct getBalanceSummaryV4WithPayV3_args {
+    1: NZ0_C12214w request;
+}
+
+/* C12222y1 @sources/NZ0/C12222y1.java */
+struct getBalanceSummaryV4WithPayV3_result {
+    0: GetBalanceSummaryV4WithPayV3Response success;
+    1: WalletException e;
+}
+
+/* g @sources/ZQ0/g.java */
+struct getBalance_args {
+    1: ZQ0_b request;
+}
+
+/* h @sources/ZQ0/h.java */
+struct getBalance_result {
+    0: GetBalanceResponse success;
+    1: PointException e;
+}
+
+/* C34352H @sources/r80/C34352H.java */
+struct getBankBranches_args {
+    1: string financialCorpId;
+    2: string query;
+    3: i32 startNum;
+    4: i32 count;
+}
+
+/* C34353I @sources/r80/C34353I.java */
+struct getBankBranches_result {
+    0: list<BankBranchInfo> success;
+    1: PaymentException e;
+}
+
+/* x @sources/uf/x.java */
+struct getBanners_args {
+    1: BannerRequest request;
+}
+
+/* y @sources/uf/y.java */
+struct getBanners_result {
+    0: BannerResponse success;
+}
+
+/* g @sources/eH/g.java */
+struct getBirthdayEffect_args {
+    1: Eh_C8933a req;
+}
+
+/* h @sources/eH/h.java */
+struct getBirthdayEffect_result {
+    0: GetBirthdayEffectResponse success;
+    1: Eh_Fg_b e;
+}
+
+/* T @sources/Do0/T.java */
+struct getBleDevice_args {
+    1: GetBleDeviceRequest request;
+}
+
+/* U @sources/Do0/U.java */
+struct getBleDevice_result {
+    0: ThingsDevice success;
+    1: ThingsException e;
+}
+
+/* W @sources/Do0/W.java */
+struct getBleProducts_result {
+    0: list<BleProduct> success;
+    1: ThingsException e;
+}
+
+/* C13130p9 @sources/Pb1/C13130p9.java */
+struct getBlockedContactIds_args {
+    1: Pb1_V7 syncReason;
+}
+
+/* C13144q9 @sources/Pb1/C13144q9.java */
+struct getBlockedContactIds_result {
+    0: list<string> success;
+    1: TalkException e;
+}
+
+/* C13157r9 @sources/Pb1/C13157r9.java */
+struct getBlockedRecommendationIds_args {
+    1: Pb1_V7 syncReason;
+}
+
+/* C13171s9 @sources/Pb1/C13171s9.java */
+struct getBlockedRecommendationIds_result {
+    0: list<string> success;
+    1: TalkException e;
+}
+
+/* J @sources/Yn0/J.java */
+struct getBrowsingHistory_args {
+    2: YN0_Ob1_L getBrowsingHistoryRequest;
+}
+
+/* K @sources/Yn0/K.java */
+struct getBrowsingHistory_result {
+    0: YN0_Ob1_M success;
+    1: ShopException e;
+}
+
+/* K0 @sources/Pb1/K0.java */
+struct getBuddyChatBarV2_args {
+    1: GetBuddyChatBarRequest request;
+}
+
+/* L0 @sources/Pb1/L0.java */
+struct getBuddyChatBarV2_result {
+    0: BuddyChatBar success;
+    1: TalkException e;
+}
+
+/* M0 @sources/Pb1/M0.java */
+struct getBuddyDetailWithPersonal_args {
+    1: string buddyMid;
+    2: set<Pb1_D0> attributeSet;
+}
+
+/* N0 @sources/Pb1/N0.java */
+struct getBuddyDetailWithPersonal_result {
+    0: BuddyDetailWithPersonal success;
+    1: TalkException e;
+}
+
+/* O0 @sources/Pb1/O0.java */
+struct getBuddyDetail_args {
+    4: string buddyMid;
+}
+
+/* P0 @sources/Pb1/P0.java */
+struct getBuddyDetail_result {
+    0: BuddyDetail success;
+    1: TalkException e;
+}
+
+/* Q0 @sources/Pb1/Q0.java */
+struct getBuddyLive_args {
+    1: GetBuddyLiveRequest request;
+}
+
+/* R0 @sources/Pb1/R0.java */
+struct getBuddyLive_result {
+    0: GetBuddyLiveResponse success;
+    1: TalkException e;
+}
+
+/* S0 @sources/Pb1/S0.java */
+struct getBuddyOnAir_args {
+    4: string buddyMid;
+}
+
+/* T0 @sources/Pb1/T0.java */
+struct getBuddyOnAir_result {
+    0: BuddyOnAir success;
+    1: TalkException e;
+}
+
+/* U0 @sources/Pb1/U0.java */
+struct getBuddyStatusBarV2_args {
+    1: GetBuddyStatusBarV2Request request;
+}
+
+/* V0 @sources/Pb1/V0.java */
+struct getBuddyStatusBarV2_result {
+    0: BuddyStatusBar success;
+    1: TalkException e;
+}
+
+/* C27720i @sources/jf/C27720i.java */
+struct getCallStatus_args {
+    1: GetCallStatusRequest request;
+}
+
+/* C27721j @sources/jf/C27721j.java */
+struct getCallStatus_result {
+    0: GetCallStatusResponse success;
+    1: OaChatException e;
+}
+
+/* C12225z1 @sources/NZ0/C12225z1.java */
+struct getCampaign_args {
+    1: GetCampaignRequest request;
+}
+
+/* A1 @sources/NZ0/A1.java */
+struct getCampaign_result {
+    0: GetCampaignResponse success;
+    1: WalletException e;
+}
+
+/* k @sources/n80/k.java */
+struct getChallengeForPaakAuth_args {
+    1: GetChallengeForPaakAuthRequest request;
+}
+
+/* t @sources/o80/t.java */
+struct getChallengeForPaakAuth_args {
+    1: GetChallengeForPaakAuthRequest request;
+}
+
+/* l @sources/n80/l.java */
+struct getChallengeForPaakAuth_result {
+    0: GetChallengeForPaakAuthResponse success;
+    1: ChannelPaakAuthnException cpae;
+    2: TokenAuthException tae;
+}
+
+/* u @sources/o80/u.java */
+struct getChallengeForPaakAuth_result {
+    0: GetChallengeForPaakAuthResponse success;
+    1: SecondaryPwlessLoginException e;
+}
+
+/* o @sources/R70/o.java */
+struct getChallengeForPrimaryReg_args {
+    1: GetChallengeForPrimaryRegRequest request;
+}
+
+/* p @sources/R70/p.java */
+struct getChallengeForPrimaryReg_result {
+    0: GetChallengeForPrimaryRegResponse success;
+    1: PwlessCredentialException e;
+}
+
+/* m @sources/n80/m.java */
+struct getChannelContext_args {
+    1: GetChannelContextRequest request;
+}
+
+/* n @sources/n80/n.java */
+struct getChannelContext_result {
+    0: GetChannelContextResponse success;
+    1: ChannelPaakAuthnException cpae;
+    2: TokenAuthException tae;
+}
+
+/* C13095n2 @sources/Pb1/C13095n2.java */
+struct getChannelInfo_args {
+    2: string channelId;
+    3: string locale;
+}
+
+/* C13109o2 @sources/Pb1/C13109o2.java */
+struct getChannelInfo_result {
+    0: ChannelInfo success;
+    1: ChannelException e;
+}
+
+/* C13123p2 @sources/Pb1/C13123p2.java */
+struct getChannelNotificationSettings_args {
+    1: string locale;
+}
+
+/* C13137q2 @sources/Pb1/C13137q2.java */
+struct getChannelNotificationSettings_result {
+    0: list<ChannelNotificationSetting> success;
+    1: ChannelException e;
+}
+
+/* C13164s2 @sources/Pb1/C13164s2.java */
+struct getChannelSettings_result {
+    0: ChannelSettings success;
+    1: ChannelException e;
+}
+
+/* C13185t9 @sources/Pb1/C13185t9.java */
+struct getChatEffectMetaList_args {
+    1: set<Pb1_Q2> categories;
+}
+
+/* C13199u9 @sources/Pb1/C13199u9.java */
+struct getChatEffectMetaList_result {
+    0: list<ChatEffectMeta> success;
+    1: TalkException e;
+}
+
+/* C13213v9 @sources/Pb1/C13213v9.java */
+struct getChatRoomAnnouncementsBulk_args {
+    2: list<string> chatRoomMids;
+    3: Pb1_V7 syncReason;
+}
+
+/* C13227w9 @sources/Pb1/C13227w9.java */
+struct getChatRoomAnnouncementsBulk_result {
+    0: map<string, list<_any>> success;
+    1: TalkException e;
+}
+
+/* C13241x9 @sources/Pb1/C13241x9.java */
+struct getChatRoomAnnouncements_args {
+    2: string chatRoomMid;
+}
+
+/* C13255y9 @sources/Pb1/C13255y9.java */
+struct getChatRoomAnnouncements_result {
+    0: list<ChatRoomAnnouncement> success;
+    1: TalkException e;
+}
+
+/* C13269z9 @sources/Pb1/C13269z9.java */
+struct getChatRoomBGMs_args {
+    2: set<string> chatRoomMids;
+    3: Pb1_V7 syncReason;
+}
+
+/* A9 @sources/Pb1/A9.java */
+struct getChatRoomBGMs_result {
+    0: map<string, ChatRoomBGM> success;
+    1: TalkException e;
+}
+
+/* g @sources/zf/g.java */
+struct getChatapp_args {
+    1: GetChatappRequest request;
+}
+
+/* h @sources/zf/h.java */
+struct getChatapp_result {
+    0: GetChatappResponse success;
+    1: ChatappException e;
+}
+
+/* B9 @sources/Pb1/B9.java */
+struct getChats_args {
+    1: GetChatsRequest request;
+    2: Pb1_V7 syncReason;
+}
+
+/* C9 @sources/Pb1/C9.java */
+struct getChats_result {
+    0: GetChatsResponse success;
+    1: TalkException e;
+}
+
+/* C27542i @sources/jo0/C27542i.java */
+struct getCoinProducts_args {
+    1: GetCoinProductsRequest request;
+}
+
+/* C27543j @sources/jo0/C27543j.java */
+struct getCoinProducts_result {
+    0: GetCoinProductsResponse success;
+    1: CoinException e;
+}
+
+/* C27544k @sources/jo0/C27544k.java */
+struct getCoinPurchaseHistory_args {
+    1: GetCoinHistoryRequest request;
+}
+
+/* C27545l @sources/jo0/C27545l.java */
+struct getCoinPurchaseHistory_result {
+    0: GetCoinHistoryResponse success;
+    1: CoinException e;
+}
+
+/* C27546m @sources/jo0/C27546m.java */
+struct getCoinUseAndRefundHistory_args {
+    1: GetCoinHistoryRequest request;
+}
+
+/* C27547n @sources/jo0/C27547n.java */
+struct getCoinUseAndRefundHistory_result {
+    0: GetCoinHistoryResponse success;
+    1: CoinException e;
+}
+
+/* C13178t2 @sources/Pb1/C13178t2.java */
+struct getCommonDomains_args {
+    1: i64 lastSynced;
+}
+
+/* C13192u2 @sources/Pb1/C13192u2.java */
+struct getCommonDomains_result {
+    0: ChannelDomains success;
+    1: ChannelException e;
+}
+
+/* D9 @sources/Pb1/D9.java */
+struct getConfigurations_args {
+    2: i64 revision;
+    3: string regionOfUsim;
+    4: string regionOfTelephone;
+    5: string regionOfLocale;
+    6: string carrier;
+    7: Pb1_V7 syncReason;
+}
+
+/* E9 @sources/Pb1/E9.java */
+struct getConfigurations_result {
+    0: Configurations success;
+    1: TalkException e;
+}
+
+/* J0 @sources/LN0/J0.java */
+struct getContactCalendarEvents_args {
+    1: GetContactCalendarEventsRequest request;
+}
+
+/* K0 @sources/LN0/K0.java */
+struct getContactCalendarEvents_result {
+    0: GetContactCalendarEventsResponse success;
+    1: RejectedException re;
+    2: ServerFailureException sfe;
+    3: TalkException te;
+    4: ExcessiveRequestItemException ere;
+}
+
+/* F9 @sources/Pb1/F9.java */
+struct getContact_result {
+    0: Contact success;
+    1: TalkException e;
+}
+
+/* L0 @sources/LN0/L0.java */
+struct getContactsV3_args {
+    1: GetContactsV3Request request;
+}
+
+/* M0 @sources/LN0/M0.java */
+struct getContactsV3_result {
+    0: GetContactsV3Response success;
+    1: RejectedException be;
+    2: ServerFailureException ce;
+    3: TalkException te;
+    4: ExcessiveRequestItemException ere;
+}
+
+/* G9 @sources/Pb1/G9.java */
+struct getContacts_result {
+    0: list<Contact> success;
+    1: TalkException e;
+}
+
+/* H9 @sources/Pb1/H9.java */
+struct getCountries_args {
+    2: Pb1_EnumC13221w3 countryGroup;
+}
+
+/* I9 @sources/Pb1/I9.java */
+struct getCountries_result {
+    0: set<string> success;
+    1: TalkException e;
+}
+
+/* C26376L @sources/I80/C26376L.java */
+struct I80_C26376L {
+    1: I80_C26413m request;
+}
+
+/* C14391b0 @sources/T70/C14391b0.java */
+struct getCountryInfo_args {
+    1: string authSessionId;
+    11: SimCard simCard;
+}
+
+/* C14393c0 @sources/T70/C14393c0.java */
+struct getCountryInfo_result {
+    0: GetCountryInfoResponse success;
+    1: AuthException e;
+}
+
+/* C26377M @sources/I80/C26377M.java */
+struct I80_C26377M {
+    0: I80_C26414n success;
+    1: I80_C26390a e;
+}
+
+/* J9 @sources/Pb1/J9.java */
+struct getCountryWithRequestIp_result {
+    0: string success;
+    1: TalkException e;
+}
+
+/* t @sources/fn0/t.java */
+struct getDataRetention_args {
+    1: fN0_C24473e req;
+}
+
+/* u @sources/fn0/u.java */
+struct getDataRetention_result {
+    0: GetPremiumDataRetentionResponse success;
+    1: PremiumException e;
+}
+
+/* C13580A @sources/Qj/C13580A.java */
+struct getDestinationUrl_args {
+    1: DestinationLIFFRequest request;
+}
+
+/* C13581B @sources/Qj/C13581B.java */
+struct getDestinationUrl_result {
+    0: DestinationLIFFResponse success;
+    1: LiffException liffException;
+}
+
+/* C37638i @sources/Vh/C37638i.java */
+struct getDisasterCases_args {
+    1: vh_C37633d req;
+}
+
+/* C37639j @sources/Vh/C37639j.java */
+struct getDisasterCases_result {
+    0: GetDisasterCasesResponse success;
+    1: vh_Fg_b e;
+}
+
+/* K9 @sources/Pb1/K9.java */
+struct getE2EEGroupSharedKey_args {
+    2: i32 keyVersion;
+    3: string chatMid;
+    4: i32 groupKeyId;
+}
+
+/* L9 @sources/Pb1/L9.java */
+struct getE2EEGroupSharedKey_result {
+    0: Pb1_U3 success;
+    1: TalkException e;
+}
+
+/* C12957d4 @sources/Pb1/C12957d4.java */
+struct getE2EEKeyBackupCertificates_args {
+    2: Pb1_W4 request;
+}
+
+/* C12971e4 @sources/Pb1/C12971e4.java */
+struct getE2EEKeyBackupCertificates_result {
+    0: GetE2EEKeyBackupCertificatesResponse success;
+    1: E2EEKeyBackupException e;
+}
+
+/* C12985f4 @sources/Pb1/C12985f4.java */
+struct getE2EEKeyBackupInfo_args {
+    2: Pb1_Y4 request;
+}
+
+/* C12999g4 @sources/Pb1/C12999g4.java */
+struct getE2EEKeyBackupInfo_result {
+    0: GetE2EEKeyBackupInfoResponse success;
+    1: E2EEKeyBackupException e;
+}
+
+/* M9 @sources/Pb1/M9.java */
+struct getE2EEPublicKey_args {
+    2: string mid;
+    3: i32 keyVersion;
+    4: i32 keyId;
+}
+
+/* N9 @sources/Pb1/N9.java */
+struct getE2EEPublicKey_result {
+    0: Pb1_C13097n4 success;
+    1: TalkException e;
+}
+
+/* O9 @sources/Pb1/O9.java */
+struct getE2EEPublicKeys_result {
+    0: list<Pb1_C13097n4> success;
+    1: TalkException e;
+}
+
+/* Q9 @sources/Pb1/Q9.java */
+struct getEncryptedIdentityV3_result {
+    0: Pb1_C12916a5 success;
+    1: TalkException e;
+}
+
+/* v @sources/o80/v.java */
+struct getExchangeKey_args {
+    1: GetExchangeKeyRequest request;
+}
+
+/* w @sources/o80/w.java */
+struct getExchangeKey_result {
+    0: GetExchangeKeyResponse success;
+    1: SecondaryPwlessLoginException e;
+}
+
+/* R9 @sources/Pb1/R9.java */
+struct getExtendedProfile_args {
+    1: Pb1_V7 syncReason;
+}
+
+/* S9 @sources/Pb1/S9.java */
+struct getExtendedProfile_result {
+    0: ExtendedProfile success;
+    1: TalkException e;
+}
+
+/* T9 @sources/Pb1/T9.java */
+struct getFollowBlacklist_args {
+    2: GetFollowBlacklistRequest getFollowBlacklistRequest;
+}
+
+/* U9 @sources/Pb1/U9.java */
+struct getFollowBlacklist_result {
+    0: GetFollowBlacklistResponse success;
+    1: TalkException e;
+}
+
+/* V9 @sources/Pb1/V9.java */
+struct getFollowers_args {
+    2: GetFollowersRequest getFollowersRequest;
+}
+
+/* W9 @sources/Pb1/W9.java */
+struct getFollowers_result {
+    0: GetFollowersResponse success;
+    1: TalkException e;
+}
+
+/* X9 @sources/Pb1/X9.java */
+struct getFollowings_args {
+    2: GetFollowingsRequest getFollowingsRequest;
+}
+
+/* Y9 @sources/Pb1/Y9.java */
+struct getFollowings_result {
+    0: GetFollowingsResponse success;
+    1: TalkException e;
+}
+
+/* f @sources/VR0/f.java */
+struct getFontMetas_args {
+    1: GetFontMetasRequest request;
+}
+
+/* g @sources/VR0/g.java */
+struct getFontMetas_result {
+    0: GetFontMetasResponse success;
+    1: TalkException e;
+}
+
+/* N0 @sources/LN0/N0.java */
+struct getFriendDetails_args {
+    1: GetFriendDetailsRequest request;
+}
+
+/* O0 @sources/LN0/O0.java */
+struct getFriendDetails_result {
+    0: GetFriendDetailsResponse success;
+    1: RejectedException re;
+    2: ServerFailureException sfe;
+    3: TalkException te;
+    4: ExcessiveRequestItemException ere;
+}
+
+/* Z9 @sources/Pb1/Z9.java */
+struct getFriendRequests_args {
+    1: Pb1_F4 direction;
+    2: i64 lastSeenSeqId;
+}
+
+/* C12921aa @sources/Pb1/C12921aa.java */
+struct getFriendRequests_result {
+    0: list<FriendRequest> success;
+    1: TalkException e;
+}
+
+/* B1 @sources/NZ0/B1.java */
+struct getGnbBadgeStatus_args {
+    1: GetGnbBadgeStatusRequest request;
+}
+
+/* C1 @sources/NZ0/C1.java */
+struct getGnbBadgeStatus_result {
+    0: GetGnbBadgeStatusResponse success;
+    1: WalletException e;
+}
+
+/* C13233x1 @sources/Pb1/C13233x1.java */
+struct getGroupCallUrlInfo_args {
+    2: GetGroupCallUrlInfoRequest request;
+}
+
+/* C13247y1 @sources/Pb1/C13247y1.java */
+struct getGroupCallUrlInfo_result {
+    0: GetGroupCallUrlInfoResponse success;
+    1: TalkException e;
+}
+
+/* C13261z1 @sources/Pb1/C13261z1.java */
+struct getGroupCallUrls_args {
+    2: Pb1_C13042j5 request;
+}
+
+/* A1 @sources/Pb1/A1.java */
+struct getGroupCallUrls_result {
+    0: GetGroupCallUrlsResponse success;
+    1: TalkException e;
+}
+
+/* B1 @sources/Pb1/B1.java */
+struct getGroupCall_args {
+    2: string chatMid;
+}
+
+/* C1 @sources/Pb1/C1.java */
+struct getGroupCall_result {
+    0: GroupCall success;
+    1: TalkException e;
+}
+
+/* d @sources/DG/d.java */
+struct getHomeFlexContent_args {
+    1: GetHomeFlexContentRequest request;
+}
+
+/* e @sources/DG/e.java */
+struct getHomeFlexContent_result {
+    0: GetHomeFlexContentResponse success;
+    1: Dg_Fg_b e;
+}
+
+/* i @sources/Eg/i.java */
+struct getHomeServiceList_args {
+    1: Eg_C8928b request;
+}
+
+/* j @sources/Eg/j.java */
+struct getHomeServiceList_result {
+    0: GetHomeServiceListResponse success;
+    1: Eg_Fg_b e;
+}
+
+/* k @sources/Eg/k.java */
+struct getHomeServices_args {
+    1: GetHomeServicesRequest request;
+}
+
+/* l @sources/Eg/l.java */
+struct getHomeServices_result {
+    0: GetHomeServicesResponse success;
+    1: Eg_Fg_b e;
+}
+
+/* v @sources/fn0/v.java */
+struct getIncentiveStatus_args {
+    1: fN0_C24471c req;
+}
+
+/* w @sources/fn0/w.java */
+struct getIncentiveStatus_result {
+    0: GetIncentiveStatusResponse success;
+    1: PremiumException e;
+}
+
+/* C12935ba @sources/Pb1/C12935ba.java */
+struct getInstantNews_args {
+    1: string region;
+    2: Location location;
+}
+
+/* C12949ca @sources/Pb1/C12949ca.java */
+struct getInstantNews_result {
+    0: list<InstantNews> success;
+    1: TalkException e;
+}
+
+/* q @sources/og/q.java */
+struct getJoinedMembershipByBotMid_args {
+    1: GetJoinedMembershipByBotMidRequest request;
+}
+
+/* r @sources/og/r.java */
+struct getJoinedMembershipByBotMid_result {
+    0: MemberInfo success;
+    1: MembershipException e;
+}
+
+/* s @sources/og/s.java */
+struct getJoinedMembership_args {
+    1: GetJoinedMembershipRequest request;
+}
+
+/* t @sources/og/t.java */
+struct getJoinedMembership_result {
+    0: MemberInfo success;
+    1: MembershipException e;
+}
+
+/* v @sources/og/v.java */
+struct getJoinedMemberships_result {
+    0: JoinedMemberships success;
+    1: MembershipException e;
+}
+
+/* P5 @sources/Pb1/P5.java */
+struct getKeyBackupCertificatesV2_args {
+    2: Pb1_C13070l5 request;
+}
+
+/* Q5 @sources/Pb1/Q5.java */
+struct getKeyBackupCertificatesV2_result {
+    0: GetKeyBackupCertificatesV2Response success;
+    1: E2EEKeyBackupException e;
+}
+
+/* j @sources/ar0/j.java */
+struct getLFLSuggestion_args {
+    1: AR0_b request;
+}
+
+/* k @sources/ar0/k.java */
+struct getLFLSuggestion_result {
+    0: GetLFLSuggestionResponse success;
+    1: LFLPremiumException e;
+}
+
+/* C12963da @sources/Pb1/C12963da.java */
+struct getLastE2EEGroupSharedKey_args {
+    2: i32 keyVersion;
+    3: string chatMid;
+}
+
+/* C12977ea @sources/Pb1/C12977ea.java */
+struct getLastE2EEGroupSharedKey_result {
+    0: Pb1_U3 success;
+    1: TalkException e;
+}
+
+/* C12991fa @sources/Pb1/C12991fa.java */
+struct getLastE2EEPublicKeys_args {
+    2: string chatMid;
+}
+
+/* C13005ga @sources/Pb1/C13005ga.java */
+struct getLastE2EEPublicKeys_result {
+    0: map<string, Pb1_C13097n4> success;
+    1: TalkException e;
+}
+
+/* C13033ia @sources/Pb1/C13033ia.java */
+struct getLastOpRevision_result {
+    0: i64 success;
+    1: TalkException e;
+}
+
+/* C13582C @sources/Qj/C13582C.java */
+struct getLiffViewWithoutUserContext_args {
+    1: LiffViewWithoutUserContextRequest request;
+}
+
+/* C13583D @sources/Qj/C13583D.java */
+struct getLiffViewWithoutUserContext_result {
+    0: LiffViewResponse success;
+    1: LiffException liffException;
+    2: TalkException talkException;
+}
+
+/* C34354J @sources/r80/C34354J.java */
+struct getLineCardIssueForm_args {
+    1: r80_EnumC34372l resolutionType;
+}
+
+/* C34355K @sources/r80/C34355K.java */
+struct getLineCardIssueForm_result {
+    0: PaymentLineCardIssueForm success;
+    1: PaymentException e;
+}
+
+/* Y @sources/Do0/Y.java */
+struct getLinkedDevices_result {
+    0: list<UserDevice> success;
+    1: ThingsException e;
+}
+
+/* x @sources/o80/x.java */
+struct getLoginActorContext_args {
+    1: GetLoginActorContextRequest request;
+}
+
+/* j @sources/q80/j.java */
+struct getLoginActorContext_args {
+    1: GetLoginActorContextRequest request;
+}
+
+/* y @sources/o80/y.java */
+struct getLoginActorContext_result {
+    0: GetLoginActorContextResponse success;
+    1: SecondaryPwlessLoginException e;
+}
+
+/* k @sources/q80/k.java */
+struct getLoginActorContext_result {
+    0: GetLoginActorContextResponse success;
+    1: SecondaryQrCodeException e;
+}
+
+/* C25163t @sources/GN0/C25163t.java */
+struct getMappedProfileIds_args {
+    1: GetMappedProfileIdsRequest request;
+}
+
+/* C25164u @sources/GN0/C25164u.java */
+struct getMappedProfileIds_result {
+    0: GetMappedProfileIdsResponse success;
+    1: TalkException e;
+}
+
+/* C26378N @sources/I80/C26378N.java */
+struct I80_C26378N {
+    1: I80_C26415o request;
+}
+
+/* C14395d0 @sources/T70/C14395d0.java */
+struct getMaskedEmail_args {
+    1: string authSessionId;
+    2: AccountIdentifier accountIdentifier;
+}
+
+/* C14397e0 @sources/T70/C14397e0.java */
+struct getMaskedEmail_result {
+    0: GetMaskedEmailResponse success;
+    1: AuthException e;
+}
+
+/* C26379O @sources/I80/C26379O.java */
+struct I80_C26379O {
+    0: I80_C26416p success;
+    1: I80_C26390a e;
+}
+
+/* C13047ja @sources/Pb1/C13047ja.java */
+struct getMessageBoxes_args {
+    2: MessageBoxListRequest messageBoxListRequest;
+    3: Pb1_V7 syncReason;
+}
+
+/* C13061ka @sources/Pb1/C13061ka.java */
+struct getMessageBoxes_result {
+    0: MessageBoxList success;
+    1: TalkException e;
+}
+
+/* C13075la @sources/Pb1/C13075la.java */
+struct getMessageReadRange_args {
+    2: list<string> chatIds;
+    3: Pb1_V7 syncReason;
+}
+
+/* C13089ma @sources/Pb1/C13089ma.java */
+struct getMessageReadRange_result {
+    0: list<TMessageReadRange> success;
+    1: TalkException e;
+}
+
+/* D1 @sources/NZ0/D1.java */
+struct getModuleLayoutV4_args {
+    1: GetModuleLayoutV4Request request;
+}
+
+/* E1 @sources/NZ0/E1.java */
+struct getModuleLayoutV4_result {
+    0: NZ0_D success;
+    1: WalletException e;
+}
+
+/* F1 @sources/NZ0/F1.java */
+struct getModuleWithStatus_args {
+    1: NZ0_G request;
+}
+
+/* G1 @sources/NZ0/G1.java */
+struct getModuleWithStatus_result {
+    0: NZ0_H success;
+    1: WalletException e;
+}
+
+/* H1 @sources/NZ0/H1.java */
+struct getModule_args {
+    1: NZ0_E request;
+}
+
+/* I1 @sources/NZ0/I1.java */
+struct getModule_result {
+    0: NZ0_F success;
+    1: WalletException e;
+}
+
+/* J1 @sources/NZ0/J1.java */
+struct getModulesV2_args {
+    1: GetModulesRequestV2 request;
+}
+
+/* K1 @sources/NZ0/K1.java */
+struct getModulesV2_result {
+    0: NZ0_K success;
+    1: WalletException e;
+}
+
+/* L1 @sources/NZ0/L1.java */
+struct getModulesV3_args {
+    1: GetModulesRequestV3 request;
+}
+
+/* M1 @sources/NZ0/M1.java */
+struct getModulesV3_result {
+    0: NZ0_K success;
+    1: WalletException e;
+}
+
+/* N1 @sources/NZ0/N1.java */
+struct getModulesV4WithStatus_args {
+    1: GetModulesV4WithStatusRequest request;
+}
+
+/* O1 @sources/NZ0/O1.java */
+struct getModulesV4WithStatus_result {
+    0: NZ0_M success;
+    1: WalletException e;
+}
+
+/* L @sources/Yn0/L.java */
+struct getMusicSubscriptionStatus_args {
+    2: YN0_Ob1_N request;
+}
+
+/* M @sources/Yn0/M.java */
+struct getMusicSubscriptionStatus_result {
+    0: YN0_Ob1_O success;
+    1: ShopException e;
+}
+
+/* P1 @sources/NZ0/P1.java */
+struct getMyAssetInformationV2_args {
+    1: GetMyAssetInformationV2Request request;
+}
+
+/* Q1 @sources/NZ0/Q1.java */
+struct getMyAssetInformationV2_result {
+    0: GetMyAssetInformationV2Response success;
+    1: WalletException e;
+}
+
+/* i @sources/zf/i.java */
+struct getMyChatapps_args {
+    1: GetMyChatappsRequest request;
+}
+
+/* j @sources/zf/j.java */
+struct getMyChatapps_result {
+    0: GetMyChatappsResponse success;
+    1: ChatappException e;
+}
+
+/* R1 @sources/NZ0/R1.java */
+struct getMyDashboard_args {
+    1: GetMyDashboardRequest request;
+}
+
+/* S1 @sources/NZ0/S1.java */
+struct getMyDashboard_result {
+    0: GetMyDashboardResponse success;
+    1: WalletException e;
+}
+
+/* W0 @sources/Pb1/W0.java */
+struct getNewlyReleasedBuddyIds_args {
+    3: string country;
+}
+
+/* X0 @sources/Pb1/X0.java */
+struct getNewlyReleasedBuddyIds_result {
+    0: map<string, i64> success;
+    1: TalkException e;
+}
+
+/* C13103na @sources/Pb1/C13103na.java */
+struct getNotificationSettings_args {
+    1: GetNotificationSettingsRequest request;
+}
+
+/* C13117oa @sources/Pb1/C13117oa.java */
+struct getNotificationSettings_result {
+    0: GetNotificationSettingsResponse success;
+    1: TalkException e;
+}
+
+/* N @sources/Yn0/N.java */
+struct getOwnedProductSummaries_args {
+    2: string shopId;
+    3: i32 offset;
+    4: i32 limit;
+    5: Locale locale;
+}
+
+/* O @sources/Yn0/O.java */
+struct getOwnedProductSummaries_result {
+    0: YN0_Ob1_N0 success;
+    1: ShopException e;
+}
+
+/* j @sources/U70/j.java */
+struct getPasswordHashingParameter_args {
+    1: GetPasswordHashingParametersRequest request;
+}
+
+/* k @sources/U70/k.java */
+struct getPasswordHashingParameter_result {
+    0: GetPasswordHashingParametersResponse success;
+    1: PasswordUpdateException pue;
+    2: TokenAuthException tae;
+}
+
+/* C14399f0 @sources/T70/C14399f0.java */
+struct getPasswordHashingParametersForPwdReg_args {
+    1: GetPasswordHashingParametersForPwdRegRequest request;
+}
+
+/* C26380P @sources/I80/C26380P.java */
+struct I80_C26380P {
+    1: I80_C26417q request;
+}
+
+/* C14401g0 @sources/T70/C14401g0.java */
+struct getPasswordHashingParametersForPwdReg_result {
+    0: GetPasswordHashingParametersForPwdRegResponse success;
+    1: AuthException e;
+}
+
+/* C26381Q @sources/I80/C26381Q.java */
+struct I80_C26381Q {
+    0: I80_C26418r success;
+    1: I80_C26390a e;
+}
+
+/* C14403h0 @sources/T70/C14403h0.java */
+struct getPasswordHashingParametersForPwdVerif_args {
+    1: GetPasswordHashingParametersForPwdVerifRequest request;
+}
+
+/* C26382S @sources/I80/C26382S.java */
+struct I80_C26382S {
+    1: I80_C26419s request;
+}
+
+/* C14405i0 @sources/T70/C14405i0.java */
+struct getPasswordHashingParametersForPwdVerif_result {
+    0: GetPasswordHashingParametersForPwdVerifResponse success;
+    1: AuthException e;
+}
+
+/* C26383T @sources/I80/C26383T.java */
+struct I80_C26383T {
+    0: I80_C26420t success;
+    1: I80_C26390a e;
+}
+
+/* C34356L @sources/r80/C34356L.java */
+struct getPaymentUrlByKey_args {
+    1: string key;
+}
+
+/* C34357M @sources/r80/C34357M.java */
+struct getPaymentUrlByKey_result {
+    0: string success;
+    1: PaymentException e;
+}
+
+/* C13145qa @sources/Pb1/C13145qa.java */
+struct getPendingAgreements_result {
+    0: PendingAgreementsResponse success;
+    1: TalkException e;
+}
+
+/* C14407j0 @sources/T70/C14407j0.java */
+struct getPhoneVerifMethodForRegistration_args {
+    1: GetPhoneVerifMethodForRegistrationRequest request;
+}
+
+/* C14409k0 @sources/T70/C14409k0.java */
+struct getPhoneVerifMethodForRegistration_result {
+    0: GetPhoneVerifMethodForRegistrationResponse success;
+    1: AuthException e;
+}
+
+/* C14411l0 @sources/T70/C14411l0.java */
+struct getPhoneVerifMethodV2_args {
+    1: GetPhoneVerifMethodV2Request request;
+}
+
+/* C26384U @sources/I80/C26384U.java */
+struct I80_C26384U {
+    1: I80_C26421u request;
+}
+
+/* C14413m0 @sources/T70/C14413m0.java */
+struct getPhoneVerifMethodV2_result {
+    0: GetPhoneVerifMethodV2Response success;
+    1: AuthException e;
+}
+
+/* C26385V @sources/I80/C26385V.java */
+struct I80_C26385V {
+    0: I80_C26422v success;
+    1: I80_C26390a e;
+}
+
+/* D1 @sources/Pb1/D1.java */
+struct getPhotoboothBalance_args {
+    2: Pb1_C13126p5 request;
+}
+
+/* E1 @sources/Pb1/E1.java */
+struct getPhotoboothBalance_result {
+    0: GetPhotoboothBalanceResponse success;
+    1: TalkException e;
+}
+
+/* Z @sources/Do0/Z.java */
+struct getPredefinedScenarioSets_args {
+    1: GetPredefinedScenarioSetsRequest request;
+}
+
+/* a0 @sources/Do0/a0.java */
+struct getPredefinedScenarioSets_result {
+    0: GetPredefinedScenarioSetsResponse success;
+    1: ThingsException e;
+}
+
+/* z @sources/uf/z.java */
+struct getPrefetchableBanners_args {
+    1: BannerRequest request;
+}
+
+/* C14854A @sources/uf/C14854A.java */
+struct getPrefetchableBanners_result {
+    0: BannerResponse success;
+}
+
+/* x @sources/fn0/x.java */
+struct getPremiumStatusForUpgrade_args {
+    1: fN0_C24475g req;
+}
+
+/* y @sources/fn0/y.java */
+struct getPremiumStatusForUpgrade_result {
+    0: GetPremiumStatusResponse success;
+    1: PremiumException e;
+}
+
+/* z @sources/fn0/z.java */
+struct getPremiumStatus_args {
+    1: fN0_C24476h req;
+}
+
+/* C24465A @sources/fn0/C24465A.java */
+struct getPremiumStatus_result {
+    0: GetPremiumStatusResponse success;
+    1: PremiumException e;
+}
+
+/* C13158ra @sources/Pb1/C13158ra.java */
+struct getPreviousMessagesV2WithRequest_args {
+    2: GetPreviousMessagesV2Request request;
+    3: Pb1_V7 syncReason;
+}
+
+/* C13172sa @sources/Pb1/C13172sa.java */
+struct getPreviousMessagesV2WithRequest_result {
+    0: list<Message> success;
+    1: TalkException e;
+}
+
+/* P @sources/Yn0/P.java */
+struct getProductByVersion_args {
+    2: string shopId;
+    3: string productId;
+    4: i64 productVersion;
+    5: Locale locale;
+}
+
+/* Q @sources/Yn0/Q.java */
+struct getProductByVersion_result {
+    0: YN0_Ob1_E0 success;
+    1: ShopException e;
+}
+
+/* S @sources/Yn0/S.java */
+struct getProductLatestVersionForUser_args {
+    2: YN0_Ob1_P request;
+}
+
+/* T @sources/Yn0/T.java */
+struct getProductLatestVersionForUser_result {
+    0: YN0_Ob1_Q success;
+    1: ShopException e;
+}
+
+/* U @sources/Yn0/U.java */
+struct getProductSummariesInSubscriptionSlots_args {
+    2: YN0_Ob1_U req;
+}
+
+/* V @sources/Yn0/V.java */
+struct getProductSummariesInSubscriptionSlots_result {
+    0: YN0_Ob1_V success;
+    1: ShopException e;
+}
+
+/* W @sources/Yn0/W.java */
+struct getProductV2_args {
+    2: YN0_Ob1_S request;
+}
+
+/* X @sources/Yn0/X.java */
+struct getProductV2_result {
+    0: YN0_Ob1_T success;
+    1: ShopException e;
+}
+
+/* Y @sources/Yn0/Y.java */
+struct getProductValidationScheme_args {
+    2: string shopId;
+    3: string productId;
+    4: i64 productVersion;
+}
+
+/* Z @sources/Yn0/Z.java */
+struct getProductValidationScheme_result {
+    0: YN0_Ob1_S0 success;
+    1: ShopException e;
+}
+
+/* C16041a0 @sources/Yn0/C16041a0.java */
+struct getProductsByAuthor_args {
+    2: YN0_Ob1_G0 productListByAuthorRequest;
+}
+
+/* C16043b0 @sources/Yn0/C16043b0.java */
+struct getProductsByAuthor_result {
+    0: YN0_Ob1_F0 success;
+    1: ShopException e;
+}
+
+/* C13186ta @sources/Pb1/C13186ta.java */
+struct getProfile_args {
+    1: Pb1_V7 syncReason;
+}
+
+/* C25165v @sources/GN0/C25165v.java */
+struct getProfile_args {
+    1: GetProfileRequest request;
+}
+
+/* C13200ua @sources/Pb1/C13200ua.java */
+struct getProfile_result {
+    0: Profile success;
+    1: TalkException e;
+}
+
+/* C25166w @sources/GN0/C25166w.java */
+struct getProfile_result {
+    0: GetProfileResponse success;
+    1: TalkException e;
+}
+
+/* C25167x @sources/GN0/C25167x.java */
+struct getProfiles_args {
+    1: GetProfilesRequest request;
+}
+
+/* C25168y @sources/GN0/C25168y.java */
+struct getProfiles_result {
+    0: GetProfilesResponse success;
+    1: TalkException e;
+}
+
+/* Y0 @sources/Pb1/Y0.java */
+struct getPromotedBuddyContacts_args {
+    2: string language;
+    3: string country;
+}
+
+/* Z0 @sources/Pb1/Z0.java */
+struct getPromotedBuddyContacts_result {
+    0: list<Contact> success;
+    1: TalkException e;
+}
+
+/* w @sources/og/w.java */
+struct getPublishedMemberships_args {
+    1: GetPublishedMembershipsRequest request;
+}
+
+/* x @sources/og/x.java */
+struct getPublishedMemberships_result {
+    0: list<Membership> success;
+    1: MembershipException e;
+}
+
+/* y @sources/og/y.java */
+struct getPurchaseEnabledStatus_args {
+    1: PurchaseEnabledRequest request;
+}
+
+/* z @sources/og/z.java */
+struct getPurchaseEnabledStatus_result {
+    0: og_I success;
+    1: MembershipException e;
+}
+
+/* C16045c0 @sources/Yn0/C16045c0.java */
+struct getPurchasedProducts_args {
+    2: string shopId;
+    3: i32 offset;
+    4: i32 limit;
+    5: Locale locale;
+}
+
+/* C16047d0 @sources/Yn0/C16047d0.java */
+struct getPurchasedProducts_result {
+    0: PurchaseRecordList success;
+    1: ShopException e;
+}
+
+/* T1 @sources/NZ0/T1.java */
+struct getQuickMenu_args {
+    1: NZ0_S request;
+}
+
+/* U1 @sources/NZ0/U1.java */
+struct getQuickMenu_result {
+    0: GetQuickMenuResponse success;
+    1: WalletException e;
+}
+
+/* C13214va @sources/Pb1/C13214va.java */
+struct getRSAKeyInfo_result {
+    0: RSAKey success;
+    1: TalkException e;
+}
+
+/* C16049e0 @sources/Yn0/C16049e0.java */
+struct getReceivedPresents_args {
+    2: string shopId;
+    3: i32 offset;
+    4: i32 limit;
+    5: Locale locale;
+}
+
+/* C16051f0 @sources/Yn0/C16051f0.java */
+struct getReceivedPresents_result {
+    0: PurchaseRecordList success;
+    1: ShopException e;
+}
+
+/* C13228wa @sources/Pb1/C13228wa.java */
+struct getRecentFriendRequests_args {
+    1: Pb1_V7 syncReason;
+}
+
+/* C13242xa @sources/Pb1/C13242xa.java */
+struct getRecentFriendRequests_result {
+    0: FriendRequestsInfo success;
+    1: TalkException e;
+}
+
+/* P0 @sources/LN0/P0.java */
+struct getRecommendationDetails_args {
+    1: GetRecommendationDetailsRequest request;
+}
+
+/* Q0 @sources/LN0/Q0.java */
+struct getRecommendationDetails_result {
+    0: GetRecommendationDetailsResponse success;
+    1: RejectedException re;
+    2: ServerFailureException sfe;
+    3: TalkException te;
+    4: ExcessiveRequestItemException ere;
+}
+
+/* C13256ya @sources/Pb1/C13256ya.java */
+struct getRecommendationIds_args {
+    1: Pb1_V7 syncReason;
+}
+
+/* C13270za @sources/Pb1/C13270za.java */
+struct getRecommendationIds_result {
+    0: list<string> success;
+    1: TalkException e;
+}
+
+/* n @sources/Zr0/n.java */
+struct getRecommendationList_args {
+    1: zR0_C40576a request;
+}
+
+/* C16053g0 @sources/Yn0/C16053g0.java */
+struct getRecommendationList_args {
+    2: YN0_Ob1_W getRecommendationRequest;
+}
+
+/* C16055h0 @sources/Yn0/C16055h0.java */
+struct getRecommendationList_result {
+    0: YN0_Ob1_X success;
+    1: ShopException e;
+}
+
+/* o @sources/Zr0/o.java */
+struct getRecommendationList_result {
+    0: GetSuggestTrialRecommendationResponse success;
+    1: SuggestTrialException e;
+}
+
+/* Aa @sources/Pb1/Aa.java */
+struct getRepairElements_args {
+    1: GetRepairElementsRequest request;
+}
+
+/* Ba @sources/Pb1/Ba.java */
+struct getRepairElements_result {
+    0: GetRepairElementsResponse success;
+    1: TalkException e;
+}
+
+/* C34359O @sources/r80/C34359O.java */
+struct getRequiredAgreements_result {
+    0: PaymentRequiredAgreementsInfo success;
+    1: PaymentException e;
+}
+
+/* C16057i0 @sources/Yn0/C16057i0.java */
+struct getResourceFile_args {
+    2: YN0_Ob1_Z req;
+}
+
+/* C16059j0 @sources/Yn0/C16059j0.java */
+struct getResourceFile_result {
+    0: YN0_Ob1_Y success;
+    1: ShopException e;
+}
+
+/* C27722k @sources/jf/C27722k.java */
+struct getResponseStatus_args {
+    1: GetResponseStatusRequest request;
+}
+
+/* C27723l @sources/jf/C27723l.java */
+struct getResponseStatus_result {
+    0: GetResponseStatusResponse success;
+    1: OaChatException e;
+}
+
+/* C13206v2 @sources/Pb1/C13206v2.java */
+struct getReturnUrlWithRequestTokenForAutoLogin_args {
+    2: WebLoginRequest webLoginRequest;
+}
+
+/* C13220w2 @sources/Pb1/C13220w2.java */
+struct getReturnUrlWithRequestTokenForAutoLogin_result {
+    0: WebLoginResponse success;
+    1: ChannelException e;
+}
+
+/* E @sources/Qj/E.java */
+struct getReturnUrlWithRequestTokenForMultiLiffLogin_args {
+    1: LiffWebLoginRequest request;
+}
+
+/* F @sources/Qj/F.java */
+struct getReturnUrlWithRequestTokenForMultiLiffLogin_result {
+    0: LiffWebLoginResponse success;
+    1: LiffException liffException;
+    2: LiffChannelException channelException;
+    3: TalkException talkException;
+}
+
+/* Da @sources/Pb1/Da.java */
+struct getRingbackTone_result {
+    0: RingbackTone success;
+    1: TalkException e;
+}
+
+/* Fa @sources/Pb1/Fa.java */
+struct getRingtone_result {
+    0: Ringtone success;
+    1: TalkException e;
+}
+
+/* Ga @sources/Pb1/Ga.java */
+struct getRoomsV2_args {
+    2: list<string> roomIds;
+}
+
+/* Ha @sources/Pb1/Ha.java */
+struct getRoomsV2_result {
+    0: list<Room> success;
+    1: TalkException e;
+}
+
+/* C32658A @sources/og/C32658A.java */
+struct getSCC_args {
+    1: GetSCCRequest request;
+}
+
+/* C32659B @sources/og/C32659B.java */
+struct getSCC_result {
+    0: SCC success;
+    1: MembershipException e;
+}
+
+/* C26386W @sources/I80/C26386W.java */
+struct I80_C26386W {
+    1: I80_C26423w request;
+}
+
+/* C26387X @sources/I80/C26387X.java */
+struct I80_C26387X {
+    0: I80_C26424x success;
+    1: I80_C26390a e;
+}
+
+/* i @sources/eH/i.java */
+struct getSeasonalEffects_args {
+    1: Eh_C8935c req;
+}
+
+/* j @sources/eH/j.java */
+struct getSeasonalEffects_result {
+    0: GetSeasonalEffectsResponse success;
+    1: Eh_Fg_b e;
+}
+
+/* C14415n0 @sources/T70/C14415n0.java */
+struct getSecondAuthMethod_args {
+    1: string authSessionId;
+}
+
+/* C14417o0 @sources/T70/C14417o0.java */
+struct getSecondAuthMethod_result {
+    0: GetSecondAuthMethodResponse success;
+    1: AuthException e;
+}
+
+/* C16061k0 @sources/Yn0/C16061k0.java */
+struct getSentPresents_args {
+    2: string shopId;
+    3: i32 offset;
+    4: i32 limit;
+    5: Locale locale;
+}
+
+/* C16063l0 @sources/Yn0/C16063l0.java */
+struct getSentPresents_result {
+    0: PurchaseRecordList success;
+    1: ShopException e;
+}
+
+/* Ja @sources/Pb1/Ja.java */
+struct getServerTime_result {
+    0: i64 success;
+    1: TalkException e;
+}
+
+/* V1 @sources/NZ0/V1.java */
+struct getServiceShortcutMenu_args {
+    1: NZ0_U request;
+}
+
+/* W1 @sources/NZ0/W1.java */
+struct getServiceShortcutMenu_result {
+    0: GetServiceShortcutMenuResponse success;
+    1: WalletException e;
+}
+
+/* C14419p0 @sources/T70/C14419p0.java */
+struct getSessionContentBeforeMigCompletion_args {
+    1: string authSessionId;
+}
+
+/* C14421q0 @sources/T70/C14421q0.java */
+struct getSessionContentBeforeMigCompletion_result {
+    0: GetSessionContentBeforeMigCompletionResponse success;
+    1: AuthException e;
+}
+
+/* Ka @sources/Pb1/Ka.java */
+struct getSettingsAttributes2_args {
+    2: set<SettingsAttributeEx> attributesToRetrieve;
+}
+
+/* La @sources/Pb1/La.java */
+struct getSettingsAttributes2_result {
+    0: Settings success;
+    1: TalkException e;
+}
+
+/* Ma @sources/Pb1/Ma.java */
+struct getSettingsAttributes_result {
+    0: Settings success;
+    1: TalkException e;
+}
+
+/* Na @sources/Pb1/Na.java */
+struct getSettings_args {
+    1: Pb1_V7 syncReason;
+}
+
+/* Oa @sources/Pb1/Oa.java */
+struct getSettings_result {
+    0: Settings success;
+    1: TalkException e;
+}
+
+/* X1 @sources/NZ0/X1.java */
+struct getSmartChannelRecommendations_args {
+    1: GetSmartChannelRecommendationsRequest request;
+}
+
+/* Y1 @sources/NZ0/Y1.java */
+struct getSmartChannelRecommendations_result {
+    0: GetSmartChannelRecommendationsResponse success;
+    1: WalletException e;
+}
+
+/* C39220e @sources/XM/C39220e.java */
+struct getSquareBot_args {
+    1: GetSquareBotRequest req;
+}
+
+/* C39221f @sources/XM/C39221f.java */
+struct getSquareBot_result {
+    0: GetSquareBotResponse success;
+    1: BotException e;
+}
+
+/* C16065m0 @sources/Yn0/C16065m0.java */
+struct getStudentInformation_args {
+    2: Ob1_C12606a0 req;
+}
+
+/* C16067n0 @sources/Yn0/C16067n0.java */
+struct getStudentInformation_result {
+    0: GetStudentInformationResponse success;
+    1: ShopException e;
+}
+
+/* C16069o0 @sources/Yn0/C16069o0.java */
+struct getSubscriptionPlans_args {
+    2: GetSubscriptionPlansRequest req;
+}
+
+/* C16071p0 @sources/Yn0/C16071p0.java */
+struct getSubscriptionPlans_result {
+    0: GetSubscriptionPlansResponse success;
+    1: ShopException e;
+}
+
+/* C16073q0 @sources/Yn0/C16073q0.java */
+struct getSubscriptionSlotHistory_args {
+    2: Ob1_C12618e0 req;
+}
+
+/* C16074r0 @sources/Yn0/C16074r0.java */
+struct getSubscriptionSlotHistory_result {
+    0: Ob1_C12621f0 success;
+    1: ShopException e;
+}
+
+/* C16076s0 @sources/Yn0/C16076s0.java */
+struct getSubscriptionStatus_args {
+    2: GetSubscriptionStatusRequest req;
+}
+
+/* C16078t0 @sources/Yn0/C16078t0.java */
+struct getSubscriptionStatus_result {
+    0: GetSubscriptionStatusResponse success;
+    1: ShopException e;
+}
+
+/* u0 @sources/Yn0/u0.java */
+struct getSuggestDictionarySetting_args {
+    2: Ob1_C12630i0 req;
+}
+
+/* v0 @sources/Yn0/v0.java */
+struct getSuggestDictionarySetting_result {
+    0: GetSuggestDictionarySettingResponse success;
+    1: ShopException e;
+}
+
+/* w0 @sources/Yn0/w0.java */
+struct getSuggestResourcesV2_args {
+    2: GetSuggestResourcesV2Request req;
+}
+
+/* x0 @sources/Yn0/x0.java */
+struct getSuggestResourcesV2_result {
+    0: GetSuggestResourcesV2Response success;
+    1: ShopException e;
+}
+
+/* Z1 @sources/NZ0/Z1.java */
+struct getTaiwanBankBalance_args {
+    1: GetTaiwanBankBalanceRequest request;
+}
+
+/* a2 @sources/NZ0/a2.java */
+struct getTaiwanBankBalance_result {
+    0: GetTaiwanBankBalanceResponse success;
+    1: WalletException e;
+}
+
+/* R0 @sources/LN0/R0.java */
+struct getTargetProfiles_args {
+    1: GetTargetProfilesRequest request;
+}
+
+/* S0 @sources/LN0/S0.java */
+struct getTargetProfiles_result {
+    0: GetTargetProfilesResponse success;
+    1: RejectedException re;
+    2: ServerFailureException sfe;
+    3: TalkException te;
+    4: ExcessiveRequestItemException ere;
+}
+
+/* b2 @sources/NZ0/b2.java */
+struct getTargetingPopup_args {
+    1: NZ0_C12150a0 request;
+}
+
+/* c2 @sources/NZ0/c2.java */
+struct getTargetingPopup_result {
+    0: GetTargetingPopupResponse success;
+    1: WalletException e;
+}
+
+/* d2 @sources/NZ0/d2.java */
+struct getThaiBankBalance_args {
+    1: GetThaiBankBalanceRequest request;
+}
+
+/* e2 @sources/NZ0/e2.java */
+struct getThaiBankBalance_result {
+    0: GetThaiBankBalanceResponse success;
+    1: WalletException e;
+}
+
+/* C27548o @sources/jo0/C27548o.java */
+struct getTotalCoinBalance_args {
+    1: GetTotalCoinBalanceRequest request;
+}
+
+/* C27549p @sources/jo0/C27549p.java */
+struct getTotalCoinBalance_result {
+    0: GetTotalCoinBalanceResponse success;
+    1: CoinException e;
+}
+
+/* C13234x2 @sources/Pb1/C13234x2.java */
+struct getUpdatedChannelIds_args {
+    1: list<ChannelIdWithLastUpdated> channelIds;
+}
+
+/* C13248y2 @sources/Pb1/C13248y2.java */
+struct getUpdatedChannelIds_result {
+    0: list<string> success;
+    1: ChannelException e;
+}
+
+/* C16060k @sources/Yn0/C16060k.java */
+struct getUserCollections_args {
+    1: GetUserCollectionsRequest request;
+}
+
+/* C16062l @sources/Yn0/C16062l.java */
+struct getUserCollections_result {
+    0: GetUserCollectionsResponse success;
+    1: CollectionException e;
+}
+
+/* C14422r0 @sources/T70/C14422r0.java */
+struct getUserProfile_args {
+    1: string authSessionId;
+    2: AccountIdentifier accountIdentifier;
+}
+
+/* C14424s0 @sources/T70/C14424s0.java */
+struct getUserProfile_result {
+    0: GetUserProfileResponse success;
+    1: AuthException e;
+}
+
+/* l @sources/ar0/l.java */
+struct getUserVector_args {
+    1: GetUserVectorRequest request;
+}
+
+/* m @sources/ar0/m.java */
+struct getUserVector_result {
+    0: GetUserVectorResponse success;
+    1: LFLPremiumException e;
+}
+
+/* C25169z @sources/GN0/C25169z.java */
+struct getUsersMappedByProfile_args {
+    1: GetUsersMappedByProfileRequest request;
+}
+
+/* C25137A @sources/GN0/C25137A.java */
+struct getUsersMappedByProfile_result {
+    0: GetUsersMappedByProfileResponse success;
+    1: TalkException e;
+}
+
+/* G @sources/Qj/G.java */
+struct getWebLoginDisallowedUrlForMultiLiffLogin_args {
+    1: LiffWebLoginRequest request;
+}
+
+/* H @sources/Qj/H.java */
+struct getWebLoginDisallowedUrlForMultiLiffLogin_result {
+    0: LiffWebLoginResponse success;
+    1: LiffException liffException;
+    2: LiffChannelException channelException;
+    3: TalkException talkException;
+}
+
+/* C13262z2 @sources/Pb1/C13262z2.java */
+struct getWebLoginDisallowedUrl_args {
+    2: WebLoginRequest webLoginRequest;
+}
+
+/* A2 @sources/Pb1/A2.java */
+struct getWebLoginDisallowedUrl_result {
+    0: WebLoginResponse success;
+    1: ChannelException e;
+}
+
+/* C25643c @sources/H80/C25643c.java */
+struct h80_C25643c {
+    
+}
+
+/* t @sources/H80/t.java */
+struct h80_t {
+    1: string newDevicePublicKey;
+    2: string encryptedQrIdentifier;
+}
+
+/* v @sources/H80/v.java */
+struct h80_v {
+    
+}
+
+/* A0 @sources/I80/A0.java */
+struct I80_A0 {
+    
+}
+
+/* C26398e @sources/I80/C26398e.java */
+struct I80_C26398e {
+    
+}
+
+/* C26404h @sources/I80/C26404h.java */
+struct I80_C26404h {
+    
+}
+
+/* F0 @sources/I80/F0.java */
+struct I80_F0 {
+    
+}
+
+/* r0 @sources/I80/r0.java */
+struct I80_r0 {
+    
+}
+
+/* v0 @sources/I80/v0.java */
+struct I80_v0 {
+    
+}
+
+/* J @sources/fn0/J.java */
+struct inviteFriends_args {
+    1: InviteFriendsRequest request;
+}
+
+/* K @sources/fn0/K.java */
+struct inviteFriends_result {
+    0: InviteFriendsResponse success;
+    1: PremiumException e;
+}
+
+/* Pa @sources/Pb1/Pa.java */
+struct inviteIntoChat_args {
+    1: InviteIntoChatRequest request;
+}
+
+/* Qa @sources/Pb1/Qa.java */
+struct inviteIntoChat_result {
+    0: Pb1_J5 success;
+    1: TalkException e;
+}
+
+/* F1 @sources/Pb1/F1.java */
+struct inviteIntoGroupCall_args {
+    2: string chatMid;
+    3: list<string> memberMids;
+    4: Pb1_EnumC13237x5 mediaType;
+}
+
+/* G1 @sources/Pb1/G1.java */
+struct inviteIntoGroupCall_result {
+    1: TalkException e;
+}
+
+/* Ra @sources/Pb1/Ra.java */
+struct inviteIntoRoom_args {
+    1: i32 reqSeq;
+    2: string roomId;
+    3: list<string> contactIds;
+}
+
+/* Sa @sources/Pb1/Sa.java */
+struct inviteIntoRoom_result {
+    1: TalkException e;
+}
+
+/* C16064m @sources/Yn0/C16064m.java */
+struct isProductForCollections_args {
+    1: IsProductForCollectionsRequest request;
+}
+
+/* C16066n @sources/Yn0/C16066n.java */
+struct isProductForCollections_result {
+    0: IsProductForCollectionsResponse success;
+    1: CollectionException e;
+}
+
+/* y0 @sources/Yn0/y0.java */
+struct isStickerAvailableForCombinationSticker_args {
+    2: IsStickerAvailableForCombinationStickerRequest request;
+}
+
+/* z0 @sources/Yn0/z0.java */
+struct isStickerAvailableForCombinationSticker_result {
+    0: IsStickerAvailableForCombinationStickerResponse success;
+    1: ShopException e;
+}
+
+/* Ta @sources/Pb1/Ta.java */
+struct isUseridAvailable_args {
+    2: string searchId;
+}
+
+/* Ua @sources/Pb1/Ua.java */
+struct isUseridAvailable_result {
+    0: bool success;
+    1: TalkException e;
+}
+
+/* B2 @sources/Pb1/B2.java */
+struct issueChannelToken_args {
+    1: string channelId;
+}
+
+/* C2 @sources/Pb1/C2.java */
+struct issueChannelToken_result {
+    0: ChannelToken success;
+    1: ChannelException e;
+}
+
+/* I @sources/Qj/I.java */
+struct issueLiffView_args {
+    1: LiffViewRequest request;
+}
+
+/* J @sources/Qj/J.java */
+struct issueLiffView_result {
+    0: LiffViewResponse success;
+    1: LiffException liffException;
+    2: TalkException talkException;
+}
+
+/* Q @sources/r80/Q.java */
+struct issueNonce_result {
+    0: string success;
+    1: PaymentException e;
+}
+
+/* D2 @sources/Pb1/D2.java */
+struct issueRequestTokenWithAuthScheme_args {
+    1: string channelId;
+    2: string otpId;
+    3: list<string> authScheme;
+    4: string returnUrl;
+}
+
+/* E2 @sources/Pb1/E2.java */
+struct issueRequestTokenWithAuthScheme_result {
+    0: RequestTokenResponse success;
+    1: ChannelException e;
+}
+
+/* K @sources/Qj/K.java */
+struct issueSubLiffView_args {
+    1: LiffViewRequest request;
+}
+
+/* L @sources/Qj/L.java */
+struct issueSubLiffView_result {
+    0: LiffViewResponse success;
+    1: LiffException liffException;
+    2: TalkException talkException;
+}
+
+/* K @sources/Pb1/K.java */
+struct issueTokenForAccountMigrationSettings_args {
+    2: bool enforce;
+}
+
+/* L @sources/Pb1/L.java */
+struct issueTokenForAccountMigrationSettings_result {
+    0: SecurityCenterResult success;
+    1: TalkException e;
+}
+
+/* C8290b @sources/Cg/C8290b.java */
+struct issueToken_args {
+    1: IssueBirthdayGiftTokenRequest request;
+}
+
+/* c @sources/Cg/c.java */
+struct issueToken_result {
+    0: IssueBirthdayGiftTokenResponse success;
+    1: Cg_Fg_b e;
+}
+
+/* M @sources/Pb1/M.java */
+struct issueV3TokenForPrimary_args {
+    1: IssueV3TokenForPrimaryRequest request;
+}
+
+/* N @sources/Pb1/N.java */
+struct issueV3TokenForPrimary_result {
+    0: IssueV3TokenForPrimaryResponse success;
+    1: TalkException e;
+}
+
+/* C14426t0 @sources/T70/C14426t0.java */
+struct issueWebAuthDetailsForSecondAuth_args {
+    1: string authSessionId;
+}
+
+/* C14428u0 @sources/T70/C14428u0.java */
+struct issueWebAuthDetailsForSecondAuth_result {
+    0: IssueWebAuthDetailsForSecondAuthResponse success;
+    1: AuthException e;
+}
+
+/* H1 @sources/Pb1/H1.java */
+struct joinChatByCallUrl_args {
+    2: JoinChatByCallUrlRequest request;
+}
+
+/* I1 @sources/Pb1/I1.java */
+struct joinChatByCallUrl_result {
+    0: JoinChatByCallUrlResponse success;
+    1: TalkException e;
+}
+
+/* ProductProperty @sources/JP/naver/line/shop/protocol/thrift/ProductProperty.java */
+struct jp_naver_line_shop_protocol_thrift_ProductProperty {
+    
+}
+
+/* i @sources/KF/i.java */
+struct kf_i {
+    
+}
+
+/* k @sources/KF/k.java */
+struct kf_k {
+    
+}
+
+/* m @sources/KF/m.java */
+struct kf_m {
+    1: RichmenuEvent richmenu;
+    2: TalkroomEvent talkroom;
+}
+
+/* w @sources/KF/w.java */
+struct kf_w {
+    1: ProfileRefererContent profileRefererContent;
+}
+
+/* J1 @sources/Pb1/J1.java */
+struct kickoutFromGroupCall_args {
+    2: KickoutFromGroupCallRequest kickoutFromGroupCallRequest;
+}
+
+/* K1 @sources/Pb1/K1.java */
+struct kickoutFromGroupCall_result {
+    0: Pb1_S5 success;
+    1: TalkException e;
+}
+
+/* Va @sources/Pb1/Va.java */
+struct leaveRoom_args {
+    1: i32 reqSeq;
+    2: string roomId;
+}
+
+/* Wa @sources/Pb1/Wa.java */
+struct leaveRoom_result {
+    1: TalkException e;
+}
+
+/* b0 @sources/Do0/b0.java */
+struct linkDevice_args {
+    1: DeviceLinkRequest request;
+}
+
+/* c0 @sources/Do0/c0.java */
+struct linkDevice_result {
+    0: DeviceLinkResponse success;
+    1: ThingsException e;
+}
+
+/* P @sources/Pb1/P.java */
+struct logoutV2_result {
+    1: TalkException e;
+}
+
+/* C14430v0 @sources/T70/C14430v0.java */
+struct lookupAvailableEap_args {
+    1: LookupAvailableEapRequest request;
+}
+
+/* C14432w0 @sources/T70/C14432w0.java */
+struct lookupAvailableEap_result {
+    0: LookupAvailableEapResponse success;
+    1: AuthException e;
+}
+
+/* L1 @sources/Pb1/L1.java */
+struct lookupPaidCall_args {
+    2: string dialedNumber;
+    3: string language;
+    4: string referer;
+}
+
+/* M1 @sources/Pb1/M1.java */
+struct lookupPaidCall_result {
+    0: PaidCallResponse success;
+    1: TalkException e;
+}
+
+/* l @sources/m80/l.java */
+struct m80_l {
+    
+}
+
+/* n @sources/m80/n.java */
+struct m80_n {
+    
+}
+
+/* q @sources/m80/q.java */
+struct m80_q {
+    
+}
+
+/* s @sources/m80/s.java */
+struct m80_s {
+    
+}
+
+/* C25138B @sources/GN0/C25138B.java */
+struct mapProfileToUsers_args {
+    1: MapProfileToUsersRequest request;
+}
+
+/* C25139C @sources/GN0/C25139C.java */
+struct mapProfileToUsers_result {
+    0: MapProfileToUsersResponse success;
+    1: TalkException e;
+}
+
+/* C14434x0 @sources/T70/C14434x0.java */
+struct migratePrimaryUsingEapAccountWithTokenV3_args {
+    1: string authSessionId;
+}
+
+/* C14436y0 @sources/T70/C14436y0.java */
+struct migratePrimaryUsingEapAccountWithTokenV3_result {
+    0: MigratePrimaryWithTokenV3Response success;
+    1: AuthException e;
+}
+
+/* C14438z0 @sources/T70/C14438z0.java */
+struct migratePrimaryUsingPhoneWithTokenV3_args {
+    1: string authSessionId;
+}
+
+/* A0 @sources/T70/A0.java */
+struct migratePrimaryUsingPhoneWithTokenV3_result {
+    0: MigratePrimaryWithTokenV3Response success;
+    1: AuthException e;
+}
+
+/* r @sources/H80/r.java */
+struct migratePrimaryUsingQrCode_args {
+    1: MigratePrimaryUsingQrCodeRequest request;
+}
+
+/* s @sources/H80/s.java */
+struct migratePrimaryUsingQrCode_result {
+    0: MigratePrimaryUsingQrCodeResponse success;
+    1: PrimaryQrCodeMigrationException e;
+}
+
+/* C31222b @sources/n80/C31222b.java */
+struct n80_C31222b {
+    
+}
+
+/* d @sources/n80/d.java */
+struct n80_d {
+    
+}
+
+/* Xa @sources/Pb1/Xa.java */
+struct negotiateE2EEPublicKey_args {
+    2: string mid;
+}
+
+/* Ya @sources/Pb1/Ya.java */
+struct negotiateE2EEPublicKey_result {
+    0: E2EENegotiationResult success;
+    1: TalkException e;
+}
+
+/* C12922ab @sources/Pb1/C12922ab.java */
+struct noop_result {
+    1: TalkException e;
+}
+
+/* i @sources/QM/i.java */
+struct notifyBannerShowing_result {
+    1: TalkException e;
+}
+
+/* k @sources/QM/k.java */
+struct notifyBannerTapped_result {
+    1: TalkException e;
+}
+
+/* p @sources/QM/p.java */
+struct notifyBeaconDetected_result {
+    1: TalkException e;
+}
+
+/* C28769d @sources/KF/C28769d.java */
+struct notifyChatAdEntry_args {
+    1: NotifyChatAdEntryRequest request;
+}
+
+/* C28770e @sources/KF/C28770e.java */
+struct notifyChatAdEntry_result {
+    0: kf_i success;
+    1: BotExternalException e;
+}
+
+/* d0 @sources/Do0/d0.java */
+struct notifyDeviceConnection_args {
+    1: NotifyDeviceConnectionRequest request;
+}
+
+/* e0 @sources/Do0/e0.java */
+struct notifyDeviceConnection_result {
+    0: NotifyDeviceConnectionResponse success;
+    1: ThingsException e;
+}
+
+/* f0 @sources/Do0/f0.java */
+struct notifyDeviceDisconnection_args {
+    1: NotifyDeviceDisconnectionRequest request;
+}
+
+/* g0 @sources/Do0/g0.java */
+struct notifyDeviceDisconnection_result {
+    0: do0_C23165x success;
+    1: ThingsException e;
+}
+
+/* C12936bb @sources/Pb1/C12936bb.java */
+struct notifyInstalled_args {
+    2: string udidHash;
+    3: string applicationTypeWithExtensions;
+}
+
+/* C12950cb @sources/Pb1/C12950cb.java */
+struct notifyInstalled_result {
+    1: TalkException e;
+}
+
+/* C28771f @sources/KF/C28771f.java */
+struct notifyOATalkroomEvents_args {
+    1: NotifyOATalkroomEventsRequest request;
+}
+
+/* g @sources/KF/g.java */
+struct notifyOATalkroomEvents_result {
+    0: kf_k success;
+    1: BotExternalException e;
+}
+
+/* A0 @sources/Yn0/A0.java */
+struct notifyProductEvent_args {
+    2: string shopId;
+    3: string productId;
+    4: i64 productVersion;
+    5: i64 productEvent;
+}
+
+/* B0 @sources/Yn0/B0.java */
+struct notifyProductEvent_result {
+    1: ShopException e;
+}
+
+/* C12964db @sources/Pb1/C12964db.java */
+struct notifyRegistrationComplete_args {
+    2: string udidHash;
+    3: string applicationTypeWithExtensions;
+}
+
+/* C12978eb @sources/Pb1/C12978eb.java */
+struct notifyRegistrationComplete_result {
+    1: TalkException e;
+}
+
+/* h0 @sources/Do0/h0.java */
+struct notifyScenarioExecuted_args {
+    1: NotifyScenarioExecutedRequest request;
+}
+
+/* i0 @sources/Do0/i0.java */
+struct notifyScenarioExecuted_result {
+    0: do0_C23167z success;
+    1: ThingsException e;
+}
+
+/* C12992fb @sources/Pb1/C12992fb.java */
+struct notifySleep_result {
+    1: TalkException e;
+}
+
+/* C13006gb @sources/Pb1/C13006gb.java */
+struct notifyUpdated_args {
+    2: i64 lastRev;
+    3: DeviceInfo deviceInfo;
+    4: string udidHash;
+    5: string oldUdidHash;
+}
+
+/* C13020hb @sources/Pb1/C13020hb.java */
+struct notifyUpdated_result {
+    1: TalkException e;
+}
+
+/* C32273b @sources/o80/C32273b.java */
+struct o80_C32273b {
+    
+}
+
+/* d @sources/o80/d.java */
+struct o80_d {
+    
+}
+
+/* m @sources/o80/m.java */
+struct o80_m {
+    
+}
+
+/* u @sources/og/u.java */
+struct og_u {
+    
+}
+
+/* Q @sources/Pb1/Q.java */
+struct openAuthSession_args {
+    2: AuthSessionRequest request;
+}
+
+/* S @sources/Pb1/S.java */
+struct openAuthSession_result {
+    0: string success;
+    1: TalkException e;
+}
+
+/* C13034ib @sources/Pb1/C13034ib.java */
+struct openProximityMatch_result {
+    0: string success;
+    1: TalkException e;
+}
+
+/* f @sources/q70/f.java */
+struct openSession_args {
+    1: OpenSessionRequest request;
+}
+
+/* B0 @sources/T70/B0.java */
+struct openSession_args {
+    1: OpenSessionRequest request;
+}
+
+/* g @sources/q70/g.java */
+struct openSession_result {
+    0: OpenSessionResponse success;
+    1: AccountEapConnectException e;
+}
+
+/* C0 @sources/T70/C0.java */
+struct openSession_result {
+    0: string success;
+    1: AuthException e;
+}
+
+/* C24998f @sources/g80/C24998f.java */
+struct permitLogin_args {
+    1: PermitLoginRequest request;
+}
+
+/* C24999g @sources/g80/C24999g.java */
+struct permitLogin_result {
+    0: PermitLoginResponse success;
+    1: SeamlessLoginException sle;
+    2: TokenAuthException tae;
+}
+
+/* C0 @sources/Yn0/C0.java */
+struct placePurchaseOrderForFreeProduct_args {
+    2: PurchaseOrder purchaseOrder;
+}
+
+/* D0 @sources/Yn0/D0.java */
+struct placePurchaseOrderForFreeProduct_result {
+    0: PurchaseOrderResponse success;
+    1: ShopException e;
+}
+
+/* E0 @sources/Yn0/E0.java */
+struct placePurchaseOrderWithLineCoin_args {
+    2: PurchaseOrder purchaseOrder;
+}
+
+/* F0 @sources/Yn0/F0.java */
+struct placePurchaseOrderWithLineCoin_result {
+    0: PurchaseOrderResponse success;
+    1: ShopException e;
+}
+
+/* S @sources/r80/S.java */
+struct postPopupButtonEvents_args {
+    1: string buttonId;
+    2: map<string, bool> checkboxes;
+}
+
+/* T @sources/r80/T.java */
+struct postPopupButtonEvents_result {
+    1: PaymentException e;
+}
+
+/* G0 @sources/Yn0/G0.java */
+struct purchaseSubscription_args {
+    2: PurchaseSubscriptionRequest req;
+}
+
+/* H0 @sources/Yn0/H0.java */
+struct purchaseSubscription_result {
+    0: PurchaseSubscriptionResponse success;
+    1: ShopException e;
+}
+
+/* z @sources/o80/z.java */
+struct putE2eeKey_args {
+    1: PutE2eeKeyRequest request;
+}
+
+/* C32271A @sources/o80/C32271A.java */
+struct putE2eeKey_result {
+    0: o80_m success;
+    1: SecondaryPwlessLoginException e;
+}
+
+/* C33650b @sources/q80/C33650b.java */
+struct q80_C33650b {
+    
+}
+
+/* q @sources/q80/q.java */
+struct q80_q {
+    
+}
+
+/* s @sources/q80/s.java */
+struct q80_s {
+    
+}
+
+/* C34110c @sources/QM/C34110c.java */
+struct qm_C34110c {
+    1: string inFriends;
+    2: string notInFriends;
+    3: bool termsAgreed;
+}
+
+/* C34115h @sources/QM/C34115h.java */
+struct qm_C34115h {
+    1: string hwid;
+    2: string secureMessage;
+    3: ApplicationType applicationType;
+    4: string applicationVersion;
+    5: string userSessionId;
+    6: i64 actionId;
+    7: string screen;
+    8: i64 bannerStartedAt;
+    9: i64 bannerShownFor;
+}
+
+/* j @sources/QM/j.java */
+struct qm_j {
+    1: string hwid;
+    2: string secureMessage;
+    3: ApplicationType applicationType;
+    4: string applicationVersion;
+    5: string userSessionId;
+    6: i64 actionId;
+    7: string screen;
+    8: i64 bannerTappedAt;
+    9: bool beaconTermAgreed;
+}
+
+/* l @sources/QM/l.java */
+struct qm_l {
+    1: string hwid;
+    2: string secureMessage;
+    3: ApplicationType applicationType;
+    4: string applicationVersion;
+    5: string lang;
+    6: string region;
+    7: string modelName;
+}
+
+/* o @sources/QM/o.java */
+struct qm_o {
+    1: string hwid;
+    2: string secureMessage;
+    3: qm_EnumC34112e notificationType;
+    4: Rssi rssi;
+}
+
+/* m @sources/QM/m.java */
+struct queryBeaconActions_result {
+    0: BeaconQueryResponse success;
+    1: TalkException e;
+}
+
+/* C34358N @sources/r80/C34358N.java */
+struct r80_C34358N {
+    
+}
+
+/* C34360P @sources/r80/C34360P.java */
+struct r80_C34360P {
+    
+}
+
+/* C13048jb @sources/Pb1/C13048jb.java */
+struct react_args {
+    1: ReactRequest reactRequest;
+}
+
+/* C13062kb @sources/Pb1/C13062kb.java */
+struct react_result {
+    1: TalkException e;
+}
+
+/* c @sources/P70/c.java */
+struct refresh_args {
+    1: RefreshAccessTokenRequest request;
+}
+
+/* d @sources/P70/d.java */
+struct refresh_result {
+    0: RefreshAccessTokenResponse success;
+    1: AccessTokenRefreshException accessTokenRefreshException;
+}
+
+/* U @sources/r80/U.java */
+struct registerBarcodeAsync_args {
+    1: string requestToken;
+    2: string barcodeRequestId;
+    3: string barcode;
+    4: RSAEncryptedPassword password;
+}
+
+/* V @sources/r80/V.java */
+struct registerBarcodeAsync_result {
+    1: PaymentException e;
+}
+
+/* f2 @sources/NZ0/f2.java */
+struct registerCampaignReward_args {
+    1: RegisterCampaignRewardRequest request;
+}
+
+/* g2 @sources/NZ0/g2.java */
+struct registerCampaignReward_result {
+    0: RegisterCampaignRewardResponse success;
+    1: WalletException e;
+}
+
+/* C13076lb @sources/Pb1/C13076lb.java */
+struct registerE2EEGroupKey_args {
+    2: i32 keyVersion;
+    3: string chatMid;
+    4: list<string> members;
+    5: list<i32> keyIds;
+    6: list<string> encryptedSharedKeys;
+}
+
+/* C13090mb @sources/Pb1/C13090mb.java */
+struct registerE2EEGroupKey_result {
+    0: Pb1_U3 success;
+    1: TalkException e;
+}
+
+/* C13104nb @sources/Pb1/C13104nb.java */
+struct registerE2EEPublicKeyV2_args {
+    1: Pb1_W6 request;
+}
+
+/* C13118ob @sources/Pb1/C13118ob.java */
+struct registerE2EEPublicKeyV2_result {
+    0: RegisterE2EEPublicKeyV2Response success;
+    1: TalkException e;
+}
+
+/* C13132pb @sources/Pb1/C13132pb.java */
+struct registerE2EEPublicKey_args {
+    1: i32 reqSeq;
+    2: Pb1_C13097n4 publicKey;
+}
+
+/* C13146qb @sources/Pb1/C13146qb.java */
+struct registerE2EEPublicKey_result {
+    0: Pb1_C13097n4 success;
+    1: TalkException e;
+}
+
+/* q @sources/R70/q.java */
+struct registerPrimaryCredential_args {
+    1: RegisterPrimaryCredentialRequest request;
+}
+
+/* r @sources/R70/r.java */
+struct registerPrimaryCredential_result {
+    0: R70_t success;
+    1: PwlessCredentialException e;
+}
+
+/* D0 @sources/T70/D0.java */
+struct registerPrimaryUsingEapAccount_args {
+    1: string authSessionId;
+}
+
+/* E0 @sources/T70/E0.java */
+struct registerPrimaryUsingEapAccount_result {
+    0: RegisterPrimaryWithTokenV3Response success;
+    1: AuthException e;
+}
+
+/* F0 @sources/T70/F0.java */
+struct registerPrimaryUsingPhoneWithTokenV3_args {
+    2: string authSessionId;
+}
+
+/* G0 @sources/T70/G0.java */
+struct registerPrimaryUsingPhoneWithTokenV3_result {
+    0: RegisterPrimaryWithTokenV3Response success;
+    1: AuthException e;
+}
+
+/* C26367C @sources/I80/C26367C.java */
+struct I80_C26367C {
+    1: I80_q0 request;
+}
+
+/* C26368D @sources/I80/C26368D.java */
+struct I80_C26368D {
+    0: I80_r0 success;
+    1: I80_C26390a e;
+    2: TokenAuthException tae;
+}
+
+/* C13159rb @sources/Pb1/C13159rb.java */
+struct registerUserid_args {
+    1: i32 reqSeq;
+    2: string searchId;
+}
+
+/* C13173sb @sources/Pb1/C13173sb.java */
+struct registerUserid_result {
+    0: bool success;
+    1: TalkException e;
+}
+
+/* C13187tb @sources/Pb1/C13187tb.java */
+struct reissueChatTicket_args {
+    1: ReissueChatTicketRequest request;
+}
+
+/* C13201ub @sources/Pb1/C13201ub.java */
+struct reissueChatTicket_result {
+    0: ReissueChatTicketResponse success;
+    1: TalkException e;
+}
+
+/* C13215vb @sources/Pb1/C13215vb.java */
+struct rejectChatInvitation_args {
+    1: RejectChatInvitationRequest request;
+}
+
+/* C13229wb @sources/Pb1/C13229wb.java */
+struct rejectChatInvitation_result {
+    0: Pb1_C12946c7 success;
+    1: TalkException e;
+}
+
+/* C13243xb @sources/Pb1/C13243xb.java */
+struct removeAllMessages_result {
+    1: TalkException e;
+}
+
+/* C13257yb @sources/Pb1/C13257yb.java */
+struct removeChatRoomAnnouncement_args {
+    1: i32 reqSeq;
+    2: string chatRoomMid;
+    3: i64 announcementSeq;
+}
+
+/* C13271zb @sources/Pb1/C13271zb.java */
+struct removeChatRoomAnnouncement_result {
+    1: TalkException e;
+}
+
+/* Ab @sources/Pb1/Ab.java */
+struct removeFollower_args {
+    2: RemoveFollowerRequest removeFollowerRequest;
+}
+
+/* Bb @sources/Pb1/Bb.java */
+struct removeFollower_result {
+    1: TalkException e;
+}
+
+/* Cb @sources/Pb1/Cb.java */
+struct removeFriendRequest_args {
+    1: Pb1_F4 direction;
+    2: string midOrEMid;
+}
+
+/* Db @sources/Pb1/Db.java */
+struct removeFriendRequest_result {
+    1: TalkException e;
+}
+
+/* Eb @sources/Pb1/Eb.java */
+struct removeFromFollowBlacklist_args {
+    2: RemoveFromFollowBlacklistRequest removeFromFollowBlacklistRequest;
+}
+
+/* Fb @sources/Pb1/Fb.java */
+struct removeFromFollowBlacklist_result {
+    1: TalkException e;
+}
+
+/* T @sources/Pb1/T.java */
+struct removeIdentifier_args {
+    2: string authSessionId;
+    3: IdentityCredentialRequest request;
+}
+
+/* U @sources/Pb1/U.java */
+struct removeIdentifier_result {
+    0: IdentityCredentialResponse success;
+    1: TalkException e;
+}
+
+/* C16068o @sources/Yn0/C16068o.java */
+struct removeItemFromCollection_args {
+    1: RemoveItemFromCollectionRequest request;
+}
+
+/* C16070p @sources/Yn0/C16070p.java */
+struct removeItemFromCollection_result {
+    0: Ob1_C12637k1 success;
+    1: CollectionException e;
+}
+
+/* W @sources/r80/W.java */
+struct removeLinePayAccount_args {
+    1: string accountId;
+}
+
+/* X @sources/r80/X.java */
+struct removeLinePayAccount_result {
+    1: PaymentException e;
+}
+
+/* I0 @sources/Yn0/I0.java */
+struct removeProductFromSubscriptionSlot_args {
+    2: RemoveProductFromSubscriptionSlotRequest req;
+}
+
+/* J0 @sources/Yn0/J0.java */
+struct removeProductFromSubscriptionSlot_result {
+    0: RemoveProductFromSubscriptionSlotResponse success;
+    1: ShopException e;
+}
+
+/* Gb @sources/Pb1/Gb.java */
+struct reportAbuseEx_args {
+    2: ReportAbuseExRequest request;
+}
+
+/* Hb @sources/Pb1/Hb.java */
+struct reportAbuseEx_result {
+    0: Pb1_C13114o7 success;
+    1: TalkException e;
+}
+
+/* Ib @sources/Pb1/Ib.java */
+struct reportDeviceState_args {
+    2: map<i32, bool> booleanState;
+    3: map<i32, string> stringState;
+}
+
+/* Jb @sources/Pb1/Jb.java */
+struct reportDeviceState_result {
+    1: TalkException e;
+}
+
+/* id @sources/Pb1/id.java */
+struct reportLocation_args {
+    1: Geolocation location;
+    2: Pb1_EnumC12917a6 trigger;
+    3: ClientNetworkStatus networkStatus;
+    4: i64 measuredAt;
+    6: i64 clientCurrentTimestamp;
+    7: LocationDebugInfo debugInfo;
+}
+
+/* jd @sources/Pb1/jd.java */
+struct reportLocation_result {
+    1: TalkException e;
+}
+
+/* kd @sources/Pb1/kd.java */
+struct reportNetworkStatus_args {
+    1: Pb1_EnumC12917a6 trigger;
+    2: ClientNetworkStatus networkStatus;
+    3: i64 measuredAt;
+    4: i64 scanCompletionTimestamp;
+}
+
+/* ld @sources/Pb1/ld.java */
+struct reportNetworkStatus_result {
+    1: TalkException e;
+}
+
+/* Kb @sources/Pb1/Kb.java */
+struct reportProfile_args {
+    2: i64 syncOpRevision;
+    3: Profile profile;
+}
+
+/* Lb @sources/Pb1/Lb.java */
+struct reportProfile_result {
+    1: TalkException e;
+}
+
+/* Mb @sources/Pb1/Mb.java */
+struct reportPushRecvReports_args {
+    1: i32 reqSeq;
+    2: list<PushRecvReport> pushRecvReports;
+}
+
+/* Nb @sources/Pb1/Nb.java */
+struct reportPushRecvReports_result {
+    1: TalkException e;
+}
+
+/* e @sources/P70/e.java */
+struct reportRefreshedAccessToken_args {
+    1: ReportRefreshedAccessTokenRequest request;
+}
+
+/* f @sources/P70/f.java */
+struct reportRefreshedAccessToken_result {
+    0: P70_k success;
+    1: AccessTokenRefreshException accessTokenRefreshException;
+}
+
+/* Ob @sources/Pb1/Ob.java */
+struct reportSettings_args {
+    2: i64 syncOpRevision;
+    3: Settings settings;
+}
+
+/* Pb @sources/Pb1/Pb.java */
+struct reportSettings_result {
+    1: TalkException e;
+}
+
+/* md @sources/Pb1/md.java */
+struct requestCleanupUserProvidedData_args {
+    1: set<Pb1_od> dataTypes;
+}
+
+/* nd @sources/Pb1/nd.java */
+struct requestCleanupUserProvidedData_result {
+    1: TalkException e;
+}
+
+/* C26388Y @sources/I80/C26388Y.java */
+struct I80_C26388Y {
+    1: I80_u0 request;
+}
+
+/* H0 @sources/T70/H0.java */
+struct requestToSendPasswordSetVerificationEmail_args {
+    1: string authSessionId;
+    2: string email;
+    3: AccountIdentifier accountIdentifier;
+}
+
+/* I0 @sources/T70/I0.java */
+struct requestToSendPasswordSetVerificationEmail_result {
+    0: RequestToSendPasswordSetVerificationEmailResponse success;
+    1: AuthException e;
+}
+
+/* C26389Z @sources/I80/C26389Z.java */
+struct I80_C26389Z {
+    0: I80_v0 success;
+    1: I80_C26390a e;
+}
+
+/* J0 @sources/T70/J0.java */
+struct requestToSendPhonePinCode_args {
+    1: ReqToSendPhonePinCodeRequest request;
+}
+
+/* C26391a0 @sources/I80/C26391a0.java */
+struct I80_C26391a0 {
+    1: I80_s0 request;
+}
+
+/* K0 @sources/T70/K0.java */
+struct requestToSendPhonePinCode_result {
+    0: ReqToSendPhonePinCodeResponse success;
+    1: AuthException e;
+}
+
+/* C26393b0 @sources/I80/C26393b0.java */
+struct I80_C26393b0 {
+    0: I80_t0 success;
+    1: I80_C26390a e;
+}
+
+/* Y @sources/r80/Y.java */
+struct requestTradeNumber_args {
+    1: string requestToken;
+    2: r80_g0 requestType;
+    3: string amount;
+    4: string name;
+}
+
+/* Z @sources/r80/Z.java */
+struct requestTradeNumber_result {
+    0: PaymentTradeInfo success;
+    1: PaymentException e;
+}
+
+/* V @sources/Pb1/V.java */
+struct resendIdentifierConfirmation_args {
+    2: string authSessionId;
+    3: IdentityCredentialRequest request;
+}
+
+/* W @sources/Pb1/W.java */
+struct resendIdentifierConfirmation_result {
+    0: IdentityCredentialResponse success;
+    1: TalkException e;
+}
+
+/* Qb @sources/Pb1/Qb.java */
+struct resendPinCode_args {
+    2: string sessionId;
+}
+
+/* Rb @sources/Pb1/Rb.java */
+struct resendPinCode_result {
+    1: TalkException e;
+}
+
+/* C27550q @sources/jo0/C27550q.java */
+struct reserveCoinPurchase_args {
+    1: CoinPurchaseReservation request;
+}
+
+/* C27551r @sources/jo0/C27551r.java */
+struct reserveCoinPurchase_result {
+    0: PaymentReservationResult success;
+    1: CoinException e;
+}
+
+/* C24479k @sources/fn0/C24479k.java */
+struct reserveSubscriptionPurchase_args {
+    1: ReserveSubscriptionPurchaseRequest request;
+}
+
+/* l @sources/fn0/l.java */
+struct reserveSubscriptionPurchase_result {
+    0: ReserveSubscriptionPurchaseResponse success;
+    1: PremiumException e;
+}
+
+/* C @sources/og/C.java */
+struct reserve_args {
+    1: ReserveRequest request;
+}
+
+/* D @sources/og/D.java */
+struct reserve_result {
+    0: ReserveInfo success;
+    1: MembershipException e;
+}
+
+/* Tb @sources/Pb1/Tb.java */
+struct respondE2EEKeyExchange_result {
+    1: TalkException e;
+}
+
+/* Y @sources/Pb1/Y.java */
+struct respondE2EELoginRequest_result {
+    1: TalkException e;
+}
+
+/* C13013h4 @sources/Pb1/C13013h4.java */
+struct restoreE2EEKeyBackup_args {
+    2: Pb1_C13155r7 request;
+}
+
+/* C13027i4 @sources/Pb1/C13027i4.java */
+struct restoreE2EEKeyBackup_result {
+    0: Pb1_C13169s7 success;
+    1: E2EEKeyBackupException e;
+}
+
+/* C26395c0 @sources/I80/C26395c0.java */
+struct I80_C26395c0 {
+    1: I80_w0 request;
+}
+
+/* C26397d0 @sources/I80/C26397d0.java */
+struct I80_C26397d0 {
+    0: I80_x0 success;
+    1: I80_C26390a e;
+}
+
+/* C26399e0 @sources/I80/C26399e0.java */
+struct I80_C26399e0 {
+    1: I80_w0 request;
+}
+
+/* C26401f0 @sources/I80/C26401f0.java */
+struct I80_C26401f0 {
+    0: I80_x0 success;
+    1: I80_C26390a e;
+}
+
+/* C13217w @sources/Pb1/C13217w.java */
+struct retrieveRequestTokenWithDocomoV2_args {
+    1: Pb1_C13183t7 request;
+}
+
+/* C13231x @sources/Pb1/C13231x.java */
+struct retrieveRequestTokenWithDocomoV2_result {
+    0: RetrieveRequestTokenWithDocomoV2Response success;
+    1: TalkException e;
+}
+
+/* C13245y @sources/Pb1/C13245y.java */
+struct retrieveRequestToken_args {
+    2: CarrierCode carrier;
+}
+
+/* C13259z @sources/Pb1/C13259z.java */
+struct retrieveRequestToken_result {
+    0: AgeCheckRequestResult success;
+    1: TalkException e;
+}
+
+/* M @sources/Qj/M.java */
+struct revokeTokens_args {
+    1: RevokeTokensRequest request;
+}
+
+/* N @sources/Qj/N.java */
+struct revokeTokens_result {
+    1: LiffException liffException;
+    2: TalkException talkException;
+}
+
+/* K0 @sources/Yn0/K0.java */
+struct saveStudentInformation_args {
+    2: SaveStudentInformationRequest req;
+}
+
+/* L0 @sources/Yn0/L0.java */
+struct saveStudentInformation_result {
+    0: Ob1_C12649o1 success;
+    1: ShopException e;
+}
+
+/* Ub @sources/Pb1/Ub.java */
+struct sendChatChecked_args {
+    1: i32 seq;
+    2: string chatMid;
+    3: string lastMessageId;
+    4: byte sessionId;
+}
+
+/* Vb @sources/Pb1/Vb.java */
+struct sendChatChecked_result {
+    1: TalkException e;
+}
+
+/* Wb @sources/Pb1/Wb.java */
+struct sendChatRemoved_args {
+    1: i32 seq;
+    2: string chatMid;
+    3: string lastMessageId;
+    4: byte sessionId;
+}
+
+/* Xb @sources/Pb1/Xb.java */
+struct sendChatRemoved_result {
+    1: TalkException e;
+}
+
+/* o @sources/H80/o.java */
+struct sendEncryptedE2EEKey_args {
+    1: SendEncryptedE2EEKeyRequest request;
+}
+
+/* p @sources/H80/p.java */
+struct sendEncryptedE2EEKey_result {
+    0: h80_v success;
+    1: PrimaryQrCodeMigrationException pqme;
+    2: TokenAuthException tae;
+}
+
+/* Yb @sources/Pb1/Yb.java */
+struct sendMessage_args {
+    1: i32 seq;
+    2: Message message;
+}
+
+/* Zb @sources/Pb1/Zb.java */
+struct sendMessage_result {
+    0: Message success;
+    1: TalkException e;
+}
+
+/* C12923ac @sources/Pb1/C12923ac.java */
+struct sendPostback_args {
+    2: SendPostbackRequest request;
+}
+
+/* C12937bc @sources/Pb1/C12937bc.java */
+struct sendPostback_result {
+    1: TalkException e;
+}
+
+/* C12951cc @sources/Pb1/C12951cc.java */
+struct setChatHiddenStatus_args {
+    1: SetChatHiddenStatusRequest setChatHiddenStatusRequest;
+}
+
+/* C12965dc @sources/Pb1/C12965dc.java */
+struct setChatHiddenStatus_result {
+    1: TalkException e;
+}
+
+/* L0 @sources/T70/L0.java */
+struct setHashedPassword_args {
+    1: SetHashedPasswordRequest request;
+}
+
+/* C26403g0 @sources/I80/C26403g0.java */
+struct I80_C26403g0 {
+    1: I80_z0 request;
+}
+
+/* M0 @sources/T70/M0.java */
+struct setHashedPassword_result {
+    0: T70_g1 success;
+    1: AuthException e;
+}
+
+/* C26405h0 @sources/I80/C26405h0.java */
+struct I80_C26405h0 {
+    0: I80_A0 success;
+    1: I80_C26390a e;
+}
+
+/* Z @sources/Pb1/Z.java */
+struct setIdentifier_args {
+    2: string authSessionId;
+    3: IdentityCredentialRequest request;
+}
+
+/* C12911a0 @sources/Pb1/C12911a0.java */
+struct setIdentifier_result {
+    0: IdentityCredentialResponse success;
+    1: TalkException e;
+}
+
+/* C12979ec @sources/Pb1/C12979ec.java */
+struct setNotificationsEnabled_args {
+    1: i32 reqSeq;
+    2: MIDType type;
+    3: string target;
+    4: bool enablement;
+}
+
+/* C12993fc @sources/Pb1/C12993fc.java */
+struct setNotificationsEnabled_result {
+    1: TalkException e;
+}
+
+/* l @sources/U70/l.java */
+struct setPassword_args {
+    1: SetPasswordRequest request;
+}
+
+/* m @sources/U70/m.java */
+struct setPassword_result {
+    0: U70_t success;
+    1: PasswordUpdateException pue;
+    2: TokenAuthException tae;
+}
+
+/* M0 @sources/Yn0/M0.java */
+struct shouldShowWelcomeStickerBanner_args {
+    2: Ob1_C12660s1 request;
+}
+
+/* N0 @sources/Yn0/N0.java */
+struct shouldShowWelcomeStickerBanner_result {
+    0: ShouldShowWelcomeStickerBannerResponse success;
+    1: ShopException e;
+}
+
+/* N1 @sources/Pb1/N1.java */
+struct startPhotobooth_args {
+    2: StartPhotoboothRequest request;
+}
+
+/* O1 @sources/Pb1/O1.java */
+struct startPhotobooth_result {
+    0: StartPhotoboothResponse success;
+    1: TalkException e;
+}
+
+/* C26407i0 @sources/I80/C26407i0.java */
+struct I80_C26407i0 {
+    1: I80_C0 request;
+}
+
+/* C26409j0 @sources/I80/C26409j0.java */
+struct I80_C26409j0 {
+    0: I80_D0 success;
+    1: I80_C26390a e;
+}
+
+/* C13007gc @sources/Pb1/C13007gc.java */
+struct startUpdateVerification_args {
+    2: string region;
+    3: CarrierCode carrier;
+    4: string phone;
+    5: string udidHash;
+    6: DeviceInfo deviceInfo;
+    7: string networkCode;
+    8: string locale;
+    9: SIMInfo simInfo;
+}
+
+/* C13021hc @sources/Pb1/C13021hc.java */
+struct startUpdateVerification_result {
+    0: VerificationSessionData success;
+    1: TalkException e;
+}
+
+/* O0 @sources/Yn0/O0.java */
+struct stopBundleSubscription_args {
+    2: StopBundleSubscriptionRequest request;
+}
+
+/* P0 @sources/Yn0/P0.java */
+struct stopBundleSubscription_result {
+    0: StopBundleSubscriptionResponse success;
+    1: ShopException e;
+}
+
+/* O @sources/Qj/O.java */
+struct storeShareTargetPickerResult_args {
+    1: ShareTargetPickerResultRequest request;
+}
+
+/* P @sources/Qj/P.java */
+struct storeShareTargetPickerResult_result {
+    1: LiffException liffException;
+    2: TalkException talkException;
+}
+
+/* Q @sources/Qj/Q.java */
+struct storeSubWindowResult_args {
+    1: SubWindowResultRequest request;
+}
+
+/* S @sources/Qj/S.java */
+struct storeSubWindowResult_result {
+    1: LiffException liffException;
+    2: TalkException talkException;
+}
+
+/* C13035ic @sources/Pb1/C13035ic.java */
+struct syncContacts_args {
+    1: i32 reqSeq;
+    2: list<ContactModification> localContacts;
+}
+
+/* C13049jc @sources/Pb1/C13049jc.java */
+struct syncContacts_result {
+    0: map<string, ContactRegistration> success;
+    1: TalkException e;
+}
+
+/* C13063kc @sources/Pb1/C13063kc.java */
+struct sync_args {
+    1: SyncRequest request;
+}
+
+/* C13077lc @sources/Pb1/C13077lc.java */
+struct sync_result {
+    0: Pb1_X7 success;
+    1: TalkException e;
+}
+
+/* g @sources/t80/g.java */
+struct t80_g {
+    1: GetResponse response;
+    2: SettingsException error;
+}
+
+/* l @sources/t80/l.java */
+struct t80_l {
+    1: SetResponse response;
+    2: SettingsException error;
+}
+
+/* p @sources/t80/p.java */
+struct t80_p {
+    1: bool booleanValue;
+    2: i64 i64Value;
+    3: string stringValue;
+    4: list<_any> stringListValue;
+    5: list<_any> i64ListValue;
+    6: string rawJsonStringValue;
+    7: byte i8Value;
+    8: i16 i16Value;
+    9: i32 i32Value;
+    10: double doubleValue;
+    11: list<_any> i8ListValue;
+    12: list<_any> i16ListValue;
+    13: list<_any> i32ListValue;
+}
+
+/* C13091mc @sources/Pb1/C13091mc.java */
+struct tryFriendRequest_args {
+    1: string midOrEMid;
+    2: Pb1_G4 method;
+    3: string friendRequestParams;
+}
+
+/* C13105nc @sources/Pb1/C13105nc.java */
+struct tryFriendRequest_result {
+    1: TalkException e;
+}
+
+/* C13119oc @sources/Pb1/C13119oc.java */
+struct unblockContact_args {
+    1: i32 reqSeq;
+    2: string id;
+    3: string reference;
+}
+
+/* C13133pc @sources/Pb1/C13133pc.java */
+struct unblockContact_result {
+    1: TalkException e;
+}
+
+/* C13147qc @sources/Pb1/C13147qc.java */
+struct unblockRecommendation_args {
+    1: i32 reqSeq;
+    2: string targetMid;
+}
+
+/* C13160rc @sources/Pb1/C13160rc.java */
+struct unblockRecommendation_result {
+    1: TalkException e;
+}
+
+/* C13174sc @sources/Pb1/C13174sc.java */
+struct unfollow_args {
+    2: UnfollowRequest unfollowRequest;
+}
+
+/* C13188tc @sources/Pb1/C13188tc.java */
+struct unfollow_result {
+    1: TalkException e;
+}
+
+/* j0 @sources/Do0/j0.java */
+struct unlinkDevice_args {
+    1: DeviceUnlinkRequest request;
+}
+
+/* k0 @sources/Do0/k0.java */
+struct unlinkDevice_result {
+    0: do0_C23152j success;
+    1: ThingsException e;
+}
+
+/* C13216vc @sources/Pb1/C13216vc.java */
+struct unregisterUserAndDevice_result {
+    0: string success;
+    1: TalkException e;
+}
+
+/* C13230wc @sources/Pb1/C13230wc.java */
+struct unsendMessage_args {
+    1: i32 seq;
+    2: string messageId;
+}
+
+/* C13244xc @sources/Pb1/C13244xc.java */
+struct unsendMessage_result {
+    1: TalkException e;
+}
+
+/* C13258yc @sources/Pb1/C13258yc.java */
+struct updateAndGetNearby_args {
+    2: double latitude;
+    3: double longitude;
+    4: GeolocationAccuracy accuracy;
+    5: ClientNetworkStatus networkStatus;
+    6: double altitudeMeters;
+    7: double velocityMetersPerSecond;
+    8: double bearingDegrees;
+    9: i64 measuredAtTimestamp;
+    10: i64 clientCurrentTimestamp;
+}
+
+/* C13272zc @sources/Pb1/C13272zc.java */
+struct updateAndGetNearby_result {
+    0: list<NearbyEntry> success;
+    1: TalkException e;
+}
+
+/* F2 @sources/Pb1/F2.java */
+struct updateChannelNotificationSetting_args {
+    1: list<ChannelNotificationSetting> setting;
+}
+
+/* G2 @sources/Pb1/G2.java */
+struct updateChannelNotificationSetting_result {
+    1: ChannelException e;
+}
+
+/* H2 @sources/Pb1/H2.java */
+struct updateChannelSettings_args {
+    1: ChannelSettings channelSettings;
+}
+
+/* I2 @sources/Pb1/I2.java */
+struct updateChannelSettings_result {
+    0: bool success;
+    1: ChannelException e;
+}
+
+/* Ac @sources/Pb1/Ac.java */
+struct updateChatRoomBGM_args {
+    1: i32 reqSeq;
+    2: string chatRoomMid;
+    3: string chatRoomBGMInfo;
+}
+
+/* Bc @sources/Pb1/Bc.java */
+struct updateChatRoomBGM_result {
+    0: ChatRoomBGM success;
+    1: TalkException e;
+}
+
+/* Cc @sources/Pb1/Cc.java */
+struct updateChat_args {
+    1: UpdateChatRequest request;
+}
+
+/* Dc @sources/Pb1/Dc.java */
+struct updateChat_result {
+    0: Pb1_Zc success;
+    1: TalkException e;
+}
+
+/* Ec @sources/Pb1/Ec.java */
+struct updateContactSetting_args {
+    1: i32 reqSeq;
+    2: string mid;
+    3: ContactSetting flag;
+    4: string value;
+}
+
+/* Fc @sources/Pb1/Fc.java */
+struct updateContactSetting_result {
+    1: TalkException e;
+}
+
+/* Gc @sources/Pb1/Gc.java */
+struct updateExtendedProfileAttribute_args {
+    1: i32 reqSeq;
+    2: Pb1_EnumC13180t4 attr;
+    3: ExtendedProfile extendedProfile;
+}
+
+/* Hc @sources/Pb1/Hc.java */
+struct updateExtendedProfileAttribute_result {
+    1: TalkException e;
+}
+
+/* P1 @sources/Pb1/P1.java */
+struct updateGroupCallUrl_args {
+    2: UpdateGroupCallUrlRequest request;
+}
+
+/* Q1 @sources/Pb1/Q1.java */
+struct updateGroupCallUrl_result {
+    0: Pb1_cd success;
+    1: TalkException e;
+}
+
+/* C12925b0 @sources/Pb1/C12925b0.java */
+struct updateIdentifier_args {
+    2: string authSessionId;
+    3: IdentityCredentialRequest request;
+}
+
+/* C12939c0 @sources/Pb1/C12939c0.java */
+struct updateIdentifier_result {
+    0: IdentityCredentialResponse success;
+    1: TalkException e;
+}
+
+/* Ic @sources/Pb1/Ic.java */
+struct updateNotificationToken_args {
+    2: string token;
+    3: NotificationType type;
+}
+
+/* Jc @sources/Pb1/Jc.java */
+struct updateNotificationToken_result {
+    1: TalkException e;
+}
+
+/* n @sources/U70/n.java */
+struct updatePassword_args {
+    1: UpdatePasswordRequest request;
+}
+
+/* o @sources/U70/o.java */
+struct updatePassword_result {
+    0: U70_v success;
+    1: PasswordUpdateException pue;
+    2: TokenAuthException tae;
+}
+
+/* Kc @sources/Pb1/Kc.java */
+struct updateProfileAttribute_result {
+    1: TalkException e;
+}
+
+/* C25140D @sources/GN0/C25140D.java */
+struct updateProfileAttributes_args {
+    1: UpdateProfileAttributesRequest request;
+}
+
+/* Lc @sources/Pb1/Lc.java */
+struct updateProfileAttributes_args {
+    1: i32 reqSeq;
+    2: UpdateProfileAttributesRequest request;
+}
+
+/* C25141E @sources/GN0/C25141E.java */
+struct updateProfileAttributes_result {
+    0: gN0_C25143G success;
+    1: TalkException e;
+}
+
+/* Mc @sources/Pb1/Mc.java */
+struct updateProfileAttributes_result {
+    1: TalkException e;
+}
+
+/* k @sources/Vh/k.java */
+struct updateSafetyStatus_args {
+    1: UpdateSafetyStatusRequest req;
+}
+
+/* l @sources/Vh/l.java */
+struct updateSafetyStatus_result {
+    1: vh_Fg_b e;
+}
+
+/* Nc @sources/Pb1/Nc.java */
+struct updateSettingsAttribute_result {
+    1: TalkException e;
+}
+
+/* Oc @sources/Pb1/Oc.java */
+struct updateSettingsAttributes2_args {
+    1: i32 reqSeq;
+    3: Settings settings;
+    4: set<SettingsAttributeEx> attributesToUpdate;
+}
+
+/* Pc @sources/Pb1/Pc.java */
+struct updateSettingsAttributes2_result {
+    0: set<i32> success;
+    1: TalkException e;
+}
+
+/* a0 @sources/r80/a0.java */
+struct updateUserGeneralSettings_args {
+    1: map<i32, string> settings;
+}
+
+/* b0 @sources/r80/b0.java */
+struct updateUserGeneralSettings_result {
+    1: PaymentException e;
+}
+
+/* R1 @sources/Pb1/R1.java */
+struct usePhotoboothTicket_args {
+    2: UsePhotoboothTicketRequest request;
+}
+
+/* S1 @sources/Pb1/S1.java */
+struct usePhotoboothTicket_result {
+    0: UsePhotoboothTicketResponse success;
+    1: TalkException e;
+}
+
+/* c0 @sources/r80/c0.java */
+struct validateEligibleFriends_args {
+    1: list<string> friends;
+    2: r80_EnumC34376p type;
+}
+
+/* d0 @sources/r80/d0.java */
+struct validateEligibleFriends_result {
+    0: list<PaymentEligibleFriendStatus> success;
+    1: PaymentException e;
+}
+
+/* Q0 @sources/Yn0/Q0.java */
+struct validateProduct_args {
+    2: string shopId;
+    3: string productId;
+    4: i64 productVersion;
+    5: YN0_Ob1_Q0 validationReq;
+}
+
+/* R0 @sources/Yn0/R0.java */
+struct validateProduct_result {
+    0: YN0_Ob1_R0 success;
+    1: ShopException e;
+}
+
+/* N0 @sources/T70/N0.java */
+struct validateProfile_args {
+    1: string authSessionId;
+    2: string displayName;
+}
+
+/* O0 @sources/T70/O0.java */
+struct validateProfile_result {
+    0: T70_o1 success;
+    1: AuthException e;
+}
+
+/* P0 @sources/T70/P0.java */
+struct verifyAccountUsingHashedPwd_args {
+    1: VerifyAccountUsingHashedPwdRequest request;
+}
+
+/* C26411k0 @sources/I80/C26411k0.java */
+struct I80_C26411k0 {
+    1: I80_E0 request;
+}
+
+/* Q0 @sources/T70/Q0.java */
+struct verifyAccountUsingHashedPwd_result {
+    0: VerifyAccountUsingHashedPwdResponse success;
+    1: AuthException e;
+}
+
+/* l0 @sources/I80/l0.java */
+struct I80_l0 {
+    0: I80_F0 success;
+    1: I80_C26390a e;
+}
+
+/* h @sources/m80/h.java */
+struct verifyAssertion_args {
+    1: VerifyAssertionRequest request;
+}
+
+/* i @sources/m80/i.java */
+struct verifyAssertion_result {
+    0: m80_q success;
+    1: m80_b deviceAttestationException;
+}
+
+/* j @sources/m80/j.java */
+struct verifyAttestation_args {
+    1: VerifyAttestationRequest request;
+}
+
+/* k @sources/m80/k.java */
+struct verifyAttestation_result {
+    0: m80_s success;
+    1: m80_b deviceAttestationException;
+}
+
+/* S0 @sources/Yn0/S0.java */
+struct verifyBirthdayGiftAssociationToken_args {
+    2: BirthdayGiftAssociationVerifyRequest req;
+}
+
+/* T0 @sources/Yn0/T0.java */
+struct verifyBirthdayGiftAssociationToken_result {
+    0: BirthdayGiftAssociationVerifyResponse success;
+    1: ShopException e;
+}
+
+/* R0 @sources/T70/R0.java */
+struct verifyEapAccountForRegistration_args {
+    1: string authSessionId;
+    2: Device device;
+    3: SocialLogin socialLogin;
+}
+
+/* S0 @sources/T70/S0.java */
+struct verifyEapAccountForRegistration_result {
+    0: T70_s1 success;
+    1: AuthException e;
+}
+
+/* h @sources/q70/h.java */
+struct verifyEapLogin_args {
+    1: VerifyEapLoginRequest request;
+}
+
+/* m0 @sources/I80/m0.java */
+struct I80_m0 {
+    1: I80_G0 request;
+}
+
+/* i @sources/q70/i.java */
+struct verifyEapLogin_result {
+    0: VerifyEapLoginResponse success;
+    1: AccountEapConnectException e;
+}
+
+/* n0 @sources/I80/n0.java */
+struct I80_n0 {
+    0: I80_H0 success;
+    1: I80_C26390a e;
+}
+
+/* Qc @sources/Pb1/Qc.java */
+struct verifyPhoneNumber_args {
+    2: string sessionId;
+    3: string pinCode;
+    4: string udidHash;
+    5: string migrationPincodeSessionId;
+    6: string oldUdidHash;
+}
+
+/* Rc @sources/Pb1/Rc.java */
+struct verifyPhoneNumber_result {
+    0: PhoneVerificationResult success;
+    1: TalkException e;
+}
+
+/* T0 @sources/T70/T0.java */
+struct verifyPhonePinCode_args {
+    1: VerifyPhonePinCodeRequest request;
+}
+
+/* o0 @sources/I80/o0.java */
+struct I80_o0 {
+    1: I80_I0 request;
+}
+
+/* U0 @sources/T70/U0.java */
+struct verifyPhonePinCode_result {
+    0: VerifyPhonePinCodeResponse success;
+    1: AuthException e;
+}
+
+/* p0 @sources/I80/p0.java */
+struct I80_p0 {
+    0: I80_J0 success;
+    1: I80_C26390a e;
+}
+
+/* h @sources/S70/h.java */
+struct verifyPinCode_args {
+    1: VerifyPinCodeRequest request;
+}
+
+/* l @sources/q80/l.java */
+struct verifyPinCode_args {
+    1: VerifyPinCodeRequest request;
+}
+
+/* i @sources/S70/i.java */
+struct verifyPinCode_result {
+    0: S70_k success;
+    1: SecondAuthFactorPinCodeException e;
+}
+
+/* m @sources/q80/m.java */
+struct verifyPinCode_result {
+    0: q80_q success;
+    1: SecondaryQrCodeException e;
+}
+
+/* n @sources/q80/n.java */
+struct verifyQrCode_args {
+    1: VerifyQrCodeRequest request;
+}
+
+/* o @sources/q80/o.java */
+struct verifyQrCode_result {
+    0: q80_s success;
+    1: SecondaryQrCodeException e;
+}
+
+/* C12967e0 @sources/Pb1/C12967e0.java */
+struct verifyQrcodeWithE2EE_result {
+    0: string success;
+    1: TalkException e;
+}
+
+/* Sc @sources/Pb1/Sc.java */
+struct verifyQrcode_args {
+    2: string verifier;
+    3: string pinCode;
+}
+
+/* Tc @sources/Pb1/Tc.java */
+struct verifyQrcode_result {
+    0: string success;
+    1: TalkException e;
+}
+
+/* V0 @sources/T70/V0.java */
+struct verifySocialLogin_args {
+    1: string authSessionId;
+    2: Device device;
+    3: SocialLogin socialLogin;
+}
+
+/* W0 @sources/T70/W0.java */
+struct verifySocialLogin_result {
+    0: VerifySocialLoginResponse success;
+    1: AuthException e;
+}
+
+/* C37633d @sources/Vh/C37633d.java */
+struct vh_C37633d {
+    
+}
+
+/* Uc @sources/Pb1/Uc.java */
+struct wakeUpLongPolling_args {
+    2: i64 clientRevision;
+}
+
+/* Vc @sources/Pb1/Vc.java */
+struct wakeUpLongPolling_result {
+    0: bool success;
+    1: TalkException e;
+}
+
+/* C40576a @sources/Zr0/C40576a.java */
+struct zR0_C40576a {
+    
+}
+
+/* C40580e @sources/Zr0/C40580e.java */
+struct zR0_C40580e {
+    1: Sticker sticker;
+}

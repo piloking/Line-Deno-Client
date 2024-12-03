@@ -1,7 +1,6 @@
 {
 	"workspace": ["./packages/linejs", "./packages/types"],
 	"fmt": {
-		"indentWidth": 2,
 		"singleQuote": false,
 		"useTabs": true,
 		"exclude": [
@@ -18,14 +17,11 @@
 		"node-types": "npm:@types/node@latest",
 		"node-int64": "npm:node-int64@^0.4.0"
 	},
-	"tasks": {
-		"format": "deno run -A npm:@biomejs/biome format --write ./packages/**/*.ts",
-		"format:check": "deno run -A npm:@biomejs/biome format ./packages/**/*.ts",
-		"lint": "deno run -A npm:@biomejs/biome lint ./packages/**/*.ts",
-		"check": "deno run -A npm:@biomejs/biome check ./packages/**/*.ts"
-	},
+	"nodeModulesDir": "auto",
 	"compilerOptions": {
 		"types": ["node-types"]
 	},
-	"nodeModulesDir": "auto"
+	"tasks": {
+		"dev": "deno run -A --watch sandbox/main.ts"
+	}
 }

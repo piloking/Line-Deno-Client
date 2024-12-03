@@ -1,13 +1,8 @@
 {
 	"name": "@evex/linejs",
-	"version": "0.0.0",
-	"license": "MIT",
-	"exports": {
-		".": "./client/index.ts",
-		"./client": "./client/index.ts",
-		"./utils": "./utils/index.ts",
-		"./storage": "./storage/index.ts",
-		"./rate-limit": "./rate-limit/index.ts",
-		"./class": "./client/entities/class.ts"
+	"exports": "./src/mod.ts",
+	"imports": {
+		"node-int64": "npm:node-int64@^0.4.0",
+		"thrift": "npm:thrift@^0.21.0"
 	}
 }
