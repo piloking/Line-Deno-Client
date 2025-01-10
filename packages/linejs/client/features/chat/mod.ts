@@ -1,7 +1,7 @@
 import type { Client } from "../../mod.ts";
 import type * as line from "@evex/linejs-types";
 import { TalkMessage } from "../message/talk.ts";
-import { createMessageFetcher, type MessageFetcher } from './fetcher.ts'
+import { createMessageFetcher, type MessageFetcher } from "./fetcher.ts";
 
 interface ChatInit {
 	client: Client;
@@ -149,7 +149,7 @@ export class Chat {
 	}
 
 	messageFetcher(): Promise<MessageFetcher> {
-		return createMessageFetcher(this.#client, this)
+		return createMessageFetcher(this.#client, this);
 	}
 
 	/**

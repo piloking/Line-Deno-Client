@@ -51,7 +51,7 @@ export const wrapEvents = async (
 	return new events.UnknownLINEEvent(source);
 };
 
-export type LINEEvent = 
+export type LINEEvent =
 	| events.AcceptInviteLINEEvent
 	| events.InviteLINEEvent
 	| events.JoinChatLINEEvent

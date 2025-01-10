@@ -20,8 +20,7 @@ export class LiffService implements BaseService {
 	protocolType: ProtocolKey = 4;
 	errorName = "LiffServiceError";
 	liffId = "2006747340-AoraPvdD";
-	csrfRegExp =
-		/<input type="hidden" name="__csrf" id="__csrf" value="(.*?)">/;
+	csrfRegExp = /<input type="hidden" name="__csrf" id="__csrf" value="(.*?)">/;
 
 	client: BaseClient;
 
@@ -150,9 +149,7 @@ export class LiffService implements BaseService {
 			}
 			throw new InternalError(
 				this.errorName,
-				`Failed to get LiffToken: ${liffId}${
-					chatMid ? "@" + chatMid : ""
-				}`,
+				`Failed to get LiffToken: ${liffId}${chatMid ? "@" + chatMid : ""}`,
 			);
 		}
 	}
@@ -278,9 +275,7 @@ export class LiffService implements BaseService {
 							allPermission.map((e) => "allPermission=" + e)
 								.join("&")
 						}&${
-							approvedPermission.map((e) =>
-								"approvedPermission=" + e
-							).join("&")
+							approvedPermission.map((e) => "approvedPermission=" + e).join("&")
 						}&__WLS=&channelId=2006747340&__csrf=${csrfToken}&allow=true`,
 						headers,
 					},
