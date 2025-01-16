@@ -4,7 +4,8 @@
 		"singleQuote": false,
 		"useTabs": true,
 		"exclude": [
-			"./docs/"
+			"./docs/docs/",
+			"./docs/ja/"
 		]
 	},
 	"imports": {

@@ -1,13 +1,13 @@
 # Utils of LINEJS
 
-LINEJS is not only a self-bot.  
-From building internal URIs to building OBS, open chat search, regex for picking emid, ticket, and more.  
-I will explain one by one.  
+LINEJS is not only a self-bot. \
+From building internal URIs to building OBS, open chat search, regex for picking emid, ticket, and more.
+I will explain one by one.
 
 ## LINE_OBS
 
-Utils to retrieve images and videos from obs hash.  
-You can retrieve them as follows  
+Utils to retrieve images and videos from obs hash.
+You can retrieve them as follows
 
 ```ts
 import { LINE_OBS } from "@evex/linejs/utils";

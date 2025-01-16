@@ -46,4 +46,5 @@ console.log(chats[0].name)
 
 This library is still in its infancy!\
 If you find <i>any bugs</i> or <i>missing parts</i>, please let us know on our
-server! (Roles will be given to those who suggest bugs and features!)
+server! \
+(Roles will be given to those who suggest bugs and features!)
